@@ -34,5 +34,6 @@
   "sourceUrl": "https://hyunxx.tistory.com/8",
   "palette": "green",
   "mark": "龍",
+  "cover": "games/garyouden-pc98/images/cover.jpg",
   "package": "packages/garyouden-pc98/manifest.json"
 }

@@ -14,7 +14,8 @@ function escapeHtml(value) {
 
 function gameCard(game, index) {
   return `<a class="game-card" href="patcher.html?game=${encodeURIComponent(game.id)}" style="--delay:${index * 55}ms">
-    <div class="card-art palette-${escapeHtml(game.palette)}">
+    <div class="card-art palette-${escapeHtml(game.palette)}${game.cover ? ' has-cover' : ''}">
+      ${game.cover ? `<img src="${escapeHtml(game.cover)}" alt="${escapeHtml(game.title)} 타이틀 화면" loading="lazy">` : ''}
       <span class="card-platform">${escapeHtml(game.platform)}</span>
       <b>${escapeHtml(game.mark)}</b>
       <span class="card-year">${escapeHtml(game.year)}</span>
@@ -164,6 +165,14 @@ async function initializeDetail() {
   };
   Object.entries(values).forEach(([id, value]) => { document.querySelector(`#${id}`).textContent = value; });
   document.querySelector('#detail-art').classList.add(`palette-${game.palette}`);
+  if (game.cover) {
+    const detailArt = document.querySelector('#detail-art');
+    const detailCover = document.querySelector('#detail-cover');
+    detailCover.src = game.cover;
+    detailCover.alt = `${game.title} 타이틀 화면`;
+    detailArt.classList.add('has-cover');
+    detailArt.removeAttribute('aria-hidden');
+  }
 
   if (game.translationNote) {
     const note = document.querySelector('#translation-note');

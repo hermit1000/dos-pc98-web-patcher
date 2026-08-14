@@ -46,6 +46,9 @@ button,input { font:inherit; }
 .game-card { display:block; opacity:0; transform:translateY(12px); animation:card-in .45s ease forwards; animation-delay:var(--delay); }
 @keyframes card-in { to { opacity:1; transform:none; } }
 .card-art { height:285px; padding:18px; position:relative; overflow:hidden; color:#f8f2e5; background:#36343c; transition:transform .35s ease; }
+.card-art > img { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; background:#120d0b; image-rendering:pixelated; }
+.card-art.has-cover::before { z-index:1; background:linear-gradient(to bottom,rgba(0,0,0,.42),transparent 25%,transparent 72%,rgba(0,0,0,.48)); }
+.card-art.has-cover::after,.card-art.has-cover > b { display:none; }
 .game-card:hover .card-art { transform:translateY(-5px); }
 .card-art::before { content:""; position:absolute; inset:0; background:linear-gradient(135deg,transparent 42%,rgba(255,255,255,.11) 42.3%,transparent 43%),repeating-linear-gradient(0deg,transparent 0 18px,rgba(255,255,255,.06) 19px); }
 .card-art::after { content:""; position:absolute; width:210px; height:210px; border:1px solid rgba(255,255,255,.35); border-radius:50%; right:-38px; bottom:-55px; box-shadow:0 0 0 28px rgba(255,255,255,.035),0 0 0 56px rgba(255,255,255,.025); }
@@ -67,6 +70,10 @@ button,input { font:inherit; }
 /* detail */
 .detail-hero { display:grid; grid-template-columns:minmax(340px,.82fr) 1.18fr; min-height:680px; border-bottom:1px solid var(--line); }
 .detail-art { position:relative; overflow:hidden; min-height:600px; }
+.detail-cover { display:none; position:absolute; inset:0; width:100%; height:100%; object-fit:contain; background:#120d0b; image-rendering:pixelated; }
+.detail-art.has-cover .detail-cover { display:block; }
+.detail-art.has-cover .art-moon,.detail-art.has-cover .art-city,.detail-art.has-cover .art-grid,.detail-art.has-cover > b { display:none; }
+.detail-art.has-cover::after { z-index:1; background:linear-gradient(to bottom,rgba(0,0,0,.12),transparent 25%,transparent 75%,rgba(0,0,0,.18)); mask-image:none; }
 .detail-art::after { content:""; position:absolute; inset:0; background:linear-gradient(90deg,transparent 49.5%,rgba(255,255,255,.12) 50%,transparent 50.5%),linear-gradient(0deg,transparent 49.5%,rgba(255,255,255,.1) 50%,transparent 50.5%); background-size:34px 34px; mask-image:linear-gradient(to top,#000,transparent 70%); }
 .detail-art > b { position:absolute; z-index:2; left:8%; bottom:3%; color:rgba(255,255,255,.86); font:700 clamp(130px,19vw,280px)/1 serif; }
 .art-moon { position:absolute; width:210px; height:210px; top:12%; right:11%; border-radius:50%; background:#e6dac0; box-shadow:0 0 70px rgba(243,223,179,.3); }
