@@ -1,0 +1,109 @@
+{
+  "format": "folder-patch-v1",
+  "game": "노부나가의 야망 2 - 전국판 (BGM 버전)",
+  "patchVersion": "2026.07.05",
+  "createdAt": "2026-08-14T16:46:57.331Z",
+  "sharedAssets": [
+    {
+      "id": "nobu2-bisco-font",
+      "type": "emulator-font",
+      "name": "nobu2-BISCO",
+      "source": "assets/fonts/source/nobu2-BISCO.bmp",
+      "fileName": "nobu2-BISCO.bmp",
+      "outputPath": "_emulator-font/nobu2-BISCO.bmp",
+      "size": 524350,
+      "sha256": "19cd9a2d933e95552bba76368d830520a2ed5f6f3c0acf05e59ec8931a3484b6",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "DATA17N.DAT",
+      "patch": "patches/DATA17N.DAT.xdelta",
+      "originalSize": 2664,
+      "patchedSize": 2664,
+      "originalSha256": "7d3cc5fdcdf78accce9b86a45fd24adbf12635c9a271aa4aad147716151b464e",
+      "patchedSha256": "30cf3c24872b5ff64e4f25d44e82cdfad69a0ead60e33c465408e812fc1f2177"
+    },
+    {
+      "path": "DATA17S.DAT",
+      "patch": "patches/DATA17S.DAT.xdelta",
+      "originalSize": 6728,
+      "patchedSize": 6728,
+      "originalSha256": "4777e19c5e64346c0b621562807c4feb759b60d5ff19e00509571f27baf16542",
+      "patchedSha256": "624610ef3d4031a323241cd74d4d3a12e43682244693f395b252aaa9319a9b9e"
+    },
+    {
+      "path": "DATA50N.DAT",
+      "patch": "patches/DATA50N.DAT.xdelta",
+      "originalSize": 2664,
+      "patchedSize": 2664,
+      "originalSha256": "ee0e9fd94275bc0d4d51a0d948f963d54b5d6040743bcc306f834871cf2ad703",
+      "patchedSha256": "7f0ee527faa6267a19c8a5cd6e80ce5b23650d4408ca74659bddf24a680ae74c"
+    },
+    {
+      "path": "DATA50S.DAT",
+      "patch": "patches/DATA50S.DAT.xdelta",
+      "originalSize": 6728,
+      "patchedSize": 6728,
+      "originalSha256": "49327ad08b0c1650c8b5a670b705884990e95a41a1d0c56a8a0b59207caab91b",
+      "patchedSha256": "5ad14dce4651b959b8e382eaa7b3fbacf1a257887c1306f26929e6f919c9a081"
+    },
+    {
+      "path": "HOGEN.CMD",
+      "patch": "patches/HOGEN.CMD.xdelta",
+      "originalSize": 13440,
+      "patchedSize": 13440,
+      "originalSha256": "7a99a34a0ba10ce90d4827a0a05d5bff860670ea762543ff2af6d13817ca0ef1",
+      "patchedSha256": "ef3e32815a842677ee195099576d1bf8bfe61b47d8d7e83dfbc9712835c25541"
+    },
+    {
+      "path": "HOGEN.HEX",
+      "patch": "patches/HOGEN.HEX.xdelta",
+      "originalSize": 7168,
+      "patchedSize": 7168,
+      "originalSha256": "a52dc8e6d74834f8eb5547907777d24ec94e8448d459fe7a7905cd0df8c77728",
+      "patchedSha256": "30d6046fede4f8ef0870bc91f5b161d7b2d233663e510af37dd00229184c8fe2"
+    },
+    {
+      "path": "HYOSI.DAT",
+      "patch": "patches/HYOSI.DAT.xdelta",
+      "originalSize": 59904,
+      "patchedSize": 59904,
+      "originalSha256": "f6d665c8ff7d43942d86c4516a4ae270369b234c6c5591dbce85fc4da50824d6",
+      "patchedSha256": "84906795270572f4b7df0b3ff2015ec46839234ff61b66acb94ed952867e6d7d"
+    },
+    {
+      "path": "MAP.DAT",
+      "patch": "patches/MAP.DAT.xdelta",
+      "originalSize": 104448,
+      "patchedSize": 104448,
+      "originalSha256": "f4e9e00e623eb3c72e71c1240430c17c611b156b34ac80b08dbf607b623ce4cc",
+      "patchedSha256": "d8f9623250eafed250ddb3765d61913bf1fe3f81d02e9ccc0d013caf414fa032"
+    },
+    {
+      "path": "ODAMAIN.EXE",
+      "patch": "patches/ODAMAIN.EXE.xdelta",
+      "originalSize": 62048,
+      "patchedSize": 62048,
+      "originalSha256": "1869dca515e126c8ffd851f7ab7edbd5ec662c38c3f27a96d2ed9f60a91f7c3f",
+      "patchedSha256": "5db284d5728d48586a93e037edb8ef691cf14cb22b69b736bee5212e2cebb6e4"
+    },
+    {
+      "path": "S1.DAT",
+      "patch": "patches/S1.DAT.xdelta",
+      "originalSize": 6728,
+      "patchedSize": 6728,
+      "originalSha256": "bcd3d03abf9c6dc957cac427fb9ced2da557280c3f32c831cf3d5e91f065ad3b",
+      "patchedSha256": "d147b0d58641e55984e9faf528488ce127c9c2afc82a5e997fb91da93b001ba2"
+    },
+    {
+      "path": "S2.DAT",
+      "patch": "patches/S2.DAT.xdelta",
+      "originalSize": 6728,
+      "patchedSize": 6728,
+      "originalSha256": "5a065bae44e2f3b656e70abe9d5de54c865c94c4fd5b7ac30f5512c7cbd5b58a",
+      "patchedSha256": "6219a46d333070d48c3791337a16f8a855c0395baeb56dfddb6ca01d6375b8ec"
+    }
+  ]
+}

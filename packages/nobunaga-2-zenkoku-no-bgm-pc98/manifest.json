@@ -1,0 +1,157 @@
+{
+  "format": "folder-patch-v1",
+  "game": "노부나가의 야망 2 - 전국판 (BGM 없는 버전)",
+  "patchVersion": "2026.07.03",
+  "createdAt": "2026-08-14T16:52:57.890Z",
+  "sharedAssets": [
+    {
+      "id": "nobu2-bisco-font",
+      "type": "emulator-font",
+      "name": "nobu2-BISCO",
+      "source": "assets/fonts/source/nobu2-BISCO.bmp",
+      "fileName": "nobu2-BISCO.bmp",
+      "outputPath": "_emulator-font/nobu2-BISCO.bmp",
+      "size": 524350,
+      "sha256": "19cd9a2d933e95552bba76368d830520a2ed5f6f3c0acf05e59ec8931a3484b6",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "DATA17.DAT",
+      "patch": "patches/DATA17.DAT.xdelta",
+      "originalSize": 11219,
+      "patchedSize": 11219,
+      "originalSha256": "577d9b173072140a4c32fe300d3a93ebe90ef61e5e59464b0b1d44b4fbd42b18",
+      "patchedSha256": "942aa09c9067fd5d576e37c8ebcd9098fa9e76944019f0879849ab4aed36f499"
+    },
+    {
+      "path": "DATA50.DAT",
+      "patch": "patches/DATA50.DAT.xdelta",
+      "originalSize": 11219,
+      "patchedSize": 11219,
+      "originalSha256": "319e163d195e9fa71246f597aab3ba4cc4a059e6df0a8de782bfe5697b7ff6d5",
+      "patchedSha256": "42f714a28e96bfeb18b090c357d36b6ea7ff51ed4c94f1b2d57299b1b97c9005"
+    },
+    {
+      "path": "END2.PAK",
+      "patch": "patches/END2.PAK.xdelta",
+      "originalSize": 17792,
+      "patchedSize": 17792,
+      "originalSha256": "664ec31f7a7634535c8d3fd9bb8a7599a1724ba32a2a44b66a3f262c94ccd14d",
+      "patchedSha256": "7c1c2ace44838b7f533d3efad4e160b7b24984f916f866b8e6659f5137e069fd"
+    },
+    {
+      "path": "HOGEN.CMD",
+      "patch": "patches/HOGEN.CMD.xdelta",
+      "originalSize": 28980,
+      "patchedSize": 28980,
+      "originalSha256": "b15e40fe828c1606a56fbed512f696dbf5bf0d34295bce60dd13682201d77441",
+      "patchedSha256": "001c2bc3414808a045e788f46b1af46ca65550e0392ed8d3f6e8c95f05bdfea4"
+    },
+    {
+      "path": "HOGEN.HEX",
+      "patch": "patches/HOGEN.HEX.xdelta",
+      "originalSize": 15015,
+      "patchedSize": 15015,
+      "originalSha256": "111e1798b5ab5636a082e17d4e22fc7fe7dad301a2d69440cd0a0a6e0495155a",
+      "patchedSha256": "d291e945a59dd9d25854e51bff75983b94c83ce32f0451cfb36be390ea885ceb"
+    },
+    {
+      "path": "HOKURIKU.PAK",
+      "patch": "patches/HOKURIKU.PAK.xdelta",
+      "originalSize": 9856,
+      "patchedSize": 9856,
+      "originalSha256": "d89ca61efe088fe473495dc0a90490af01430674d3cb82a31ce7f0592cf547b9",
+      "patchedSha256": "cfbe3ac0da0781386b35c677a03a433de05774827ed090ca0330739d5ca45acc"
+    },
+    {
+      "path": "KANTOU.PAK",
+      "patch": "patches/KANTOU.PAK.xdelta",
+      "originalSize": 11904,
+      "patchedSize": 11904,
+      "originalSha256": "e6336de035dabd5981785a9b2edb67e3df6e429b76cee9646f6d58403bb0d8d4",
+      "patchedSha256": "e38023c73752084da80e1f8e8f4673d3f45d6b8ace68f1acddbbc18cdc4e3ed9"
+    },
+    {
+      "path": "KINKI.PAK",
+      "patch": "patches/KINKI.PAK.xdelta",
+      "originalSize": 11776,
+      "patchedSize": 11481,
+      "originalSha256": "1f1c749f18c0f62fa6dd98122e66a2ab95c512b32e98c92c6223b0e00e24941a",
+      "patchedSha256": "b010b86109d58bee8a0220e96f38e4fc7a4af49f5b27f5e771a8821d4270ea4e"
+    },
+    {
+      "path": "KYUSYU.PAK",
+      "patch": "patches/KYUSYU.PAK.xdelta",
+      "originalSize": 10496,
+      "patchedSize": 10496,
+      "originalSha256": "004a8b09433210a8e2e2eb4b591d596e6dc62c4d4718b5f1d2878aee5ffbca08",
+      "patchedSha256": "054f23795104282a9f70f60a4b28f0c8aa37c965e2933fc910a9bf79fffed07c"
+    },
+    {
+      "path": "MAP17.PAK",
+      "patch": "patches/MAP17.PAK.xdelta",
+      "originalSize": 11264,
+      "patchedSize": 11099,
+      "originalSha256": "ddde3f67c550c677a97fe0c624af8ba350500ccbaebc60b3c4b90b960df1fc7c",
+      "patchedSha256": "3f55697ad93eb4492e133444e1eae406ea1cf8d636fff73ea3d6802bff6b5bb7"
+    },
+    {
+      "path": "ODAMAIN.EXE",
+      "patch": "patches/ODAMAIN.EXE.xdelta",
+      "originalSize": 111904,
+      "patchedSize": 111904,
+      "originalSha256": "cd9705688ccc1fa8d5c5a568d36142c13dfcc590319c8a762e1e13851da1692d",
+      "patchedSha256": "acf1558fd26e8697eceeb33c14f98eb6bc3ce65c028bb73791c124b2dea53a7f"
+    },
+    {
+      "path": "S1.DAT",
+      "patch": "patches/S1.DAT.xdelta",
+      "originalSize": 11219,
+      "patchedSize": 11219,
+      "originalSha256": "b9414ae094fd50512824e9040d334ba9fd10b4710e1413a99a9623f993a26cd1",
+      "patchedSha256": "df9d2c8d2bc65743cdf36323e31157192d1e98f7646648217b8528d90d995d2e"
+    },
+    {
+      "path": "S2.DAT",
+      "patch": "patches/S2.DAT.xdelta",
+      "originalSize": 11219,
+      "patchedSize": 11219,
+      "originalSha256": "65b7152ef9a102b49e6fcc8b0b2d0486c741cfb9cfd504af22a41325f3c6fa2c",
+      "patchedSha256": "58c0bab9e71f5aa9c6ebd0c57dbca9794853240607b42c44605fffa1edf2d429"
+    },
+    {
+      "path": "SHIKOKU.PAK",
+      "patch": "patches/SHIKOKU.PAK.xdelta",
+      "originalSize": 13184,
+      "patchedSize": 13184,
+      "originalSha256": "6e33151a8c2916c891fcbe3c0bd1ffcdb2e7631f2c2ebe0ef6a1e29090d45785",
+      "patchedSha256": "abd952e3407db0c4f463b4a94a8f57249fa355efd98fb89375b025d22825bd08"
+    },
+    {
+      "path": "TITLE.PAK",
+      "patch": "patches/TITLE.PAK.xdelta",
+      "originalSize": 13056,
+      "patchedSize": 13056,
+      "originalSha256": "78a58dd034d0e1dfd58aaa888640c81a2a6a168a47870afa7f647df552c7e7a2",
+      "patchedSha256": "05a4310dc18a53467e4943553473297562fd357f27df3983f339b8eab200c690"
+    },
+    {
+      "path": "TOUHOKU.PAK",
+      "patch": "patches/TOUHOKU.PAK.xdelta",
+      "originalSize": 9984,
+      "patchedSize": 9984,
+      "originalSha256": "ef619887807f1b20b706f05b5d210e441c09ac1ab33776defce5d8dc3ffc9eda",
+      "patchedSha256": "21b4feb4c08a7537c55296e1eb582685421d0ab252443c4a28d172e7bf6015a3"
+    },
+    {
+      "path": "TYUBU.PAK",
+      "patch": "patches/TYUBU.PAK.xdelta",
+      "originalSize": 12288,
+      "patchedSize": 12215,
+      "originalSha256": "f88144f07156fda3c4786a8908fd1b5698c3851303e3de5e355f731ff9709500",
+      "patchedSha256": "ade36d6bcd336de4ce3ed7e8c9d09837d2ada507135ab43183b46761b31e70eb"
+    }
+  ]
+}
