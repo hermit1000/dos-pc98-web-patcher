@@ -1,0 +1,109 @@
+{
+  "format": "folder-patch-v1",
+  "game": "프로제니터",
+  "patchVersion": "2026.08.04",
+  "createdAt": "2026-08-14T16:38:03.415Z",
+  "sharedAssets": [
+    {
+      "id": "bisco-font",
+      "type": "emulator-font",
+      "name": "BISCO",
+      "source": "assets/fonts/source/BISCO.bmp",
+      "fileName": "BISCO.bmp",
+      "outputPath": "_emulator-font/BISCO.bmp",
+      "size": 524350,
+      "sha256": "ed63f9dcbd894ee544d23f42b1c981a0077246a91fb739c6991b6e0bd6af0e57",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "END.EXE",
+      "patch": "patches/END.EXE.xdelta",
+      "originalSize": 59383,
+      "patchedSize": 59383,
+      "originalSha256": "016adf46aff291139a96399e76551fb7792aa9a0629b861fd4913e8f67b8162a",
+      "patchedSha256": "2a4ea26488ea66d9d15de39dbf706e91bc35c585c2a1ab1e83712afad126b3fa"
+    },
+    {
+      "path": "EVENT.EVT",
+      "patch": "patches/EVENT.EVT.xdelta",
+      "originalSize": 196351,
+      "patchedSize": 196351,
+      "originalSha256": "0ce14464bd9db2b5ab3f91c4e98e4b12960f9bae38bfffbb69fcccc45aeb673b",
+      "patchedSha256": "179c20f252473edfe5a22a6ac64c20a5052c1eb4c321565ca77205ccca49fd20"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 273047,
+      "patchedSize": 273047,
+      "originalSha256": "298b16364a81d018b666aa5fbc499279a4fd86f81786425419b551517514e860",
+      "patchedSha256": "97b521e02780135d46ca15b08ccb837320a35e49c38c16e51900fccf5a5555fc"
+    },
+    {
+      "path": "MENU.DAT",
+      "patch": "patches/MENU.DAT.xdelta",
+      "originalSize": 1055,
+      "patchedSize": 1055,
+      "originalSha256": "5a6e5410510870cb7f1cbc02b7833b9a3fae77316849afeca9cf9b878d00a0a1",
+      "patchedSha256": "fb15acc04707cb0a42d5fc8f614f55c39508dfa05f5b835c115a41cbecc08e95"
+    },
+    {
+      "path": "MESSAGE.DAT",
+      "patch": "patches/MESSAGE.DAT.xdelta",
+      "originalSize": 75725,
+      "patchedSize": 75725,
+      "originalSha256": "37914b4296c756f089cc997cedfb2d2e8d426d00e954a93c1e3b72d985e2cb8a",
+      "patchedSha256": "c9e0265d77458d868cc5757afa0c9561bae392d03832a0505db32fec8187c07a"
+    },
+    {
+      "path": "NAME.BMD",
+      "patch": "patches/NAME.BMD.xdelta",
+      "originalSize": 16128,
+      "patchedSize": 16128,
+      "originalSha256": "b4ffb3c0a25f671afe479c667351d5f9742879c131898920c583fbe2fc601816",
+      "patchedSha256": "7b8090853d88b4a2d4f4d7672c88b52f1cb2f0f4e2b9ee9fdbf7d937036c0ef3"
+    },
+    {
+      "path": "OPEN.EXE",
+      "patch": "patches/OPEN.EXE.xdelta",
+      "originalSize": 80379,
+      "patchedSize": 80379,
+      "originalSha256": "561a544d92659afc494f2517389b50299bf8417666fa6644e1b7d9ff88c634a1",
+      "patchedSha256": "b82e20ee15ee9a4f366401432271bdef671778bf2100701ebeb78db62a93fc65"
+    },
+    {
+      "path": "OPEN.NPK",
+      "patch": "patches/OPEN.NPK.xdelta",
+      "originalSize": 316298,
+      "patchedSize": 316298,
+      "originalSha256": "20dfc32dd52f3230cde6aac8854c415f5f88afccbc7fc1530d204fff2481c60a",
+      "patchedSha256": "f637907beb98d31783054d6b8b0f4e8b26fd6bc702ed41e09b2e01f2ce656e9b"
+    },
+    {
+      "path": "PRO.COM",
+      "patch": "patches/PRO.COM.xdelta",
+      "originalSize": 2370,
+      "patchedSize": 2370,
+      "originalSha256": "7a6553fcf62b46c03319de5dc978241921dc4e219bd9111b25982a19e81f9faa",
+      "patchedSha256": "a1f53a1ba157c09a2c1a1af6aa74ea8909d1b2af32f445c476633b1e25a88e5b"
+    },
+    {
+      "path": "PUT.DAT",
+      "patch": "patches/PUT.DAT.xdelta",
+      "originalSize": 33001,
+      "patchedSize": 33001,
+      "originalSha256": "84d30fa761d824ffbc7ca565f117b7bf6a9682987310d46d6fb310566fb995c2",
+      "patchedSha256": "05a4a93c1ce00ac0aadc30f922a3782d6375efa1f62b7108d8fbaafef43b733b"
+    },
+    {
+      "path": "SDATA.DAT",
+      "patch": "patches/SDATA.DAT.xdelta",
+      "originalSize": 20768,
+      "patchedSize": 20768,
+      "originalSha256": "68c992fe7552f4252137b369903e3cd9edeafc083915e0f149331c933ce7c614",
+      "patchedSha256": "89eabbf61a5950691e536d5c8830312416b2629ad9450e171b70fb75518556b9"
+    }
+  ]
+}

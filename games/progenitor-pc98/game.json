@@ -1,0 +1,42 @@
+{
+  "id": "progenitor-pc98",
+  "title": "프로제니터",
+  "koreanTitle": "프로제니터",
+  "originalTitle": "プロジェネター",
+  "englishTitle": "Progenitor",
+  "developer": "Koei",
+  "platform": "PC-98",
+  "genre": "시뮬레이션",
+  "year": "1994",
+  "release": "1994-10-01",
+  "version": "2026.08.04",
+  "date": "2026.08.04",
+  "original": "일본어판",
+  "status": "배포 중",
+  "files": 11,
+  "description": "PC-98용 프로제니터 한글 패치입니다.",
+  "story": "프로제니터의 대사와 메뉴, 오프닝 등 주요 내용을 한국어로 옮긴 PC-98 한글 패치입니다. 주인공 이름과 별명 수정 화면에서는 한글 입력을 지원하지 않습니다.",
+  "verifiedOriginals": [
+    { "label": "Koei/Progenitor/Progenitor [HD]", "hashVerified": true }
+  ],
+  "screenshots": [
+    { "src": "games/progenitor-pc98/images/cover.png", "alt": "PC-98 프로제니터 한글 화면 1", "caption": "프로제니터 한글 화면" },
+    { "src": "games/progenitor-pc98/images/screen-2.png", "alt": "PC-98 프로제니터 한글 화면 2", "caption": "한글화된 게임 화면" },
+    { "src": "games/progenitor-pc98/images/screen-3.png", "alt": "PC-98 프로제니터 한글 화면 3", "caption": "한글화된 게임 화면" },
+    { "src": "games/progenitor-pc98/images/screen-4.png", "alt": "PC-98 프로제니터 한글 화면 4", "caption": "한글화된 게임 화면" },
+    { "src": "games/progenitor-pc98/images/screen-5.png", "alt": "PC-98 프로제니터 한글 화면 5", "caption": "한글화된 게임 화면" }
+  ],
+  "history": [
+    { "date": "2026.07.25", "version": "초기판", "note": "첫 한글 패치 공개" }
+  ],
+  "credits": [
+    { "role": "한글화", "name": "천수도인" }
+  ],
+  "references": [
+    { "type": "legacy-post", "url": "https://hyunxx.tistory.com/46" }
+  ],
+  "palette": "amber",
+  "mark": "P",
+  "cover": "games/progenitor-pc98/images/cover.png",
+  "package": "packages/progenitor-pc98/manifest.json"
+}
