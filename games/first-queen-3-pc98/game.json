@@ -1,0 +1,41 @@
+{
+  "id": "first-queen-3-pc98",
+  "title": "퍼스트 퀸 3",
+  "koreanTitle": "퍼스트 퀸 3",
+  "originalTitle": "ファーストクィーン3",
+  "englishTitle": "First Queen III",
+  "developer": "K.S.K",
+  "platform": "PC-98",
+  "genre": "전략 RPG",
+  "year": "1993",
+  "release": "1993-07-02",
+  "version": "2025.06.06",
+  "date": "2025.06.06",
+  "original": "일본어판",
+  "status": "배포 중",
+  "files": 3,
+  "description": "PC-98용 퍼스트 퀸 3 한글 패치입니다. 오프닝과 기본 대사는 한글화되었으며 메뉴와 아이템도 대부분 한국어로 표시됩니다.",
+  "story": "현재 오프닝 100%, 기본 대사 100%, 메뉴 및 아이템 99%가 한글화된 상태입니다. 작은 글꼴로 표시되는 이름과 클래스, 엔딩은 아직 한글화되지 않았습니다.",
+  "translationNote": "엔딩 직전 저장 파일이나 엔딩 영상 자료가 확보되면 남은 엔딩 한글화를 진행할 예정입니다.",
+  "translationDetail": "작은 글꼴로 표시되는 이름과 클래스는 현재 원문으로 표시됩니다.",
+  "screenshots": [
+    { "src": "games/first-queen-3-pc98/images/cover.jpg", "alt": "PC-98 퍼스트 퀸 3 표지", "caption": "퍼스트 퀸 3 표지" }
+  ],
+  "history": [
+    { "date": "2025.06.06", "version": "자료 정리", "note": "대사와 readme.txt를 UTF-8로 변경" },
+    { "date": "2021.07.04", "version": "대사 보완", "note": "일본어·한국어 대사 자료 추가 및 일부 대사 수정" },
+    { "date": "최초 버전", "version": "초기판", "note": "오프닝과 기본 대사, 메뉴 및 아이템 한글화" }
+  ],
+  "credits": [
+    { "role": "한글화", "name": "천수도인" },
+    { "role": "번역", "name": "noname" },
+    { "role": "도움", "name": "크리스토퍼" }
+  ],
+  "references": [
+    { "type": "legacy-post", "url": "https://hyunxx.tistory.com/12" }
+  ],
+  "palette": "violet",
+  "mark": "III",
+  "cover": "games/first-queen-3-pc98/images/cover.jpg",
+  "package": "packages/first-queen-3-pc98/manifest.json"
+}

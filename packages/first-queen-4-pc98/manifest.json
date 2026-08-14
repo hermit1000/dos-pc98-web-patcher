@@ -1,0 +1,53 @@
+{
+  "format": "folder-patch-v1",
+  "game": "퍼스트 퀸 4",
+  "patchVersion": "2025.06.06",
+  "createdAt": "2026-08-14T12:32:01.700Z",
+  "sharedAssets": [
+    {
+      "id": "thin-dunggeunmo-font",
+      "type": "emulator-font",
+      "name": "ThinDungGeunMo",
+      "source": "assets/fonts/source/ThinDungGeunMo.bmp",
+      "fileName": "ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "cc3e3babc36ae9da6c3d177c0976f5ac61ccb36bfa33aed8d2919b5be92ee99a",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "FONT.CHR",
+      "patch": "patches/FONT.CHR.xdelta",
+      "originalSize": 3200,
+      "patchedSize": 3200,
+      "originalSha256": "32eaae439c22328e353983fa248804bb174fdf01812dc7d2d9770739fe0a57a5",
+      "patchedSha256": "87a4ab1be1977b129e6d9ef9ee8b4d38cc278ef08f6461e75f7704dfc981c7f2"
+    },
+    {
+      "path": "FQ4MES",
+      "patch": "patches/FQ4MES.xdelta",
+      "originalSize": 65494,
+      "patchedSize": 65494,
+      "originalSha256": "fe7aedbbbf5eaa91ab0c4edbce171186520720be932b42437d559ee4ecff0c9a",
+      "patchedSha256": "4d8a575a45eb151ae43a31e6f650eaa1c8b460d83aca0b35c8dc4416cee44cc7"
+    },
+    {
+      "path": "FQ4OPN.EXE",
+      "patch": "patches/FQ4OPN.EXE.xdelta",
+      "originalSize": 6842,
+      "patchedSize": 6842,
+      "originalSha256": "f0f49254576aea3e23e410fb86afd284c45c0e12be940590cfc2bbf66a42f0f7",
+      "patchedSha256": "ec82047d2892f47ca7b341275d755dad9e1ef4e26b71aca11a1a518c03389901"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 129293,
+      "patchedSize": 129293,
+      "originalSha256": "d7b82903a9a5219478764ad0db5be84d7cf603cb5e36775aa2627d38f73b1388",
+      "patchedSha256": "162a27f43f7192aa3095b35d94848ef67b5a4d03984bf97be01a3a80543349c3"
+    }
+  ]
+}

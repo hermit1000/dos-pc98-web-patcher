@@ -44,7 +44,7 @@ function initializeCatalog() {
     const query = search.value.trim().toLocaleLowerCase('ko');
     const visible = games.filter((game) => {
       const matchesPlatform = platform === 'all' || game.platform === platform;
-      const haystack = `${game.title} ${game.originalTitle} ${game.genre}`.toLocaleLowerCase('ko');
+      const haystack = `${game.title} ${game.originalTitle} ${game.englishTitle || ''} ${game.developer || ''} ${game.genre}`.toLocaleLowerCase('ko');
       return matchesPlatform && haystack.includes(query);
     });
     const sorters = {
@@ -153,10 +153,12 @@ async function initializeDetail() {
     'detail-platform': game.platform,
     'detail-status': game.status,
     'detail-title': game.title,
-    'detail-subtitle': `${game.originalTitle} · ${game.year}`,
+    'detail-subtitle': `${game.developer || game.originalTitle} · ${game.platform} · ${game.year}`,
     'detail-description': game.description,
     'detail-version': game.version,
     'detail-date': game.date,
+    'detail-release': game.release || game.year,
+    'detail-developer': game.developer || '-',
     'detail-original': game.original,
     'detail-story': game.story,
     'art-monogram': game.mark,
@@ -165,6 +167,16 @@ async function initializeDetail() {
   };
   Object.entries(values).forEach(([id, value]) => { document.querySelector(`#${id}`).textContent = value; });
   document.querySelector('#detail-art').classList.add(`palette-${game.palette}`);
+  if (game.koreanTitle || game.originalTitle || game.englishTitle) {
+    const titles = document.querySelector('#detail-titles');
+    const titleRows = [
+      ['KO', game.koreanTitle || game.title],
+      ['JP', game.originalTitle],
+      ['EN', game.englishTitle]
+    ].filter(([, value]) => value);
+    titles.innerHTML = titleRows.map(([language, value]) => `<span><b>${language}</b>${escapeHtml(value)}</span>`).join('');
+    titles.hidden = false;
+  }
   if (game.cover) {
     const detailArt = document.querySelector('#detail-art');
     const detailCover = document.querySelector('#detail-cover');
@@ -180,7 +192,9 @@ async function initializeDetail() {
     note.querySelector('small').textContent = game.translationDetail || '';
   }
   if (game.screenshots?.length) {
-    document.querySelector('#screenshot-grid').innerHTML = game.screenshots.map((shot) => `<figure class="screen">
+    const screenshotGrid = document.querySelector('#screenshot-grid');
+    screenshotGrid.classList.toggle('single', game.screenshots.length === 1);
+    screenshotGrid.innerHTML = game.screenshots.map((shot) => `<figure class="screen">
       <img src="${escapeHtml(shot.src)}" alt="${escapeHtml(shot.alt)}" loading="lazy">
       <figcaption>${escapeHtml(shot.caption)}</figcaption>
     </figure>`).join('');
@@ -191,12 +205,12 @@ async function initializeDetail() {
   if (game.credits?.length) {
     document.querySelector('#credit-list').innerHTML = game.credits.map((credit) => `<dt>${escapeHtml(credit.role)}</dt><dd>${escapeHtml(credit.name)}</dd>`).join('');
   }
-  if (game.sourceUrl) {
+  const legacyPost = game.references?.find((reference) => reference.type === 'legacy-post');
+  if (legacyPost?.url) {
     const sourceLink = document.querySelector('#source-link');
-    sourceLink.href = game.sourceUrl;
+    sourceLink.href = legacyPost.url;
     sourceLink.hidden = false;
   }
-
   const input = document.querySelector('#folder-input');
   const dropZone = document.querySelector('#drop-zone');
   const result = document.querySelector('#dummy-result');

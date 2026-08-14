@@ -1,0 +1,42 @@
+{
+  "id": "first-queen-4-pc98",
+  "title": "퍼스트 퀸 4",
+  "koreanTitle": "퍼스트 퀸 4 - 바르시아 전기",
+  "originalTitle": "ファーストクィーン4 ~ バルシア戦記",
+  "englishTitle": "First Queen 4",
+  "developer": "K.S.K",
+  "platform": "PC-98",
+  "genre": "전략 RPG",
+  "year": "1994",
+  "release": "1994-06-10",
+  "version": "2025.06.06",
+  "date": "2025.06.06",
+  "original": "일본어판",
+  "status": "배포 중",
+  "files": 4,
+  "description": "PC-98용 퍼스트 퀸 4 한글 패치입니다. DOS판 퍼스트 퀸 4의 한국어 번역(KCT 제작)을 참고해 대사와 인터페이스를 한글화했습니다.",
+  "story": "전반적인 대사와 메뉴를 한글로 즐길 수 있는 99% 완성판입니다. 이전 일본판 저장 파일을 사용하면 저장 데이터에 기록된 일부 아이템 설명이 일본어로 남을 수 있습니다.",
+  "translationNote": "반각 글꼴은 아직 한글화되지 않았으며, 발음 표시는 아이우 형태로 변경되어 있습니다.",
+  "translationDetail": "일본어 발음 표시를 유지하려면 결과물의 FONT.CHR를 적용하지 않아야 합니다. 네 번째 저장 슬롯 사용도 권장하지 않습니다.",
+  "screenshots": [
+    { "src": "games/first-queen-4-pc98/images/cover.jpg", "alt": "PC-98 퍼스트 퀸 4 타이틀 화면", "caption": "퍼스트 퀸 4 타이틀" }
+  ],
+  "history": [
+    { "date": "2025.06.06", "version": "자료 정리", "note": "대사와 readme.txt를 UTF-8로 변경" },
+    { "date": "2022.10.18", "version": "검수판", "note": "전반적인 확인과 누락 대사 등 오류 수정" },
+    { "date": "2021.07.04", "version": "대사 자료", "note": "일본어·한국어 대사 자료 추가" },
+    { "date": "2004.12.24", "version": "V0.995", "note": "Jin.. 님의 폰트 체계 적용 및 일부 버그 수정" },
+    { "date": "최초 버전", "version": "V0.990", "note": "게임 본편 99% 한글화판 공개" }
+  ],
+  "credits": [
+    { "role": "한글화", "name": "천수도인" },
+    { "role": "번역 참고", "name": "DOS판 퍼스트 퀸 4 · KCT" }
+  ],
+  "references": [
+    { "type": "legacy-post", "url": "https://hyunxx.tistory.com/9" }
+  ],
+  "palette": "rust",
+  "mark": "IV",
+  "cover": "games/first-queen-4-pc98/images/cover.jpg",
+  "package": "packages/first-queen-4-pc98/manifest.json"
+}

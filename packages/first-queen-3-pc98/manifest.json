@@ -1,0 +1,45 @@
+{
+  "format": "folder-patch-v1",
+  "game": "퍼스트 퀸 3",
+  "patchVersion": "2025.06.06",
+  "createdAt": "2026-08-14T12:22:17.724Z",
+  "sharedAssets": [
+    {
+      "id": "thin-dunggeunmo-font",
+      "type": "emulator-font",
+      "name": "ThinDungGeunMo",
+      "source": "assets/fonts/source/ThinDungGeunMo.bmp",
+      "fileName": "ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "cc3e3babc36ae9da6c3d177c0976f5ac61ccb36bfa33aed8d2919b5be92ee99a",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "FQ3MES.DAT",
+      "patch": "patches/FQ3MES.DAT.xdelta",
+      "originalSize": 64375,
+      "patchedSize": 64375,
+      "originalSha256": "53473c3324ad1b0e50b610d7f8c97d80450d1580bda3df7eab9ab1d0fd7548c1",
+      "patchedSha256": "24b190f9f8db42345a1e90dc8f347271b2f96fecb5303ba37114b7c2c635d1ae"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 70294,
+      "patchedSize": 70294,
+      "originalSha256": "e7f6f7f842f2fd0cfcfbb193c320b8cd235330cd0e30229f6c264337369faeba",
+      "patchedSha256": "02d6104c92be180866e36fe69d8cdd2874e53c6180442dd868c984ed747685cd"
+    },
+    {
+      "path": "OPEN.EXE",
+      "patch": "patches/OPEN.EXE.xdelta",
+      "originalSize": 36618,
+      "patchedSize": 36618,
+      "originalSha256": "a30043df9760b67c4f30699849f9df3b87d32db05e77797b9366e95cde8544e2",
+      "patchedSha256": "07890b8e3a8adac34f96499cda7e276295761c5e5679cb42ebd1ec1a64de624b"
+    }
+  ]
+}

@@ -1,10 +1,14 @@
 {
   "id": "garyouden-pc98",
   "title": "와룡전",
-  "originalTitle": "臥龍伝",
+  "koreanTitle": "와룡전 - 삼국제패의 계략",
+  "originalTitle": "臥竜伝 - 三国制覇の計",
+  "englishTitle": "Hokusho",
+  "developer": "Neo Geten",
   "platform": "PC-98",
   "genre": "전략 시뮬레이션",
-  "year": "1994",
+  "year": "1995",
+  "release": "1995-04-28",
   "version": "2026.06.26",
   "date": "2026.06.26",
   "original": "일본어판",
@@ -31,7 +35,9 @@
     { "role": "한글화", "name": "천수도인" },
     { "role": "번역 참고", "name": "DOS판 와룡전 · KCT" }
   ],
-  "sourceUrl": "https://hyunxx.tistory.com/8",
+  "references": [
+    { "type": "legacy-post", "url": "https://hyunxx.tistory.com/8" }
+  ],
   "palette": "green",
   "mark": "龍",
   "cover": "games/garyouden-pc98/images/cover.jpg",
