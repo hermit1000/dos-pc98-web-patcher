@@ -18,6 +18,9 @@
   "story": "전반적인 대사와 메뉴를 한글로 즐길 수 있는 99% 완성판입니다. 이전 일본판 저장 파일을 사용하면 저장 데이터에 기록된 일부 아이템 설명이 일본어로 남을 수 있습니다.",
   "translationNote": "반각 글꼴은 아직 한글화되지 않았으며, 발음 표시는 아이우 형태로 변경되어 있습니다.",
   "translationDetail": "일본어 발음 표시를 유지하려면 결과물의 FONT.CHR를 적용하지 않아야 합니다. 네 번째 저장 슬롯 사용도 권장하지 않습니다.",
+  "verifiedOriginals": [
+    { "label": "KSK / First Queen IV - Barcia Senki / First Queen IV - Barcia Senki [HD]", "hashVerified": true }
+  ],
   "screenshots": [
     { "src": "games/first-queen-4-pc98/images/cover.jpg", "alt": "PC-98 퍼스트 퀸 4 타이틀 화면", "caption": "퍼스트 퀸 4 타이틀" }
   ],

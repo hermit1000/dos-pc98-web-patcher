@@ -1,0 +1,46 @@
+{
+  "id": "macross-3-pc98",
+  "title": "초시공요새 마크로스 3 - 러브 스토리즈",
+  "koreanTitle": "초시공요새 마크로스 3 - 러브 스토리즈",
+  "originalTitle": "超時空要塞マクロス ラブ･ストーリーズ",
+  "englishTitle": "Macross Love Stories",
+  "developer": "Family Soft",
+  "platform": "PC-98",
+  "genre": "어드벤처·시뮬레이션",
+  "year": "1994",
+  "release": "1994-07-29",
+  "version": "2025.12.14",
+  "date": "2025.12.14",
+  "original": "일본어판",
+  "status": "배포 중",
+  "files": 68,
+  "description": "PC-98용 초시공요새 마크로스: 러브 스토리즈 한글 패치입니다. 본편 대사와 그래픽, 반각 글꼴을 한국어로 옮겼습니다.",
+  "story": "기존 DOS판 번역을 옮긴 것이 아니라 PC-98판을 기준으로 새로 번역했습니다. 등장인물은 일본판 이름을 유지했으며, 한글 표기는 관련 자료를 함께 검토했습니다.",
+  "translationNote": "등장인물의 일본판 이름을 유지하고, 작품 속 명칭은 한국어 발음을 검토해 표기했습니다.",
+  "translationDetail": "대사 수정과 누락 시나리오 보완을 거쳐 그래픽 및 반각 글꼴 한글화까지 반영한 패치입니다.",
+  "screenshots": [
+    { "src": "games/macross-3-pc98/images/cover.png", "alt": "PC-98 마크로스 러브 스토리즈 한글 화면", "caption": "한글화된 본편 화면" }
+  ],
+  "history": [
+    { "date": "2025.12.14", "version": "용어 정리", "note": "작품 내 용어와 표기 수정" },
+    { "date": "2025.11.26", "version": "그래픽", "note": "게임 그래픽 한글화" },
+    { "date": "2025.07.24", "version": "폰트", "note": "반각 글꼴 한글화" },
+    { "date": "2025.06.29", "version": "대사 보완", "note": "본편 대사 수정" },
+    { "date": "2025.06.06", "version": "자료 정리", "note": "대사와 readme.txt를 UTF-8로 변경(게임 내용 변경 없음)" },
+    { "date": "2025.06.05", "version": "번역 조정", "note": "마크로스 2 번역을 고려해 대사 조정" },
+    { "date": "2025.05.26", "version": "오류 수정", "note": "대사 오류 수정" },
+    { "date": "2021.10.12", "version": "시나리오 보완", "note": "누락된 짧은 시나리오 수정" },
+    { "date": "2021.09.19", "version": "초기판", "note": "첫 한글 패치 공개" }
+  ],
+  "credits": [
+    { "role": "프로그램·번역", "name": "천수도인" },
+    { "role": "프로그램·그래픽", "name": "낭만엘리" }
+  ],
+  "references": [
+    { "type": "legacy-post", "url": "https://hyunxx.tistory.com/13" }
+  ],
+  "palette": "blue",
+  "mark": "M3",
+  "cover": "games/macross-3-pc98/images/cover.png",
+  "package": "packages/macross-3-pc98/manifest.json"
+}

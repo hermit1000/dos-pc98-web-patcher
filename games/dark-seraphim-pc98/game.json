@@ -18,6 +18,9 @@
   "story": "초기판에서 남아 있던 인코딩된 오프닝과 엔딩을 최신판에서 모두 한글화했습니다. 본편 대사 누락과 폰트 관련 오류도 여러 차례 검수하고 수정한 완성판입니다.",
   "translationNote": "DOS판 다크 세라핌의 한국어 번역 내용을 참고했습니다.",
   "translationDetail": "반각 글꼴 대화와 이름도 한글화했으며, 2026년판에서 오프닝과 엔딩 작업을 완료했습니다.",
+  "verifiedOriginals": [
+    { "label": "KSK / Dark Seraphim / Dark Seraphim (FD version) [HD]", "hashVerified": true }
+  ],
   "screenshots": [
     { "src": "games/dark-seraphim-pc98/images/cover.jpg", "alt": "PC-98 다크 세라핌 표지", "caption": "다크 세라핌 표지" }
   ],

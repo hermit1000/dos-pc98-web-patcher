@@ -147,7 +147,7 @@ async function initializeDetail() {
   if (!catalogEntry) return;
   const game = catalogEntry.data ? { ...catalogEntry, ...await loadJson(catalogEntry.data) } : catalogEntry;
 
-  document.title = `${game.title} 한국어 패치 — 레트로 번역소`;
+  document.title = `${game.title} 한국어 패치 — 2KOR LAB`;
   const values = {
     'detail-platform-top': game.platform,
     'detail-platform': game.platform,
@@ -190,6 +190,11 @@ async function initializeDetail() {
     const note = document.querySelector('#translation-note');
     note.querySelector('strong').textContent = game.translationNote;
     note.querySelector('small').textContent = game.translationDetail || '';
+  }
+  if (game.verifiedOriginals?.length) {
+    const verified = document.querySelector('#verified-originals');
+    verified.querySelector('ul').innerHTML = game.verifiedOriginals.map((original) => `<li><span aria-hidden="true">✓</span><code>${escapeHtml(original.label)}</code></li>`).join('');
+    verified.hidden = false;
   }
   if (game.screenshots?.length) {
     const screenshotGrid = document.querySelector('#screenshot-grid');

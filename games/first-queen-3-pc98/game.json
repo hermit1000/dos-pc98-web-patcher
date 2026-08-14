@@ -18,6 +18,9 @@
   "story": "현재 오프닝 100%, 기본 대사 100%, 메뉴 및 아이템 99%가 한글화된 상태입니다. 작은 글꼴로 표시되는 이름과 클래스, 엔딩은 아직 한글화되지 않았습니다.",
   "translationNote": "엔딩 직전 저장 파일이나 엔딩 영상 자료가 확보되면 남은 엔딩 한글화를 진행할 예정입니다.",
   "translationDetail": "작은 글꼴로 표시되는 이름과 클래스는 현재 원문으로 표시됩니다.",
+  "verifiedOriginals": [
+    { "label": "KSK / First Queen III / First Queen III [HD]", "hashVerified": true }
+  ],
   "screenshots": [
     { "src": "games/first-queen-3-pc98/images/cover.jpg", "alt": "PC-98 퍼스트 퀸 3 표지", "caption": "퍼스트 퀸 3 표지" }
   ],

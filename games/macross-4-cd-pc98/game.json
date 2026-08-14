@@ -1,0 +1,47 @@
+{
+  "id": "macross-4-cd-pc98",
+  "title": "초시공요새 마크로스 4 - 스컬리더 컴플리트 팩 (CD판)",
+  "koreanTitle": "초시공요새 마크로스 4 - 스컬리더 컴플리트 팩 (CD판)",
+  "originalTitle": "超時空要塞マクロス スカル･リーダー コンプリートパック",
+  "englishTitle": "The Super Dimension Fortress Macross - Skull Leader Complete Pack",
+  "developer": "Family Soft",
+  "platform": "PC-98",
+  "genre": "전략 시뮬레이션",
+  "year": "1995",
+  "release": "1995-07-14",
+  "version": "2026.02.15",
+  "date": "2026.02.15",
+  "original": "일본어 CD판",
+  "status": "배포 중",
+  "files": 221,
+  "description": "PC-98용 초시공요새 마크로스: 스컬리더 컴플리트 팩 CD판 한글 패치입니다. CD판 원본에 직접 적용할 수 있는 독립 패키지입니다.",
+  "story": "스컬리더 컴플리트 팩 CD판을 대상으로 본편 대사와 메뉴, 그래픽 및 반각 글꼴을 한국어로 옮겼습니다. 작품 속 명칭의 한글 발음은 관련 자료를 참고해 정리했습니다.",
+  "translationNote": "작품 속 인명과 고유명사의 한글 발음을 검토해 표기했습니다.",
+  "translationDetail": "CD판 전용 파일을 포함해 본편 대사, 메뉴와 그래픽, 반각 글꼴을 한글화하고 미번역 부분과 엔딩 크레딧 오류를 보완했습니다.",
+  "verifiedOriginals": [
+    { "label": "Family Soft/The Super Dimension Fortress Macross - Skull Leader Complete Pack/The Super Dimension Fortress Macross - Skull Leader Complete Pack (CD version) [HD]", "hashVerified": true }
+  ],
+  "screenshots": [
+    { "src": "games/macross-4-pc98/images/cover.png", "alt": "PC-98 마크로스 스컬리더 컴플리트 팩 한글 화면", "caption": "한글화된 본편 화면" }
+  ],
+  "history": [
+    { "date": "2026.02.15", "version": "메뉴 수정", "note": "시작 메뉴 정렬 수정" },
+    { "date": "2026.02.14", "version": "오류 수정", "note": "엔딩 크레딧 오류 수정" },
+    { "date": "2025.12.16", "version": "번역 보완", "note": "제보받은 미번역 부분 수정" },
+    { "date": "2025.12.14", "version": "용어 정리", "note": "작품 내 용어와 표기 수정" },
+    { "date": "2025.11.26", "version": "그래픽", "note": "게임 그래픽 한글화" },
+    { "date": "2025.11.22", "version": "CD판·폰트", "note": "CD판 대응 및 반각 글꼴 한글화" },
+    { "date": "2025.06.29", "version": "초기판", "note": "첫 한글 패치 공개" }
+  ],
+  "credits": [
+    { "role": "프로그램·번역", "name": "천수도인" },
+    { "role": "프로그램·그래픽", "name": "낭만엘리" }
+  ],
+  "references": [
+    { "type": "legacy-post", "url": "https://hyunxx.tistory.com/32" }
+  ],
+  "palette": "blue",
+  "mark": "M4 CD",
+  "cover": "games/macross-4-pc98/images/cover.png",
+  "package": "packages/macross-4-cd-pc98/manifest.json"
+}
