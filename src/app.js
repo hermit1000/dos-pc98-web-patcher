@@ -25,6 +25,7 @@ function gameCard(game, index) {
 function initializeCatalog() {
   const grid = document.querySelector('#game-grid');
   const search = document.querySelector('#search-input');
+  const sortSelect = document.querySelector('#sort-select');
   const filters = [...document.querySelectorAll('.filter-button')];
   const empty = document.querySelector('#empty-state');
   const resultCount = document.querySelector('#result-count');
@@ -39,12 +40,20 @@ function initializeCatalog() {
       const haystack = `${game.title} ${game.originalTitle} ${game.genre}`.toLocaleLowerCase('ko');
       return matchesPlatform && haystack.includes(query);
     });
+    const sorters = {
+      released: (a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title, 'ko'),
+      title: (a, b) => a.title.localeCompare(b.title, 'ko'),
+      year: (a, b) => Number(b.year) - Number(a.year) || a.title.localeCompare(b.title, 'ko'),
+      platform: (a, b) => a.platform.localeCompare(b.platform, 'en') || a.title.localeCompare(b.title, 'ko')
+    };
+    visible.sort(sorters[sortSelect.value] || sorters.released);
     grid.innerHTML = visible.map(gameCard).join('');
     empty.hidden = visible.length !== 0;
     resultCount.textContent = `${visible.length} / ${games.length} TITLES`;
   }
 
   search.addEventListener('input', render);
+  sortSelect.addEventListener('change', render);
   filters.forEach((button) => button.addEventListener('click', () => {
     platform = button.dataset.platform;
     filters.forEach((item) => item.classList.toggle('active', item === button));

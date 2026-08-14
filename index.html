@@ -49,10 +49,21 @@
           <input id="search-input" type="search" placeholder="게임 제목을 검색하세요" autocomplete="off">
           <span aria-hidden="true">⌕</span>
         </label>
-        <div class="filter-group" role="group" aria-label="플랫폼 필터">
-          <button class="filter-button active" type="button" data-platform="all">전체</button>
-          <button class="filter-button" type="button" data-platform="PC-98">PC-98</button>
-          <button class="filter-button" type="button" data-platform="DOS">DOS</button>
+        <div class="catalog-actions">
+          <label class="sort-control">
+            <span>정렬</span>
+            <select id="sort-select">
+              <option value="released">최근 배포순</option>
+              <option value="title">이름순</option>
+              <option value="year">출시 연도순</option>
+              <option value="platform">플랫폼순</option>
+            </select>
+          </label>
+          <div class="filter-group" role="group" aria-label="플랫폼 필터">
+            <button class="filter-button active" type="button" data-platform="all">전체</button>
+            <button class="filter-button" type="button" data-platform="PC-98">PC-98</button>
+            <button class="filter-button" type="button" data-platform="DOS">DOS</button>
+          </div>
         </div>
       </div>
 

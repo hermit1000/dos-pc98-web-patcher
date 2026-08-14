@@ -7,6 +7,8 @@ DOS와 PC-98 게임의 다중 파일 한국어 패치를 브라우저에서 적�
 - `index.html`: 전체 게임 목록, 검색 및 플랫폼 필터
 - `patcher.html?game=게임ID`: 게임 정보와 패치 UI 상세 화면
 
+게임 이미지는 `images/games/<게임ID>/` 아래에 저장한다. 자세한 파일명과 형식은 `images/README.md`를 참고한다.
+
 실제 SHA-256 검사, VCDIFF 적용 및 ZIP 생성 기능은 아직 연결하지 않았다.
 
 ## 로컬에서 보기
