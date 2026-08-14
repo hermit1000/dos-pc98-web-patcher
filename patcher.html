@@ -6,7 +6,6 @@
   <meta name="description" content="PC-98·IBM PC 게임별 한국어 패치 상세 페이지">
   <title>패치 상세 — 레트로 번역소</title>
   <link rel="stylesheet" href="styles/main.css">
-  <script src="src/data.js" defer></script>
   <script src="src/zip.js" defer></script>
   <script src="src/app.js" defer></script>
 </head>
@@ -49,7 +48,7 @@
       </div>
       <div class="story-grid">
         <p id="detail-story" class="lead-copy"></p>
-        <div class="credit-card">
+        <div class="credit-card" id="translation-note">
           <span>TRANSLATION NOTE</span>
           <strong>원작의 분위기와 시대적 표현을 살리는 것을 목표로 작업했습니다.</strong>
           <small>고유명사 및 용어는 게임 내 문맥에 맞춰 통일했습니다.</small>
@@ -62,7 +61,7 @@
         <div><span class="section-number">02</span><h2>스크린샷</h2></div>
         <p>화면 구성 확인을 위한 더미 이미지입니다.</p>
       </div>
-      <div class="screenshot-grid">
+      <div class="screenshot-grid" id="screenshot-grid">
         <figure class="screen screen-one"><div><span>COMMAND</span><b>무엇을 하시겠습니까?</b><small>이동　대화　조사　상태</small></div><figcaption>탐색 화면</figcaption></figure>
         <figure class="screen screen-two"><div><span>BATTLE LOG</span><b>공격이 명중했습니다!</b><small>12 DAMAGE</small></div><figcaption>전투 화면</figcaption></figure>
         <figure class="screen screen-three"><div><span>ARCHIVE 03</span><b>오래된 기록을 발견했다.</b><small>다음 페이지로 ›</small></div><figcaption>대화 화면</figcaption></figure>
@@ -124,7 +123,7 @@
       <article>
         <span class="section-number">05</span>
         <h2>버전 기록</h2>
-        <div class="timeline">
+        <div class="timeline" id="version-timeline">
           <div><time>2026.08.14</time><strong>v1.0.0</strong><p>첫 한국어 패치 공개</p></div>
           <div><time>2026.07.28</time><strong>RC 1</strong><p>전체 문장 검수 및 용어 통일</p></div>
         </div>
@@ -132,7 +131,8 @@
       <article class="credits">
         <span class="section-number">06</span>
         <h2>제작진</h2>
-        <dl><dt>번역</dt><dd>레트로 번역소</dd><dt>프로그램</dt><dd>PATCH LAB</dd><dt>검수</dt><dd>TEST TEAM</dd></dl>
+        <dl id="credit-list"><dt>번역</dt><dd>레트로 번역소</dd><dt>프로그램</dt><dd>PATCH LAB</dd><dt>검수</dt><dd>TEST TEAM</dd></dl>
+        <a id="source-link" class="source-link" href="#" target="_blank" rel="noopener" hidden>원문 패치 페이지 ↗</a>
       </article>
     </section>
   </main>

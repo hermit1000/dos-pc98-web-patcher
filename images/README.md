@@ -1,11 +1,12 @@
 # 게임 이미지 저장 규칙
 
-게임 이미지는 게임 ID별 디렉터리에 저장한다.
+게임 이미지는 각 게임 데이터와 같은 디렉터리에 저장한다. `images/` 루트에는 사이트 공용 이미지만 둔다.
 
 ```text
-images/
-  games/
-    silver-chronicle/
+games/
+  silver-chronicle/
+    game.json
+    images/
       cover.webp
       hero.webp
       screenshots/

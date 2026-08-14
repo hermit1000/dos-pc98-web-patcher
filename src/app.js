@@ -1,6 +1,12 @@
 'use strict';
 
-const games = window.GAME_CATALOG || [];
+let games = [];
+
+async function loadJson(url) {
+  const response = await fetch(url, { cache: 'no-cache' });
+  if (!response.ok) throw new Error(`데이터를 불러오지 못했습니다: ${url} (${response.status})`);
+  return response.json();
+}
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -134,10 +140,11 @@ function downloadBytes(bytes, fileName, type) {
   setTimeout(() => URL.revokeObjectURL(url), 30000);
 }
 
-function initializeDetail() {
+async function initializeDetail() {
   const requestedId = new URLSearchParams(location.search).get('game');
-  const game = games.find((item) => item.id === requestedId) || games[0];
-  if (!game) return;
+  const catalogEntry = games.find((item) => item.id === requestedId) || games[0];
+  if (!catalogEntry) return;
+  const game = catalogEntry.data ? { ...catalogEntry, ...await loadJson(catalogEntry.data) } : catalogEntry;
 
   document.title = `${game.title} 한국어 패치 — 레트로 번역소`;
   const values = {
@@ -157,6 +164,29 @@ function initializeDetail() {
   };
   Object.entries(values).forEach(([id, value]) => { document.querySelector(`#${id}`).textContent = value; });
   document.querySelector('#detail-art').classList.add(`palette-${game.palette}`);
+
+  if (game.translationNote) {
+    const note = document.querySelector('#translation-note');
+    note.querySelector('strong').textContent = game.translationNote;
+    note.querySelector('small').textContent = game.translationDetail || '';
+  }
+  if (game.screenshots?.length) {
+    document.querySelector('#screenshot-grid').innerHTML = game.screenshots.map((shot) => `<figure class="screen">
+      <img src="${escapeHtml(shot.src)}" alt="${escapeHtml(shot.alt)}" loading="lazy">
+      <figcaption>${escapeHtml(shot.caption)}</figcaption>
+    </figure>`).join('');
+  }
+  if (game.history?.length) {
+    document.querySelector('#version-timeline').innerHTML = game.history.map((entry) => `<div><time>${escapeHtml(entry.date)}</time><strong>${escapeHtml(entry.version)}</strong><p>${escapeHtml(entry.note)}</p></div>`).join('');
+  }
+  if (game.credits?.length) {
+    document.querySelector('#credit-list').innerHTML = game.credits.map((credit) => `<dt>${escapeHtml(credit.role)}</dt><dd>${escapeHtml(credit.name)}</dd>`).join('');
+  }
+  if (game.sourceUrl) {
+    const sourceLink = document.querySelector('#source-link');
+    sourceLink.href = game.sourceUrl;
+    sourceLink.hidden = false;
+  }
 
   const input = document.querySelector('#folder-input');
   const dropZone = document.querySelector('#drop-zone');
@@ -339,6 +369,15 @@ function initializeDetail() {
   loadManifest();
 }
 
-const page = document.body.dataset.page;
-if (page === 'catalog') initializeCatalog();
-if (page === 'detail') initializeDetail();
+async function bootstrap() {
+  games = await loadJson('games/catalog.json');
+  const page = document.body.dataset.page;
+  if (page === 'catalog') initializeCatalog();
+  if (page === 'detail') await initializeDetail();
+}
+
+bootstrap().catch((error) => {
+  console.error(error);
+  const root = document.querySelector('#game-grid, #detail-root');
+  if (root) root.innerHTML = `<p class="load-error">${escapeHtml(error.message)}</p>`;
+});
