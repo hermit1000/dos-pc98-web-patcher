@@ -12,7 +12,7 @@ window.GAME_CATALOG = [
     description: '기계 도시를 배경으로 펼쳐지는 턴제 전략 시뮬레이션.', story: '거대한 기계 도시의 운명을 건 마지막 작전이 시작됩니다. 병과와 지형을 활용하는 고전 전략 게임의 매력을 한국어로 만나보세요.', palette: 'rust', mark: '鋼'
   },
   {
-    id: 'midnight-detective', title: '자정의 탐정', originalTitle: 'MIDNIGHT DETECTIVE', platform: 'DOS', genre: '어드벤처', year: '1993', version: 'v1.0.2', date: '2026.05.19', original: '영문판 1.0', status: '배포 중', files: 3,
+    id: 'midnight-detective', title: '자정의 탐정', originalTitle: 'MIDNIGHT DETECTIVE', platform: 'IBM PC', genre: '어드벤처', year: '1993', version: 'v1.0.2', date: '2026.05.19', original: '영문판 1.0', status: '배포 중', files: 3,
     description: '비 내리는 항구 도시에서 벌어진 실종 사건을 추적하는 어드벤처.', story: '자정이 되면 사라지는 사람들이 있다는 소문. 낡은 탐정 사무소에 도착한 편지 한 통에서 사건은 시작됩니다.', palette: 'navy', mark: '探'
   },
   {
@@ -20,7 +20,7 @@ window.GAME_CATALOG = [
     description: '여름의 끝, 바닷가 마을에서 되찾는 잊힌 기억에 관한 이야기.', story: '오랜만에 돌아온 고향에서 주인공은 기억 속에 없는 한 소녀를 만납니다. 잔잔한 여름 풍경과 선택으로 이어지는 이야기입니다.', palette: 'blue', mark: '蒼'
   },
   {
-    id: 'dungeon-nocturne', title: '던전 녹턴', originalTitle: 'DUNGEON NOCTURNE', platform: 'DOS', genre: 'RPG', year: '1992', version: 'v1.0.0', date: '2026.02.27', original: '영문판 1.2', status: '배포 중', files: 4,
+    id: 'dungeon-nocturne', title: '던전 녹턴', originalTitle: 'DUNGEON NOCTURNE', platform: 'IBM PC', genre: 'RPG', year: '1992', version: 'v1.0.0', date: '2026.02.27', original: '영문판 1.2', status: '배포 중', files: 4,
     description: '어둠 속 미궁을 탐사하는 1인칭 던전 RPG.', story: '밤마다 모습을 바꾸는 미궁과 그 안에 봉인된 오래된 노래. 여섯 명의 모험가가 미궁의 가장 깊은 곳으로 향합니다.', palette: 'green', mark: '迷'
   },
   {

@@ -1,6 +1,6 @@
-# DOS/PC-98 Web Patcher
+# PC-98/IBM PC Web Patcher
 
-DOS와 PC-98 게임의 다중 파일 한국어 패치를 브라우저에서 적용하기 위한 GitHub Pages 프로젝트다.
+PC-98과 IBM PC 게임의 다중 파일 한국어 패치를 브라우저에서 적용하기 위한 GitHub Pages 프로젝트다.
 
 현재 단계에서는 다음 두 화면의 UI 프로토타입을 제공한다.
 

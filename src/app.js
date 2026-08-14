@@ -67,7 +67,7 @@ function initializeDetail() {
   const game = games.find((item) => item.id === requestedId) || games[0];
   if (!game) return;
 
-  document.title = `${game.title} 한국어 패치 — 고전어 번역소`;
+  document.title = `${game.title} 한국어 패치 — 레트로 번역소`;
   const values = {
     'detail-platform-top': game.platform,
     'detail-platform': game.platform,
@@ -80,7 +80,7 @@ function initializeDetail() {
     'detail-original': game.original,
     'detail-story': game.story,
     'art-monogram': game.mark,
-    'requirement-platform': game.platform === 'PC-98' ? 'NEC PC-9801' : 'IBM PC / DOS',
+    'requirement-platform': game.platform === 'PC-98' ? 'NEC PC-9801 · MS-DOS' : 'IBM PC 호환기종 · MS-DOS',
     'requirement-files': `${game.files}개`
   };
   Object.entries(values).forEach(([id, value]) => { document.querySelector(`#${id}`).textContent = value; });
