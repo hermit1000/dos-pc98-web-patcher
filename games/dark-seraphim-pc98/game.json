@@ -1,0 +1,43 @@
+{
+  "id": "dark-seraphim-pc98",
+  "title": "다크 세라핌",
+  "koreanTitle": "다크 세라핌",
+  "originalTitle": "ダークセラフィム",
+  "englishTitle": "Dark Seraphim",
+  "developer": "K.S.K",
+  "platform": "PC-98",
+  "genre": "SRPG",
+  "year": "1995",
+  "release": "1995-07-15",
+  "version": "2026.06.27",
+  "date": "2026.06.27",
+  "original": "일본어판",
+  "status": "배포 중",
+  "files": 6,
+  "description": "PC-98용 다크 세라핌 한글 패치입니다. DOS판 다크 세라핌의 한국어 번역을 참고했으며 대사, 반각 글꼴, 오프닝과 엔딩까지 한글화했습니다.",
+  "story": "초기판에서 남아 있던 인코딩된 오프닝과 엔딩을 최신판에서 모두 한글화했습니다. 본편 대사 누락과 폰트 관련 오류도 여러 차례 검수하고 수정한 완성판입니다.",
+  "translationNote": "DOS판 다크 세라핌의 한국어 번역 내용을 참고했습니다.",
+  "translationDetail": "반각 글꼴 대화와 이름도 한글화했으며, 2026년판에서 오프닝과 엔딩 작업을 완료했습니다.",
+  "screenshots": [
+    { "src": "games/dark-seraphim-pc98/images/cover.jpg", "alt": "PC-98 다크 세라핌 표지", "caption": "다크 세라핌 표지" }
+  ],
+  "history": [
+    { "date": "2026.06.27", "version": "최신판", "note": "오프닝·엔딩 한글화 완료 및 기타 버그 수정" },
+    { "date": "2025.06.06", "version": "자료 정리", "note": "대사와 readme.txt를 UTF-8로 변경" },
+    { "date": "2022.11.23", "version": "검수판", "note": "누락 대사와 전반적인 오류 수정, 한·일 대사 자료 추가" },
+    { "date": "2004.12.26", "version": "v0.952", "note": "폰트 체계 변경 과정의 오류 수정" },
+    { "date": "2004.11.07", "version": "v0.951", "note": "Jin.. 님의 폰트 체계로 변경" },
+    { "date": "최초 버전", "version": "V0.95", "note": "DOS판 번역을 참고한 본편 한글화판 공개" }
+  ],
+  "credits": [
+    { "role": "한글화", "name": "천수도인" },
+    { "role": "번역 참고", "name": "DOS판 다크 세라핌" }
+  ],
+  "references": [
+    { "type": "legacy-post", "url": "https://hyunxx.tistory.com/11" }
+  ],
+  "palette": "rust",
+  "mark": "闇",
+  "cover": "games/dark-seraphim-pc98/images/cover.jpg",
+  "package": "packages/dark-seraphim-pc98/manifest.json"
+}

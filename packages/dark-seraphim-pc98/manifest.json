@@ -1,0 +1,69 @@
+{
+  "format": "folder-patch-v1",
+  "game": "다크 세라핌",
+  "patchVersion": "2026.06.27",
+  "createdAt": "2026-08-14T12:56:10.960Z",
+  "sharedAssets": [
+    {
+      "id": "thin-dunggeunmo-font",
+      "type": "emulator-font",
+      "name": "ThinDungGeunMo",
+      "source": "assets/fonts/source/ThinDungGeunMo.bmp",
+      "fileName": "ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "cc3e3babc36ae9da6c3d177c0976f5ac61ccb36bfa33aed8d2919b5be92ee99a",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "END.ASS",
+      "patch": "patches/END.ASS.xdelta",
+      "originalSize": 3541,
+      "patchedSize": 3498,
+      "originalSha256": "2f35a8dc2684b9d03f59b0a6e2b9135b262aafbec2b7b1e547c4ecf48ca8b9b6",
+      "patchedSha256": "cfa085d1cdb80199aec728bd5969f240d8d14e8a902b33414520eeba2e837003"
+    },
+    {
+      "path": "FONT.CHR",
+      "patch": "patches/FONT.CHR.xdelta",
+      "originalSize": 4096,
+      "patchedSize": 4096,
+      "originalSha256": "48838adde0b3e56764dcdb71ae262f29119c857965204cf2ba1c8bdddd83ce23",
+      "patchedSha256": "64329dcca226163b8d8cfa76b4d72ada1fb8ea375aa5ae0922f6f091a0472b9d"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 116406,
+      "patchedSize": 116406,
+      "originalSha256": "1a34e836bf6376a26eca91e2db7bc615c3e823214cd327b09dca46e62d7f2313",
+      "patchedSha256": "ad5cc07b6d9068abdaa45461499ff226412afe16e9e21549cfa9c6e79d781074"
+    },
+    {
+      "path": "OPEN.ASS",
+      "patch": "patches/OPEN.ASS.xdelta",
+      "originalSize": 5491,
+      "patchedSize": 5372,
+      "originalSha256": "bb821672fb5cd6e316b27802dd492463d210a3fe8a62ca973157d7e19f4b9bea",
+      "patchedSha256": "897ef8195f225a72b5ff78222ef6d966fea4218a52ebbd2c85dd1bb943df1e89"
+    },
+    {
+      "path": "SERI.DAT",
+      "patch": "patches/SERI.DAT.xdelta",
+      "originalSize": 55608,
+      "patchedSize": 55608,
+      "originalSha256": "1ddf358baa10d3bfec49fbb52cbc6c76c657ca989d55abc0931eb34b8d49830d",
+      "patchedSha256": "2d13923c8cf88dcc615e7fe9d6e24fbbbef007352548a732fbf48da5069f7495"
+    },
+    {
+      "path": "SERI2.DAT",
+      "patch": "patches/SERI2.DAT.xdelta",
+      "originalSize": 58424,
+      "patchedSize": 58424,
+      "originalSha256": "9a778dc7e8091e250ccb3bd76e6219ef0ed24d8e0b2d074c40649ccd85205bc6",
+      "patchedSha256": "a6a64bfd5a99c04adfb94c62f6e07575ee2950661233fc6678f0a3a5c5c62e9c"
+    }
+  ]
+}
