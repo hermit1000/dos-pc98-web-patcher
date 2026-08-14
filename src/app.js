@@ -154,7 +154,6 @@ async function initializeDetail() {
     'detail-status': game.status,
     'detail-title': game.title,
     'detail-subtitle': `${game.developer || game.originalTitle} · ${game.platform} · ${game.year}`,
-    'detail-description': game.description,
     'detail-version': game.version,
     'detail-date': game.date,
     'detail-release': game.release || game.year,
@@ -186,11 +185,6 @@ async function initializeDetail() {
     detailArt.removeAttribute('aria-hidden');
   }
 
-  if (game.translationNote) {
-    const note = document.querySelector('#translation-note');
-    note.querySelector('strong').textContent = game.translationNote;
-    note.querySelector('small').textContent = game.translationDetail || '';
-  }
   if (game.verifiedOriginals?.length) {
     const verified = document.querySelector('#verified-originals');
     verified.querySelector('ul').innerHTML = game.verifiedOriginals.map((original) => `<li><span aria-hidden="true">✓</span><code>${escapeHtml(original.label)}</code></li>`).join('');
@@ -204,17 +198,22 @@ async function initializeDetail() {
       <figcaption>${escapeHtml(shot.caption)}</figcaption>
     </figure>`).join('');
   }
-  if (game.history?.length) {
-    document.querySelector('#version-timeline').innerHTML = game.history.map((entry) => `<div><time>${escapeHtml(entry.date)}</time><strong>${escapeHtml(entry.version)}</strong><p>${escapeHtml(entry.note)}</p></div>`).join('');
-  }
   if (game.credits?.length) {
-    document.querySelector('#credit-list').innerHTML = game.credits.map((credit) => `<dt>${escapeHtml(credit.role)}</dt><dd>${escapeHtml(credit.name)}</dd>`).join('');
+    const introCredits = document.querySelector('#intro-credits');
+    const names = [];
+    game.credits.forEach((credit) => {
+      credit.name.split(',').map((name) => name.trim()).filter(Boolean).forEach((name) => {
+        if (!names.includes(name)) names.push(name);
+      });
+    });
+    introCredits.querySelector('p').textContent = names.join(' · ');
+    introCredits.hidden = false;
   }
   const legacyPost = game.references?.find((reference) => reference.type === 'legacy-post');
   if (legacyPost?.url) {
-    const sourceLink = document.querySelector('#source-link');
-    sourceLink.href = legacyPost.url;
-    sourceLink.hidden = false;
+    const originalPostLink = document.querySelector('#original-post-link');
+    originalPostLink.href = legacyPost.url;
+    originalPostLink.hidden = false;
   }
   const input = document.querySelector('#folder-input');
   const dropZone = document.querySelector('#drop-zone');

@@ -32,8 +32,7 @@
     { "date": "최초 버전", "version": "V0.990", "note": "게임 본편 99% 한글화판 공개" }
   ],
   "credits": [
-    { "role": "한글화", "name": "천수도인" },
-    { "role": "번역 참고", "name": "DOS판 퍼스트 퀸 4 · KCT" }
+    { "role": "한글화", "name": "천수도인" }
   ],
   "references": [
     { "type": "legacy-post", "url": "https://hyunxx.tistory.com/9" }

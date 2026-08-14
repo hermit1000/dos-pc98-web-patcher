@@ -34,7 +34,6 @@
         <h1 id="detail-title">게임 제목</h1>
         <p id="detail-subtitle" class="detail-subtitle">원제 및 영문 제목</p>
         <div id="detail-titles" class="detail-titles" hidden></div>
-        <p id="detail-description" class="detail-description"></p>
         <div class="detail-meta">
           <dl><dt>패치 버전</dt><dd id="detail-version">v1.0</dd></dl>
           <dl><dt>패치 배포일</dt><dd id="detail-date">2026.08.14</dd></dl>
@@ -52,12 +51,17 @@
       </div>
       <div class="story-grid">
         <p id="detail-story" class="lead-copy"></p>
-        <div class="credit-card" id="translation-note">
-          <span>TRANSLATION NOTE</span>
-          <strong>원작의 분위기와 시대적 표현을 살리는 것을 목표로 작업했습니다.</strong>
-          <small>고유명사 및 용어는 게임 내 문맥에 맞춰 통일했습니다.</small>
-        </div>
       </div>
+      <div id="intro-credits" class="intro-credits" hidden>
+        <span>PATCH CREDITS</span>
+        <p></p>
+      </div>
+      <a id="original-post-link" class="original-post-link" href="#" target="_blank" rel="noopener" hidden>
+        <span>ORIGINAL PATCH POST</span>
+        <strong>원본 패치 소개 보기</strong>
+        <small>자세한 패치 설명과 수정 내역을 제작자의 원본 소개 페이지에서 확인할 수 있습니다.</small>
+        <b aria-hidden="true">↗</b>
+      </a>
       <div id="verified-originals" class="verified-originals" hidden>
         <strong>패치 호환 확인본</strong>
         <p>아래 이름으로 정리된 HDI에서 패치 대상 파일의 SHA-256 일치를 확인했습니다.</p>
@@ -134,20 +138,6 @@
           <li><span>02</span><p>위의 폴더 선택 영역에서 게임 폴더 전체를 선택합니다.</p></li>
           <li><span>03</span><p>검사가 끝나면 결과 ZIP을 받아 원본을 백업한 뒤 덮어씁니다.</p></li>
         </ol>
-      </article>
-      <article>
-        <span class="section-number">05</span>
-        <h2>버전 기록</h2>
-        <div class="timeline" id="version-timeline">
-          <div><time>2026.08.14</time><strong>v1.0.0</strong><p>첫 한국어 패치 공개</p></div>
-          <div><time>2026.07.28</time><strong>RC 1</strong><p>전체 문장 검수 및 용어 통일</p></div>
-        </div>
-      </article>
-      <article class="credits">
-        <span class="section-number">06</span>
-        <h2>제작진</h2>
-        <dl id="credit-list"><dt>번역</dt><dd>2KOR LAB</dd><dt>프로그램</dt><dd>2KOR LAB</dd><dt>검수</dt><dd>2KOR LAB</dd></dl>
-        <a id="source-link" class="source-link" href="#" target="_blank" rel="noopener" hidden>원본 게시물 보기 ↗</a>
       </article>
     </section>
   </main>

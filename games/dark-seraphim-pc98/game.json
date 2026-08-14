@@ -33,8 +33,7 @@
     { "date": "최초 버전", "version": "V0.95", "note": "DOS판 번역을 참고한 본편 한글화판 공개" }
   ],
   "credits": [
-    { "role": "한글화", "name": "천수도인" },
-    { "role": "번역 참고", "name": "DOS판 다크 세라핌" }
+    { "role": "한글화", "name": "천수도인" }
   ],
   "references": [
     { "type": "legacy-post", "url": "https://hyunxx.tistory.com/11" }

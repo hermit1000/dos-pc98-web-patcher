@@ -32,8 +32,7 @@
     { "date": "초기판", "version": "V0.990", "note": "PC판 번역 정보를 이용한 한글 패치 공개" }
   ],
   "credits": [
-    { "role": "한글화", "name": "천수도인" },
-    { "role": "번역 참고", "name": "DOS판 와룡전 · KCT" }
+    { "role": "한글화", "name": "천수도인" }
   ],
   "references": [
     { "type": "legacy-post", "url": "https://hyunxx.tistory.com/8" }
