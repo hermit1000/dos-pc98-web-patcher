@@ -18,6 +18,9 @@
   "story": "기존 DOS판 번역을 옮긴 것이 아니라 PC-98판을 기준으로 새로 번역했습니다. 등장인물은 일본판 이름을 유지했으며, 한글 표기는 관련 자료를 함께 검토했습니다.",
   "translationNote": "등장인물의 일본판 이름을 유지하고, 작품 속 명칭은 한국어 발음을 검토해 표기했습니다.",
   "translationDetail": "대사 수정과 누락 시나리오 보완을 거쳐 그래픽 및 반각 글꼴 한글화까지 반영한 패치입니다.",
+  "verifiedOriginals": [
+    { "label": "Family Soft/The Super Dimension Fortress Macross - Love Stories/The Super Dimension Fortress Macross - Love Stories [HD]", "hashVerified": true }
+  ],
   "screenshots": [
     { "src": "games/macross-3-pc98/images/cover.png", "alt": "PC-98 마크로스 러브 스토리즈 한글 화면", "caption": "한글화된 본편 화면" }
   ],

@@ -18,6 +18,9 @@
   "story": "DOS판을 그대로 옮기지 않고 PC-98판을 기준으로 새로 번역했습니다. 등장인물은 가능한 한 일본판 이름을 유지했으며, 작품 내 명칭의 한글 발음도 함께 검토했습니다.",
   "translationNote": "일본판의 인명과 고유명사를 유지하는 방향으로 번역했습니다.",
   "translationDetail": "누락됐던 엔딩 대사와 메뉴 그래픽, 반각 글꼴 및 타이틀 그래픽까지 보완한 기본 패치입니다.",
+  "verifiedOriginals": [
+    { "label": "Family Soft/The Super Dimension Fortress Macross - Skull Leader/The Super Dimension Fortress Macross - Skull Leader [HD]", "hashVerified": true }
+  ],
   "screenshots": [
     { "src": "games/macross-2-pc98/images/cover.png", "alt": "PC-98 마크로스 스컬리더 한글 화면", "caption": "한글화된 본편 화면" }
   ],
