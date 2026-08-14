@@ -1,0 +1,115 @@
+{
+  "format": "folder-patch-v1",
+  "game": "신들의 대지 - 고사기 외전 (IBM-PC)",
+  "patchVersion": "2026.02.08",
+  "createdAt": "2026-08-14T18:05:18.435Z",
+  "sharedAssets": [
+    {
+      "id": "bisco-dos-font",
+      "type": "game-font",
+      "name": "BISCO.FNT",
+      "source": "assets/fonts/source/BISCO.FNT",
+      "fileName": "BISCO.FNT",
+      "outputPath": "_font-options/BISCO.FNT",
+      "size": 286336,
+      "sha256": "5a12c48d462075ff69e2458761bca8af67d9492b2bd81ae07635fadb6b3c3888",
+      "required": true
+    },
+    {
+      "id": "thin-dunggeunmo-dos-font",
+      "type": "game-font",
+      "name": "ThinDungGeunMo.FNT",
+      "source": "assets/fonts/source/ThinDungGeunMo.FNT",
+      "fileName": "ThinDungGeunMo.FNT",
+      "outputPath": "_font-options/ThinDungGeunMo.FNT",
+      "size": 286336,
+      "sha256": "a241429ec3809426d5a1731016259d267b341088cbdcbf854bd1593cc9f8d664",
+      "required": true
+    },
+    {
+      "id": "kamigami-dos-empty-save",
+      "type": "game-file",
+      "name": "empty_SAVEDATA.DAT",
+      "source": "packages/kamigami-no-daichi-ibm-pc/files/empty_SAVEDATA.DAT",
+      "fileName": "empty_SAVEDATA.DAT",
+      "outputPath": "empty_SAVEDATA.DAT",
+      "size": 122721,
+      "sha256": "d8db760e570f9d1601b53d0466471038b9c19d0bfec1355a1143ddc084c9424e",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "END.EXE",
+      "patch": "patches/END.EXE.xdelta",
+      "originalSize": 58305,
+      "patchedSize": 58305,
+      "originalSha256": "4f5f80912d71b4c09bf2a654e94231a5138c2c2b836c053828ffd1014de187d6",
+      "patchedSha256": "a5210f6043fbe942089f63b8431da87c945146c90b73ee981b73e1ad4520cfe2"
+    },
+    {
+      "path": "EVENT.DAT",
+      "patch": "patches/EVENT.DAT.xdelta",
+      "originalSize": 145137,
+      "patchedSize": 145137,
+      "originalSha256": "e314106dc3f06872b63cb1fc2517c89da8dbb03b4a48fae180890432d7d2bcb2",
+      "patchedSha256": "3d1b9b6cbf43801c452e2c6c416ae30f8ba850f86844939d506f489b34d400d8"
+    },
+    {
+      "path": "GRAPH.NPK",
+      "patch": "patches/GRAPH.NPK.xdelta",
+      "originalSize": 240315,
+      "patchedSize": 240315,
+      "originalSha256": "6827c858416e21c99f1238d7f81830e81de42d085124eeca2a87fe17291ed9c6",
+      "patchedSha256": "a919b027c3330ceb60f20659e941f0b5bf2040a2b3535442ba0e6f013cc09dbb"
+    },
+    {
+      "path": "JIS.FNT",
+      "patch": "patches/JIS.FNT.xdelta",
+      "originalSize": 286336,
+      "patchedSize": 286336,
+      "originalSha256": "207103cb50d7cf93632b7e53752400dbff3676b11940682bf451f3846bc38c2e",
+      "patchedSha256": "5a12c48d462075ff69e2458761bca8af67d9492b2bd81ae07635fadb6b3c3888"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 362080,
+      "patchedSize": 362080,
+      "originalSha256": "233ccae9f65ee2bce9147a13a00c6fef5e36c54f06eb75c10fba6ee9c6c926d3",
+      "patchedSha256": "e5b8388e2a01bcd62ead58d943a6bfc53fbfb6b81a3c274f3d3cf5b1ab536eac"
+    },
+    {
+      "path": "OPEN.EXE",
+      "patch": "patches/OPEN.EXE.xdelta",
+      "originalSize": 64155,
+      "patchedSize": 64155,
+      "originalSha256": "26275e307d203b666b51c113a95376aff271f4a0a5c774a5bb694a511f654020",
+      "patchedSha256": "9ce27875c9322d97746266380428fc3b8e321cee4afb393a831408ce80f4374a"
+    },
+    {
+      "path": "OPENGRP.DAT",
+      "patch": "patches/OPENGRP.DAT.xdelta",
+      "originalSize": 483082,
+      "patchedSize": 488020,
+      "originalSha256": "7b41d04e6aad9c99bb35fa696ebb49177c6150653eb5782e875c979a7738a58a",
+      "patchedSha256": "e010edda5920bdc7e127c624959c0cacd89644576feea9e6836e929a7045316c"
+    },
+    {
+      "path": "RPDATA.CIM",
+      "patch": "patches/RPDATA.CIM.xdelta",
+      "originalSize": 2940,
+      "patchedSize": 2940,
+      "originalSha256": "32698f9eb6c9347131f7e200d8864e45522b238070b5e05ede7c648cf78fb58e",
+      "patchedSha256": "07f94ada7071ccd8cd5c98bd6c8913d742be71436ca76cdadb7f48edbf77fea9"
+    },
+    {
+      "path": "SDATA.CIM",
+      "patch": "patches/SDATA.CIM.xdelta",
+      "originalSize": 40889,
+      "patchedSize": 40889,
+      "originalSha256": "30f35b3b1279637eaec82691632f6a194db2ce3462039eb176ea630e63456be0",
+      "patchedSha256": "762bc4cf106c2a27da0c510e045b06c8773eb1900e0c6ac34a6ceeb1635de586"
+    }
+  ]
+}

@@ -376,7 +376,12 @@ async function initializeDetail() {
         zipEntries.push({ name: asset.outputPath, data: bytes });
         done += 1;
       }
-      const guide = new TextEncoder().encode(`${game.title} 한국어 패치 ${manifest.patchVersion}\r\n\r\n[상업적 이용 금지]\r\n본 한글 패치와 이를 적용한 결과물을 판매, 유료 배포하거나 영리 목적으로 이용하지 마십시오.\r\n이를 위반하여 발생하는 법적·금전적 책임은 이용자 본인에게 있습니다.\r\n\r\nZIP 안의 게임 파일을 원본 게임 폴더에 덮어쓰기 전에 반드시 백업해 주세요.\r\n_emulator-font 폴더의 BMP는 에뮬레이터용 공용 한글 폰트입니다. 게임 폴더에 덮어쓰지 마세요.\r\n`);
+      const assets = manifest.sharedAssets || [];
+      const fontGuide = [
+        assets.some((asset) => asset.type === 'emulator-font') ? '_emulator-font 폴더의 BMP는 에뮬레이터용 공용 한글 폰트입니다. 게임 폴더에 덮어쓰지 마세요.' : '',
+        assets.some((asset) => asset.type === 'game-font') ? '_font-options 폴더의 FNT는 게임용 선택 글꼴입니다. 사용할 파일을 JIS.FNT로 이름을 바꾸어 게임 폴더에 덮어쓰세요.' : ''
+      ].filter(Boolean).join('\r\n');
+      const guide = new TextEncoder().encode(`${game.title} 한국어 패치 ${manifest.patchVersion}\r\n\r\n[상업적 이용 금지]\r\n본 한글 패치와 이를 적용한 결과물을 판매, 유료 배포하거나 영리 목적으로 이용하지 마십시오.\r\n이를 위반하여 발생하는 법적·금전적 책임은 이용자 본인에게 있습니다.\r\n\r\nZIP 안의 게임 파일을 원본 게임 폴더에 덮어쓰기 전에 반드시 백업해 주세요.${fontGuide ? `\r\n${fontGuide}` : ''}\r\n`);
       zipEntries.push({ name: 'PATCH-README.txt', data: guide });
       updateProgress(total, total, 'ZIP 생성 완료');
       const zip = window.SimpleZip.createZip(zipEntries);

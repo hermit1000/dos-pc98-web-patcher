@@ -1,0 +1,42 @@
+{
+  "id": "kamigami-no-daichi-pc98",
+  "title": "신들의 대지 - 고사기 외전",
+  "koreanTitle": "신들의 대지 - 고사기 외전",
+  "originalTitle": "神々の大地 ～ 古事記外伝",
+  "englishTitle": "Kamigami no Daichi - Kojiki Gaiden",
+  "developer": "Koei",
+  "platform": "PC-98",
+  "genre": "SRPG",
+  "year": "1993",
+  "release": "1993-05-28",
+  "version": "2026.02.08",
+  "date": "2026.02.08",
+  "original": "일본어 FD Set 1",
+  "status": "배포 중",
+  "files": 8,
+  "description": "PC-98용 신들의 대지 - 고사기 외전 한글 패치입니다.",
+  "story": "일본 신화를 바탕으로 한 전략 RPG의 대사와 화면을 한글화한 패치입니다. 정상적인 한글 표시를 위해 함께 제공되는 공용 BISCO 또는 ThinDungGeunMo 폰트를 사용할 수 있습니다.",
+  "verifiedOriginals": [
+    { "label": "Koei/Kamigami no Daichi - Kojiki Gaiden/Kamigami no Daichi - Kojiki Gaiden [FD] [Set 1]", "hashVerified": true }
+  ],
+  "screenshots": [
+    { "src": "games/kamigami-no-daichi-pc98/images/cover.png", "alt": "PC-98 신들의 대지 한글 화면 1", "caption": "신들의 대지 - 고사기 외전 한글 화면" },
+    { "src": "games/kamigami-no-daichi-pc98/images/screen-2.png", "alt": "PC-98 신들의 대지 한글 화면 2", "caption": "한글화된 게임 화면" },
+    { "src": "games/kamigami-no-daichi-pc98/images/screen-3.png", "alt": "PC-98 신들의 대지 한글 화면 3", "caption": "한글화된 게임 화면" },
+    { "src": "games/kamigami-no-daichi-pc98/images/screen-4.png", "alt": "PC-98 신들의 대지 한글 화면 4", "caption": "한글화된 게임 화면" },
+    { "src": "games/kamigami-no-daichi-pc98/images/screen-5.png", "alt": "PC-98 신들의 대지 한글 화면 5", "caption": "한글화된 게임 화면" }
+  ],
+  "history": [
+    { "date": "2026.02.08", "version": "초기판", "note": "첫 한글 패치 공개" }
+  ],
+  "credits": [
+    { "role": "한글화", "name": "낭만엘리, 천수도인, SCG" }
+  ],
+  "references": [
+    { "type": "legacy-post", "url": "https://cafe.naver.com/koeimod/709" }
+  ],
+  "palette": "green",
+  "mark": "神",
+  "cover": "games/kamigami-no-daichi-pc98/images/cover.png",
+  "package": "packages/kamigami-no-daichi-pc98/manifest.json"
+}

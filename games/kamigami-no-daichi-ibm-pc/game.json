@@ -1,0 +1,42 @@
+{
+  "id": "kamigami-no-daichi-ibm-pc",
+  "title": "신들의 대지 - 고사기 외전",
+  "koreanTitle": "신들의 대지 - 고사기 외전",
+  "originalTitle": "神々の大地 ～ 古事記外伝",
+  "englishTitle": "Kamigami no Daichi - Kojiki Gaiden",
+  "developer": "Koei",
+  "platform": "IBM PC",
+  "genre": "SRPG",
+  "year": "1993",
+  "release": "1993-05-28",
+  "version": "2026.02.08",
+  "date": "2026.02.08",
+  "original": "일본어 DOS",
+  "status": "배포 중",
+  "files": 9,
+  "description": "IBM-PC DOS용 신들의 대지 - 고사기 외전 한글 패치입니다.",
+  "story": "일본 신화를 바탕으로 한 전략 RPG의 IBM-PC DOS판 한글 패치입니다. 기본 패치에서는 BISCO 글꼴이 적용된 JIS.FNT를 생성합니다. 다른 글꼴을 원하면 함께 제공되는 _font-options의 ThinDungGeunMo.FNT를 JIS.FNT로 이름을 바꾸어 게임 폴더에 덮어쓸 수 있습니다.",
+  "verifiedOriginals": [
+    { "label": "Kamigami no Daichi - Kojiki Gaiden (IBM-PC/DOS, jpn-dos 확인본)", "hashVerified": true }
+  ],
+  "screenshots": [
+    { "src": "games/kamigami-no-daichi-ibm-pc/images/cover.png", "alt": "IBM-PC 신들의 대지 한글 화면 1", "caption": "신들의 대지 - 고사기 외전 한글 화면" },
+    { "src": "games/kamigami-no-daichi-ibm-pc/images/screen-2.png", "alt": "IBM-PC 신들의 대지 한글 화면 2", "caption": "한글화된 게임 화면" },
+    { "src": "games/kamigami-no-daichi-ibm-pc/images/screen-3.png", "alt": "IBM-PC 신들의 대지 한글 화면 3", "caption": "한글화된 게임 화면" },
+    { "src": "games/kamigami-no-daichi-ibm-pc/images/screen-4.png", "alt": "IBM-PC 신들의 대지 한글 화면 4", "caption": "한글화된 게임 화면" },
+    { "src": "games/kamigami-no-daichi-ibm-pc/images/screen-5.png", "alt": "IBM-PC 신들의 대지 한글 화면 5", "caption": "한글화된 게임 화면" }
+  ],
+  "history": [
+    { "date": "2026.02.08", "version": "초기판", "note": "첫 한글 패치 공개" }
+  ],
+  "credits": [
+    { "role": "한글화", "name": "낭만엘리, 천수도인, SCG" }
+  ],
+  "references": [
+    { "type": "legacy-post", "url": "https://cafe.naver.com/koeimod/709" }
+  ],
+  "palette": "green",
+  "mark": "DOS",
+  "cover": "games/kamigami-no-daichi-ibm-pc/images/cover.png",
+  "package": "packages/kamigami-no-daichi-ibm-pc/manifest.json"
+}
