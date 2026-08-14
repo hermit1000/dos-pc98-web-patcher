@@ -1,0 +1,549 @@
+{
+  "format": "folder-patch-v1",
+  "game": "라운드 워리어",
+  "patchVersion": "2026.08.10",
+  "createdAt": "2026-08-14T16:27:13.400Z",
+  "sharedAssets": [
+    {
+      "id": "thin-dunggeunmo-font",
+      "type": "emulator-font",
+      "name": "ThinDungGeunMo",
+      "source": "assets/fonts/source/ThinDungGeunMo.bmp",
+      "fileName": "ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "cc3e3babc36ae9da6c3d177c0976f5ac61ccb36bfa33aed8d2919b5be92ee99a",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "DISK1/ICATCH.EXE",
+      "patch": "patches/DISK1/ICATCH.EXE.xdelta",
+      "originalSize": 39524,
+      "patchedSize": 39524,
+      "originalSha256": "e037d0f8b06decc005478fa22902c3bde77024e14aa057d8922e268e26104c85",
+      "patchedSha256": "8261bba05ae3ca2f51d51719c3b2eb9f9d9a65b9c346c2fe3ed1e4e91650ab50"
+    },
+    {
+      "path": "DISK1/MAP01.DAT",
+      "patch": "patches/DISK1/MAP01.DAT.xdelta",
+      "originalSize": 2562,
+      "patchedSize": 2562,
+      "originalSha256": "dfb726b00ca868b348ac6c8ffc2a10d95bb99107ede1d87919c762e23c0280ba",
+      "patchedSha256": "98ef807653dc6cbda298c60db295b541425f98eb998a50cd3742a00b022ba050"
+    },
+    {
+      "path": "DISK1/MAP02.DAT",
+      "patch": "patches/DISK1/MAP02.DAT.xdelta",
+      "originalSize": 7253,
+      "patchedSize": 7253,
+      "originalSha256": "8fd1e120de757914ea9da535b3328a203688897a57bca2024951f8f6f907771b",
+      "patchedSha256": "3e9ceeeedcc1ed7ad494d88708ce66efb6372f68c8e00a42bfbedea09a66e4ac"
+    },
+    {
+      "path": "DISK1/MAP03.DAT",
+      "patch": "patches/DISK1/MAP03.DAT.xdelta",
+      "originalSize": 5021,
+      "patchedSize": 5021,
+      "originalSha256": "8f38323d2df4d309c09e49e047fad8070ba62c39b4f5c7478c247baaedd274df",
+      "patchedSha256": "3042fd01d53668e665a0efbb685151e6fe5f7522d1050228966d0f81cad18207"
+    },
+    {
+      "path": "DISK1/MAP04.DAT",
+      "patch": "patches/DISK1/MAP04.DAT.xdelta",
+      "originalSize": 3624,
+      "patchedSize": 3624,
+      "originalSha256": "2a8d3a4816a8d893a6685ccf0dc9a60bbb65e52aabbbec1fc13f780d0c3c7142",
+      "patchedSha256": "f88cc52326bfa8ea213b23ba0ef9e5aa70283d4dde16303ec27be6535094b22f"
+    },
+    {
+      "path": "DISK1/MAP05.DAT",
+      "patch": "patches/DISK1/MAP05.DAT.xdelta",
+      "originalSize": 2291,
+      "patchedSize": 2291,
+      "originalSha256": "c8daf30d07f8cbadcf2a38ef2a2a36487c9333ce2f4b0ff3b6547a01e14f3f71",
+      "patchedSha256": "d2706e71054f435b9943aa718f53747f09cb5009c93a7be5862762c6a01f6496"
+    },
+    {
+      "path": "DISK1/MAP06.DAT",
+      "patch": "patches/DISK1/MAP06.DAT.xdelta",
+      "originalSize": 5623,
+      "patchedSize": 5623,
+      "originalSha256": "db94bcce8526c48050af62447e5c0ca65c0a8e1feaf96be242cb88a3b4ce3f1d",
+      "patchedSha256": "e37ca75f2a039e9462370a771c5516d125f7dd5bfeeedb643de1ab38281129c6"
+    },
+    {
+      "path": "DISK1/MAP07.DAT",
+      "patch": "patches/DISK1/MAP07.DAT.xdelta",
+      "originalSize": 3775,
+      "patchedSize": 3775,
+      "originalSha256": "6ff788bb18116343e7809d3fab57d67becb052a773cd0ecf658c119b941ced34",
+      "patchedSha256": "4f5603f4d0f325a04359c8d43b9d84fff8dd2d1ed59cd71fc96952a8446289b6"
+    },
+    {
+      "path": "DISK1/MAP08.DAT",
+      "patch": "patches/DISK1/MAP08.DAT.xdelta",
+      "originalSize": 3557,
+      "patchedSize": 3557,
+      "originalSha256": "1d54d6fdf91f9a5dc55c311a187da6081b47ce97bae1368703622e41df6c760f",
+      "patchedSha256": "8bdfb19e0e9292cd0d8324392bf546554a3b901e856d88c63f98d042dabb783f"
+    },
+    {
+      "path": "DISK1/MAP09.DAT",
+      "patch": "patches/DISK1/MAP09.DAT.xdelta",
+      "originalSize": 2013,
+      "patchedSize": 2013,
+      "originalSha256": "5cc952c19810740c82fbf3ceb965f80a85ce0c35fec96b6ac0fef23c93eea8ab",
+      "patchedSha256": "fae692a931224c7a730479c3bc58b38904a587d605b38cc0f0e35a403dd3c119"
+    },
+    {
+      "path": "DISK1/MAP10.DAT",
+      "patch": "patches/DISK1/MAP10.DAT.xdelta",
+      "originalSize": 4653,
+      "patchedSize": 4653,
+      "originalSha256": "267dca37cb87822b8a59729239a91f8bd1d69ac75b38d73f5d640ab15af685fc",
+      "patchedSha256": "131419a83ba11eefa6d9a1d943b48654f734430378c8aee258bbd0d8e59774dc"
+    },
+    {
+      "path": "DISK1/MAP11.DAT",
+      "patch": "patches/DISK1/MAP11.DAT.xdelta",
+      "originalSize": 4115,
+      "patchedSize": 4115,
+      "originalSha256": "d61b3f7d6332234724802702642728f9e3e1cb01e5f066aada00e841244c5a94",
+      "patchedSha256": "b95d0d17c8270fce56dd2abf7a4e6a602249d582ea76c6ad25da86cc55c473c5"
+    },
+    {
+      "path": "DISK1/MAP12.DAT",
+      "patch": "patches/DISK1/MAP12.DAT.xdelta",
+      "originalSize": 4917,
+      "patchedSize": 4917,
+      "originalSha256": "b7d421bd2b2f2e9d68e22bb5cb15094c08dd4943ee8900aaaea02a1edb726634",
+      "patchedSha256": "fdabeef223118e25c8231ef1a3993f858f2558855112cf04d5d1fc294de309df"
+    },
+    {
+      "path": "DISK1/MAP13.DAT",
+      "patch": "patches/DISK1/MAP13.DAT.xdelta",
+      "originalSize": 4295,
+      "patchedSize": 4295,
+      "originalSha256": "c213527ae276611aad42e270db2b3c1051f6f9dcaa6ecf59c13f5fdb9bc6c615",
+      "patchedSha256": "06b9aac001a7f993d22967d034480fdc318ebf98fec06b756a1f339e6d96573c"
+    },
+    {
+      "path": "DISK1/MAP14.DAT",
+      "patch": "patches/DISK1/MAP14.DAT.xdelta",
+      "originalSize": 6175,
+      "patchedSize": 6175,
+      "originalSha256": "2806a5f9411c5ee7d5ea1ca658a4fd084258245b577534f84547297674bb4250",
+      "patchedSha256": "25ae14f9675c3f84b08fb786e02081c8a602206323fbc9ce6953fb769d27a664"
+    },
+    {
+      "path": "DISK1/MAP15.DAT",
+      "patch": "patches/DISK1/MAP15.DAT.xdelta",
+      "originalSize": 6107,
+      "patchedSize": 6107,
+      "originalSha256": "5d0b221d00535329a27a5c80b1e1db7958b6dfe0da8e9edb6c0c0ca7a93d50bc",
+      "patchedSha256": "799f98cc40e438807b9ef4977cabb2f0fd3c59215d6547122be1409d23c3326c"
+    },
+    {
+      "path": "DISK1/MAP16.DAT",
+      "patch": "patches/DISK1/MAP16.DAT.xdelta",
+      "originalSize": 4707,
+      "patchedSize": 4707,
+      "originalSha256": "69aa7ecc0f9a88db345cb782cf62746b6a73937d34bd89830168e5bc325be22a",
+      "patchedSha256": "2b025dc3ad4f006cd14a02da54a41c12e0875405f04a6b16339cdd3e8bb381ba"
+    },
+    {
+      "path": "DISK1/MAP17.DAT",
+      "patch": "patches/DISK1/MAP17.DAT.xdelta",
+      "originalSize": 4027,
+      "patchedSize": 4027,
+      "originalSha256": "561e134888e8b290f2f68ab04bb8bb06e2bba10567374c18b043278877fc54c7",
+      "patchedSha256": "e574eb1947952c26b4559aede4cc031b830d3b8adb8e0fb95dde2a5be24d4c5f"
+    },
+    {
+      "path": "DISK1/MAP18.DAT",
+      "patch": "patches/DISK1/MAP18.DAT.xdelta",
+      "originalSize": 6746,
+      "patchedSize": 6746,
+      "originalSha256": "74369b2a129e6046ff638b271a5c20b8d5e50dff57ee5229bb7bea648835694f",
+      "patchedSha256": "dedab3f65f3fb0faecccbfcce1a9b7193358fc92a2db851ec9333f3bd363465c"
+    },
+    {
+      "path": "DISK1/MAP19.DAT",
+      "patch": "patches/DISK1/MAP19.DAT.xdelta",
+      "originalSize": 5050,
+      "patchedSize": 5050,
+      "originalSha256": "33cb5dc16242c30935db829fbdfd6dc98cdb34eb67c6c32d45a24b4b4d5a0f7f",
+      "patchedSha256": "ed0851b4492e642934f0332eacdbb4e63010cb5a9d72060e668a49012be2259f"
+    },
+    {
+      "path": "DISK1/MAP20.DAT",
+      "patch": "patches/DISK1/MAP20.DAT.xdelta",
+      "originalSize": 2711,
+      "patchedSize": 2711,
+      "originalSha256": "c6ddbc854f5dd5d1e911d8e6bf2529b63e26dd99ceee3758c519f2c6835cebd7",
+      "patchedSha256": "f43f15ef9fd14d6f9413c2dc06962004c7a48243b2279851e2d35f44fda23f36"
+    },
+    {
+      "path": "DISK1/MAP21.DAT",
+      "patch": "patches/DISK1/MAP21.DAT.xdelta",
+      "originalSize": 2830,
+      "patchedSize": 2830,
+      "originalSha256": "f4a12e607dbdf825ec1290b722cf9a384eb5aa354e482d3b0ff72e96f867142f",
+      "patchedSha256": "a9c10ae1baa2456b81844dcdc15d29da4977a685fa5beccdfc6593a4452c922d"
+    },
+    {
+      "path": "DISK1/MAP22.DAT",
+      "patch": "patches/DISK1/MAP22.DAT.xdelta",
+      "originalSize": 4679,
+      "patchedSize": 4679,
+      "originalSha256": "d40a5fe082b687296cabb2fe96716b75a60b8590e392a918eb61598b57f0f690",
+      "patchedSha256": "2413409e16479ffce2cfd1315e10613365dc48afbc86e78db18ab07e5b27fbae"
+    },
+    {
+      "path": "DISK1/MAP23.DAT",
+      "patch": "patches/DISK1/MAP23.DAT.xdelta",
+      "originalSize": 1454,
+      "patchedSize": 1454,
+      "originalSha256": "da5593f507b81f148c4d093885d5a7596054cac85352bcabb7beb5f8fc0778c3",
+      "patchedSha256": "4893c35175bfb813efafdf950903feedde9925171d04382fcfac18fea2755190"
+    },
+    {
+      "path": "DISK1/MAP24.DAT",
+      "patch": "patches/DISK1/MAP24.DAT.xdelta",
+      "originalSize": 1765,
+      "patchedSize": 1765,
+      "originalSha256": "d3084e6531ab534dd8e16f73c0acb08453dd581df08b981939fce89d2b654ce4",
+      "patchedSha256": "712f983e3b4e8f55767a8d2a11ded415e0a33045cc3b156ffaac3da7b1713f30"
+    },
+    {
+      "path": "DISK1/MAP25.DAT",
+      "patch": "patches/DISK1/MAP25.DAT.xdelta",
+      "originalSize": 2639,
+      "patchedSize": 2639,
+      "originalSha256": "da6168b30e88028856a0aa680ded53734e2d43f802e5fd2130eef8b8cc7a035a",
+      "patchedSha256": "4bef70dc63fe3a2e241f3e828b8a1264dfefbf41653c639872f4715cf01546b6"
+    },
+    {
+      "path": "DISK1/SELECT.EXE",
+      "patch": "patches/DISK1/SELECT.EXE.xdelta",
+      "originalSize": 9590,
+      "patchedSize": 9590,
+      "originalSha256": "2fa6a0ed4cd2c97b7d40709956bd75ac309179c055b3b849cad9ba66ef962c2e",
+      "patchedSha256": "323a95e0a4ffffbbec2f2b65ab023a00d177e78e3dc2fafc6429807534ed577a"
+    },
+    {
+      "path": "DISK1/SGAME.EXE",
+      "patch": "patches/DISK1/SGAME.EXE.xdelta",
+      "originalSize": 104766,
+      "patchedSize": 104766,
+      "originalSha256": "e8d4382635f87a9980d6474c0271ea392c401374f9f646977383af4ad3683fda",
+      "patchedSha256": "dcbe60b828779c6dea6a73e014b20cba455222234786898006e7d7cb18b4dfd8"
+    },
+    {
+      "path": "DISK1/SYSMENU.EXE",
+      "patch": "patches/DISK1/SYSMENU.EXE.xdelta",
+      "originalSize": 31434,
+      "patchedSize": 31434,
+      "originalSha256": "688b506a304f5eb20fb9c91b6de984f8534d6c3107f0424b48cfb1c2a77e5c15",
+      "patchedSha256": "1d32ac9b1c6c50977da3ce9e001fb9e63cc104889d4dc0f4cdc46cdb1ce36dae"
+    },
+    {
+      "path": "DISK2/ED05.SRC",
+      "patch": "patches/DISK2/ED05.SRC.xdelta",
+      "originalSize": 6490,
+      "patchedSize": 6490,
+      "originalSha256": "fbbbcecbef9297a6c2322fc9dc22a06aab6d4f6651942459057d8ffa80060f12",
+      "patchedSha256": "db65ca8b4a1bc7b199c7c558ad3b3e5d193d6b8c60c5a59688dc3cd2c58f6e64"
+    },
+    {
+      "path": "DISK2/ED10.SRC",
+      "patch": "patches/DISK2/ED10.SRC.xdelta",
+      "originalSize": 2973,
+      "patchedSize": 2973,
+      "originalSha256": "b142664cbbd75c2846658cc88f512b49307b42989d5cde465045544f40a7aba0",
+      "patchedSha256": "9392f62e2a0c427a67994f0f44a4ab6e18aa8c1b8d4e755297c0bb0e2611f800"
+    },
+    {
+      "path": "DISK2/ED15.SRC",
+      "patch": "patches/DISK2/ED15.SRC.xdelta",
+      "originalSize": 3114,
+      "patchedSize": 3114,
+      "originalSha256": "21824c5343794b21b0ceaccb26621642b39e3fb4b6c4973ea4e79d70ae2d7e3e",
+      "patchedSha256": "1dac49dba800a71a85560b0cf69ffe4ca12805cbff0f241a015abbe8853ce845"
+    },
+    {
+      "path": "DISK2/ED20.SRC",
+      "patch": "patches/DISK2/ED20.SRC.xdelta",
+      "originalSize": 3475,
+      "patchedSize": 3475,
+      "originalSha256": "b9547505ac022ec2dc36c640ef2e2a6435f16cdce15d1a5b3ea647a4f8667cdd",
+      "patchedSha256": "ce3b43d1ec97d99bf9d94018665ee8d2b3b315d6b987951f53084da01faa3e89"
+    },
+    {
+      "path": "DISK2/ED21.SRC",
+      "patch": "patches/DISK2/ED21.SRC.xdelta",
+      "originalSize": 7983,
+      "patchedSize": 7983,
+      "originalSha256": "356df9285a5a0df4ec2dcce1db0813966eb5d03a5df516e4d95a525852352770",
+      "patchedSha256": "1cb9a4a8f8f349c6aa0b1071e9b8c6b4150449de57584b6ff51bbc674f4d550c"
+    },
+    {
+      "path": "DISK2/ED22.SRC",
+      "patch": "patches/DISK2/ED22.SRC.xdelta",
+      "originalSize": 3423,
+      "patchedSize": 3423,
+      "originalSha256": "b155d67c4a532295404974ded8cc8649a4123dd2bc556ca5a56978e06dbe83d4",
+      "patchedSha256": "8f0ada48ca98fe668a16049eda7d09480eff55aecb49208ad1ad02b5bbd6e5d2"
+    },
+    {
+      "path": "DISK2/ED23.SRC",
+      "patch": "patches/DISK2/ED23.SRC.xdelta",
+      "originalSize": 2875,
+      "patchedSize": 2875,
+      "originalSha256": "2d313ac6708f6f4e178ffbe0b301752c8bd44735f105e753ba00b2f303e906d0",
+      "patchedSha256": "ce698aacfe5306bd8aa1a8031952548a800340f7bc5134836fbf7aafb081c979"
+    },
+    {
+      "path": "DISK2/ED24.SRC",
+      "patch": "patches/DISK2/ED24.SRC.xdelta",
+      "originalSize": 11486,
+      "patchedSize": 11486,
+      "originalSha256": "c06bac73229529b5e3e0755abb26c7862db222fec1acf3749ac2fc4071889df8",
+      "patchedSha256": "a24ad3ee88069c97f5aeab1a320423547ae092ae2a6e89c0bbafc19cfa231630"
+    },
+    {
+      "path": "DISK2/ED25.SRC",
+      "patch": "patches/DISK2/ED25.SRC.xdelta",
+      "originalSize": 5575,
+      "patchedSize": 5575,
+      "originalSha256": "bbdb4e2ea1d84690fa21dafe47333c22e59fd22a7aeecdb46f1a0f59e29d9977",
+      "patchedSha256": "5c3a3a72648f48fe46cdcde3a15406e8f781bee96564e297beb5c792a000d8e1"
+    },
+    {
+      "path": "DISK2/RW.EXE",
+      "patch": "patches/DISK2/RW.EXE.xdelta",
+      "originalSize": 93388,
+      "patchedSize": 93388,
+      "originalSha256": "ac83483bec77e61f1d0ccb2c0d9569d8d680a459bc190f4a546820984f2c8b60",
+      "patchedSha256": "e979f21180b715b35adcaa0286367cfd944dd9cf5d175368717a8b8594186522"
+    },
+    {
+      "path": "DISK2/STG01.SRC",
+      "patch": "patches/DISK2/STG01.SRC.xdelta",
+      "originalSize": 881,
+      "patchedSize": 881,
+      "originalSha256": "c3b581d75cba6e459d6de9b0749c496c12b135c52d86c4f4eded1d99bbeb9c6a",
+      "patchedSha256": "e3a375594870b07411d26c8227d46552b70191b6d64638740c5e55fbebd1133e"
+    },
+    {
+      "path": "DISK2/STG02.SRC",
+      "patch": "patches/DISK2/STG02.SRC.xdelta",
+      "originalSize": 917,
+      "patchedSize": 917,
+      "originalSha256": "66b37f9b40b252908560215a6f4cc5494d61f8a138f764b7dbc8404c5e81fdc8",
+      "patchedSha256": "b2781830b3d131fd69b281083d3de1c4db94157ce89776e95c2b9037ec9b980d"
+    },
+    {
+      "path": "DISK2/STG03.SRC",
+      "patch": "patches/DISK2/STG03.SRC.xdelta",
+      "originalSize": 981,
+      "patchedSize": 981,
+      "originalSha256": "49ceff7f1ade877f63816e700af56bc544faf20854fa94a24316b4bc73731a10",
+      "patchedSha256": "3999e71e517311130d1a54da944d8ab67c7aa0104abe86919f7be286b02d3c21"
+    },
+    {
+      "path": "DISK2/STG04.SRC",
+      "patch": "patches/DISK2/STG04.SRC.xdelta",
+      "originalSize": 981,
+      "patchedSize": 981,
+      "originalSha256": "f81ab4266273b1ea15ebf524999e7e4f33a40816e819bb7ef3a80cb3ec806f20",
+      "patchedSha256": "be20728fffce81b9e8cf09cbd322f16c54aeb38801ef9366a86fed016c7aecf5"
+    },
+    {
+      "path": "DISK2/STG05.SRC",
+      "patch": "patches/DISK2/STG05.SRC.xdelta",
+      "originalSize": 913,
+      "patchedSize": 913,
+      "originalSha256": "556388aa4dc0916885dc3990fafe61131288a3b4553bea45cd140fa081c9d11e",
+      "patchedSha256": "35cb12eacd8911f2519f9090cd62762f9f48adbbb0733afd994fd4eede361bf2"
+    },
+    {
+      "path": "DISK2/STG06.SRC",
+      "patch": "patches/DISK2/STG06.SRC.xdelta",
+      "originalSize": 917,
+      "patchedSize": 917,
+      "originalSha256": "92c0491754bb9a5742002c4d56cede829352bf253dfb90194ccafea8408a577c",
+      "patchedSha256": "ddd0207dafc4659064cf107687011f3b6b9f0b441df3b575e03170b3339d439c"
+    },
+    {
+      "path": "DISK2/STG07.SRC",
+      "patch": "patches/DISK2/STG07.SRC.xdelta",
+      "originalSize": 865,
+      "patchedSize": 865,
+      "originalSha256": "98ed4dc687d51c91bcc49af6e4504aaa33e7ed010897106b8bdefab1decda719",
+      "patchedSha256": "8eeaf7bbe5536b82f5962b03e6846c1224656364a74a8acf464aeb7e8479b74e"
+    },
+    {
+      "path": "DISK2/STG08.SRC",
+      "patch": "patches/DISK2/STG08.SRC.xdelta",
+      "originalSize": 983,
+      "patchedSize": 983,
+      "originalSha256": "7f594cce61709e46d0c89183233dcb31cc435fba51d606578bb71c7dce765cd4",
+      "patchedSha256": "1ac916563048ff7dc7471d91c8a4359f945f9009498957edadcc8dadf90c14a3"
+    },
+    {
+      "path": "DISK2/STG09.SRC",
+      "patch": "patches/DISK2/STG09.SRC.xdelta",
+      "originalSize": 957,
+      "patchedSize": 957,
+      "originalSha256": "7a312e2f37b68996170173e4efa4307a1cbc34e092e30514f056c0dfb7aa3e8a",
+      "patchedSha256": "e10766ca1468b14a943c6d9da4afc1f9736d95b77bbea0c7f11f20dfc9d27e27"
+    },
+    {
+      "path": "DISK2/STG10.SRC",
+      "patch": "patches/DISK2/STG10.SRC.xdelta",
+      "originalSize": 957,
+      "patchedSize": 957,
+      "originalSha256": "e6a494421ec5b732164589cc7f12b63dfee7a61f84ab73cf2820ffb3d1d38faf",
+      "patchedSha256": "40382fe7ee879a7f186d732cc27489dcf37d5a9b5db87e5e525dbe177eb8538a"
+    },
+    {
+      "path": "DISK2/STG11.SRC",
+      "patch": "patches/DISK2/STG11.SRC.xdelta",
+      "originalSize": 917,
+      "patchedSize": 917,
+      "originalSha256": "38ad61040bb8c9f3c8c92f288c9e0cb6ef7f6b8d6d3beb772be70a7e7fb1f31b",
+      "patchedSha256": "bb32c498816a45f3f45d103a0236d365a40d876a757ecc01a727f1e309b2453a"
+    },
+    {
+      "path": "DISK2/STG12.SRC",
+      "patch": "patches/DISK2/STG12.SRC.xdelta",
+      "originalSize": 994,
+      "patchedSize": 994,
+      "originalSha256": "459528b20609e169a7c3a96e04a226ade31c8db318e56e5d1da810445399f16e",
+      "patchedSha256": "f2c860d2a9091ce5d829deb4704eb426b894bd402af4bf2ef4c2b2e732064381"
+    },
+    {
+      "path": "DISK2/STG13.SRC",
+      "patch": "patches/DISK2/STG13.SRC.xdelta",
+      "originalSize": 976,
+      "patchedSize": 976,
+      "originalSha256": "fb6d917ed5152640649274d4609f0c427ef5727e3e7e3d1adb0a4e264e7a1587",
+      "patchedSha256": "754aa2b58d02b28bcf679ae3cbf8face2d90b517e68591680a588dd712418d8e"
+    },
+    {
+      "path": "DISK2/STG14.SRC",
+      "patch": "patches/DISK2/STG14.SRC.xdelta",
+      "originalSize": 1020,
+      "patchedSize": 1020,
+      "originalSha256": "52951bb7846047147bed6343c8746eaa1a20a010a2fe21a91207e653a2ffb08a",
+      "patchedSha256": "cbc249d6f2aad6f7d20b80a30e00140be5abc71cfdb5fbb009b8a06224f0b6bf"
+    },
+    {
+      "path": "DISK2/STG15.SRC",
+      "patch": "patches/DISK2/STG15.SRC.xdelta",
+      "originalSize": 959,
+      "patchedSize": 959,
+      "originalSha256": "98989793f8f7717fa81f017d5d372308deb27f20d4a69abf383459c5a69de055",
+      "patchedSha256": "04b08e20b3f8e5f6dcfb710dae9927230dfb0b188320dbb151adb87b357002a4"
+    },
+    {
+      "path": "DISK2/STG16.SRC",
+      "patch": "patches/DISK2/STG16.SRC.xdelta",
+      "originalSize": 941,
+      "patchedSize": 941,
+      "originalSha256": "aa3c55124181c90cf020b1523a0539c22dbf84913b056bf4299715371f6359b5",
+      "patchedSha256": "98ed3b6445356672b8f054975044f373f718d21c057b223cb8e482aa557ee69c"
+    },
+    {
+      "path": "DISK2/STG17.SRC",
+      "patch": "patches/DISK2/STG17.SRC.xdelta",
+      "originalSize": 983,
+      "patchedSize": 983,
+      "originalSha256": "ae0e71b779c8af8e110b7610ff814841e55831bf44f701b21aa21fea21de0d23",
+      "patchedSha256": "ab9b8adf9ac9783e80916e09f00df15e2954e02f9330ad86c81bbeafec876fe0"
+    },
+    {
+      "path": "DISK2/STG18.SRC",
+      "patch": "patches/DISK2/STG18.SRC.xdelta",
+      "originalSize": 949,
+      "patchedSize": 949,
+      "originalSha256": "6e3b0895d73d4a44578d77fd99e92f5725a24b61d063d7122f3546644cc20c6c",
+      "patchedSha256": "276b4e323dc4388a2d4514f6d259c4725be82917dfb82427c2d148bafaee2c9b"
+    },
+    {
+      "path": "DISK2/STG19.SRC",
+      "patch": "patches/DISK2/STG19.SRC.xdelta",
+      "originalSize": 879,
+      "patchedSize": 879,
+      "originalSha256": "286eea6ae5975149c6dcfcd4d93b5b6d8654e841be7f87dc0d1c4be32c898682",
+      "patchedSha256": "336e8270fd7ca917d1df2c3e3fc9e18f450c089d4993e383ca8d54a9e06d8e02"
+    },
+    {
+      "path": "DISK2/STG20.SRC",
+      "patch": "patches/DISK2/STG20.SRC.xdelta",
+      "originalSize": 977,
+      "patchedSize": 977,
+      "originalSha256": "8a7b6c180bdb5302d9365ba4a37bf4ed784680c7193bf32b252d73d9501f8652",
+      "patchedSha256": "9d5b0478cf36366bf9d1b7fc4470f576eb371b7011ffc387310829a69f4969a7"
+    },
+    {
+      "path": "DISK2/STG21.SRC",
+      "patch": "patches/DISK2/STG21.SRC.xdelta",
+      "originalSize": 985,
+      "patchedSize": 985,
+      "originalSha256": "53b60c488c762f96a084d75e335f066faddb9c9b1d2ae2ed49690a8b4bba6ee8",
+      "patchedSha256": "e562930800bdfceda26f1d92ca295e6456d53070a16bae5db8d62f8ceeca5415"
+    },
+    {
+      "path": "DISK2/STG22.SRC",
+      "patch": "patches/DISK2/STG22.SRC.xdelta",
+      "originalSize": 897,
+      "patchedSize": 897,
+      "originalSha256": "4455a037c97ca55c421e6ed7ffbf267a47a980da0759fc1ae5dc4489f6ca0006",
+      "patchedSha256": "53af0f3eb0b0a9a91dbecacf78012bbed294ca6dde59413e50ac82931f9c7200"
+    },
+    {
+      "path": "DISK2/STG23.SRC",
+      "patch": "patches/DISK2/STG23.SRC.xdelta",
+      "originalSize": 969,
+      "patchedSize": 969,
+      "originalSha256": "067dee210ed0619c3e3239a711c357ee32253d68483e2cf9ee4702d869903f81",
+      "patchedSha256": "47d12b9831cb259e9e0727e698488d5bf643992a5a19a5c842ab776b1edce22d"
+    },
+    {
+      "path": "DISK2/STG24.SRC",
+      "patch": "patches/DISK2/STG24.SRC.xdelta",
+      "originalSize": 853,
+      "patchedSize": 853,
+      "originalSha256": "d22119ef7e2aeace6d20fe8447d65f977ef2cd7397ad3bb1f0fd083b6bd8237d",
+      "patchedSha256": "a28f2750b2f085ed4858e31fab4f444926a4b5b238155ed225cea88de17d17b8"
+    },
+    {
+      "path": "DISK2/STG25.SRC",
+      "patch": "patches/DISK2/STG25.SRC.xdelta",
+      "originalSize": 937,
+      "patchedSize": 937,
+      "originalSha256": "2efc9b42f58babddb57e69adc7ec3fcc1f1e54544cf9fef94369e35c428e1788",
+      "patchedSha256": "b7bb32b81a9aff68ebf3374b6210d8b32d25b7fe2210237d17b2672e4e78af3c"
+    },
+    {
+      "path": "DISK3/END.EXE",
+      "patch": "patches/DISK3/END.EXE.xdelta",
+      "originalSize": 11340,
+      "patchedSize": 11340,
+      "originalSha256": "6f10927ec925fdde742c9ba99c3d2401f1d0d5854007d6327380e8dfbf882845",
+      "patchedSha256": "4752ad95a5b50615203b006c4cba2a1198c8ca389000d5870e2ab86358209174"
+    },
+    {
+      "path": "DISK3/OPEN2.EXE",
+      "patch": "patches/DISK3/OPEN2.EXE.xdelta",
+      "originalSize": 32915,
+      "patchedSize": 32915,
+      "originalSha256": "b8ffeebaaa5a2650323b89179026ba6d560ef5cf010e31b470183bd359f1d817",
+      "patchedSha256": "f3610177fba211aa87aa58ceac656e174fecc71c86e1081f03481396d28ebad0"
+    }
+  ]
+}
