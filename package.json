@@ -1,0 +1,9 @@
+{
+  "name": "dos-pc98-web-patcher",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node test/static-server.js",
+    "test": "node test/run.js"
+  }
+}

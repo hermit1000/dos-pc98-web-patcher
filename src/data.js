@@ -2,6 +2,12 @@
 
 window.GAME_CATALOG = [
   {
+    id: 'garyouden-pc98', title: '와룡전', originalTitle: '臥龍伝', platform: 'PC-98', genre: '전략 시뮬레이션', year: '1994', version: '2026.06.26', date: '2026.06.26', original: '일본어판', status: '배포 중', files: 17,
+    description: '삼국지의 군웅이 되어 대륙의 패권을 다투는 PC-98 전략 시뮬레이션. 대사와 시나리오, 엔딩 관련 파일을 한국어로 옮겼습니다.',
+    story: '후한 말의 혼란한 시대, 수많은 영웅이 각자의 이상을 품고 일어섭니다. 와룡전은 인재 등용과 외교, 전투를 통해 천하 통일을 향해 나아가는 전략 게임입니다.',
+    palette: 'green', mark: '龍', featured: true, package: 'packages/garyouden-pc98/manifest.json'
+  },
+  {
     id: 'silver-chronicle', title: '은빛 연대기', originalTitle: 'SILVER CHRONICLE', platform: 'PC-98', genre: 'RPG', year: '1994', version: 'v1.0.0', date: '2026.08.14', original: '일본어판 Rev. A', status: '배포 중', files: 5,
     description: '몰락한 왕국의 기록을 찾아 떠나는 정통 판타지 RPG. 대사와 메뉴, 전투 메시지를 모두 한국어로 옮겼습니다.',
     story: '짙은 안개에 잠긴 북부 변경에서 한 장의 은빛 문서가 발견됩니다. 플레이어는 사라진 왕조의 마지막 기록을 쫓아 도시와 유적을 여행합니다. 이번 패치는 본편 대사와 시스템 문구, 아이템 설명을 자연스러운 한국어로 다듬은 완전판입니다.',

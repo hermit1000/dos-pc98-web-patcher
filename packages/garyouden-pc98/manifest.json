@@ -1,0 +1,157 @@
+{
+  "format": "folder-patch-v1",
+  "game": "와룡전",
+  "patchVersion": "2026.06.26",
+  "createdAt": "2026-08-14T11:12:49.984Z",
+  "sharedAssets": [
+    {
+      "id": "thin-dunggeunmo-font",
+      "type": "emulator-font",
+      "name": "ThinDungGeunMo",
+      "source": "assets/fonts/source/ThinDungGeunMo.bmp",
+      "fileName": "ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "cc3e3babc36ae9da6c3d177c0976f5ac61ccb36bfa33aed8d2919b5be92ee99a",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "D7END.EXE",
+      "patch": "patches/D7END.EXE.xdelta",
+      "originalSize": 3889,
+      "patchedSize": 3889,
+      "originalSha256": "5e2251d51a18993dddc5af60cb1dd4535129497ec7a0c1371582ebef888e67a0",
+      "patchedSha256": "a9d7573b5cae36fe5a26cc2f06e65ab262ab3fbfa173b39e5e77d72a469aae89"
+    },
+    {
+      "path": "D7OPEN.EXE",
+      "patch": "patches/D7OPEN.EXE.xdelta",
+      "originalSize": 4836,
+      "patchedSize": 4836,
+      "originalSha256": "45d9aaf3b3bd2fe46ab55ae51be08fab18905ae05e312815b1d119a0e24da9c4",
+      "patchedSha256": "a2a39c9a69543c7132fd8d53a8356e9c1496b104a55f605b4687cfc2b4d69a59"
+    },
+    {
+      "path": "END_S10.DAT",
+      "patch": "patches/END_S10.DAT.xdelta",
+      "originalSize": 55175,
+      "patchedSize": 55471,
+      "originalSha256": "36e2787e2ca3504e7f549d5dfe2b7cc8f2f038983c11999bd84190a3fb31ce79",
+      "patchedSha256": "86b5a8437647840b80b829b021c42f2776be7b58cbd4da4ba347507a0a255aba"
+    },
+    {
+      "path": "END_S11.DAT",
+      "patch": "patches/END_S11.DAT.xdelta",
+      "originalSize": 27413,
+      "patchedSize": 21628,
+      "originalSha256": "865bb45ca19517e3cae69dda2f57be034f0ae6a0df033aeba402554e7d51f61d",
+      "patchedSha256": "47a89a5eaf3ebb051e8754d28d535524c6f9deb288388532a37c44693f3072fd"
+    },
+    {
+      "path": "END_S12.DAT",
+      "patch": "patches/END_S12.DAT.xdelta",
+      "originalSize": 81596,
+      "patchedSize": 82659,
+      "originalSha256": "b52a0d60ceafd00ec690749b6b7147864bdd02fdd0a6a93491d463704f2bce77",
+      "patchedSha256": "06cb4198c5d46155a7891fa7c5647d368dfecb7e986afefb7c37e88966bef7f6"
+    },
+    {
+      "path": "END_S3.DAT",
+      "patch": "patches/END_S3.DAT.xdelta",
+      "originalSize": 43292,
+      "patchedSize": 39448,
+      "originalSha256": "175d896bd27796a18dc5eb8e4390e4a74a7fd4f10789f4ae599b3fdedf0d3ef2",
+      "patchedSha256": "c54f466f1689319a0e28344e71b0c5816e3562de255ab1674b356eb9547cba10"
+    },
+    {
+      "path": "END_S4.DAT",
+      "patch": "patches/END_S4.DAT.xdelta",
+      "originalSize": 53190,
+      "patchedSize": 50938,
+      "originalSha256": "3176fda200da69b3645e0fd8b21af7f20521c8d730e6ad329de6101a28017973",
+      "patchedSha256": "014a738805aad31833aa39bac8c856216c29d2dcaab8443d129b6dbf352fb28a"
+    },
+    {
+      "path": "END_S5.DAT",
+      "patch": "patches/END_S5.DAT.xdelta",
+      "originalSize": 47022,
+      "patchedSize": 47210,
+      "originalSha256": "d0364494e8fe8dfb738660806417157613b1a630eaedd1afe6ebff97734d515f",
+      "patchedSha256": "2b31a7c9de43b869c66c3e21a74a40e19a7d34209a14bca5a905fe05eeeb672b"
+    },
+    {
+      "path": "END_S6.DAT",
+      "patch": "patches/END_S6.DAT.xdelta",
+      "originalSize": 42560,
+      "patchedSize": 42700,
+      "originalSha256": "e0a5601df077f020f98adbd44960ef0426d85ff5f5ab010744067319d10358c6",
+      "patchedSha256": "1afa56bc1e6cb9cf2ce4e21c3e3b8e2412505d388b2749e1c0bd562b4f97d832"
+    },
+    {
+      "path": "END_S7.DAT",
+      "patch": "patches/END_S7.DAT.xdelta",
+      "originalSize": 40726,
+      "patchedSize": 28628,
+      "originalSha256": "0cdd232b96f99b05f625071874a23d73cb260ee9c3dc9323424ccb724617ae7a",
+      "patchedSha256": "b13f1a16bb31f6ffbef0b182f4e50107c3d6e9b4b8af5702b32bd4c40a675822"
+    },
+    {
+      "path": "END_S8.DAT",
+      "patch": "patches/END_S8.DAT.xdelta",
+      "originalSize": 39039,
+      "patchedSize": 39185,
+      "originalSha256": "a7ab64aefc74ae8d958fae82e98bdc425c15f7ca5a37c98b0a2c5cbf1a5d9d52",
+      "patchedSha256": "82dd1ffbcbe4a5ddb71a83eb4b200078335ed398ead9d15eea4f854c7931a534"
+    },
+    {
+      "path": "END_S9.DAT",
+      "patch": "patches/END_S9.DAT.xdelta",
+      "originalSize": 47806,
+      "patchedSize": 47834,
+      "originalSha256": "5c34125332b43c2a8b594ad828b636be45c72066918e33b9dc782427e5935586",
+      "patchedSha256": "4a5aeeb4160582de3d19a89b9af5d9b5731ae2a36123d259d7d61542d18b62a5"
+    },
+    {
+      "path": "ICONGRF.DAT",
+      "patch": "patches/ICONGRF.DAT.xdelta",
+      "originalSize": 47776,
+      "patchedSize": 47776,
+      "originalSha256": "2154782c045b898aa5fafa74a4ff0c3745771ec85799b7882e1c4c009b3f1c1d",
+      "patchedSha256": "36728f47d58b38807ee1f0e36608e6dd8ef9d504e2b41d8e48f7e61082274fa0"
+    },
+    {
+      "path": "KI.EXE",
+      "patch": "patches/KI.EXE.xdelta",
+      "originalSize": 65823,
+      "patchedSize": 65823,
+      "originalSha256": "061917f9f3f5c03e29397a9c636d546052128a99b8c8ce31ded0e84cf2a481e8",
+      "patchedSha256": "535c01a83852cf40ba81fc30b9f926c3b4315e7d61e670033767096b20cc966f"
+    },
+    {
+      "path": "OPEN_S6.DAT",
+      "patch": "patches/OPEN_S6.DAT.xdelta",
+      "originalSize": 71150,
+      "patchedSize": 71438,
+      "originalSha256": "7d5451f603f4d6b1d627e3663d5e7ff75a300c21d4d90fe738c13e90efe5dd3d",
+      "patchedSha256": "954fcd3265bf8177863f46deaf2c758777d561ad383deaefd71c983c654a4a56"
+    },
+    {
+      "path": "SINARIO.DAT",
+      "patch": "patches/SINARIO.DAT.xdelta",
+      "originalSize": 88832,
+      "patchedSize": 88832,
+      "originalSha256": "74bd2e06d20c28a6f25963bc55599b58db4e9b174d54f152c99b2534793190c9",
+      "patchedSha256": "70e976094ad4c56be3af964dd2c4af8290fb31bb3177c04ddd338e73d9a1c11c"
+    },
+    {
+      "path": "TALK.DAT",
+      "patch": "patches/TALK.DAT.xdelta",
+      "originalSize": 45718,
+      "patchedSize": 45718,
+      "originalSha256": "537e563269e414da79381ff48184a98e062ca454eb5d12e16a5fcbd52b79cf6f",
+      "patchedSha256": "b2bd0b126ddad36db4300ff3943e8b7e36cee3dbe5381589da436f3271536896"
+    }
+  ]
+}

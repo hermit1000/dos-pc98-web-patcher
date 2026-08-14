@@ -7,6 +7,7 @@
   <title>패치 상세 — 레트로 번역소</title>
   <link rel="stylesheet" href="styles/main.css">
   <script src="src/data.js" defer></script>
+  <script src="src/zip.js" defer></script>
   <script src="src/app.js" defer></script>
 </head>
 <body data-page="detail">
@@ -99,10 +100,12 @@
             <span class="select-button">폴더 선택</span>
           </label>
           <div id="dummy-result" class="dummy-result" hidden aria-live="polite">
-            <span>UI 프로토타입</span>
+            <span id="result-label">검사 결과</span>
             <strong id="selected-summary"></strong>
-            <p>실제 SHA-256 검사와 패치 기능은 다음 구현 단계에서 연결됩니다.</p>
+            <p id="result-message"></p>
           </div>
+          <div id="file-results" class="file-results" hidden></div>
+          <div id="patch-progress" class="patch-progress" hidden><span></span><b></b></div>
           <button id="patch-button" class="patch-button" type="button" disabled>검사 후 패치 시작</button>
         </div>
       </div>
