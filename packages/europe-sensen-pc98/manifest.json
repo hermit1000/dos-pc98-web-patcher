@@ -1,0 +1,102 @@
+{
+  "format": "folder-patch-v1",
+  "game": "유럽전선",
+  "patchVersion": "2026.03.29",
+  "createdAt": "2026-08-14T17:43:22.451Z",
+  "sharedAssets": [
+    {
+      "id": "europe-bisco-font",
+      "type": "emulator-font",
+      "name": "europe-BISCO",
+      "source": "assets/fonts/source/europe-BISCO.bmp",
+      "fileName": "europe-BISCO.bmp",
+      "outputPath": "_emulator-font/europe-BISCO.bmp",
+      "size": 524350,
+      "sha256": "4f0fddbfe77b86f30681872f8a1d8a8cd5e77b3a2412cdb16131c0b1b7e1ba62",
+      "required": true
+    },
+    {
+      "id": "europe-thin-font",
+      "type": "emulator-font",
+      "name": "europe-ThinDungGeunMo",
+      "source": "assets/fonts/source/europe-ThinDungGeunMo.bmp",
+      "fileName": "europe-ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/europe-ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "7fc7d92e39a4ec90803c2b8a4725bd2e0c9456896bd17f6d626a1f7fbf258782",
+      "required": true
+    },
+    {
+      "id": "europe-allblank",
+      "type": "game-file",
+      "name": "ALLBLANK.COM",
+      "source": "packages/europe-sensen-pc98/files/ALLBLANK.COM",
+      "fileName": "ALLBLANK.COM",
+      "outputPath": "ALLBLANK.COM",
+      "size": 91,
+      "sha256": "ad54cf7d384a995ffa013406dd2337a84c1a6d0b4aba0223c495994c29d75b4c",
+      "required": true
+    },
+    {
+      "id": "europe-empty-save",
+      "type": "game-file",
+      "name": "empty_SAVEDATA",
+      "source": "packages/europe-sensen-pc98/files/empty_SAVEDATA",
+      "fileName": "empty_SAVEDATA",
+      "outputPath": "empty_SAVEDATA",
+      "size": 191020,
+      "sha256": "d9c38a4c85f40c79c3c80791c0d90bb626002a1120d878ee356247675533a6b3",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "END.EXE",
+      "patch": "patches/END.EXE.xdelta",
+      "originalSize": 39511,
+      "patchedSize": 39511,
+      "originalSha256": "764c5b169e5f1ec244e6a3fbe8564e630760a5bd3db230760081811a544992b6",
+      "patchedSha256": "43fea09dd9348a33bda68b357d660442c3440f9e8cdb1df4f3c0b0b8d47d3d9c"
+    },
+    {
+      "path": "KOEI.COM",
+      "patch": "patches/KOEI.COM.xdelta",
+      "originalSize": 1626,
+      "patchedSize": 1626,
+      "originalSha256": "d27e6bb71f0df9682bf576033d1874559d7f8426bcf62b44db1d1ec79e142749",
+      "patchedSha256": "87490aec71ef980726399d6a17df344f112d020183249ca6e895b2a15d77e7bd"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 342739,
+      "patchedSize": 342739,
+      "originalSha256": "a6f9ba8235561caa248d4ba6e8f1be875bd4f16077e529061925a61439d74fc1",
+      "patchedSha256": "03d3472bb2e54899058ee2565c639dd51ad85680df843b527751ae1ecc45dde9"
+    },
+    {
+      "path": "OPEN.EXE",
+      "patch": "patches/OPEN.EXE.xdelta",
+      "originalSize": 43709,
+      "patchedSize": 43709,
+      "originalSha256": "cd7c26ba59f35acf1e70f70c8b76b1ce2da172522787587aeb8ce0e925b3803b",
+      "patchedSha256": "d7f4d21322f81ca58a9b9d61cf48d6d796cbac215a4f75bd17cee066a67039c8"
+    },
+    {
+      "path": "OPENGRP.NPK",
+      "patch": "patches/OPENGRP.NPK.xdelta",
+      "originalSize": 432181,
+      "patchedSize": 433736,
+      "originalSha256": "45cbb5f47eacee7ff1e8d65fe8c53822e6bf838021c88617bc78cdc3665e49de",
+      "patchedSha256": "d172c0f1671cd942f023376fc563e9378a2b080ecc915516e1d7719437d189a7"
+    },
+    {
+      "path": "SCEDATA",
+      "patch": "patches/SCEDATA.xdelta",
+      "originalSize": 58411,
+      "patchedSize": 58411,
+      "originalSha256": "42c568aaf810192c9b090cf6acd99f506ba43bdd86080c75d0c346b00fd252a0",
+      "patchedSha256": "ddeb451a4af5c9c88fdd7a07478c2322b6e8c625518dfd24cf935f7fc3e4cb3e"
+    }
+  ]
+}
