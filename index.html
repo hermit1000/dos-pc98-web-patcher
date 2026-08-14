@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DOS와 PC-98 게임을 위한 브라우저 기반 한국어 패치 아카이브">
+  <title>고전어 번역소 — DOS · PC-98 한국어 패치</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="src/data.js" defer></script>
+  <script src="src/app.js" defer></script>
+</head>
+<body data-page="catalog">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="고전어 번역소 홈">
+      <span class="brand-mark" aria-hidden="true">古</span>
+      <span><strong>고전어 번역소</strong><small>DOS · PC-98 PATCH ARCHIVE</small></span>
+    </a>
+    <nav aria-label="주 메뉴">
+      <a class="active" href="index.html">패치 목록</a>
+      <a href="#about">이용 안내</a>
+      <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="catalog-hero">
+      <div class="eyebrow">KOREAN TRANSLATION ARCHIVE · 2026</div>
+      <h1>기억 속의 게임을<br><em>우리말로 다시.</em></h1>
+      <p>DOS와 PC-98 명작을 위한 비공식 한국어 패치입니다. 원본 파일은 서버로 전송되지 않으며, 모든 작업은 브라우저 안에서 이루어집니다.</p>
+      <div class="hero-stats" aria-label="아카이브 통계">
+        <span><strong id="game-count">0</strong>개의 패치</span>
+        <span><strong>2</strong>개 플랫폼</span>
+        <span><strong>100%</strong> 브라우저 처리</span>
+      </div>
+    </section>
+
+    <section class="catalog-section" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div>
+          <span class="section-number">01</span>
+          <h2 id="catalog-title">게임 아카이브</h2>
+        </div>
+        <p id="result-count" aria-live="polite"></p>
+      </div>
+
+      <div class="catalog-tools">
+        <label class="search-box">
+          <span class="sr-only">게임 검색</span>
+          <input id="search-input" type="search" placeholder="게임 제목을 검색하세요" autocomplete="off">
+          <span aria-hidden="true">⌕</span>
+        </label>
+        <div class="filter-group" role="group" aria-label="플랫폼 필터">
+          <button class="filter-button active" type="button" data-platform="all">전체</button>
+          <button class="filter-button" type="button" data-platform="PC-98">PC-98</button>
+          <button class="filter-button" type="button" data-platform="DOS">DOS</button>
+        </div>
+      </div>
+
+      <div id="game-grid" class="game-grid"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        <strong>일치하는 게임이 없습니다.</strong>
+        <span>검색어나 플랫폼 필터를 바꿔보세요.</span>
+      </div>
+    </section>
+
+    <section id="about" class="about-strip">
+      <span class="section-number">02</span>
+      <div>
+        <h2>안전한 패치를 우선합니다.</h2>
+        <p>지원되는 원본인지 먼저 확인하고, 모든 결과가 검증된 경우에만 다운로드 파일을 만듭니다. 이 페이지는 화면 구성을 확인하기 위한 프로토타입이며 실제 패치 기능은 다음 단계에서 연결합니다.</p>
+      </div>
+      <div class="about-points">
+        <span>원본 SHA-256 확인</span>
+        <span>서버 업로드 없음</span>
+        <span>다중 파일 지원 예정</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 고전어 번역소</span>
+    <span>비영리 팬 번역 프로젝트 · 원작자의 권리를 존중합니다.</span>
+  </footer>
+</body>
+</html>

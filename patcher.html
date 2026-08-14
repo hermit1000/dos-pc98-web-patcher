@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DOS·PC-98 게임별 한국어 패치 상세 페이지">
+  <title>패치 상세 — 고전어 번역소</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="src/data.js" defer></script>
+  <script src="src/app.js" defer></script>
+</head>
+<body data-page="detail">
+  <header class="site-header detail-header">
+    <a class="brand" href="index.html" aria-label="고전어 번역소 홈">
+      <span class="brand-mark" aria-hidden="true">古</span>
+      <span><strong>고전어 번역소</strong><small>DOS · PC-98 PATCH ARCHIVE</small></span>
+    </a>
+    <nav aria-label="주 메뉴">
+      <a href="index.html">← 패치 목록</a>
+      <a href="#patch-panel">패치하기</a>
+    </nav>
+  </header>
+
+  <main id="detail-root">
+    <section class="detail-hero">
+      <div class="detail-art" id="detail-art" aria-hidden="true">
+        <span class="art-moon"></span><span class="art-city"></span><span class="art-grid"></span>
+        <b id="art-monogram">98</b>
+      </div>
+      <div class="detail-intro">
+        <a class="back-link" href="index.html">ARCHIVE / <span id="detail-platform-top">PC-98</span></a>
+        <div class="badge-row"><span id="detail-platform" class="platform-badge">PC-98</span><span id="detail-status" class="status-badge">배포 중</span></div>
+        <h1 id="detail-title">게임 제목</h1>
+        <p id="detail-subtitle" class="detail-subtitle">원제 및 영문 제목</p>
+        <p id="detail-description" class="detail-description"></p>
+        <div class="detail-meta">
+          <dl><dt>패치 버전</dt><dd id="detail-version">v1.0</dd></dl>
+          <dl><dt>배포일</dt><dd id="detail-date">2026.08.14</dd></dl>
+          <dl><dt>지원 원본</dt><dd id="detail-original">일본어판</dd></dl>
+        </div>
+        <a class="primary-link" href="#patch-panel">지금 패치하기 <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="content-section story-section">
+      <div class="section-heading">
+        <div><span class="section-number">01</span><h2>패치 소개</h2></div>
+      </div>
+      <div class="story-grid">
+        <p id="detail-story" class="lead-copy"></p>
+        <div class="credit-card">
+          <span>TRANSLATION NOTE</span>
+          <strong>원작의 분위기와 시대적 표현을 살리는 것을 목표로 작업했습니다.</strong>
+          <small>고유명사 및 용어는 게임 내 문맥에 맞춰 통일했습니다.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section screenshot-section">
+      <div class="section-heading">
+        <div><span class="section-number">02</span><h2>스크린샷</h2></div>
+        <p>화면 구성 확인을 위한 더미 이미지입니다.</p>
+      </div>
+      <div class="screenshot-grid">
+        <figure class="screen screen-one"><div><span>COMMAND</span><b>무엇을 하시겠습니까?</b><small>이동　대화　조사　상태</small></div><figcaption>탐색 화면</figcaption></figure>
+        <figure class="screen screen-two"><div><span>BATTLE LOG</span><b>공격이 명중했습니다!</b><small>12 DAMAGE</small></div><figcaption>전투 화면</figcaption></figure>
+        <figure class="screen screen-three"><div><span>ARCHIVE 03</span><b>오래된 기록을 발견했다.</b><small>다음 페이지로 ›</small></div><figcaption>대화 화면</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="patch-panel" class="patch-section">
+      <div class="patch-heading">
+        <span class="section-number light">03</span>
+        <div><p>LOCAL PATCHER</p><h2>브라우저에서 패치하기</h2></div>
+        <span class="privacy-label">● 파일은 서버로 전송되지 않습니다</span>
+      </div>
+
+      <ol class="patch-steps" aria-label="패치 순서">
+        <li class="active"><span>1</span><strong>폴더 선택</strong><small>원본 게임 폴더</small></li>
+        <li><span>2</span><strong>파일 검사</strong><small>SHA-256 확인</small></li>
+        <li><span>3</span><strong>패치 적용</strong><small>결과 ZIP 생성</small></li>
+      </ol>
+
+      <div class="patch-console">
+        <div class="requirements">
+          <h3>지원되는 원본</h3>
+          <dl><dt>플랫폼</dt><dd id="requirement-platform">NEC PC-9801</dd></dl>
+          <dl><dt>언어</dt><dd>일본어판</dd></dl>
+          <dl><dt>대상 파일</dt><dd id="requirement-files">3개</dd></dl>
+          <dl><dt>검증 방식</dt><dd>SHA-256</dd></dl>
+          <p>수정되지 않은 설치 폴더를 선택해 주세요. 패치 전 별도 백업을 권장합니다.</p>
+        </div>
+        <div class="folder-picker">
+          <input id="folder-input" type="file" webkitdirectory multiple hidden>
+          <label for="folder-input" id="drop-zone" tabindex="0">
+            <span class="folder-icon" aria-hidden="true"></span>
+            <strong id="folder-title">게임 폴더를 선택하세요</strong>
+            <small id="folder-help">클릭하거나 폴더를 이곳에 끌어다 놓으세요.</small>
+            <span class="select-button">폴더 선택</span>
+          </label>
+          <div id="dummy-result" class="dummy-result" hidden aria-live="polite">
+            <span>UI 프로토타입</span>
+            <strong id="selected-summary"></strong>
+            <p>실제 SHA-256 검사와 패치 기능은 다음 구현 단계에서 연결됩니다.</p>
+          </div>
+          <button id="patch-button" class="patch-button" type="button" disabled>검사 후 패치 시작</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section lower-info">
+      <article>
+        <span class="section-number">04</span>
+        <h2>설치 안내</h2>
+        <ol class="instruction-list">
+          <li><span>01</span><p>압축을 해제하고 에뮬레이터에서 실행 가능한 원본 게임 폴더를 준비합니다.</p></li>
+          <li><span>02</span><p>위의 폴더 선택 영역에서 게임 폴더 전체를 선택합니다.</p></li>
+          <li><span>03</span><p>검사가 끝나면 결과 ZIP을 받아 원본을 백업한 뒤 덮어씁니다.</p></li>
+        </ol>
+      </article>
+      <article>
+        <span class="section-number">05</span>
+        <h2>버전 기록</h2>
+        <div class="timeline">
+          <div><time>2026.08.14</time><strong>v1.0.0</strong><p>첫 한국어 패치 공개</p></div>
+          <div><time>2026.07.28</time><strong>RC 1</strong><p>전체 문장 검수 및 용어 통일</p></div>
+        </div>
+      </article>
+      <article class="credits">
+        <span class="section-number">06</span>
+        <h2>제작진</h2>
+        <dl><dt>번역</dt><dd>고전어 번역소</dd><dt>프로그램</dt><dd>PATCH LAB</dd><dt>검수</dt><dd>TEST TEAM</dd></dl>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 고전어 번역소</span>
+    <a href="index.html">다른 패치 둘러보기 →</a>
+  </footer>
+</body>
+</html>
