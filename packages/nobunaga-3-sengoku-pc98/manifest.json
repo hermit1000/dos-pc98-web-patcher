@@ -1,0 +1,121 @@
+{
+  "format": "folder-patch-v1",
+  "game": "노부나가의 야망 3 - 전국군웅전",
+  "patchVersion": "2026.02.21",
+  "createdAt": "2026-08-14T17:09:24.339Z",
+  "sharedAssets": [
+    {
+      "id": "nobu3-bisco-font",
+      "type": "emulator-font",
+      "name": "nobu3-BISCO",
+      "source": "assets/fonts/source/nobu3-BISCO.bmp",
+      "fileName": "nobu3-BISCO.bmp",
+      "outputPath": "_emulator-font/nobu3-BISCO.bmp",
+      "size": 524350,
+      "sha256": "b89e8590a205035f13a79e84353532cf78520e3e58c406b17617350d6cd923a1",
+      "required": true
+    },
+    {
+      "id": "nobu3-grpdrv",
+      "type": "game-file",
+      "name": "GRPDRV.EXE",
+      "source": "packages/nobunaga-3-sengoku-pc98/files/GRPDRV.EXE",
+      "fileName": "GRPDRV.EXE",
+      "outputPath": "GRPDRV.EXE",
+      "size": 16895,
+      "sha256": "6b8d6dee160bf17cb88f0b9d155ecb23b83b377f8d0ef199497483264ac63b42",
+      "required": true
+    },
+    {
+      "id": "nobu3-launcher",
+      "type": "game-file",
+      "name": "NB3.COM",
+      "source": "packages/nobunaga-3-sengoku-pc98/files/NB3.COM",
+      "fileName": "NB3.COM",
+      "outputPath": "NB3.COM",
+      "size": 2420,
+      "sha256": "3b829f23172e2b88b5c5e71c8563aaa24e39fa30f4ea00551f424fb3115c0814",
+      "required": true
+    },
+    {
+      "id": "nobu3-oped",
+      "type": "game-file",
+      "name": "OPED.EXE",
+      "source": "packages/nobunaga-3-sengoku-pc98/files/OPED.EXE",
+      "fileName": "OPED.EXE",
+      "outputPath": "OPED.EXE",
+      "size": 35057,
+      "sha256": "284b8414aee39179c7de21d7fbcadb28ac00807a81a89df10ce729b11d0081ec",
+      "required": true
+    },
+    {
+      "id": "nobu3-save-backup",
+      "type": "game-file",
+      "name": "SAVEDATA_backup.DAT",
+      "source": "packages/nobunaga-3-sengoku-pc98/files/SAVEDATA_backup.DAT",
+      "fileName": "SAVEDATA_backup.DAT",
+      "outputPath": "SAVEDATA_backup.DAT",
+      "size": 65365,
+      "sha256": "985b1413a527621267421bfee58093676827721030059282c664f8a03e8e9965",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "HEXDATA.DAT",
+      "patch": "patches/HEXDATA.DAT.xdelta",
+      "originalSize": 30000,
+      "patchedSize": 30000,
+      "originalSha256": "5d3c79e8a7c52a58c475ff372990bc8d238ae6846abdf69338def391fb4962cf",
+      "patchedSha256": "e4cd2e39a0c27a04e75dcd6897bf07beb8dce86aae33e4d69d3b46cbca40178d"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 187291,
+      "patchedSize": 187291,
+      "originalSha256": "783d1c55837e623121d8956577c1f5ef79f587f01b9d1517935ccea65fb5d12f",
+      "patchedSha256": "bf2aaea2bf8e1065e6c2d7cd3dd5233207c04d584373d97ae818dd08bbfeeb2f"
+    },
+    {
+      "path": "MAPDATA.DAT",
+      "patch": "patches/MAPDATA.DAT.xdelta",
+      "originalSize": 37989,
+      "patchedSize": 36651,
+      "originalSha256": "797c29cf988027fd2b90a0ed982f3d4a7dc5443b1e708bd241c96f2308fbb3a9",
+      "patchedSha256": "3a20155da4ee1b1e7895cd9087b122ff422579d8601b6e48e31ccd073f874a1d"
+    },
+    {
+      "path": "OPEN.DAT",
+      "patch": "patches/OPEN.DAT.xdelta",
+      "originalSize": 79478,
+      "patchedSize": 79478,
+      "originalSha256": "8deaee3441c2494892d02aa04f79a66a7ae5cc0d613f19da3f6580262457dcd8",
+      "patchedSha256": "84efab809728c83735b858a448badf0e886bc97c9ffea30df99ca1e6c57711ba"
+    },
+    {
+      "path": "OPENEND.EXE",
+      "patch": "patches/OPENEND.EXE.xdelta",
+      "originalSize": 35057,
+      "patchedSize": 35057,
+      "originalSha256": "dfb19bc4daf74ef9879356946c48b605e4d2dbec95c41b8f0fc70ffac9e424e3",
+      "patchedSha256": "284b8414aee39179c7de21d7fbcadb28ac00807a81a89df10ce729b11d0081ec"
+    },
+    {
+      "path": "SNDATA1.CIM",
+      "patch": "patches/SNDATA1.CIM.xdelta",
+      "originalSize": 13073,
+      "patchedSize": 13073,
+      "originalSha256": "4eab3f07543421224ff058ad50a3c6c8aa942d1ec61fac1cde1caedf90d67f62",
+      "patchedSha256": "4b593b4986cfbfb7a2ff8a40871b097a29ad30ffdb72d224e48e81873b786fc2"
+    },
+    {
+      "path": "SNDATA2.CIM",
+      "patch": "patches/SNDATA2.CIM.xdelta",
+      "originalSize": 13073,
+      "patchedSize": 13073,
+      "originalSha256": "6c25b83ddb7864b99530b5c5b95ee019aeb2a59b5a75c4064e43ca8d672777d1",
+      "patchedSha256": "a34db74b470a9118d52393bf034f3e95bf4822b671338470bc2a4d30b851294d"
+    }
+  ]
+}
