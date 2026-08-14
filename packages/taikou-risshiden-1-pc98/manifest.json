@@ -1,0 +1,131 @@
+{
+  "format": "folder-patch-v1",
+  "game": "태합입지전 1",
+  "patchVersion": "2026.06.28",
+  "createdAt": "2026-08-14T17:31:19.742Z",
+  "sharedAssets": [
+    {
+      "id": "taikou1-bisco-font",
+      "type": "emulator-font",
+      "name": "taikou1-BISCO",
+      "source": "assets/fonts/source/taikou1-BISCO.bmp",
+      "fileName": "taikou1-BISCO.bmp",
+      "outputPath": "_emulator-font/taikou1-BISCO.bmp",
+      "size": 524350,
+      "sha256": "eb934eaff4958c25d9c42d4c20dd213b616b1e364c0f8a1d6af1c197dbe3cea9",
+      "required": true
+    },
+    {
+      "id": "taikou1-allblank",
+      "type": "game-file",
+      "name": "ALLBLANK.COM",
+      "source": "packages/taikou-risshiden-1-pc98/files/ALLBLANK.COM",
+      "fileName": "ALLBLANK.COM",
+      "outputPath": "ALLBLANK.COM",
+      "size": 91,
+      "sha256": "ad54cf7d384a995ffa013406dd2337a84c1a6d0b4aba0223c495994c29d75b4c",
+      "required": true
+    },
+    {
+      "id": "taikou1-empty-save",
+      "type": "game-file",
+      "name": "empty_SAVE.DAT",
+      "source": "packages/taikou-risshiden-1-pc98/files/empty_SAVE.DAT",
+      "fileName": "empty_SAVE.DAT",
+      "outputPath": "empty_SAVE.DAT",
+      "size": 121595,
+      "sha256": "72967b7121afbb9a2f204a822b2869caabaa4b30dce9ef518fff3c32d3b26760",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "END.DAT",
+      "patch": "patches/END.DAT.xdelta",
+      "originalSize": 262144,
+      "patchedSize": 262144,
+      "originalSha256": "17af842542a0951fbe09bb80567291b916be762a238184f9eb3efa554dc7fa83",
+      "patchedSha256": "5fdfe3a5855ef280f1981c6cc34a512f7dc36db9f22c0cc5b54a0ea9c7eeb1a9"
+    },
+    {
+      "path": "END.EXE",
+      "patch": "patches/END.EXE.xdelta",
+      "originalSize": 35567,
+      "patchedSize": 35567,
+      "originalSha256": "586a526750d6ce0239a28f9c9b229ac1fd4aa70fca50a74df3489f7a8191a572",
+      "patchedSha256": "092a0fa0bbce70476f89d1cfc12ca61190e6aace5924cbb6b63e1801fd12ec8c"
+    },
+    {
+      "path": "GRAPH.PUT",
+      "patch": "patches/GRAPH.PUT.xdelta",
+      "originalSize": 48010,
+      "patchedSize": 48010,
+      "originalSha256": "6d573608585f4138596c9a44d8a807e19bd3ca8808d5ed7669eeb89712957ea0",
+      "patchedSha256": "f1e5eada197db05b7691776c1d2bf83eb403708e5184e6c223331533d3783c15"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 399813,
+      "patchedSize": 399813,
+      "originalSha256": "2f480a5792d79dbea62208aebe3adbc314968e52669d3e5e320f72e4fbd7d796",
+      "patchedSha256": "5dceb2656c30789dbba8c36277d2fb893aa222a84fcd5edc37fd08cff1d12943"
+    },
+    {
+      "path": "MENU.DAT",
+      "patch": "patches/MENU.DAT.xdelta",
+      "originalSize": 4752,
+      "patchedSize": 4752,
+      "originalSha256": "d8566a8fe57526eafecde1acf1a7562a80733867cbbb593f0a1051ca925e125e",
+      "patchedSha256": "4ea5a5284bcc27569851d27995b38065192f49ec2b54d53f7a56daa5ed258aeb"
+    },
+    {
+      "path": "MESSAGE.DAT",
+      "patch": "patches/MESSAGE.DAT.xdelta",
+      "originalSize": 153855,
+      "patchedSize": 153855,
+      "originalSha256": "13edc4478b19e098b83a9758afd0eed3f876b055e4b824dd30306b2137e0d849",
+      "patchedSha256": "f5cf53026cfcef61d849d98c16eed82ca58b94b628049c2036758c37dfd761f9"
+    },
+    {
+      "path": "OPEN.DAT",
+      "patch": "patches/OPEN.DAT.xdelta",
+      "originalSize": 223257,
+      "patchedSize": 223257,
+      "originalSha256": "055452b98254ad40af0e06e9b15982986b321c85f0fac09edffde27ec91cbb0e",
+      "patchedSha256": "af46de36d965f74c10fa2880a00c5781800638a36e0f0f03f9c5b755e5e002d1"
+    },
+    {
+      "path": "OPEN.EXE",
+      "patch": "patches/OPEN.EXE.xdelta",
+      "originalSize": 28203,
+      "patchedSize": 28203,
+      "originalSha256": "b9abd1240bbe7f1cf506404e41a7043046b932258f3e06a543423dc4e5d1def0",
+      "patchedSha256": "fca1cee8d279def0f4dd001171eecaf29e67e35558490cc0f098a1938120f03b"
+    },
+    {
+      "path": "PTN.DAT",
+      "patch": "patches/PTN.DAT.xdelta",
+      "originalSize": 3072,
+      "patchedSize": 3072,
+      "originalSha256": "b5fa0bfc70e741eb7a265d6e49da0c83964dee87eee7c5a145c72862f601cf0d",
+      "patchedSha256": "0202dc85df39354020b7d94710891c739e647972c7c92a459506d342d07c5f95"
+    },
+    {
+      "path": "TBS.DAT",
+      "patch": "patches/TBS.DAT.xdelta",
+      "originalSize": 33512,
+      "patchedSize": 33512,
+      "originalSha256": "b5a4c3c6e1b662ecd8c1582cc9374ee3591469c943aabae43d27a7327e9f32a8",
+      "patchedSha256": "f92a6f050ed02e8fa1daf57586fd6220bd57eb2eb485834f5cfc08d1b588f902"
+    },
+    {
+      "path": "TITEM.DAT",
+      "patch": "patches/TITEM.DAT.xdelta",
+      "originalSize": 3520,
+      "patchedSize": 3520,
+      "originalSha256": "22e8271d58e6284628afb9622ee13292df8c61ba66b452729625be40ad36e9e9",
+      "patchedSha256": "e40f94d78748b86307ca087fc927d1b7f144ddfd3e09a509c22cbbb4489aef4d"
+    }
+  ]
+}
