@@ -1,0 +1,144 @@
+{
+  "format": "folder-patch-v1",
+  "game": "노부나가의 야망 4 - 무장풍운록",
+  "patchVersion": "2026.06.25",
+  "createdAt": "2026-08-14T17:18:41.223Z",
+  "sharedAssets": [
+    {
+      "id": "nobu4-bisco-font",
+      "type": "emulator-font",
+      "name": "nobu4-BISCO",
+      "source": "assets/fonts/source/nobu4-BISCO.bmp",
+      "fileName": "nobu4-BISCO.bmp",
+      "outputPath": "_emulator-font/nobu4-BISCO.bmp",
+      "size": 524350,
+      "sha256": "0c046571000d6a77d304ca89aa19127ebb8a28f3de7d14cfd7c5bc4770c9e3f1",
+      "required": true
+    },
+    {
+      "id": "nobu4-allblank",
+      "type": "game-file",
+      "name": "ALLBLANK.COM",
+      "source": "packages/nobunaga-4-bushou-pc98/files/ALLBLANK.COM",
+      "fileName": "ALLBLANK.COM",
+      "outputPath": "ALLBLANK.COM",
+      "size": 91,
+      "sha256": "ad54cf7d384a995ffa013406dd2337a84c1a6d0b4aba0223c495994c29d75b4c",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "END.EXE",
+      "patch": "patches/END.EXE.xdelta",
+      "originalSize": 31541,
+      "patchedSize": 31541,
+      "originalSha256": "5f168d3384809b5c584a31bf1eec572ad78bc84ddb4d9aa648f7f0b72a9ced22",
+      "patchedSha256": "a137211e60cd43d5ed12426860056d778a7fc2ceeb1c40355b303b278590f9f9"
+    },
+    {
+      "path": "ENDING.DAT",
+      "patch": "patches/ENDING.DAT.xdelta",
+      "originalSize": 172336,
+      "patchedSize": 172336,
+      "originalSha256": "2a9a2fb2e3b5c03b6501b909abb2498b8ebb1e0df56a7616ed97f69a86f3a491",
+      "patchedSha256": "a1cf93ef81decbdbedf36a13fd331a4628b4b1f11f47dab077fb21bdd63a198e"
+    },
+    {
+      "path": "GAIJI.DAT",
+      "patch": "patches/GAIJI.DAT.xdelta",
+      "originalSize": 6944,
+      "patchedSize": 6944,
+      "originalSha256": "a1d4e9f88b68a7d58189158ed70a22b18afa74655d242575e05f275f31a10ed4",
+      "patchedSha256": "45b0ae4a378fd66909957f253e38953a423458f8f3f20f91b5f535b3f2f8ec82"
+    },
+    {
+      "path": "KOEI.COM",
+      "patch": "patches/KOEI.COM.xdelta",
+      "originalSize": 1628,
+      "patchedSize": 1628,
+      "originalSha256": "bdf40d106a0ccee3a2ff7a4a78a47a6bb36f8735464b0c999776ac12d6f9b1e3",
+      "patchedSha256": "be96ce8b17e64a208e6ca64c0cd3f0705d5f9cb952600cddf1f3bc881863e3a0"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 307018,
+      "patchedSize": 315264,
+      "originalSha256": "f8bf7b2362f7b0146d762651c43cc832248f9fd2f91f9a4d1d0710ed054d091d",
+      "patchedSha256": "df2aa257c44309487b200cb1381541c4af6ab79d0a7d7916a5e965b113883ffe"
+    },
+    {
+      "path": "MAPDATA.DAT",
+      "patch": "patches/MAPDATA.DAT.xdelta",
+      "originalSize": 116982,
+      "patchedSize": 116982,
+      "originalSha256": "c68542e44d267e06993e3bd5fa63a45ff1ad18bb36fed16f3ec5359e94e27f14",
+      "patchedSha256": "e59702e2906983965d2fcbc532e95d487538f63ae8645df8b2ebb2b81f52c011"
+    },
+    {
+      "path": "OPEN.DAT",
+      "patch": "patches/OPEN.DAT.xdelta",
+      "originalSize": 398497,
+      "patchedSize": 382730,
+      "originalSha256": "9cfa1e13883433a1c062da840d6e3c41ba69fe8a338addaed0e4661cd38ea948",
+      "patchedSha256": "89ea5d575860dbf50ec6d95b122f3cd7aeaf8d034ba023d7ff56a85f244ef459"
+    },
+    {
+      "path": "OPEN.EXE",
+      "patch": "patches/OPEN.EXE.xdelta",
+      "originalSize": 60573,
+      "patchedSize": 60573,
+      "originalSha256": "0c16ee47a60514f7b7019104ddcf712b03f88f3b6bd13a6a24c231112e663f50",
+      "patchedSha256": "5d81c1f27fa5a891bf9b0aca59aec3032f72b2a540748b52a416be99d6daee07"
+    },
+    {
+      "path": "SNDATA1.CIM",
+      "patch": "patches/SNDATA1.CIM.xdelta",
+      "originalSize": 13508,
+      "patchedSize": 13508,
+      "originalSha256": "6f8484478051db383b7bf587ecc581f64d8d129ee40f6120d5670d37a56169f0",
+      "patchedSha256": "9f617abb4a6d13fd48325726b635edff7ed05ec82ad8ff37dc8ab4682dadbf0a"
+    },
+    {
+      "path": "SNDATA1T.CIM",
+      "patch": "patches/SNDATA1T.CIM.xdelta",
+      "originalSize": 3360,
+      "patchedSize": 3360,
+      "originalSha256": "eb7b4edcefffadcbebaa0edf48a086749d6dde1e9fbbfb7d45dc3655310207b9",
+      "patchedSha256": "2a358ac87d1476a45934f85eea8b9df6f42d81d619c6cc85d725026842e99e9e"
+    },
+    {
+      "path": "SNDATA2.CIM",
+      "patch": "patches/SNDATA2.CIM.xdelta",
+      "originalSize": 13508,
+      "patchedSize": 13508,
+      "originalSha256": "e9eeeebbe5bdf2aebccb6eca0e546a9bcb19aebfa175d28aebe274ed8263c077",
+      "patchedSha256": "87e75a0cd7cc8ea0e5241b9dcbd37ae153657b9cd63553768fddf4d2282eac7a"
+    },
+    {
+      "path": "SNDATA2T.CIM",
+      "patch": "patches/SNDATA2T.CIM.xdelta",
+      "originalSize": 2548,
+      "patchedSize": 2548,
+      "originalSha256": "5938752d55bc30b336de3c4dad2bce3ef1f65cf3b0069b42c303cbbd454a981c",
+      "patchedSha256": "47100e4745fbe5bf3ad3d3500162c27c8b64e9a169568c9845f7c359bfc7a158"
+    },
+    {
+      "path": "SNDATA3.CIM",
+      "patch": "patches/SNDATA3.CIM.xdelta",
+      "originalSize": 13508,
+      "patchedSize": 13508,
+      "originalSha256": "c2c67b77186e49c3c57b8658e062b31ed03dcd554f642519560b7e1cb748e453",
+      "patchedSha256": "b2e5d913d45fa27e996b912c9e71e150f067f913f2463f0bd3d6c3fb7778d53a"
+    },
+    {
+      "path": "SNDATA3T.CIM",
+      "patch": "patches/SNDATA3T.CIM.xdelta",
+      "originalSize": 1484,
+      "patchedSize": 1484,
+      "originalSha256": "e8b71ebe88200886d9e8d09a320b369cc05536e015f95c05801d1df4f54983e4",
+      "patchedSha256": "3a12b8bec306b210754a40e217d760eead503572936dc97d8f618ff40fdb05c4"
+    }
+  ]
+}
