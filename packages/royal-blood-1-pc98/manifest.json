@@ -1,0 +1,72 @@
+{
+  "format": "folder-patch-v1",
+  "game": "로얄 블러드 1",
+  "patchVersion": "2025.09.10a",
+  "createdAt": "2026-08-15T10:40:08.423Z",
+  "sharedAssets": [
+    {
+      "id": "royal-blood-bisco-font",
+      "type": "emulator-font",
+      "name": "RB1-BISCO",
+      "source": "assets/fonts/source/RB1-BISCO.bmp",
+      "fileName": "RB1-BISCO.bmp",
+      "outputPath": "_emulator-font/RB1-BISCO.bmp",
+      "size": 524352,
+      "sha256": "15ab8ad331accea34fcc46cbdd31bac2ab61077acaab7f42540c53b073283890",
+      "required": true
+    },
+    {
+      "id": "royal-blood-allblank",
+      "type": "game-file",
+      "name": "ALLBLANK.COM",
+      "source": "packages/royal-blood-1-pc98/files/ALLBLANK.COM",
+      "fileName": "ALLBLANK.COM",
+      "outputPath": "ALLBLANK.COM",
+      "size": 91,
+      "sha256": "ad54cf7d384a995ffa013406dd2337a84c1a6d0b4aba0223c495994c29d75b4c",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "KOEI.COM",
+      "patch": "patches/KOEI.COM.xdelta",
+      "originalSize": 1629,
+      "patchedSize": 1629,
+      "originalSha256": "3bd4be3d7843356028234e40d38c48a1aa6062214f0797a50894a3ec5a56abc3",
+      "patchedSha256": "b14537fd9baad99633444eadc5d96ba27183655c4aa00e3681b9b3abb4c39e7b"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 194693,
+      "patchedSize": 194693,
+      "originalSha256": "3817927cebd950edcf04bf1ca6291f16ca62fde597a88cae53a9182fe9280e33",
+      "patchedSha256": "89884137c033e9cedb4ac7f35519dc869f2a5f3b4b32c92a34e75a17121a162a"
+    },
+    {
+      "path": "OPEN.DAT",
+      "patch": "patches/OPEN.DAT.xdelta",
+      "originalSize": 169984,
+      "patchedSize": 169984,
+      "originalSha256": "5794124171928df322f7d0b948bec7a2f55ecfc386eef15606d1712b3d88e6a2",
+      "patchedSha256": "0f125c44b23ff23eed5a2218d5b2130c394bd479c9c4c15118c0af7ccb919d85"
+    },
+    {
+      "path": "OPEN.EXE",
+      "patch": "patches/OPEN.EXE.xdelta",
+      "originalSize": 74603,
+      "patchedSize": 74603,
+      "originalSha256": "230c31a0c62a212f33a86d78b01a68ca847458c9f1832dc2a7032a8669da9a9b",
+      "patchedSha256": "f8b9a03103bfeec503e7da65436ce34cb4f93611344d94b33ad5c69c3fe38d44"
+    },
+    {
+      "path": "RBDEND.EXE",
+      "patch": "patches/RBDEND.EXE.xdelta",
+      "originalSize": 75869,
+      "patchedSize": 75869,
+      "originalSha256": "edcdc0d0fe6a261ec06f2499edb80426c3c01f26cf248ac1461f9921d152539b",
+      "patchedSha256": "b2686b2c8b7133bce5e181ba01d95da8ab178485f5b021cf6598b6333993751a"
+    }
+  ]
+}

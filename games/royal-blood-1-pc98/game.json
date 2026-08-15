@@ -1,0 +1,45 @@
+{
+  "id": "royal-blood-1-pc98",
+  "title": "로얄 블러드 1",
+  "koreanTitle": "로얄 블러드 1",
+  "originalTitle": "ロイヤルブラッド",
+  "englishTitle": "Royal Blood",
+  "developer": "Koei",
+  "platform": "PC-98",
+  "genre": "전략",
+  "year": "1991",
+  "release": "1991-12-21",
+  "version": "2025.09.10a",
+  "date": "2025.09.10",
+  "original": "일본어 FD",
+  "status": "배포 중",
+  "files": 5,
+  "description": "PC-98용 로얄 블러드 1 한글 패치입니다.",
+  "story": "오프닝과 엔딩, 대사, 이름과 지명 및 기타 화면을 한글화하고 HDD 실행 모드를 추가한 패치입니다. 인명과 지명을 정상적으로 표시하려면 함께 제공되는 전용 RB1-BISCO 폰트를 사용해야 합니다.",
+  "verifiedOriginals": [
+    { "label": "Koei/Royal Blood/Royal Blood [FD]", "hashVerified": true }
+  ],
+  "screenshots": [
+    { "src": "games/royal-blood-1-pc98/images/cover.png", "alt": "PC-98 로얄 블러드 1 한글 타이틀 화면", "caption": "한글화된 타이틀 화면" },
+    { "src": "games/royal-blood-1-pc98/images/screen-2.png", "alt": "PC-98 로얄 블러드 1 한글 화면 2", "caption": "한글화된 게임 화면" },
+    { "src": "games/royal-blood-1-pc98/images/screen-3.png", "alt": "PC-98 로얄 블러드 1 한글 화면 3", "caption": "한글화된 게임 화면" },
+    { "src": "games/royal-blood-1-pc98/images/screen-4.png", "alt": "PC-98 로얄 블러드 1 한글 화면 4", "caption": "한글화된 게임 화면" }
+  ],
+  "history": [
+    { "date": "2025.09.10a", "version": "오류 수정", "note": "1번 영지 이름 오류 수정" },
+    { "date": "2025.09.10", "version": "HDD판", "note": "HDD 실행 모드와 전각 한글화 적용" },
+    { "date": "2025.08.11", "version": "대사 보완", "note": "미비 대사 수정" },
+    { "date": "2025.07.24", "version": "그래픽", "note": "타이틀 그래픽 수정" },
+    { "date": "2025.07.18", "version": "초기판", "note": "첫 한글 패치 공개" }
+  ],
+  "credits": [
+    { "role": "한글화", "name": "낭만엘리, 천수도인" }
+  ],
+  "references": [
+    { "type": "legacy-post", "url": "https://cafe.naver.com/koeimod/499" }
+  ],
+  "palette": "violet",
+  "mark": "RB",
+  "cover": "games/royal-blood-1-pc98/images/cover.png",
+  "package": "packages/royal-blood-1-pc98/manifest.json"
+}
