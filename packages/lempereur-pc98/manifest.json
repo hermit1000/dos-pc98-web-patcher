@@ -1,0 +1,46 @@
+{
+  "format": "folder-patch-v1",
+  "game": "랑페뢰르",
+  "patchVersion": "2025.10.26",
+  "createdAt": "2026-08-15T12:20:05.212Z",
+  "sharedAssets": [
+    {
+      "id": "lempereur-bisco-font",
+      "type": "emulator-font",
+      "name": "250908_L'EMPEREUR_font-kor-BISCO",
+      "source": "assets/fonts/source/250908_L'EMPEREUR_font-kor-BISCO.BMP",
+      "fileName": "250908_L'EMPEREUR_font-kor-BISCO.BMP",
+      "outputPath": "_emulator-font/250908_L'EMPEREUR_font-kor-BISCO.BMP",
+      "size": 524352,
+      "sha256": "a9056696a8ae7b795b55955261aa27667dc2dc929fef5b4bd2df7af4a3aac083",
+      "required": true
+    },
+    {
+      "id": "lempereur-save-data",
+      "type": "game-file",
+      "name": "SAVDATA.DAT",
+      "source": "packages/lempereur-pc98/files/SAVDATA.DAT",
+      "fileName": "SAVDATA.DAT",
+      "outputPath": "SAVDATA.DAT",
+      "size": 40796,
+      "sha256": "87c9cf5d7e65b64aa0f15cc9008e13898e615badb63b2f2ca4abeb454f4ea61f",
+      "required": true
+    }
+  ],
+  "targets": [
+    { "path": "END.EXE", "patch": "patches/END.EXE.xdelta", "originalSize": 73725, "patchedSize": 73725, "originalSha256": "4d40004c79578ee4964eeac668139654641352191b0473521ce4c5efca3f072f", "patchedSha256": "adf07e226de6d149cd05ade7f1132d3d1e4c088d8a486c14dfd8bec060dfe223" },
+    { "path": "GRPDATA.DAT", "patch": "patches/GRPDATA.DAT.xdelta", "originalSize": 63192, "patchedSize": 63192, "originalSha256": "01d355cd26d9aac3dbd8804545e4f2960fc09051d17133aca9663cb79b9477eb", "patchedSha256": "fcad8e1b4791abd88278d0d57114bfca7c0bd43434f8f804b8fcab416dc41200" },
+    { "path": "MA.DAT", "patch": "patches/MA.DAT.xdelta", "originalSize": 36048, "patchedSize": 36048, "originalSha256": "6b2285fac7574bedd1359e64a9f1d9dfbe9b5ea1371c8d8cd41bf79928754d0c", "patchedSha256": "4e8c445c1dfd7429e455ff0fa01d4d24aaed29654964425056cbef379f6fad67" },
+    { "path": "MA2.DAT", "patch": "patches/MA2.DAT.xdelta", "originalSize": 36048, "patchedSize": 36048, "originalSha256": "6b2285fac7574bedd1359e64a9f1d9dfbe9b5ea1371c8d8cd41bf79928754d0c", "patchedSha256": "4e8c445c1dfd7429e455ff0fa01d4d24aaed29654964425056cbef379f6fad67" },
+    { "path": "MAIN.EXE", "patch": "patches/MAIN.EXE.xdelta", "originalSize": 305745, "patchedSize": 305745, "originalSha256": "02abb8a4e2b8207bce0341e6775189ca2676281c3ec4f8de79dd3828efdfec5b", "patchedSha256": "c22ffaac040af6a465e5b44ded61f9fe2330843724b291b4476da935bc3d8128" },
+    { "path": "MU.DAT", "patch": "patches/MU.DAT.xdelta", "originalSize": 281136, "patchedSize": 281136, "originalSha256": "8f0807d300ba398c65264b71b00e113246401b05cc7afce2ce186dbae6ad8447", "patchedSha256": "36b6fa2d0a5336066462f773916faea5696b674ca9e79028e05d68a6e4114ee3" },
+    { "path": "NPDATA1.CIM", "patch": "patches/NPDATA1.CIM.xdelta", "originalSize": 12024, "patchedSize": 12024, "originalSha256": "3b2d80ec419d478d65d54ea403c80a5cbfbb4768f4ce30fbd3bad1b717cc3d9d", "patchedSha256": "8b7a84f18926593ffd9e43ed41b40c1c60774e35f019954f1d540b96a68c5d5a" },
+    { "path": "NPDATA2.CIM", "patch": "patches/NPDATA2.CIM.xdelta", "originalSize": 12024, "patchedSize": 12024, "originalSha256": "043ecd91ba133a16dd3f4533b6fe9bb725821c77a157ea2222995125e6dc8a9e", "patchedSha256": "f15a7c915e9ac08a236ed08eb33ce6fdf33655816621914b06f01dd4cfeb9c15" },
+    { "path": "NPDATA3.CIM", "patch": "patches/NPDATA3.CIM.xdelta", "originalSize": 12024, "patchedSize": 12024, "originalSha256": "7d80d7c0e1ba9991ee529b76aaffb1ad28a051f796243bfb32fb7d1de233cff9", "patchedSha256": "a533211de6b07e05074e9f9b427587792c4f3d45e10ad370a81eba14d40f2f97" },
+    { "path": "NPDATA4.CIM", "patch": "patches/NPDATA4.CIM.xdelta", "originalSize": 12024, "patchedSize": 12024, "originalSha256": "cafb8a4a10a2b35fb4bc806af8d17696099ac9a4001c2c2d25c917c40f64af74", "patchedSha256": "8651fee172442e68f3d5c087dc95bda43a5a99d77218626562351e1ac7a0a0fe" },
+    { "path": "NPDATA5.CIM", "patch": "patches/NPDATA5.CIM.xdelta", "originalSize": 12024, "patchedSize": 12024, "originalSha256": "69f509c1b312c81d289715e57685e23259cdb32b7d6e95d00fb976e5bd2568c2", "patchedSha256": "c69b3ff6a1b21e72c4e924414842d1979a9727d87fbac0a551615cc2cacaf996" },
+    { "path": "O1.DAT", "patch": "patches/O1.DAT.xdelta", "originalSize": 31056, "patchedSize": 35472, "originalSha256": "17833eb8621c8e6c345749ebb58c23daee8260a192a5f64e58fdc3e157f92a9d", "patchedSha256": "94e1663137a3e1ef193cf61c9f06354b02b3380bc0e4d8a94504e4c7b94dd2ee" },
+    { "path": "OPEN.EXE", "patch": "patches/OPEN.EXE.xdelta", "originalSize": 62571, "patchedSize": 62571, "originalSha256": "f4745e8a5181730807901e83bd9a1be8860177831bac5664e4588fd69002cf42", "patchedSha256": "a0dee6739031fed8b50d410b244f277ca50c99ac7084c7aae1c157881b5098d9" },
+    { "path": "PACDATA.DAT", "patch": "patches/PACDATA.DAT.xdelta", "originalSize": 255826, "patchedSize": 272797, "originalSha256": "20b525a9c5095a76a7a730a22268fc4878273258b62459b5b9d13aa10cc8175c", "patchedSha256": "91728b81359cba2304be83eca3dc7ae586e24a5fb2d120de90060351ddf384c5" }
+  ]
+}
