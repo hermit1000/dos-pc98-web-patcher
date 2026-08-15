@@ -15,7 +15,7 @@
   "status": "배포 중",
   "files": 5,
   "description": "PC-98용 로얄 블러드 1 한글 패치입니다.",
-  "story": "오프닝과 엔딩, 대사, 이름과 지명 및 기타 화면을 한글화하고 HDD 실행 모드를 추가한 패치입니다. 인명과 지명을 정상적으로 표시하려면 함께 제공되는 전용 RB1-BISCO 폰트를 사용해야 합니다.",
+  "story": "오프닝과 엔딩, 대사, 이름과 지명 및 기타 화면을 한글화하고 HDD 실행 모드를 추가한 패치입니다. 유저 디스크가 없는 설치를 위해 초기 SAVEDATA.RBD와 USERDISK.DIR도 함께 생성합니다. 기존 진행 데이터가 있다면 덮어쓰기 전에 반드시 백업하세요. 인명과 지명을 정상적으로 표시하려면 함께 제공되는 전용 RB1-BISCO 폰트를 사용해야 합니다.",
   "verifiedOriginals": [
     { "label": "Koei/Royal Blood/Royal Blood [FD]", "hashVerified": true }
   ],

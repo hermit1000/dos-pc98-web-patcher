@@ -25,6 +25,28 @@
       "size": 91,
       "sha256": "ad54cf7d384a995ffa013406dd2337a84c1a6d0b4aba0223c495994c29d75b4c",
       "required": true
+    },
+    {
+      "id": "royal-blood-save-data",
+      "type": "game-file",
+      "name": "SAVEDATA.RBD",
+      "source": "packages/royal-blood-1-pc98/files/SAVEDATA.RBD",
+      "fileName": "SAVEDATA.RBD",
+      "outputPath": "SAVEDATA.RBD",
+      "size": 13392,
+      "sha256": "cea674d18461c52a6f1a0514bb0bb6f37dbc58c8954a93a35c1738f7f5e92c98",
+      "required": true
+    },
+    {
+      "id": "royal-blood-user-disk-marker",
+      "type": "game-file",
+      "name": "USERDISK.DIR",
+      "source": "packages/royal-blood-1-pc98/files/USERDISK.DIR",
+      "fileName": "USERDISK.DIR",
+      "outputPath": "USERDISK.DIR",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "required": true
     }
   ],
   "targets": [
