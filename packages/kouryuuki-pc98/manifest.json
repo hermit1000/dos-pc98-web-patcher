@@ -1,0 +1,205 @@
+{
+  "format": "folder-patch-v1",
+  "game": "항유기",
+  "patchVersion": "2026.03.11",
+  "createdAt": "2026-08-15T13:23:59.917Z",
+  "sharedAssets": [
+    {
+      "id": "common-bisco-font",
+      "type": "emulator-font",
+      "name": "BISCO",
+      "source": "assets/fonts/source/BISCO.bmp",
+      "fileName": "BISCO.bmp",
+      "outputPath": "_emulator-font/BISCO.bmp",
+      "size": 524350,
+      "sha256": "ed63f9dcbd894ee544d23f42b1c981a0077246a91fb739c6991b6e0bd6af0e57",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "END.EXE",
+      "patch": "patches/END.EXE.xdelta",
+      "originalSize": 39903,
+      "patchedSize": 39903,
+      "originalSha256": "163a91c405ccd5b01cd50c1f30dfeab736516a5b999e429415324fcf3880e5dc",
+      "patchedSha256": "a3a951d1e07e3a3387865abc5120213e5726a0cad152fd23aec6c5f6291caa90"
+    },
+    {
+      "path": "END.KR1",
+      "patch": "patches/END.KR1.xdelta",
+      "originalSize": 951458,
+      "patchedSize": 956377,
+      "originalSha256": "f1d267cd7a01578bc018788c4bbc2f6adb5820c549955d82fa1449417e3d0293",
+      "patchedSha256": "edb0098a9a631612bd381aa128f107741535923aa4531499673802e83b5d59e5"
+    },
+    {
+      "path": "GRP1.KR1",
+      "patch": "patches/GRP1.KR1.xdelta",
+      "originalSize": 9440,
+      "patchedSize": 9440,
+      "originalSha256": "bb043ca88646346430e99c3ba1553bce81b60cc48e13094f9cfcf2b85eef9ec2",
+      "patchedSha256": "abb4422fffb5f4b06d5fadc8247c4a950bd1774ee5a30549bfc70c1fdbb5532d"
+    },
+    {
+      "path": "GRP2.KR1",
+      "patch": "patches/GRP2.KR1.xdelta",
+      "originalSize": 6656,
+      "patchedSize": 6656,
+      "originalSha256": "40da31413c9d29a424022d08270ba3f204286ed9590b485f931710b4e150bd8e",
+      "patchedSha256": "2e8ecaa0a2bb77b44ff7d6b4f1521dcd2a42054ea9b0e7baa2fdb6d8a71a7021"
+    },
+    {
+      "path": "GRP3.KR1",
+      "patch": "patches/GRP3.KR1.xdelta",
+      "originalSize": 126477,
+      "patchedSize": 126306,
+      "originalSha256": "24a07b73d2c522567bfc0b64a5828b2f50930051d0db71fe6f3e2494a94cb429",
+      "patchedSha256": "5dbf231c0d5f29c979ab4406fc44414ab9af2fdadd3b0e2058d0a8ea68a1a856"
+    },
+    {
+      "path": "GRP5.KR1",
+      "patch": "patches/GRP5.KR1.xdelta",
+      "originalSize": 27840,
+      "patchedSize": 27840,
+      "originalSha256": "b8a4582ba2ca4367bb9bfcb4b35c650987ff3d7f01d3c70f9f296709bc912408",
+      "patchedSha256": "4bb444c0fb96bacd6d5f49dca2ac23fb9b5433ba3bafcb25e361c00c578ebb9d"
+    },
+    {
+      "path": "H3UD.KR1",
+      "patch": "patches/H3UD.KR1.xdelta",
+      "originalSize": 44480,
+      "patchedSize": 44480,
+      "originalSha256": "01d9face83b3a44fefe04bf4f8d3af5629acd8e61bcf9dda1a8517fe81bbdb3f",
+      "patchedSha256": "17aa18e85c5d338266616fcdf8b64694335f048f1cf3cc83bbdc18a854ec48a1"
+    },
+    {
+      "path": "HIUD.KR1",
+      "patch": "patches/HIUD.KR1.xdelta",
+      "originalSize": 357120,
+      "patchedSize": 357120,
+      "originalSha256": "e1764f704700530742ae4d385e84458cfa50bab65fc3f89241b5f8852fb5d953",
+      "patchedSha256": "6217a764015f4d3c36fced4b79a2156d783ac942b6b2d3b9a4862193e7928f40"
+    },
+    {
+      "path": "HWAK.KR1",
+      "patch": "patches/HWAK.KR1.xdelta",
+      "originalSize": 30115,
+      "patchedSize": 29860,
+      "originalSha256": "c655a3bb74338456c385f06a2652113106617595e7daacd4596c755c0dce91a2",
+      "patchedSha256": "7e0d3edd6227ed5ed3e4d66a68df18b91b51dac2395c5e5a9daf262cbf3c9615"
+    },
+    {
+      "path": "KNJ1.KR1",
+      "patch": "patches/KNJ1.KR1.xdelta",
+      "originalSize": 512,
+      "patchedSize": 512,
+      "originalSha256": "aaada970db566e986d9dfe0f5ac859c7f43b0ec053cf313bccbbf49161e3811a",
+      "patchedSha256": "9cac94c9a4c9bbd36177629f8def336557343f98933db0c20c52f52154791a06"
+    },
+    {
+      "path": "KOEI.DAT",
+      "patch": "patches/KOEI.DAT.xdelta",
+      "originalSize": 7491,
+      "patchedSize": 11401,
+      "originalSha256": "7e5656eca5b0dd8c22db9989302ee681e447fdff4e6d03ac1c4f6a9c19d8dafd",
+      "patchedSha256": "18c2d0a7fc8c42f4d336916dd83a4a0b0c83e10a65aba606dd205098eba09e48"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 328165,
+      "patchedSize": 328165,
+      "originalSha256": "ecb942253953ee111da3db3b43bfa2fbc11f480f12612e5be239b17c27e931de",
+      "patchedSha256": "5448c3c42e78758d9e8c4be502aef6f5baff9bab11400e1801def07d56c52bc2"
+    },
+    {
+      "path": "MSG1.KR1",
+      "patch": "patches/MSG1.KR1.xdelta",
+      "originalSize": 18180,
+      "patchedSize": 18180,
+      "originalSha256": "e3d3fe48d08ae0acbd106bc4e504e7d00ca41f73eb1b6e1a075e91e9c01db527",
+      "patchedSha256": "f56d2ce2284cd9ffa783c2c9330e52d8726690f381b4b1740070fbc8aacac3cd"
+    },
+    {
+      "path": "MSG2.KR1",
+      "patch": "patches/MSG2.KR1.xdelta",
+      "originalSize": 10664,
+      "patchedSize": 10664,
+      "originalSha256": "6f02e0944ea73fca69c7fc94b4fa63aac77f462c5e30e7d2ec93ca8baddc95a3",
+      "patchedSha256": "034e4222f66201ddc07a92cf5a1bf3c2999b7d0bad348fdb7e51a7fcf3b8a0d0"
+    },
+    {
+      "path": "OPEN.EXE",
+      "patch": "patches/OPEN.EXE.xdelta",
+      "originalSize": 83593,
+      "patchedSize": 83593,
+      "originalSha256": "32cc472567e5f0a88eebda2dc5c1585675d12ee882c847cbb56380ab77eb01f8",
+      "patchedSha256": "0160cadbb1a33bf8fe887d0ccb86a22dd86c055936437bbb68a4ac1a281ea132"
+    },
+    {
+      "path": "OPENKMES.KR1",
+      "patch": "patches/OPENKMES.KR1.xdelta",
+      "originalSize": 78749,
+      "patchedSize": 79178,
+      "originalSha256": "6cf32b92721cd05f812bae63b04fdd3e432b33c89584578c25c24db030c5e4a4",
+      "patchedSha256": "db8ca2b7323e283d1c7bd7a522d3ef52135697424ad456bde1e993f590859cc7"
+    },
+    {
+      "path": "OPSCRL.KR1",
+      "patch": "patches/OPSCRL.KR1.xdelta",
+      "originalSize": 5495,
+      "patchedSize": 6052,
+      "originalSha256": "8f4802819603cf19385f788c538fd59ef99443ece24e9b6defa6cc99b9815720",
+      "patchedSha256": "f83570f97865625f6591322329b572a624978c6bb37609d8df86373892561bd7"
+    },
+    {
+      "path": "OPSNRMES.KR1",
+      "patch": "patches/OPSNRMES.KR1.xdelta",
+      "originalSize": 43135,
+      "patchedSize": 41966,
+      "originalSha256": "d48fccefba988b156b7ee734dae7713d7ec4b627f65cb91e63570f1625b4b924",
+      "patchedSha256": "e7205803da032bdbcdb7621f7ae2c29f338f70aa1ce117e914fb9d656c7e84e0"
+    },
+    {
+      "path": "SNDT1.KR1",
+      "patch": "patches/SNDT1.KR1.xdelta",
+      "originalSize": 10273,
+      "patchedSize": 10273,
+      "originalSha256": "18947c0d82843cab2c79b191e08ce20f4da4867515bf63e9fb030ddb0c0be8da",
+      "patchedSha256": "b2579ae154d2b62b0acdb70faf5ded09f4efd402d78cf5936069de1d109d5015"
+    },
+    {
+      "path": "SNDT2.KR1",
+      "patch": "patches/SNDT2.KR1.xdelta",
+      "originalSize": 10273,
+      "patchedSize": 10273,
+      "originalSha256": "584a4c6077249a36f9912eae560f365e7152dcfea095592e614d0f2bd3f36de6",
+      "patchedSha256": "99b2f2cc5f635deefb090c836485dc4b83015d1fd10cb0cb1abefa8c25f8dad0"
+    },
+    {
+      "path": "SNDT3.KR1",
+      "patch": "patches/SNDT3.KR1.xdelta",
+      "originalSize": 10273,
+      "patchedSize": 10273,
+      "originalSha256": "5ffff1c6ff1e374d740ec80f191526394723265fc21edb9f0e98962136dece08",
+      "patchedSha256": "10866fd8b6e7facec58f0c5c98f79a3032ef94fafeb292b8cc793242e1a40399"
+    },
+    {
+      "path": "SNDT4.KR1",
+      "patch": "patches/SNDT4.KR1.xdelta",
+      "originalSize": 10273,
+      "patchedSize": 10273,
+      "originalSha256": "be0493f6cd4620d92de8cba1aa01b23897821089b3dbe3951c46c9fb6b829b54",
+      "patchedSha256": "ecbbd74d79315441f4d4a0810a8f88df077558312741ef30643d9627e1af7f46"
+    },
+    {
+      "path": "TITLE.KR1",
+      "patch": "patches/TITLE.KR1.xdelta",
+      "originalSize": 70116,
+      "patchedSize": 72322,
+      "originalSha256": "0338c3b78e1c8d732973db8bc2436565b6850c4245ae28236db57c6f6d59ba42",
+      "patchedSha256": "6c0953c60662581ed7de90827ed20626e9feab95c6cea133d224a5b96a8ff2cc"
+    }
+  ]
+}

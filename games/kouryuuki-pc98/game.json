@@ -1,0 +1,42 @@
+{
+  "id": "kouryuuki-pc98",
+  "title": "항유기",
+  "koreanTitle": "항유기",
+  "originalTitle": "項劉記",
+  "englishTitle": "Kouryuuki",
+  "developer": "Koei",
+  "platform": "PC-98",
+  "genre": "전략",
+  "year": "1993",
+  "release": "1993",
+  "version": "2026.03.11",
+  "date": "2026.03.11",
+  "original": "일본어 HD",
+  "status": "배포 중",
+  "files": 23,
+  "description": "PC-98용 항유기 한글 패치입니다.",
+  "story": "검증된 PC-98 하드디스크판을 기준으로 대사, 메뉴와 그래픽을 한글화했습니다. 최신판에서는 일부 명령 아이콘 표시 문제를 수정해 전용 폰트 없이도 실행할 수 있으며, 일반적인 한글 표시를 위해 공용 BISCO 폰트를 함께 제공합니다.",
+  "verifiedOriginals": [
+    { "label": "Koei/Kouryuuki/Kouryuuki [HD]", "hashVerified": true }
+  ],
+  "screenshots": [
+    { "src": "games/kouryuuki-pc98/images/cover.png", "alt": "PC-98 항유기 한글 화면", "caption": "항유기 한글화 화면" }
+  ],
+  "history": [
+    { "date": "2026.03.11", "version": "표시 수정", "note": "전용 폰트 없이도 명령 아이콘이 정상 표시되도록 수정" },
+    { "date": "2026.02.04", "version": "제보 반영", "note": "제보된 다수 문제 수정" },
+    { "date": "2025.10.26", "version": "메시지 수정", "note": "각종 메시지와 유방 엔딩 메시지 오류 수정" },
+    { "date": "2025.08.19", "version": "초기판", "note": "첫 한글 패치 공개" }
+  ],
+  "credits": [
+    { "role": "한글화", "name": "낭만엘리, 닥터존스, 천사, 천수도인" },
+    { "role": "도움", "name": "이불베개, Augen, 히힛마스터" }
+  ],
+  "references": [
+    { "type": "legacy-post", "url": "https://cafe.naver.com/koeimod/541" }
+  ],
+  "palette": "rust",
+  "mark": "項",
+  "cover": "games/kouryuuki-pc98/images/cover.png",
+  "package": "packages/kouryuuki-pc98/manifest.json"
+}
