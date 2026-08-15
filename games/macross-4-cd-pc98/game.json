@@ -22,7 +22,11 @@
     { "label": "Family Soft/The Super Dimension Fortress Macross - Skull Leader Complete Pack/The Super Dimension Fortress Macross - Skull Leader Complete Pack (CD version) [HD]", "hashVerified": true }
   ],
   "screenshots": [
-    { "src": "games/macross-4-pc98/images/cover.png", "alt": "PC-98 마크로스 스컬리더 컴플리트 팩 한글 화면", "caption": "한글화된 본편 화면" }
+    { "src": "games/macross-4-pc98/images/cover.png", "alt": "PC-98 마크로스 4 컴플리트 팩 CD판 한글 타이틀 화면", "caption": "한글화된 타이틀 화면" },
+    { "src": "games/macross-4-pc98/images/screen-2.png", "alt": "PC-98 마크로스 4 컴플리트 팩 CD판 한글 화면 2", "caption": "한글화된 게임 화면" },
+    { "src": "games/macross-4-pc98/images/screen-3.png", "alt": "PC-98 마크로스 4 컴플리트 팩 CD판 한글 화면 3", "caption": "한글화된 게임 화면" },
+    { "src": "games/macross-4-pc98/images/screen-4.png", "alt": "PC-98 마크로스 4 컴플리트 팩 CD판 한글 화면 4", "caption": "한글화된 게임 화면" },
+    { "src": "games/macross-4-pc98/images/screen-5.png", "alt": "PC-98 마크로스 4 컴플리트 팩 CD판 한글 화면 5", "caption": "한글화된 게임 화면" }
   ],
   "history": [
     { "date": "2026.02.15", "version": "메뉴 수정", "note": "시작 메뉴 정렬 수정" },

@@ -22,7 +22,11 @@
     { "label": "Family Soft/The Super Dimension Fortress Macross - Love Stories/The Super Dimension Fortress Macross - Love Stories [HD]", "hashVerified": true }
   ],
   "screenshots": [
-    { "src": "games/macross-3-pc98/images/cover.png", "alt": "PC-98 마크로스 러브 스토리즈 한글 화면", "caption": "한글화된 본편 화면" }
+    { "src": "games/macross-3-pc98/images/cover.png", "alt": "PC-98 마크로스 3 러브 스토리즈 한글 타이틀 화면", "caption": "한글화된 타이틀 화면" },
+    { "src": "games/macross-3-pc98/images/screen-2.png", "alt": "PC-98 마크로스 3 러브 스토리즈 한글 화면 2", "caption": "한글화된 게임 화면" },
+    { "src": "games/macross-3-pc98/images/screen-3.png", "alt": "PC-98 마크로스 3 러브 스토리즈 한글 화면 3", "caption": "한글화된 게임 화면" },
+    { "src": "games/macross-3-pc98/images/screen-4.png", "alt": "PC-98 마크로스 3 러브 스토리즈 한글 화면 4", "caption": "한글화된 게임 화면" },
+    { "src": "games/macross-3-pc98/images/screen-5.png", "alt": "PC-98 마크로스 3 러브 스토리즈 한글 화면 5", "caption": "한글화된 게임 화면" }
   ],
   "history": [
     { "date": "2025.12.14", "version": "용어 정리", "note": "작품 내 용어와 표기 수정" },
