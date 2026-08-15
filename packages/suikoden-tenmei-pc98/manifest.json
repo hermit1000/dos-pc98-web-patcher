@@ -1,0 +1,137 @@
+{
+  "format": "folder-patch-v1",
+  "game": "수호전 - 천명의 맹세",
+  "patchVersion": "2026.01.26",
+  "createdAt": "2026-08-15T13:04:25.016Z",
+  "sharedAssets": [
+    {
+      "id": "common-bisco-font",
+      "type": "emulator-font",
+      "name": "BISCO",
+      "source": "assets/fonts/source/BISCO.bmp",
+      "fileName": "BISCO.bmp",
+      "outputPath": "_emulator-font/BISCO.bmp",
+      "size": 524350,
+      "sha256": "ed63f9dcbd894ee544d23f42b1c981a0077246a91fb739c6991b6e0bd6af0e57",
+      "required": true
+    },
+    {
+      "id": "suikoden-allblank",
+      "type": "game-file",
+      "name": "ALLBLANK.COM",
+      "source": "packages/suikoden-tenmei-pc98/files/ALLBLANK.COM",
+      "fileName": "ALLBLANK.COM",
+      "outputPath": "ALLBLANK.COM",
+      "size": 91,
+      "sha256": "ad54cf7d384a995ffa013406dd2337a84c1a6d0b4aba0223c495994c29d75b4c",
+      "required": true
+    },
+    {
+      "id": "suikoden-graphics-driver",
+      "type": "game-file",
+      "name": "GRPDRV.EXE",
+      "source": "packages/suikoden-tenmei-pc98/files/GRPDRV.EXE",
+      "fileName": "GRPDRV.EXE",
+      "outputPath": "GRPDRV.EXE",
+      "size": 16895,
+      "sha256": "6b8d6dee160bf17cb88f0b9d155ecb23b83b377f8d0ef199497483264ac63b42",
+      "required": true
+    },
+    {
+      "id": "suikoden-save-data",
+      "type": "game-file",
+      "name": "SAVEDATA0",
+      "source": "packages/suikoden-tenmei-pc98/files/SAVEDATA0",
+      "fileName": "SAVEDATA0",
+      "outputPath": "SAVEDATA0",
+      "size": 71242,
+      "sha256": "51f05d7ab7dea07b30955344b12721bee3aa28e7cd7c320c7ed25039e7e46454",
+      "required": true
+    },
+    {
+      "id": "suikoden-launcher",
+      "type": "game-file",
+      "name": "SUHO.COM",
+      "source": "packages/suikoden-tenmei-pc98/files/SUHO.COM",
+      "fileName": "SUHO.COM",
+      "outputPath": "SUHO.COM",
+      "size": 2420,
+      "sha256": "0d68e16cab4bdfc22e60b8f4cc1a090e901632b23dc97dd0e599d50e12c04413",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "END.EXE",
+      "patch": "patches/END.EXE.xdelta",
+      "originalSize": 27551,
+      "patchedSize": 27551,
+      "originalSha256": "f8b842e3b535cb19a487238a40c0a6ff066643a8d9a2460b1ffbc183df47d656",
+      "patchedSha256": "60395554112b20c00d6759b931e67d5ada97b2967e61948229c4ab204387c152"
+    },
+    {
+      "path": "FONT.DAT",
+      "patch": "patches/FONT.DAT.xdelta",
+      "originalSize": 1920,
+      "patchedSize": 1920,
+      "originalSha256": "f972e0d30248ae10d49ef1c998d637e43f3fc1e3c535cf2c5ad006e4d5e05b85",
+      "patchedSha256": "9ac7438eaf29f0143684ede472d56d1dfa4a984dc71b8499a13738a252a36d97"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 224681,
+      "patchedSize": 224681,
+      "originalSha256": "004280a6aecbefeafe2b65adb27715bc6a218ac6707c9cd1398c3947425df54b",
+      "patchedSha256": "143f66fae7c75edf2e1e97ba44c615f3f134a28cdd3deca2681fbc1b075dbb95"
+    },
+    {
+      "path": "OPEN.EXE",
+      "patch": "patches/OPEN.EXE.xdelta",
+      "originalSize": 27261,
+      "patchedSize": 27261,
+      "originalSha256": "0794f30a930156919717d5da40e4850cc25fb7abb7f33beaa700cade7d85de63",
+      "patchedSha256": "e72fdac713458c9d195178a60dd9ed4c8f61862a394ad5aabf4523c7928d63bd"
+    },
+    {
+      "path": "OPENNING.DAT",
+      "patch": "patches/OPENNING.DAT.xdelta",
+      "originalSize": 111832,
+      "patchedSize": 111832,
+      "originalSha256": "6c56a547562869e0c87d3b3a87ba1f67b8c2c12a9c41beb77c872b7eb6ee14b9",
+      "patchedSha256": "2921e721ea5df01c8dbf5582193cffd4f860191bc231311a8dbdc535310e6580"
+    },
+    {
+      "path": "SUIDATA1.CIM",
+      "patch": "patches/SUIDATA1.CIM.xdelta",
+      "originalSize": 13295,
+      "patchedSize": 13295,
+      "originalSha256": "c2f7cf29577cb31dd74666779567bf170c1418901e22f33b1589657c212cc012",
+      "patchedSha256": "b48869116ae314cb92b5fa1b3960e5b2c2839bff364ba7965eeef4fba79adb34"
+    },
+    {
+      "path": "SUIDATA2.CIM",
+      "patch": "patches/SUIDATA2.CIM.xdelta",
+      "originalSize": 13295,
+      "patchedSize": 13295,
+      "originalSha256": "e15cba46b8d4e182e0672fd9169774bd771cdcfcf14be79c8cf34738359ba246",
+      "patchedSha256": "7f445bcb260d480b934e2015b471011337683d08dd01c76bc333f926ed39b6cd"
+    },
+    {
+      "path": "SUIDATA3.CIM",
+      "patch": "patches/SUIDATA3.CIM.xdelta",
+      "originalSize": 13295,
+      "patchedSize": 13295,
+      "originalSha256": "649d6975f52d675b51b1f24d4f7fa4a4e2cbf18f7fd3d3af498566289c846380",
+      "patchedSha256": "1adf269c2b4c6bdf967006cece9f105dbfc0d1f8215c6131a6328016920c7af4"
+    },
+    {
+      "path": "SUIDATA4.CIM",
+      "patch": "patches/SUIDATA4.CIM.xdelta",
+      "originalSize": 13295,
+      "patchedSize": 13295,
+      "originalSha256": "ab3389418559c755e04b086d2ef9fd2de8e355e83154d887e9801d915e50f28d",
+      "patchedSha256": "5d45d249764ef145c430c778ed864ee86a187df62c6bd09d5ce451d31acb1eca"
+    }
+  ]
+}
