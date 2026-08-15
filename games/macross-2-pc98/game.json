@@ -22,7 +22,11 @@
     { "label": "Family Soft/The Super Dimension Fortress Macross - Skull Leader/The Super Dimension Fortress Macross - Skull Leader [HD]", "hashVerified": true }
   ],
   "screenshots": [
-    { "src": "games/macross-2-pc98/images/cover.png", "alt": "PC-98 마크로스 스컬리더 한글 화면", "caption": "한글화된 본편 화면" }
+    { "src": "games/macross-2-pc98/images/cover.png", "alt": "PC-98 마크로스 2 스컬리더 한글 타이틀 화면", "caption": "한글화된 타이틀 화면" },
+    { "src": "games/macross-2-pc98/images/screen-2.png", "alt": "PC-98 마크로스 2 스컬리더 한글 화면 2", "caption": "한글화된 게임 화면" },
+    { "src": "games/macross-2-pc98/images/screen-3.png", "alt": "PC-98 마크로스 2 스컬리더 한글 화면 3", "caption": "한글화된 게임 화면" },
+    { "src": "games/macross-2-pc98/images/screen-4.png", "alt": "PC-98 마크로스 2 스컬리더 한글 화면 4", "caption": "한글화된 게임 화면" },
+    { "src": "games/macross-2-pc98/images/screen-5.png", "alt": "PC-98 마크로스 2 스컬리더 한글 화면 5", "caption": "한글화된 게임 화면" }
   ],
   "history": [
     { "date": "2025.12.13", "version": "타이틀", "note": "타이틀 그래픽 한글화" },
