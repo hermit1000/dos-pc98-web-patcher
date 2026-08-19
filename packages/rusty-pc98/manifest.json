@@ -1,0 +1,261 @@
+{
+  "format": "folder-patch-v1",
+  "game": "러스티",
+  "patchVersion": "2026.08.20",
+  "createdAt": "2026-08-19T16:25:16.969Z",
+  "sharedAssets": [
+    {
+      "id": "common-thin-dung-geun-mo-font",
+      "type": "emulator-font",
+      "name": "ThinDungGeunMo",
+      "source": "assets/fonts/source/ThinDungGeunMo.bmp",
+      "fileName": "ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "cc3e3babc36ae9da6c3d177c0976f5ac61ccb36bfa33aed8d2919b5be92ee99a",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "ENEMY1.COM",
+      "patch": "patches/ENEMY1.COM.xdelta",
+      "originalSize": 11238,
+      "patchedSize": 17762,
+      "originalSha256": "3c416206f2c4f7d5b93eacee883a213dc6bdc53116fb9bd2479b7eb2be48aa18",
+      "patchedSha256": "5ef58ae30f976cb2279d97c349cef6ac39e30dc6f6885da9b0369ddcab3e82fe"
+    },
+    {
+      "path": "ENEMY10.COM",
+      "patch": "patches/ENEMY10.COM.xdelta",
+      "originalSize": 11562,
+      "patchedSize": 17647,
+      "originalSha256": "b2dbb33ee4635fe7db787fdae7570f19e3dce0558eef48055c8ee2f7e96a4f98",
+      "patchedSha256": "baf687dd8ba39e544606cafa58f8ef9b9f62579f937bf9fe54c943f5a1e5ddff"
+    },
+    {
+      "path": "ENEMY4.COM",
+      "patch": "patches/ENEMY4.COM.xdelta",
+      "originalSize": 11939,
+      "patchedSize": 17478,
+      "originalSha256": "a0e5f8b6e5004fc690acb8d2c991608d66347b37c3fc988ad27f6bb58d0603c2",
+      "patchedSha256": "bacdfacbca7490b2a41512c59c82e1a4676f393422ab132d0767395c0df56408"
+    },
+    {
+      "path": "ENEMY9.COM",
+      "patch": "patches/ENEMY9.COM.xdelta",
+      "originalSize": 11589,
+      "patchedSize": 16902,
+      "originalSha256": "9ae94b89c98f231a67f7f16adc6d314fc4595ba605df9ef031510fb03a25049b",
+      "patchedSha256": "c462d460c6e51f09bfdc7b01388fd50a8f8ef3a09a4ae400d1f6843eb9e1b447"
+    },
+    {
+      "path": "GIRL2A.MAG",
+      "patch": "patches/GIRL2A.MAG.xdelta",
+      "originalSize": 16302,
+      "patchedSize": 132098,
+      "originalSha256": "c1e909c17474504e9347f956265ba45734b3e9a103c5634d618ab25c980d871a",
+      "patchedSha256": "98e105d5f2b0896d2077ffaaa9d41bb6dfde09bc7089f2bb2aff76201b77e3c9"
+    },
+    {
+      "path": "GIRL5A.MAG",
+      "patch": "patches/GIRL5A.MAG.xdelta",
+      "originalSize": 17911,
+      "patchedSize": 132098,
+      "originalSha256": "dbe7c94d231e8190cf9f0b51827a3122014deeb3e19c8df3e083f5e47efe26a5",
+      "patchedSha256": "561c98bacdffc2f0d3b14178d7207c5d65c0ce6d29e1e10cd7a78344fdc804cc"
+    },
+    {
+      "path": "GIRL7A.MAG",
+      "patch": "patches/GIRL7A.MAG.xdelta",
+      "originalSize": 12799,
+      "patchedSize": 132098,
+      "originalSha256": "c9d2c0a91442e98c6022f2aecb8b716e348f8616edd1033dc7b9c52777e64f7f",
+      "patchedSha256": "23adeff89d272820947871bc55f03c46b5f4d6c67068610f20d0649f62c4e526"
+    },
+    {
+      "path": "JO.EXE",
+      "patch": "patches/JO.EXE.xdelta",
+      "originalSize": 32307,
+      "patchedSize": 437152,
+      "originalSha256": "25c21c494bb8b7eb1f6664ba13d34ea4042a6ee3a9596169b72e6df3d9b6b111",
+      "patchedSha256": "9cfb47fde28bfefc1ef2aea07f7ced722ef94d5d3a834f3b815c0fc79ad0f443"
+    },
+    {
+      "path": "R_A23.MGX",
+      "patch": "patches/R_A23.MGX.xdelta",
+      "originalSize": 6287,
+      "patchedSize": 45827,
+      "originalSha256": "65c4d8ffcfac1f38822ed29372b7f5dab95e568554f7c961c021693c27d7f4f1",
+      "patchedSha256": "7eb91fffc4dd951b4916a096570f70ba4f73edb43bae6555ba3edf4ea3d972b8"
+    },
+    {
+      "path": "R_A31.MGX",
+      "patch": "patches/R_A31.MGX.xdelta",
+      "originalSize": 8203,
+      "patchedSize": 39293,
+      "originalSha256": "50569e9818e58f5e5993b7ed17355cd783cab3f1c18efb6b5ee0f94b7e63d4a2",
+      "patchedSha256": "2295c8f4c338c1cad3345df02c7df19babc0731da213312187b44b137450e8ad"
+    },
+    {
+      "path": "R_A36.MGX",
+      "patch": "patches/R_A36.MGX.xdelta",
+      "originalSize": 8219,
+      "patchedSize": 37627,
+      "originalSha256": "85365ec1e0de8a2f64f56f66eb40c33c9d0dcd49fe46e8a32f86a5fb2fe4e091",
+      "patchedSha256": "2c9b7d20bb931896ff9627f2dba984e8fed0a688d9cd0bd7e6ce29cbee40ea82"
+    },
+    {
+      "path": "SONTYO.MAG",
+      "patch": "patches/SONTYO.MAG.xdelta",
+      "originalSize": 25722,
+      "patchedSize": 132098,
+      "originalSha256": "04455ca6962b7cca5e74a21c1a5a76ab340eb94c710e01fc8c7b3a06a3260c73",
+      "patchedSha256": "d837bb9fdcacdd8e26d054c009f64a4b29c055788a6077cbdaafb254c60c04b7"
+    },
+    {
+      "path": "STAFF1.MGX",
+      "patch": "patches/STAFF1.MGX.xdelta",
+      "originalSize": 1047,
+      "patchedSize": 4454,
+      "originalSha256": "e98c90ccb8e23c92a01ddb1cb2e7eed915febbe9adc3da49708bdd705f7caddf",
+      "patchedSha256": "8747f016410f6e410adb23e90a1945afff69a22d49074ef7cf72931133bef0f6"
+    },
+    {
+      "path": "STAFF2.MGX",
+      "patch": "patches/STAFF2.MGX.xdelta",
+      "originalSize": 2677,
+      "patchedSize": 19493,
+      "originalSha256": "29c2a2805de1ed9b1bcb386cdb95947140e5078a574e63440aeecdf37d416f36",
+      "patchedSha256": "1ecc404e24defa540d26592955efbe84473e79c0eb818a7a563c929152ef5aaa"
+    },
+    {
+      "path": "STAFF3.MGX",
+      "patch": "patches/STAFF3.MGX.xdelta",
+      "originalSize": 2409,
+      "patchedSize": 17761,
+      "originalSha256": "600bbf664f70e08cc6f4e1b0cf47393feff7971b37da3fd99dcbc4aeebf3f407",
+      "patchedSha256": "3ec8d99a5b5298e4b53c2118982a0a9543c4e3de9091817e39ed99b25006367c"
+    },
+    {
+      "path": "STAFF4.MGX",
+      "patch": "patches/STAFF4.MGX.xdelta",
+      "originalSize": 2353,
+      "patchedSize": 16721,
+      "originalSha256": "1fb50c9aafd75c04f5d097712beab76e2dbca84617687c4d5fb9e9e721eaa5eb",
+      "patchedSha256": "2fdbf161a3e20454ae52a1b447788b5b88896e601bcfa05316259431beddde8d"
+    },
+    {
+      "path": "STAFF5.MGX",
+      "patch": "patches/STAFF5.MGX.xdelta",
+      "originalSize": 1609,
+      "patchedSize": 9577,
+      "originalSha256": "3eca9ad9b22d8ad1ee109bbdc0049849dca2ddfd4257d234087efbbfcf8bb66d",
+      "patchedSha256": "0e064cab0a1867d7436584740accb04d1e730b4a1e009f91b95a14536d35218e"
+    },
+    {
+      "path": "STAFF6.MGX",
+      "patch": "patches/STAFF6.MGX.xdelta",
+      "originalSize": 917,
+      "patchedSize": 4247,
+      "originalSha256": "9dfc2450b3e7823720efbff6df9892df82d7daf8e960e9b56a8a8cac4b993081",
+      "patchedSha256": "51feae919d4586004bfa7846ac28b9faad2cf1b0a70cbf77169de067e9376d85"
+    },
+    {
+      "path": "STAFF7.MGX",
+      "patch": "patches/STAFF7.MGX.xdelta",
+      "originalSize": 1405,
+      "patchedSize": 7663,
+      "originalSha256": "14413d83d2d7be31f2cc57b5f48170c89cf86a4efc6cb2f2d56469bbad7d148a",
+      "patchedSha256": "61087d6cb40a7fb0383ad685e229b2ffc4f0bb283584893d7eb990d9435ad026"
+    },
+    {
+      "path": "STORY1.COM",
+      "patch": "patches/STORY1.COM.xdelta",
+      "originalSize": 5776,
+      "patchedSize": 13424,
+      "originalSha256": "280739b5b3ef6f5d4fd3f4e4d95db336759fad35c17b869dae385bc433b8e74d",
+      "patchedSha256": "7e2a4962d7f7b8d5a0af09b56ed988a819d7aa18841f9b6094175b83a46fcea5"
+    },
+    {
+      "path": "STORY10.COM",
+      "patch": "patches/STORY10.COM.xdelta",
+      "originalSize": 6128,
+      "patchedSize": 10551,
+      "originalSha256": "9f67d31b50108bf6a4f2112ebc7dc965debe61f709772e46d1a1257614ef50a2",
+      "patchedSha256": "938c139417d3ee1f748c5242838996ae0dc9e8fce3caef747850d4ce32d52309"
+    },
+    {
+      "path": "STORY2.COM",
+      "patch": "patches/STORY2.COM.xdelta",
+      "originalSize": 6685,
+      "patchedSize": 13755,
+      "originalSha256": "39b243d4ce5609b0bd1401a2e771fcf2eef2e8fca583e6e8402dc7a4b5554f28",
+      "patchedSha256": "85f41bf76978fc65fbb156048dc47154944c0c0866b5140ce1ab8911176e8118"
+    },
+    {
+      "path": "STORY3.COM",
+      "patch": "patches/STORY3.COM.xdelta",
+      "originalSize": 7966,
+      "patchedSize": 14218,
+      "originalSha256": "b9cf527d799fa9c2063b696449c52c6a996f123174a7aa2809fb6f63b8314665",
+      "patchedSha256": "d432bfcd7eb9179b176cdaed2ca54070b3e9a70b6f7b2c34bb69035763ea71a7"
+    },
+    {
+      "path": "STORY4.COM",
+      "patch": "patches/STORY4.COM.xdelta",
+      "originalSize": 5048,
+      "patchedSize": 10619,
+      "originalSha256": "3bfda987818b47194ad9578a292e0f1d8ddb8b17c279dbd9bb25c9560b8b482e",
+      "patchedSha256": "f5d48eac1c8bb71c6d7626a5a58239f5260f1f79313a2c47ab7cc98ef9e836d4"
+    },
+    {
+      "path": "STORY5.COM",
+      "patch": "patches/STORY5.COM.xdelta",
+      "originalSize": 6188,
+      "patchedSize": 14271,
+      "originalSha256": "ac9cfa895751fec8a7d88f147494c1f06cf091277aca9c16162d93b4021a15e6",
+      "patchedSha256": "c09b10d568051ee2c88fc4494f278c0f89406cf4362552e6926ca9921004206a"
+    },
+    {
+      "path": "STORY6.COM",
+      "patch": "patches/STORY6.COM.xdelta",
+      "originalSize": 4711,
+      "patchedSize": 7748,
+      "originalSha256": "26fa2c070be57c9a4894b2647add1c9563f2706086dac6871fbf6054543ae46b",
+      "patchedSha256": "996899222ab14e162e678266e15c18e81b6273007b0accee7269a4418eed69eb"
+    },
+    {
+      "path": "STORY7.COM",
+      "patch": "patches/STORY7.COM.xdelta",
+      "originalSize": 5349,
+      "patchedSize": 8953,
+      "originalSha256": "cdd9801f3995d6123ecff742abd8709ffae1de2977fbd7898b285ca7a2a4b7fa",
+      "patchedSha256": "25254d0912f849238cc0ea677e0fcb6cf51110296eeeca97cb3edbad303fe41e"
+    },
+    {
+      "path": "STORY8.COM",
+      "patch": "patches/STORY8.COM.xdelta",
+      "originalSize": 5000,
+      "patchedSize": 8174,
+      "originalSha256": "698a958834b9f98dd4c0af5efd164ef65e24ae9e800da3690a22b8b67c3b3b53",
+      "patchedSha256": "4be037d10237ab6666bf817d41501993968bd00a3340ad2a9211db4b06a85680"
+    },
+    {
+      "path": "STORY9.COM",
+      "patch": "patches/STORY9.COM.xdelta",
+      "originalSize": 6920,
+      "patchedSize": 13905,
+      "originalSha256": "97174193f986b23a29b825a952daff07d2eab92b8965fe3feebdd626389f85d2",
+      "patchedSha256": "45c24c37988ee9ae2d73a9ea6f4ecc13bd053d91ecae30804a83059c8a981046"
+    },
+    {
+      "path": "VISUAL.COM",
+      "patch": "patches/VISUAL.COM.xdelta",
+      "originalSize": 10637,
+      "patchedSize": 17982,
+      "originalSha256": "b1ee572d918a6a61d328472025c954451120f087e823e45bf51e947f8a8358f4",
+      "patchedSha256": "cf0221f88415e8176a2cab0fe4002184c525f829d4230cf447096e47bd48ebeb"
+    }
+  ]
+}
