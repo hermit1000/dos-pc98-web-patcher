@@ -344,6 +344,34 @@ async function initializeDetail() {
 
   input.disabled = true;
   input.addEventListener('change', () => { showSelection(input.files).catch((error) => setResult('검사 오류', game.title, error.message)); });
+  async function collectDroppedFiles(dataTransfer) {
+    const items = [...(dataTransfer.items || [])];
+    const entries = items.map((item) => item.webkitGetAsEntry?.()).filter(Boolean);
+    if (!entries.length) return [...dataTransfer.files];
+    const files = [];
+    const readDirectory = (directory) => new Promise((resolve, reject) => {
+      const reader = directory.createReader();
+      const collected = [];
+      const readBatch = () => reader.readEntries((batch) => {
+        if (!batch.length) return resolve(collected);
+        collected.push(...batch);
+        readBatch();
+      }, reject);
+      readBatch();
+    });
+    const walk = async (entry, prefix) => {
+      const relativePath = prefix ? `${prefix}/${entry.name}` : entry.name;
+      if (entry.isFile) {
+        const file = await new Promise((resolve, reject) => entry.file(resolve, reject));
+        Object.defineProperty(file, 'webkitRelativePath', { value: relativePath, configurable: true });
+        files.push(file);
+        return;
+      }
+      for (const child of await readDirectory(entry)) await walk(child, relativePath);
+    };
+    for (const entry of entries) await walk(entry, '');
+    return files;
+  }
   dropZone.addEventListener('keydown', (event) => {
     if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); input.click(); }
   });
@@ -352,7 +380,11 @@ async function initializeDetail() {
   }));
   ['dragleave', 'drop'].forEach((name) => dropZone.addEventListener(name, (event) => {
     event.preventDefault(); dropZone.classList.remove('dragging');
-    if (name === 'drop' && event.dataTransfer.files.length) showSelection(event.dataTransfer.files).catch((error) => setResult('검사 오류', game.title, error.message));
+    if (name === 'drop' && (event.dataTransfer.items.length || event.dataTransfer.files.length)) {
+      collectDroppedFiles(event.dataTransfer)
+        .then((files) => showSelection(files))
+        .catch((error) => setResult('검사 오류', game.title, error.message));
+    }
   }));
   patchButton.addEventListener('click', async () => {
     if (lastZip) {
