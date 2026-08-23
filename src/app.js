@@ -290,6 +290,7 @@ async function initializeDetail() {
     setResult('SHA-256 검사', `${folderName} · ${files.length.toLocaleString('ko-KR')} files`, '패치 대상 파일을 확인하고 있습니다.');
 
     const fileMap = new Map();
+    const fileEntries = [];
     const duplicatePaths = new Set();
     for (const file of files) {
       const suppliedPath = (file.webkitRelativePath || file.name).replaceAll('\\', '/');
@@ -297,13 +298,23 @@ async function initializeDetail() {
       const key = relative.toLocaleUpperCase('en-US');
       if (fileMap.has(key)) duplicatePaths.add(relative);
       fileMap.set(key, file);
+      fileEntries.push({ path: relative, file });
     }
     if (duplicatePaths.size) {
       setResult('폴더 오류', folderName, `대소문자만 다른 중복 경로가 있습니다: ${[...duplicatePaths][0]}`);
       return;
     }
 
-    selectedTargets = manifest.targets.map((target) => ({ target, file: fileMap.get(target.path.toLocaleUpperCase('en-US')), status: 'checking' }));
+    selectedTargets = manifest.targets.map((target) => {
+      const targetKey = target.path.toLocaleUpperCase('en-US');
+      let file = fileMap.get(targetKey);
+      if (!file) {
+        const suffix = `/${targetKey}`;
+        const matches = fileEntries.filter((entry) => entry.path.toLocaleUpperCase('en-US').endsWith(suffix));
+        if (matches.length === 1) file = matches[0].file;
+      }
+      return { target, file, status: 'checking' };
+    });
     renderTargetResults();
     let checked = 0;
     for (const item of selectedTargets) {
