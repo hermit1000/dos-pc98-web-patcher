@@ -1,0 +1,43 @@
+{
+  "id": "dead-of-the-brain-1-pc98",
+  "title": "데드 오브 더 브레인 - 망령의 절규",
+  "koreanTitle": "데드 오브 더 브레인 - 망령의 절규",
+  "originalTitle": "デッド オブ ザ ブレイン ～死霊の叫び～",
+  "englishTitle": "Dead of the Brain - Shirei no Sakebi",
+  "developer": "Fairytale",
+  "platform": "PC-98",
+  "genre": "어드벤처",
+  "year": "1992",
+  "release": "1992-05-15",
+  "version": "2026.08.29",
+  "date": "2026.08.29",
+  "original": "일본어 FD",
+  "status": "배포 중",
+  "files": 82,
+  "description": "PC-98용 데드 오브 더 브레인 - 망령의 절규 한글 패치입니다.",
+  "story": "검증된 PC-98 플로피 디스크판 원본을 기준으로 대사와 게임 그래픽을 한글화했습니다. 게임 실행에 필요한 변경 파일 82개를 적용하며, 정상적인 한글 표시를 위해 공용 ThinDungGeunMo 폰트를 사용할 수 있습니다.",
+  "verifiedOriginals": [
+    { "label": "Fairytale/Dead of the Brain/Dead of the Brain [FD]", "hashVerified": true }
+  ],
+  "screenshots": [
+    { "src": "games/dead-of-the-brain-1-pc98/images/screen-1.png", "alt": "PC-98 데드 오브 더 브레인 한글 화면 1", "caption": "한글화된 데드 오브 더 브레인 화면" },
+    { "src": "games/dead-of-the-brain-1-pc98/images/screen-2.png", "alt": "PC-98 데드 오브 더 브레인 한글 화면 2", "caption": "한글화된 게임 화면" },
+    { "src": "games/dead-of-the-brain-1-pc98/images/screen-3.png", "alt": "PC-98 데드 오브 더 브레인 한글 화면 3", "caption": "한글화된 게임 화면" },
+    { "src": "games/dead-of-the-brain-1-pc98/images/screen-4.png", "alt": "PC-98 데드 오브 더 브레인 한글 화면 4", "caption": "한글화된 게임 화면" },
+    { "src": "games/dead-of-the-brain-1-pc98/images/screen-5.png", "alt": "PC-98 데드 오브 더 브레인 한글 화면 5", "caption": "한글화된 게임 화면" }
+  ],
+  "history": [
+    { "date": "2026.08.29", "version": "초기판", "note": "데드 오브 더 브레인 1 PC-98 한글 패치 공개" }
+  ],
+  "credits": [
+    { "role": "한글화", "name": "천수도인" }
+  ],
+  "references": [
+    { "type": "legacy-post", "url": "https://hyunxx.tistory.com/51" },
+    { "type": "patch-source", "url": "https://cafe.naver.com/koeimod/847" }
+  ],
+  "palette": "rust",
+  "mark": "D1",
+  "cover": "games/dead-of-the-brain-1-pc98/images/screen-1.png",
+  "package": "packages/dead-of-the-brain-1-pc98/manifest.json"
+}

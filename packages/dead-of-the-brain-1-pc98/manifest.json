@@ -1,0 +1,677 @@
+{
+  "format": "folder-patch-v1",
+  "game": "데드 오브 더 브레인 - 망령의 절규",
+  "patchVersion": "2026.08.29",
+  "createdAt": "2026-08-29T05:40:30.142Z",
+  "sharedAssets": [
+    {
+      "id": "common-thin-dung-geun-mo-font",
+      "type": "emulator-font",
+      "name": "ThinDungGeunMo",
+      "source": "assets/fonts/source/ThinDungGeunMo.bmp",
+      "fileName": "ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "cc3e3babc36ae9da6c3d177c0976f5ac61ccb36bfa33aed8d2919b5be92ee99a",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "GRAPH/BLTY_A.GPC",
+      "patch": "patches/GRAPH/BLTY_A.GPC.xdelta",
+      "originalSize": 27602,
+      "patchedSize": 27621,
+      "originalSha256": "2f8d09268c7196e88a0d1fdcb352c36acfddbf350348ff940ab11ca44384ecf6",
+      "patchedSha256": "8d07cf683167ae12b2054da46fb76fca694172c17592df4028a8b10e01a8da72"
+    },
+    {
+      "path": "GRAPH/BLTY_B.GPC",
+      "patch": "patches/GRAPH/BLTY_B.GPC.xdelta",
+      "originalSize": 39100,
+      "patchedSize": 39242,
+      "originalSha256": "cde526ec085c4cef3e9c5dabfe748e0f535e6a65d19d1b1c4d7c6883300c881c",
+      "patchedSha256": "20a62084ca5a575c60e38f3342b5465d53feff9a97b72583a1cd2dc110ac7a61"
+    },
+    {
+      "path": "GRAPH/FRR.GPC",
+      "patch": "patches/GRAPH/FRR.GPC.xdelta",
+      "originalSize": 19971,
+      "patchedSize": 20064,
+      "originalSha256": "f8e3c75d9919ef569b6a0332ff478dbf61d1cbbbebea86dc112540b3656805b5",
+      "patchedSha256": "680c83b38feb82a76c5bc33048974e69f395f8d2185bdae9e0ba9e82b52eaa8f"
+    },
+    {
+      "path": "MES/000001.MES",
+      "patch": "patches/MES/000001.MES.xdelta",
+      "originalSize": 8776,
+      "patchedSize": 10667,
+      "originalSha256": "c4a2d85f41a56a9c6a9113f98b332ead3e84892fa7771834c9a5acee708e355b",
+      "patchedSha256": "b0d785fc1309e089b2672615dc162afa3a79164e47ad8d8cae7ce00590b9c7be"
+    },
+    {
+      "path": "MES/000002.MES",
+      "patch": "patches/MES/000002.MES.xdelta",
+      "originalSize": 2509,
+      "patchedSize": 2923,
+      "originalSha256": "c29cdabacb8a22e6a71d64e11cd0033224ddfe8943498da6b26748a423271aa3",
+      "patchedSha256": "ce915bc859497e992c5f6122bf7fc761c01297f8d1566eed563bfa8f2d98a930"
+    },
+    {
+      "path": "MES/000003.MES",
+      "patch": "patches/MES/000003.MES.xdelta",
+      "originalSize": 3145,
+      "patchedSize": 3710,
+      "originalSha256": "9a068e06cdba10c014a57c818f12cff79b7a08b3939774f4ce6633cd68394792",
+      "patchedSha256": "2056bb6538bb00c37e33f56aeffc719f7ce6a049cb761b22cfc3a1021be8b937"
+    },
+    {
+      "path": "MES/000004.MES",
+      "patch": "patches/MES/000004.MES.xdelta",
+      "originalSize": 3193,
+      "patchedSize": 3848,
+      "originalSha256": "9592d4acd6e1ea11c2725e1a647865b53cb8ed74f3c44da1fa9dfbb435b94894",
+      "patchedSha256": "268bc925ec25b6bdf9ea1ae58029f1dc97826055b376d3fe217aa5601f6a27d0"
+    },
+    {
+      "path": "MES/000005.MES",
+      "patch": "patches/MES/000005.MES.xdelta",
+      "originalSize": 2314,
+      "patchedSize": 2679,
+      "originalSha256": "a5f14b8ffdfa8c49c9d30e80bc403a53afc4ff371798b451dea0c5615c77ecf6",
+      "patchedSha256": "0b36970044e5acfb2a48b001c950f3c3f67c6c7177815729b0d6caf5cf08170b"
+    },
+    {
+      "path": "MES/000006.MES",
+      "patch": "patches/MES/000006.MES.xdelta",
+      "originalSize": 3399,
+      "patchedSize": 4051,
+      "originalSha256": "31bd59f5b807bafa8a0f451342dc39d13b22574bbd4f8e55fa804c720c8e8509",
+      "patchedSha256": "c539bfae5408a844d7cdb44b92ac89353eb71b1c99742290acc3e36b5751df91"
+    },
+    {
+      "path": "MES/000007.MES",
+      "patch": "patches/MES/000007.MES.xdelta",
+      "originalSize": 3124,
+      "patchedSize": 3878,
+      "originalSha256": "89dc8cd9245290a9125a1bd541dc5cbb8326d72680f1270a114636ef0d695942",
+      "patchedSha256": "02a9eea8ba19c1b274d9e5242a95432781c5bbb785c584ae7b7754c7fe614daf"
+    },
+    {
+      "path": "MES/000008.MES",
+      "patch": "patches/MES/000008.MES.xdelta",
+      "originalSize": 3702,
+      "patchedSize": 4519,
+      "originalSha256": "9b342b6bd8565c621846f28878599ea91b67077205b7bd2f35048b1a665ddb6d",
+      "patchedSha256": "4bab4021840a727fdb3d1352d486ad854cd741d11401d149654208751a3a6c91"
+    },
+    {
+      "path": "MES/000009.MES",
+      "patch": "patches/MES/000009.MES.xdelta",
+      "originalSize": 2999,
+      "patchedSize": 3605,
+      "originalSha256": "4e18d99211865d3c4b79b306946fd9ea6b9f1029f879d6359cc0e0d4a4aa2709",
+      "patchedSha256": "29abaf4f2a1260cba66df04bc007eca9d3e6b512dc0c1100f54bf3ae35927564"
+    },
+    {
+      "path": "MES/000010.MES",
+      "patch": "patches/MES/000010.MES.xdelta",
+      "originalSize": 1829,
+      "patchedSize": 2134,
+      "originalSha256": "bd3dd037cdc7bdd3275651479b72ccbc7c7475ac7531a33b72b05dd157de7585",
+      "patchedSha256": "ac5ac0759172777454d8a778a727b40a898ccbac9a75a2ed88e3bf0879d95b4a"
+    },
+    {
+      "path": "MES/000011.MES",
+      "patch": "patches/MES/000011.MES.xdelta",
+      "originalSize": 1459,
+      "patchedSize": 1744,
+      "originalSha256": "be109dd2ec7878bdeaa057631779fd0aa821934687aaafaa167ce7e49858d287",
+      "patchedSha256": "ada68b1fb2a27dd180d5d2d10c23c824c5236c2339270245c132a3470f5d192d"
+    },
+    {
+      "path": "MES/000012.MES",
+      "patch": "patches/MES/000012.MES.xdelta",
+      "originalSize": 5824,
+      "patchedSize": 7206,
+      "originalSha256": "ef773f9fac1357fd0325c31edfbde90eb1e1bd60b4ebae1d1b03f8426b1a7986",
+      "patchedSha256": "aee6dd5c93ec850014584d1a6e09935afe3fef31b96aa2c5347f963b0c3b5141"
+    },
+    {
+      "path": "MES/000013.MES",
+      "patch": "patches/MES/000013.MES.xdelta",
+      "originalSize": 2582,
+      "patchedSize": 2841,
+      "originalSha256": "423bb81034032cd2ce9d38c6d88d97a95514052d9ca354ffc78d0e11e01426f0",
+      "patchedSha256": "af7de82972f334e9302d78fa10f2476c3d651a371a67ee400539862561aab4c1"
+    },
+    {
+      "path": "MES/000014.MES",
+      "patch": "patches/MES/000014.MES.xdelta",
+      "originalSize": 3592,
+      "patchedSize": 4331,
+      "originalSha256": "8baeacca351339d35d74d6d1b8f80ecae3cc622f4ccd611fde0b03c9be106f6c",
+      "patchedSha256": "aaa5650aeac7731ddae777c3e9320c337a929ef2953c0395c37f6dd7508a3688"
+    },
+    {
+      "path": "MES/000015.MES",
+      "patch": "patches/MES/000015.MES.xdelta",
+      "originalSize": 2774,
+      "patchedSize": 3354,
+      "originalSha256": "0143d7069992c4da2a684029e1110b5e19e3f096a46f4229a3e58c8242c5bd4b",
+      "patchedSha256": "91a6392b54fe9633b73b730029721ef30bdeb802eb2325c75244cf721093a364"
+    },
+    {
+      "path": "MES/000016.MES",
+      "patch": "patches/MES/000016.MES.xdelta",
+      "originalSize": 2744,
+      "patchedSize": 3797,
+      "originalSha256": "941dfea7aaa0145e770591b69e3840781e1631bee81c48db43e26a4780ac15ec",
+      "patchedSha256": "80a2ab3cd7b6bca8a5d46e109b4156c0aba1d4685c2644960766eb352a834157"
+    },
+    {
+      "path": "MES/000017.MES",
+      "patch": "patches/MES/000017.MES.xdelta",
+      "originalSize": 2313,
+      "patchedSize": 2645,
+      "originalSha256": "adf008c0d6213f450a9bd43d7f93fc9d25246aa8490991e76142cef633fa9799",
+      "patchedSha256": "39945eba52260e9437e716223397b047318c5aca4c89dcfe104e2bc84b01f391"
+    },
+    {
+      "path": "MES/000018.MES",
+      "patch": "patches/MES/000018.MES.xdelta",
+      "originalSize": 5828,
+      "patchedSize": 6821,
+      "originalSha256": "41121367fa6129ba4d94e980370f809723c51ad66c3411a0f724bb9df24b962b",
+      "patchedSha256": "9c4c5a699373e66c34b4b24d40979b77494f2f8887e99e10329a761cf8763d2f"
+    },
+    {
+      "path": "MES/000019.MES",
+      "patch": "patches/MES/000019.MES.xdelta",
+      "originalSize": 3010,
+      "patchedSize": 3405,
+      "originalSha256": "174dabe0df6fa6fe5e2788658101b072f90d71f4591cb5b5a700d84e8b98dd0f",
+      "patchedSha256": "b0a1feabc5906b6e834ecb7a31c06d4ca8d579698c06c7c7a0cfec488f8f9a13"
+    },
+    {
+      "path": "MES/000020.MES",
+      "patch": "patches/MES/000020.MES.xdelta",
+      "originalSize": 4700,
+      "patchedSize": 5773,
+      "originalSha256": "ce3f6c8195789c278e48dae2ba4ef3d1b0a1a87e04f90873e99e89bc929d5167",
+      "patchedSha256": "4a5b8c91437b4e8bf3d9ddca1ba8ec482f29e70d8dc50a928407acc90d2fd0a7"
+    },
+    {
+      "path": "MES/000021.MES",
+      "patch": "patches/MES/000021.MES.xdelta",
+      "originalSize": 2373,
+      "patchedSize": 2803,
+      "originalSha256": "b7bbce4354a5629927a304f6451329a265640aec05e2d54c8497ec937c85f447",
+      "patchedSha256": "f116642d6d5e4fb050b524606c35365d50f417aad7c989e66eacbc0dbcd05bcd"
+    },
+    {
+      "path": "MES/000022.MES",
+      "patch": "patches/MES/000022.MES.xdelta",
+      "originalSize": 3814,
+      "patchedSize": 4512,
+      "originalSha256": "d9b0a2799ef24037193564232ba293bde2eb8f6b4dc3ad87b83fc72ce39a04a8",
+      "patchedSha256": "0cfa0bd4fcad9002ad3e0f060609644407b60f9c2d6b377a61bdf82b2b8c26cd"
+    },
+    {
+      "path": "MES/000023.MES",
+      "patch": "patches/MES/000023.MES.xdelta",
+      "originalSize": 2353,
+      "patchedSize": 2849,
+      "originalSha256": "e55e2562a629503f7839c07e78359ba143135fbd30882b5d82abe1aff1b395be",
+      "patchedSha256": "c6573d0048abbe9ec99f7580dac6ac56eb5a65a1731b45f03b0182ce96e37584"
+    },
+    {
+      "path": "MES/000024.MES",
+      "patch": "patches/MES/000024.MES.xdelta",
+      "originalSize": 3030,
+      "patchedSize": 3535,
+      "originalSha256": "139d003cc86901f775662540ac0f02cf0ffc40210494e2686a91e1ac5cbc3aaa",
+      "patchedSha256": "074094a8255638b122f92052f40b25669b7ec10f75884131e646ab3a7b9e2ab1"
+    },
+    {
+      "path": "MES/000025.MES",
+      "patch": "patches/MES/000025.MES.xdelta",
+      "originalSize": 5497,
+      "patchedSize": 6409,
+      "originalSha256": "4d8e7998c75d753a9bcca242d7f20498c3568ecdd69970817176e0ef3c3b44f6",
+      "patchedSha256": "b5e99f8fc05d6cf46ade9af50f0fd0a5f38afc83fa0ce494106d5228926d0b4b"
+    },
+    {
+      "path": "MES/000026.MES",
+      "patch": "patches/MES/000026.MES.xdelta",
+      "originalSize": 3034,
+      "patchedSize": 3671,
+      "originalSha256": "975510ab5859fd3bb53084d03dfaed4f699e817e13d11b3f61fa50423a095d8a",
+      "patchedSha256": "2acd058cec6bd394528bc5e74d369e696e1c1b55f09e6cb754c89ed096259db5"
+    },
+    {
+      "path": "MES/000027.MES",
+      "patch": "patches/MES/000027.MES.xdelta",
+      "originalSize": 5296,
+      "patchedSize": 6038,
+      "originalSha256": "d67468240cea9729b58e19005ff85d65bb9a9ce17ad6b8bd605a6f6562db0c9c",
+      "patchedSha256": "99b7b3dcc61df727261db1cf039d228c90aab73545a6ef0637e9f47181dc9ed9"
+    },
+    {
+      "path": "MES/000028.MES",
+      "patch": "patches/MES/000028.MES.xdelta",
+      "originalSize": 2994,
+      "patchedSize": 3360,
+      "originalSha256": "421524c504733f1e7ed3a37ef650df4b959647c3e9e80de9f8f5112e5a35a1bb",
+      "patchedSha256": "c8609272ece4444d5226f5a6901226f280dc80401ec18f64b75842d2cab28250"
+    },
+    {
+      "path": "MES/000029.MES",
+      "patch": "patches/MES/000029.MES.xdelta",
+      "originalSize": 1244,
+      "patchedSize": 1341,
+      "originalSha256": "30e4beee31ea21665acaca01e58671e46b21beaf563b898e6b9b4e4c5066baec",
+      "patchedSha256": "815756d9ed20362638ef2951dc3a87e31f747cc73ded4986f3644a062a4d41bd"
+    },
+    {
+      "path": "MES/000030.MES",
+      "patch": "patches/MES/000030.MES.xdelta",
+      "originalSize": 9001,
+      "patchedSize": 10629,
+      "originalSha256": "dcebc7851fb4902f1364e189a75d1aad87f50309b816747d5152587ed984e986",
+      "patchedSha256": "98335043f46a56ea961e6223b9cb13210a9f1469f4f0cbbe4c42896b6d47e271"
+    },
+    {
+      "path": "MES/000031.MES",
+      "patch": "patches/MES/000031.MES.xdelta",
+      "originalSize": 2933,
+      "patchedSize": 3398,
+      "originalSha256": "bc7acc46a4388f595d40e0e9a271434337d876dbad3a7ec60f1c7bd16cde7213",
+      "patchedSha256": "809be2c4720fde33872574fa9515c4afc1460dafabcbc12f5a40e8e7a6860c4a"
+    },
+    {
+      "path": "MES/000032.MES",
+      "patch": "patches/MES/000032.MES.xdelta",
+      "originalSize": 4191,
+      "patchedSize": 5032,
+      "originalSha256": "00757b4f5ba9c08f039b5532215036b32f192376ed9829ffe31b2560ef14ec0e",
+      "patchedSha256": "1b59232b6ad747f1c0a08886f27e69eb4d541ddbee9c103f4f064757214fd2b5"
+    },
+    {
+      "path": "MES/000033.MES",
+      "patch": "patches/MES/000033.MES.xdelta",
+      "originalSize": 4402,
+      "patchedSize": 5319,
+      "originalSha256": "39a3310fcbb2d23c64c057fe44d17337416ba9fa865790a2406b972e1f3cf9e8",
+      "patchedSha256": "ed15ea28afd7b16ed9dfde0c2712f2dfe25a42d09f740d1bedf8fbe7edb76fa4"
+    },
+    {
+      "path": "MES/000034.MES",
+      "patch": "patches/MES/000034.MES.xdelta",
+      "originalSize": 3597,
+      "patchedSize": 4439,
+      "originalSha256": "b0325e539e4aaa13ca7b10cdf376a6b794c9e2811e38e7596c9cb6f0378277c8",
+      "patchedSha256": "4bdcc001bccc1adeff7b1dfbe39908533d0fa07be25d7438c4d405daf146c98b"
+    },
+    {
+      "path": "MES/000035.MES",
+      "patch": "patches/MES/000035.MES.xdelta",
+      "originalSize": 3861,
+      "patchedSize": 4763,
+      "originalSha256": "187abf9d5790650057288e4bdfa1f990a15735daa55728413f89a473fbc82196",
+      "patchedSha256": "b76ffbcd798a075a4229f8bb65a14829b89a1f3bfa1b5f5f80a752903a86bae8"
+    },
+    {
+      "path": "MES/000036.MES",
+      "patch": "patches/MES/000036.MES.xdelta",
+      "originalSize": 4001,
+      "patchedSize": 4810,
+      "originalSha256": "084e495703184fa3cea1ff16bf63405bdda982780874e822f527d09aa67f5313",
+      "patchedSha256": "64b34a271b2efdb8531e165af9fb85cc42bc8d0773f340739dfab6e56ad27927"
+    },
+    {
+      "path": "MES/000037.MES",
+      "patch": "patches/MES/000037.MES.xdelta",
+      "originalSize": 2841,
+      "patchedSize": 3394,
+      "originalSha256": "b74b53d80732c641c533676d570144618583056fe1f1f3c683c917b0c8d7abab",
+      "patchedSha256": "c81338567f953ce271e8ed57f84b600016bf89b7d29cee3ab8e49018ccb74271"
+    },
+    {
+      "path": "MES/000038.MES",
+      "patch": "patches/MES/000038.MES.xdelta",
+      "originalSize": 3028,
+      "patchedSize": 3594,
+      "originalSha256": "e8d7988d65f5a72500569aeb2a28896524211de2cb2df8173bbc8f0e0d037f3f",
+      "patchedSha256": "6544c9642f382a75b74fd42c31a1d44bbfdadf68d0404e80a4520c7e25d28be7"
+    },
+    {
+      "path": "MES/000039.MES",
+      "patch": "patches/MES/000039.MES.xdelta",
+      "originalSize": 3816,
+      "patchedSize": 4277,
+      "originalSha256": "7faee2631d4c0547dd4e94f64823386ec39d34abd159c23e790c8282c958014e",
+      "patchedSha256": "dcc14faea997b383a52f5a40b14cac6171e735a0839432599cc8d9e9025296e8"
+    },
+    {
+      "path": "MES/000040.MES",
+      "patch": "patches/MES/000040.MES.xdelta",
+      "originalSize": 1161,
+      "patchedSize": 1365,
+      "originalSha256": "c360b46ed990ef57e0fe5d856030fabd6dbdbc7f397bd1809de6c990f552a7fd",
+      "patchedSha256": "564a157e0af1099ae23535de0f8ca9647fca8878a70bd4c915a5bee221c5c142"
+    },
+    {
+      "path": "MES/000041.MES",
+      "patch": "patches/MES/000041.MES.xdelta",
+      "originalSize": 3841,
+      "patchedSize": 4538,
+      "originalSha256": "d2c5c8902c5703fd090ca2c36faea9a304045b1b876b35fef09269ee21584873",
+      "patchedSha256": "8f886d6169dc96d89bfb90c1bb42ca0b455d6f20088b847933f8ca10d5426fad"
+    },
+    {
+      "path": "MES/000042.MES",
+      "patch": "patches/MES/000042.MES.xdelta",
+      "originalSize": 2246,
+      "patchedSize": 2580,
+      "originalSha256": "8d3d474977c7669a3af2144e8693635f2f3901357ba9e188b9a0f0d8624f715e",
+      "patchedSha256": "ee104792de5b32d0c1b89eb1e87d66760cbb843621ecfb04745de971472bddcb"
+    },
+    {
+      "path": "MES/000043.MES",
+      "patch": "patches/MES/000043.MES.xdelta",
+      "originalSize": 2158,
+      "patchedSize": 2462,
+      "originalSha256": "266649ad4de4f4306e7e96ec3b11f1f6eb6c68bcb632d7791ea246ef15434414",
+      "patchedSha256": "c4aec1911a2f275e78cb404c11c43b63a6342eb17ec179c9c7b3eda438f53000"
+    },
+    {
+      "path": "MES/000044.MES",
+      "patch": "patches/MES/000044.MES.xdelta",
+      "originalSize": 2025,
+      "patchedSize": 2306,
+      "originalSha256": "b976c9156b8d1f3049750b89d2e9afa78c8f9e988efb352eb5e622eee3610956",
+      "patchedSha256": "00f342a0c832dfd1abfe2a40d4ab48f3199b045f96829baa7131b2a271f89e9e"
+    },
+    {
+      "path": "MES/000045.MES",
+      "patch": "patches/MES/000045.MES.xdelta",
+      "originalSize": 1955,
+      "patchedSize": 2214,
+      "originalSha256": "2ec4c7877e1d1aeca71ae4b3088877ba1a81eeea9f1099757540ac389a9006ec",
+      "patchedSha256": "e597ec86096bd8098ff7847b6fc7636793ad635ace7fad0b20115b9dd1258e47"
+    },
+    {
+      "path": "MES/000046.MES",
+      "patch": "patches/MES/000046.MES.xdelta",
+      "originalSize": 4153,
+      "patchedSize": 5166,
+      "originalSha256": "7687d48546431fff3ad724ef3e5aaecc475b99061d7448d79a42a9b606751118",
+      "patchedSha256": "348bfc05407014e4e221f3b4551dd17cdfaa38febdc4b2c26d233f11a63fb397"
+    },
+    {
+      "path": "MES/000047.MES",
+      "patch": "patches/MES/000047.MES.xdelta",
+      "originalSize": 3901,
+      "patchedSize": 4790,
+      "originalSha256": "c9f7e26ad70f81e9e018404d84968890f3d2e688c3fe2efef3c1f753c5dbacb7",
+      "patchedSha256": "03049eb5a4be5195bd74aafded21246219739078026869093add50c35021cc55"
+    },
+    {
+      "path": "MES/000048.MES",
+      "patch": "patches/MES/000048.MES.xdelta",
+      "originalSize": 5117,
+      "patchedSize": 6367,
+      "originalSha256": "64ef928a82888a7191cb3cf7e678c4e8c10f0896e9be759ad03ef2959df0fa14",
+      "patchedSha256": "f2955c8e172c712ede2e38ff477556b0a558603c37cd3e848eeaea71b9bb1ddb"
+    },
+    {
+      "path": "MES/000049.MES",
+      "patch": "patches/MES/000049.MES.xdelta",
+      "originalSize": 4938,
+      "patchedSize": 6052,
+      "originalSha256": "62a4ac00a939070d55368ba92b7425f2180df65ecdb14d567d4484e8d295641b",
+      "patchedSha256": "15a564676fc9bbed4b8567f2756b096c7e066d0c5728d2316988164a98ce8244"
+    },
+    {
+      "path": "MES/000050.MES",
+      "patch": "patches/MES/000050.MES.xdelta",
+      "originalSize": 9693,
+      "patchedSize": 12975,
+      "originalSha256": "9e4e9f2a04f1cd0f78469f4dd14a2072dbbab04d567d6ba803d926875e253da9",
+      "patchedSha256": "2e38bc40c200d6bcdfecfd668fc44f0e155132358d8d222688d672252335b2cc"
+    },
+    {
+      "path": "MES/000051.MES",
+      "patch": "patches/MES/000051.MES.xdelta",
+      "originalSize": 9276,
+      "patchedSize": 12473,
+      "originalSha256": "a19b74b74f3ddc7723b75a4b2b23c704ae2f374c472e4d82767b3d23f5210a45",
+      "patchedSha256": "c602010250ed23a217b82a04b621dd646e0ab8af9c45c968693f3e8c87c02f63"
+    },
+    {
+      "path": "MES/000052.MES",
+      "patch": "patches/MES/000052.MES.xdelta",
+      "originalSize": 4050,
+      "patchedSize": 4832,
+      "originalSha256": "0575de04afe6242a6e0eca0553dbfc0d46476db425cd86f8a20dbbb60f1e0035",
+      "patchedSha256": "67edf08609d5ba751b5958836129b5338da056cdcb501c8a63ca6d07238ae3d6"
+    },
+    {
+      "path": "MES/000053.MES",
+      "patch": "patches/MES/000053.MES.xdelta",
+      "originalSize": 2665,
+      "patchedSize": 3195,
+      "originalSha256": "77e8e6ffb0941fa12b366c668eae2506afd26e346cabc74fa711385682ed4160",
+      "patchedSha256": "c0e05dd344c8d264a294bea3cca612153aff2a0e78cc243c32b5d6bd1a02343a"
+    },
+    {
+      "path": "MES/000054.MES",
+      "patch": "patches/MES/000054.MES.xdelta",
+      "originalSize": 5214,
+      "patchedSize": 6046,
+      "originalSha256": "4f64eafe3899b3a3a61e4e15e37cbd7e0e113303fcfe0992f3e9aa140f30fe1d",
+      "patchedSha256": "b99935df97bc02f31e95f98797ad0e9bdc9650615f65e8c66cc8efaecc60dc66"
+    },
+    {
+      "path": "MES/000055.MES",
+      "patch": "patches/MES/000055.MES.xdelta",
+      "originalSize": 2398,
+      "patchedSize": 2770,
+      "originalSha256": "ab80ba830b8337a36909d7344e3c8957bb11eb5fdf62303c9f6ba0bb54a5291a",
+      "patchedSha256": "77f2d22b7c852dd14c5218eb4aa052aedce873f174cd405e11e544669357af37"
+    },
+    {
+      "path": "MES/000056.MES",
+      "patch": "patches/MES/000056.MES.xdelta",
+      "originalSize": 3592,
+      "patchedSize": 4232,
+      "originalSha256": "e3be1f41a82ebbca0f806eab977e8315e440a031bb15dd6d36c8c8902182c902",
+      "patchedSha256": "6b839205679070ec4cd1e988ef99856410fadafa36575ec4a9bc01fda88a4962"
+    },
+    {
+      "path": "MES/000057.MES",
+      "patch": "patches/MES/000057.MES.xdelta",
+      "originalSize": 3830,
+      "patchedSize": 4744,
+      "originalSha256": "f653f987a9edbda4edd87bf89ce02a53eabdbaba6696f44fc158988943edb7a9",
+      "patchedSha256": "37c3060f402fe4e9e1d32917d22a594cbca6fe9942b31e2289bd963d392754af"
+    },
+    {
+      "path": "MES/000058.MES",
+      "patch": "patches/MES/000058.MES.xdelta",
+      "originalSize": 5129,
+      "patchedSize": 5577,
+      "originalSha256": "d822b001107ceb9adc27de6dd01cafcaab776b3ab9f94b4a3e908f91b4b70db5",
+      "patchedSha256": "a811f88ee96594a01b8559c51f31e9254bd09e2323b4ce13e44a2d3df08a3d82"
+    },
+    {
+      "path": "MES/000059.MES",
+      "patch": "patches/MES/000059.MES.xdelta",
+      "originalSize": 6669,
+      "patchedSize": 8066,
+      "originalSha256": "c8b0c3186bdf9c31dcfcf4e2510612da3ac666cf69d964653d10489e7ace1d4c",
+      "patchedSha256": "a5c3c6522d2a62650d363ae39602a07a4c157896ccdee6f3d115b51a8879e7e6"
+    },
+    {
+      "path": "MES/000060.MES",
+      "patch": "patches/MES/000060.MES.xdelta",
+      "originalSize": 2314,
+      "patchedSize": 2572,
+      "originalSha256": "51b743447ce2da0bce60238d43cf8778b7f1a3a547b7f4f0fb86826622a6a193",
+      "patchedSha256": "1ca56dde0d90aefbb49bc33bd8164852a65349edcd0ff3f8df2cd18fdee30ded"
+    },
+    {
+      "path": "MES/000061.MES",
+      "patch": "patches/MES/000061.MES.xdelta",
+      "originalSize": 3169,
+      "patchedSize": 3539,
+      "originalSha256": "f81e17fd94633bc213fd7256e7f63668615a4db9b01dc0b0714156951f5c4527",
+      "patchedSha256": "85b0c3590fdfcb0c92aa575deebd6f2a672d7955813e98cda89fcadd21b6f2eb"
+    },
+    {
+      "path": "MES/000062.MES",
+      "patch": "patches/MES/000062.MES.xdelta",
+      "originalSize": 5154,
+      "patchedSize": 6044,
+      "originalSha256": "c47ce2bfe0bfadb449041d2e46a0b7b6a431e95ca20e87ef7f22b51992c13faa",
+      "patchedSha256": "d65cf19057d9dbf1405c13a9a715da5d36c70075ce09939d71fe33aa4b6c8124"
+    },
+    {
+      "path": "MES/000063.MES",
+      "patch": "patches/MES/000063.MES.xdelta",
+      "originalSize": 1781,
+      "patchedSize": 1941,
+      "originalSha256": "007a9b4dc6bd44a13f6e90819c121707b93fb98c66523da4fb2818d13a1e1381",
+      "patchedSha256": "c438548c5440d67fe25ad424102194ce44e95008766385f8d321449f9753c270"
+    },
+    {
+      "path": "MES/000064.MES",
+      "patch": "patches/MES/000064.MES.xdelta",
+      "originalSize": 2372,
+      "patchedSize": 2706,
+      "originalSha256": "de93aaaadeab8de30fa592da019da9899f71172a104f9d8cfc64273a4b3d2962",
+      "patchedSha256": "f4ac7ea87fc4422874529270c8d165e882d5d561c457cc6d10a61fee705e9a1d"
+    },
+    {
+      "path": "MES/000065.MES",
+      "patch": "patches/MES/000065.MES.xdelta",
+      "originalSize": 5669,
+      "patchedSize": 6510,
+      "originalSha256": "ebc302bc7c4713421412f65bd94817247a7f9721118b8380b53cb27786e44afb",
+      "patchedSha256": "f95fbf503649a9a8dd07505a8d39832a4301ecf8360d1321960a4b44393aa538"
+    },
+    {
+      "path": "MES/000066.MES",
+      "patch": "patches/MES/000066.MES.xdelta",
+      "originalSize": 6949,
+      "patchedSize": 7476,
+      "originalSha256": "f0759a18193bea73fdb7fdf6288b78be7302d4c0186b2572e14897c9874752d8",
+      "patchedSha256": "5ada31213aab6402c7728537648eb97e7b351a4e8b4284e5ae63aaa0788db2a1"
+    },
+    {
+      "path": "MES/000067.MES",
+      "patch": "patches/MES/000067.MES.xdelta",
+      "originalSize": 6988,
+      "patchedSize": 7068,
+      "originalSha256": "3b87f2e45fdc1c313a1b906a6d44eb73072259d2f27bc15e60d26c7c3364c6a8",
+      "patchedSha256": "18c9a1045a790bc3d3a5e7bd669f2389d622fcf76f2e9edc63993f89f26c41ee"
+    },
+    {
+      "path": "MES/10PLUS.MES",
+      "patch": "patches/MES/10PLUS.MES.xdelta",
+      "originalSize": 3047,
+      "patchedSize": 3553,
+      "originalSha256": "28fa0b7c1e10004717866c8f4e910b16a16ec6fae85b85bd529d232bc491b536",
+      "patchedSha256": "1f72a8bcb7eec709d285d853103c851606bb5163edb3aad437a2b14a95f19c62"
+    },
+    {
+      "path": "MES/11PLUS.MES",
+      "patch": "patches/MES/11PLUS.MES.xdelta",
+      "originalSize": 3104,
+      "patchedSize": 3256,
+      "originalSha256": "9b234e7e1fa8cc70b4bc43efe6120ecdc87f129b01d220e1676fd7741b9b0c37",
+      "patchedSha256": "2045377f8b6ba2d379b257cfa435996d3f65d87adc201eb05e56bddfc4244dc0"
+    },
+    {
+      "path": "MES/13PLUS.MES",
+      "patch": "patches/MES/13PLUS.MES.xdelta",
+      "originalSize": 834,
+      "patchedSize": 878,
+      "originalSha256": "523b0453130e6db453c92a358bbb276144ec2f7d97a977f6a29e647c4c942c62",
+      "patchedSha256": "0b8bb7b30f1ad99ec79dfea4a169b6ea3d28c429601c22f27e5ed06fd36934a4"
+    },
+    {
+      "path": "MES/17PLUS.MES",
+      "patch": "patches/MES/17PLUS.MES.xdelta",
+      "originalSize": 1888,
+      "patchedSize": 2412,
+      "originalSha256": "5828511faaf2e1bcce98384c6cc7bc89c5c9cbb6f2494db00d9c18d58cfc890a",
+      "patchedSha256": "ea36a9f42bb6b38dbf7f2e4ad82e3785a2c72c3128306e76e028a49674a74ac6"
+    },
+    {
+      "path": "MES/20PLUS.MES",
+      "patch": "patches/MES/20PLUS.MES.xdelta",
+      "originalSize": 351,
+      "patchedSize": 410,
+      "originalSha256": "ca40b2c074435881cb51f6c512450647d5bdcf5258525f932fa7f2864b988fe8",
+      "patchedSha256": "9b327c600b6359e1b88043d0368f7fba9bbced973ef7fe005c7fd7244f33550e"
+    },
+    {
+      "path": "MES/22PLUS.MES",
+      "patch": "patches/MES/22PLUS.MES.xdelta",
+      "originalSize": 223,
+      "patchedSize": 279,
+      "originalSha256": "0ef887dd8ae6340a8998043d3a7ea5c6d215d6c497599912fd1a79d0addd61c1",
+      "patchedSha256": "33a3d9237c03a25e27d643abb7296a39adb01b7754bc11dfc9107d772ba88086"
+    },
+    {
+      "path": "MES/24PLUS.MES",
+      "patch": "patches/MES/24PLUS.MES.xdelta",
+      "originalSize": 1408,
+      "patchedSize": 1493,
+      "originalSha256": "3888189fb0c88310e2b21685fdc3a60e9f7ff5a4ee26efe912f83c392e87d30e",
+      "patchedSha256": "937bd8ab7c680b51e2296e84bb1686177bd81c6ca27cb85c8c49523cf904c074"
+    },
+    {
+      "path": "MES/26PLUS.MES",
+      "patch": "patches/MES/26PLUS.MES.xdelta",
+      "originalSize": 4994,
+      "patchedSize": 6160,
+      "originalSha256": "e3a30398b632bcc93ed84ca7f8636f57e9e147b08a08577bc34ed543c89c7274",
+      "patchedSha256": "d3b6a79db3055bae63a3f57afffac79af857b2f40b703f6bde736b6e8ff370bd"
+    },
+    {
+      "path": "MES/56PLUS.MES",
+      "patch": "patches/MES/56PLUS.MES.xdelta",
+      "originalSize": 657,
+      "patchedSize": 831,
+      "originalSha256": "ac0b8a03e6fb9ca3541e6a74d6b5bc87585f512d8f87cc3989f17ed47c7b74e2",
+      "patchedSha256": "43bf0c58af57041d438e3dd07792f53e003466b0f3ebd3789207fd51a73f2aad"
+    },
+    {
+      "path": "MES/63PLUS.MES",
+      "patch": "patches/MES/63PLUS.MES.xdelta",
+      "originalSize": 1067,
+      "patchedSize": 1111,
+      "originalSha256": "85793e0c43e2ff21b1747a0eb22ff89355fc66762933235cef87000f10a2f7c8",
+      "patchedSha256": "34f49888df73eec705560b5ce5fd0f97228094438c06888b46a33b84a49aab97"
+    },
+    {
+      "path": "MES/OPEN_1.MES",
+      "patch": "patches/MES/OPEN_1.MES.xdelta",
+      "originalSize": 7647,
+      "patchedSize": 9208,
+      "originalSha256": "428410330a618ae8b1bdb9069d7504446613de3430803dafd61da498086710d0",
+      "patchedSha256": "a4b132c73059dac104342d891d27003205166e2b2ef5ba3b0843ec53eef338c9"
+    },
+    {
+      "path": "MES/OPEN_2.MES",
+      "patch": "patches/MES/OPEN_2.MES.xdelta",
+      "originalSize": 8647,
+      "patchedSize": 9615,
+      "originalSha256": "744953867bb070c1e5dcd1433cc7b3bd9467729c156bc034f11c61d930bbf034",
+      "patchedSha256": "fc0b4bf96e65107d3ab25ee4d2f0ecd9b98b3c973d3530ead6b6b1c1ee20c46e"
+    }
+  ]
+}
