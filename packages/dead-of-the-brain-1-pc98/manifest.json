@@ -1,8 +1,8 @@
 {
   "format": "folder-patch-v1",
-  "game": "데드 오브 더 브레인 - 망령의 절규",
-  "patchVersion": "2026.08.29",
-  "createdAt": "2026-08-29T05:40:30.142Z",
+  "game": "데드 오브 더 브레인 - 사령의 비명",
+  "patchVersion": "2026.08.30",
+  "createdAt": "2026-08-30T08:32:31.292Z",
   "sharedAssets": [
     {
       "id": "common-thin-dung-geun-mo-font",
@@ -29,9 +29,9 @@
       "path": "GRAPH/BLTY_B.GPC",
       "patch": "patches/GRAPH/BLTY_B.GPC.xdelta",
       "originalSize": 39100,
-      "patchedSize": 39242,
+      "patchedSize": 39138,
       "originalSha256": "cde526ec085c4cef3e9c5dabfe748e0f535e6a65d19d1b1c4d7c6883300c881c",
-      "patchedSha256": "20a62084ca5a575c60e38f3342b5465d53feff9a97b72583a1cd2dc110ac7a61"
+      "patchedSha256": "b01afe93317989987f7f2ca1715b8b7240ea2de3788373397c4cc7f51a36c233"
     },
     {
       "path": "GRAPH/FRR.GPC",
@@ -45,9 +45,9 @@
       "path": "MES/000001.MES",
       "patch": "patches/MES/000001.MES.xdelta",
       "originalSize": 8776,
-      "patchedSize": 10667,
+      "patchedSize": 10671,
       "originalSha256": "c4a2d85f41a56a9c6a9113f98b332ead3e84892fa7771834c9a5acee708e355b",
-      "patchedSha256": "b0d785fc1309e089b2672615dc162afa3a79164e47ad8d8cae7ce00590b9c7be"
+      "patchedSha256": "2556def6640d1ae64d31fbfa75c3d37b23bbebe421fae94f62e5d567033b9ebc"
     },
     {
       "path": "MES/000002.MES",
@@ -63,7 +63,7 @@
       "originalSize": 3145,
       "patchedSize": 3710,
       "originalSha256": "9a068e06cdba10c014a57c818f12cff79b7a08b3939774f4ce6633cd68394792",
-      "patchedSha256": "2056bb6538bb00c37e33f56aeffc719f7ce6a049cb761b22cfc3a1021be8b937"
+      "patchedSha256": "e95cb074b8a2456646b7a70f83753129f7f2a55c274d0747563a52c9bf74076c"
     },
     {
       "path": "MES/000004.MES",
@@ -79,7 +79,7 @@
       "originalSize": 2314,
       "patchedSize": 2679,
       "originalSha256": "a5f14b8ffdfa8c49c9d30e80bc403a53afc4ff371798b451dea0c5615c77ecf6",
-      "patchedSha256": "0b36970044e5acfb2a48b001c950f3c3f67c6c7177815729b0d6caf5cf08170b"
+      "patchedSha256": "d15815680d5167339eb88b2317ca57ac5e8e442e3436ae428ee1b106b569d641"
     },
     {
       "path": "MES/000006.MES",
@@ -87,7 +87,7 @@
       "originalSize": 3399,
       "patchedSize": 4051,
       "originalSha256": "31bd59f5b807bafa8a0f451342dc39d13b22574bbd4f8e55fa804c720c8e8509",
-      "patchedSha256": "c539bfae5408a844d7cdb44b92ac89353eb71b1c99742290acc3e36b5751df91"
+      "patchedSha256": "51e1e49ffb30090d2f3d8e79d1e8f7d3bf9cc4ddfbebaf50ebf95d006adc415c"
     },
     {
       "path": "MES/000007.MES",
@@ -95,7 +95,7 @@
       "originalSize": 3124,
       "patchedSize": 3878,
       "originalSha256": "89dc8cd9245290a9125a1bd541dc5cbb8326d72680f1270a114636ef0d695942",
-      "patchedSha256": "02a9eea8ba19c1b274d9e5242a95432781c5bbb785c584ae7b7754c7fe614daf"
+      "patchedSha256": "581099a1904ee517c402d641f0daa02433064d1f7f0184ee83feffb4b41cc3d6"
     },
     {
       "path": "MES/000008.MES",
@@ -103,7 +103,7 @@
       "originalSize": 3702,
       "patchedSize": 4519,
       "originalSha256": "9b342b6bd8565c621846f28878599ea91b67077205b7bd2f35048b1a665ddb6d",
-      "patchedSha256": "4bab4021840a727fdb3d1352d486ad854cd741d11401d149654208751a3a6c91"
+      "patchedSha256": "07ed8aa01b272811d8c1af2a56b6a900ae27fab734ddaae6c796ae87e6408b17"
     },
     {
       "path": "MES/000009.MES",
@@ -111,7 +111,7 @@
       "originalSize": 2999,
       "patchedSize": 3605,
       "originalSha256": "4e18d99211865d3c4b79b306946fd9ea6b9f1029f879d6359cc0e0d4a4aa2709",
-      "patchedSha256": "29abaf4f2a1260cba66df04bc007eca9d3e6b512dc0c1100f54bf3ae35927564"
+      "patchedSha256": "8b974428296788e827a5c6c98929fa56c3839556c80803276d2210fd1b4e03aa"
     },
     {
       "path": "MES/000010.MES",
@@ -135,7 +135,7 @@
       "originalSize": 5824,
       "patchedSize": 7206,
       "originalSha256": "ef773f9fac1357fd0325c31edfbde90eb1e1bd60b4ebae1d1b03f8426b1a7986",
-      "patchedSha256": "aee6dd5c93ec850014584d1a6e09935afe3fef31b96aa2c5347f963b0c3b5141"
+      "patchedSha256": "872948872dee1234364ef82a06f04a21f9133253666314af500c0e9cbd305b82"
     },
     {
       "path": "MES/000013.MES",
@@ -151,7 +151,7 @@
       "originalSize": 3592,
       "patchedSize": 4331,
       "originalSha256": "8baeacca351339d35d74d6d1b8f80ecae3cc622f4ccd611fde0b03c9be106f6c",
-      "patchedSha256": "aaa5650aeac7731ddae777c3e9320c337a929ef2953c0395c37f6dd7508a3688"
+      "patchedSha256": "e49a014ddb157e1d18e644a2357d645811862acad14fa04bfc949a2ed11f7b90"
     },
     {
       "path": "MES/000015.MES",
@@ -159,7 +159,7 @@
       "originalSize": 2774,
       "patchedSize": 3354,
       "originalSha256": "0143d7069992c4da2a684029e1110b5e19e3f096a46f4229a3e58c8242c5bd4b",
-      "patchedSha256": "91a6392b54fe9633b73b730029721ef30bdeb802eb2325c75244cf721093a364"
+      "patchedSha256": "c74e5f01596c043ed925a923b19c9bdf6eeab55a91bf7c2029e9c80c4a404a53"
     },
     {
       "path": "MES/000016.MES",
@@ -167,7 +167,7 @@
       "originalSize": 2744,
       "patchedSize": 3797,
       "originalSha256": "941dfea7aaa0145e770591b69e3840781e1631bee81c48db43e26a4780ac15ec",
-      "patchedSha256": "80a2ab3cd7b6bca8a5d46e109b4156c0aba1d4685c2644960766eb352a834157"
+      "patchedSha256": "7eec9ffc814e60cd62076a4a5b85209d088528486237562d66d8cf313399640e"
     },
     {
       "path": "MES/000017.MES",
@@ -183,15 +183,15 @@
       "originalSize": 5828,
       "patchedSize": 6821,
       "originalSha256": "41121367fa6129ba4d94e980370f809723c51ad66c3411a0f724bb9df24b962b",
-      "patchedSha256": "9c4c5a699373e66c34b4b24d40979b77494f2f8887e99e10329a761cf8763d2f"
+      "patchedSha256": "73b84d5afd1e85dd928d515e949ea89fbf3ee6429d0158ab7cac1c4bd89e42dc"
     },
     {
       "path": "MES/000019.MES",
       "patch": "patches/MES/000019.MES.xdelta",
       "originalSize": 3010,
-      "patchedSize": 3405,
+      "patchedSize": 3409,
       "originalSha256": "174dabe0df6fa6fe5e2788658101b072f90d71f4591cb5b5a700d84e8b98dd0f",
-      "patchedSha256": "b0a1feabc5906b6e834ecb7a31c06d4ca8d579698c06c7c7a0cfec488f8f9a13"
+      "patchedSha256": "84cafb3b9a4548482c4ebe00dc1e1d2ece44b3d20abfb184695e2fcda7988404"
     },
     {
       "path": "MES/000020.MES",
@@ -199,23 +199,23 @@
       "originalSize": 4700,
       "patchedSize": 5773,
       "originalSha256": "ce3f6c8195789c278e48dae2ba4ef3d1b0a1a87e04f90873e99e89bc929d5167",
-      "patchedSha256": "4a5b8c91437b4e8bf3d9ddca1ba8ec482f29e70d8dc50a928407acc90d2fd0a7"
+      "patchedSha256": "b835cf2d61c71b67adee81427d540983f3686ea5db4f60478c1f1b1a73b06167"
     },
     {
       "path": "MES/000021.MES",
       "patch": "patches/MES/000021.MES.xdelta",
       "originalSize": 2373,
-      "patchedSize": 2803,
+      "patchedSize": 2807,
       "originalSha256": "b7bbce4354a5629927a304f6451329a265640aec05e2d54c8497ec937c85f447",
-      "patchedSha256": "f116642d6d5e4fb050b524606c35365d50f417aad7c989e66eacbc0dbcd05bcd"
+      "patchedSha256": "5ecb1652b71dcdd1b9bc3c286ba75f8cec2bb9e6b0151e07441d83239a942375"
     },
     {
       "path": "MES/000022.MES",
       "patch": "patches/MES/000022.MES.xdelta",
       "originalSize": 3814,
-      "patchedSize": 4512,
+      "patchedSize": 4514,
       "originalSha256": "d9b0a2799ef24037193564232ba293bde2eb8f6b4dc3ad87b83fc72ce39a04a8",
-      "patchedSha256": "0cfa0bd4fcad9002ad3e0f060609644407b60f9c2d6b377a61bdf82b2b8c26cd"
+      "patchedSha256": "65b87914dea6daa448bc63f4a0eb17884fb26fe40a0f2cc82be58a4b24135e2d"
     },
     {
       "path": "MES/000023.MES",
@@ -223,7 +223,7 @@
       "originalSize": 2353,
       "patchedSize": 2849,
       "originalSha256": "e55e2562a629503f7839c07e78359ba143135fbd30882b5d82abe1aff1b395be",
-      "patchedSha256": "c6573d0048abbe9ec99f7580dac6ac56eb5a65a1731b45f03b0182ce96e37584"
+      "patchedSha256": "218e4fd1f7d2de3e5244fd6b0cbc82c7f6a5e2ddbc8c100d08ea32dacf6c0f0b"
     },
     {
       "path": "MES/000024.MES",
@@ -231,7 +231,7 @@
       "originalSize": 3030,
       "patchedSize": 3535,
       "originalSha256": "139d003cc86901f775662540ac0f02cf0ffc40210494e2686a91e1ac5cbc3aaa",
-      "patchedSha256": "074094a8255638b122f92052f40b25669b7ec10f75884131e646ab3a7b9e2ab1"
+      "patchedSha256": "ec12f0ee9ad9940ae083b93c3287a8160b77f51a962d0d9dbfeff0bfcee56279"
     },
     {
       "path": "MES/000025.MES",
@@ -239,7 +239,7 @@
       "originalSize": 5497,
       "patchedSize": 6409,
       "originalSha256": "4d8e7998c75d753a9bcca242d7f20498c3568ecdd69970817176e0ef3c3b44f6",
-      "patchedSha256": "b5e99f8fc05d6cf46ade9af50f0fd0a5f38afc83fa0ce494106d5228926d0b4b"
+      "patchedSha256": "a567493cab35e7dbe49def0995584b4e2ebc3526749f84bcd711ff724f69c0d9"
     },
     {
       "path": "MES/000026.MES",
@@ -247,7 +247,7 @@
       "originalSize": 3034,
       "patchedSize": 3671,
       "originalSha256": "975510ab5859fd3bb53084d03dfaed4f699e817e13d11b3f61fa50423a095d8a",
-      "patchedSha256": "2acd058cec6bd394528bc5e74d369e696e1c1b55f09e6cb754c89ed096259db5"
+      "patchedSha256": "601dbe64d180091dd6e7360713ea92de46c3ae5865a486e52a28a0ac46a91933"
     },
     {
       "path": "MES/000027.MES",
@@ -255,7 +255,7 @@
       "originalSize": 5296,
       "patchedSize": 6038,
       "originalSha256": "d67468240cea9729b58e19005ff85d65bb9a9ce17ad6b8bd605a6f6562db0c9c",
-      "patchedSha256": "99b7b3dcc61df727261db1cf039d228c90aab73545a6ef0637e9f47181dc9ed9"
+      "patchedSha256": "65a52f444660aefbd35b770801feb71c93d18f353813e8fae0e54a31b296c525"
     },
     {
       "path": "MES/000028.MES",
@@ -263,7 +263,7 @@
       "originalSize": 2994,
       "patchedSize": 3360,
       "originalSha256": "421524c504733f1e7ed3a37ef650df4b959647c3e9e80de9f8f5112e5a35a1bb",
-      "patchedSha256": "c8609272ece4444d5226f5a6901226f280dc80401ec18f64b75842d2cab28250"
+      "patchedSha256": "e5e6cba723956c350854ee3a1a7abd4da395fca83a92630ecadf7078a917b70e"
     },
     {
       "path": "MES/000029.MES",
@@ -279,7 +279,7 @@
       "originalSize": 9001,
       "patchedSize": 10629,
       "originalSha256": "dcebc7851fb4902f1364e189a75d1aad87f50309b816747d5152587ed984e986",
-      "patchedSha256": "98335043f46a56ea961e6223b9cb13210a9f1469f4f0cbbe4c42896b6d47e271"
+      "patchedSha256": "a351a2a5f6d1df3408462ce7b2634195898124f3e3f9ac374f6b931969c68e6b"
     },
     {
       "path": "MES/000031.MES",
@@ -287,7 +287,7 @@
       "originalSize": 2933,
       "patchedSize": 3398,
       "originalSha256": "bc7acc46a4388f595d40e0e9a271434337d876dbad3a7ec60f1c7bd16cde7213",
-      "patchedSha256": "809be2c4720fde33872574fa9515c4afc1460dafabcbc12f5a40e8e7a6860c4a"
+      "patchedSha256": "4e8e96b267bfb191fb451ccf23ffdb450bd0b4117a3382572821826d54cbd80c"
     },
     {
       "path": "MES/000032.MES",
@@ -303,7 +303,7 @@
       "originalSize": 4402,
       "patchedSize": 5319,
       "originalSha256": "39a3310fcbb2d23c64c057fe44d17337416ba9fa865790a2406b972e1f3cf9e8",
-      "patchedSha256": "ed15ea28afd7b16ed9dfde0c2712f2dfe25a42d09f740d1bedf8fbe7edb76fa4"
+      "patchedSha256": "8ffd4eb93c8f3c421f959b553dc06ad2132ebbf8075b74fe2fad3d8eeb6c3fee"
     },
     {
       "path": "MES/000034.MES",
@@ -311,7 +311,7 @@
       "originalSize": 3597,
       "patchedSize": 4439,
       "originalSha256": "b0325e539e4aaa13ca7b10cdf376a6b794c9e2811e38e7596c9cb6f0378277c8",
-      "patchedSha256": "4bdcc001bccc1adeff7b1dfbe39908533d0fa07be25d7438c4d405daf146c98b"
+      "patchedSha256": "dd708549e5699019070961e3a2ed2bd1ef4db47187b91e2dd0b480ac262702b9"
     },
     {
       "path": "MES/000035.MES",
@@ -319,7 +319,7 @@
       "originalSize": 3861,
       "patchedSize": 4763,
       "originalSha256": "187abf9d5790650057288e4bdfa1f990a15735daa55728413f89a473fbc82196",
-      "patchedSha256": "b76ffbcd798a075a4229f8bb65a14829b89a1f3bfa1b5f5f80a752903a86bae8"
+      "patchedSha256": "865c555f5a0030aafd68f1ef0e1bc9e5068ddc4b8b7cfdb398e5fbd5887b2495"
     },
     {
       "path": "MES/000036.MES",
@@ -327,7 +327,7 @@
       "originalSize": 4001,
       "patchedSize": 4810,
       "originalSha256": "084e495703184fa3cea1ff16bf63405bdda982780874e822f527d09aa67f5313",
-      "patchedSha256": "64b34a271b2efdb8531e165af9fb85cc42bc8d0773f340739dfab6e56ad27927"
+      "patchedSha256": "b7091976c8f6d7196392422fc86ff32246f8c946dc14aa49131b8055d952d350"
     },
     {
       "path": "MES/000037.MES",
@@ -335,7 +335,7 @@
       "originalSize": 2841,
       "patchedSize": 3394,
       "originalSha256": "b74b53d80732c641c533676d570144618583056fe1f1f3c683c917b0c8d7abab",
-      "patchedSha256": "c81338567f953ce271e8ed57f84b600016bf89b7d29cee3ab8e49018ccb74271"
+      "patchedSha256": "183e08ba30455617d3da943ebf1527851aec65c3bc15ea6a9bc49d2865dd09d9"
     },
     {
       "path": "MES/000038.MES",
@@ -343,7 +343,7 @@
       "originalSize": 3028,
       "patchedSize": 3594,
       "originalSha256": "e8d7988d65f5a72500569aeb2a28896524211de2cb2df8173bbc8f0e0d037f3f",
-      "patchedSha256": "6544c9642f382a75b74fd42c31a1d44bbfdadf68d0404e80a4520c7e25d28be7"
+      "patchedSha256": "affac7e640b88e42a1fcf5e486b6968560d08c1400bb5773f899448a294fcca3"
     },
     {
       "path": "MES/000039.MES",
@@ -351,7 +351,7 @@
       "originalSize": 3816,
       "patchedSize": 4277,
       "originalSha256": "7faee2631d4c0547dd4e94f64823386ec39d34abd159c23e790c8282c958014e",
-      "patchedSha256": "dcc14faea997b383a52f5a40b14cac6171e735a0839432599cc8d9e9025296e8"
+      "patchedSha256": "ddf1838ae282ef0376fd1db8cf619a648f104db398a48c0b8306a1a3bc905a56"
     },
     {
       "path": "MES/000040.MES",
@@ -367,7 +367,7 @@
       "originalSize": 3841,
       "patchedSize": 4538,
       "originalSha256": "d2c5c8902c5703fd090ca2c36faea9a304045b1b876b35fef09269ee21584873",
-      "patchedSha256": "8f886d6169dc96d89bfb90c1bb42ca0b455d6f20088b847933f8ca10d5426fad"
+      "patchedSha256": "f6c794e368c40f8c025d11374d6dace7f68cd23d1e62043656daa58aa76b89ef"
     },
     {
       "path": "MES/000042.MES",
@@ -423,7 +423,7 @@
       "originalSize": 5117,
       "patchedSize": 6367,
       "originalSha256": "64ef928a82888a7191cb3cf7e678c4e8c10f0896e9be759ad03ef2959df0fa14",
-      "patchedSha256": "f2955c8e172c712ede2e38ff477556b0a558603c37cd3e848eeaea71b9bb1ddb"
+      "patchedSha256": "189c81a5637ed7095b1decd5c855906d5d0584fa7a82c5e6f4ffd569587622f7"
     },
     {
       "path": "MES/000049.MES",
@@ -431,7 +431,7 @@
       "originalSize": 4938,
       "patchedSize": 6052,
       "originalSha256": "62a4ac00a939070d55368ba92b7425f2180df65ecdb14d567d4484e8d295641b",
-      "patchedSha256": "15a564676fc9bbed4b8567f2756b096c7e066d0c5728d2316988164a98ce8244"
+      "patchedSha256": "2636a9d10a40e58465ee08704733f7abc53f702b9ad10e0c6a4bf9b646ac9363"
     },
     {
       "path": "MES/000050.MES",
@@ -439,7 +439,7 @@
       "originalSize": 9693,
       "patchedSize": 12975,
       "originalSha256": "9e4e9f2a04f1cd0f78469f4dd14a2072dbbab04d567d6ba803d926875e253da9",
-      "patchedSha256": "2e38bc40c200d6bcdfecfd668fc44f0e155132358d8d222688d672252335b2cc"
+      "patchedSha256": "270658615e7266ce78ba32ab2b702e7cb755ea47959d129bb85dd3b866db62a4"
     },
     {
       "path": "MES/000051.MES",
@@ -447,15 +447,15 @@
       "originalSize": 9276,
       "patchedSize": 12473,
       "originalSha256": "a19b74b74f3ddc7723b75a4b2b23c704ae2f374c472e4d82767b3d23f5210a45",
-      "patchedSha256": "c602010250ed23a217b82a04b621dd646e0ab8af9c45c968693f3e8c87c02f63"
+      "patchedSha256": "5cc3e45a14040c9cb59b043b3532f7954cd2ccc2b9af4a36635f727217f922e1"
     },
     {
       "path": "MES/000052.MES",
       "patch": "patches/MES/000052.MES.xdelta",
       "originalSize": 4050,
-      "patchedSize": 4832,
+      "patchedSize": 4834,
       "originalSha256": "0575de04afe6242a6e0eca0553dbfc0d46476db425cd86f8a20dbbb60f1e0035",
-      "patchedSha256": "67edf08609d5ba751b5958836129b5338da056cdcb501c8a63ca6d07238ae3d6"
+      "patchedSha256": "e5985ce6fad78d65836170d42fedf1f96b5c41b57229344485abdfe73a352497"
     },
     {
       "path": "MES/000053.MES",
@@ -463,7 +463,7 @@
       "originalSize": 2665,
       "patchedSize": 3195,
       "originalSha256": "77e8e6ffb0941fa12b366c668eae2506afd26e346cabc74fa711385682ed4160",
-      "patchedSha256": "c0e05dd344c8d264a294bea3cca612153aff2a0e78cc243c32b5d6bd1a02343a"
+      "patchedSha256": "a754bd85109b8bf1901bebf323dadc92066126d12f1536c54feb17c3ad54122e"
     },
     {
       "path": "MES/000054.MES",
@@ -471,7 +471,7 @@
       "originalSize": 5214,
       "patchedSize": 6046,
       "originalSha256": "4f64eafe3899b3a3a61e4e15e37cbd7e0e113303fcfe0992f3e9aa140f30fe1d",
-      "patchedSha256": "b99935df97bc02f31e95f98797ad0e9bdc9650615f65e8c66cc8efaecc60dc66"
+      "patchedSha256": "c996d1074fbe8c783e31b4cb0526ce3541466d991f9fd670ee3a5f974aa40e16"
     },
     {
       "path": "MES/000055.MES",
@@ -479,7 +479,7 @@
       "originalSize": 2398,
       "patchedSize": 2770,
       "originalSha256": "ab80ba830b8337a36909d7344e3c8957bb11eb5fdf62303c9f6ba0bb54a5291a",
-      "patchedSha256": "77f2d22b7c852dd14c5218eb4aa052aedce873f174cd405e11e544669357af37"
+      "patchedSha256": "b1d4dfad72816735c762fbcb2ff158003d8ee3079bc1ed3c8db69bfaf05266f4"
     },
     {
       "path": "MES/000056.MES",
@@ -487,15 +487,15 @@
       "originalSize": 3592,
       "patchedSize": 4232,
       "originalSha256": "e3be1f41a82ebbca0f806eab977e8315e440a031bb15dd6d36c8c8902182c902",
-      "patchedSha256": "6b839205679070ec4cd1e988ef99856410fadafa36575ec4a9bc01fda88a4962"
+      "patchedSha256": "a82bee3f94a2525788ce420c4d19ac87199e152b499cd827773f1c77b0192f75"
     },
     {
       "path": "MES/000057.MES",
       "patch": "patches/MES/000057.MES.xdelta",
       "originalSize": 3830,
-      "patchedSize": 4744,
+      "patchedSize": 4746,
       "originalSha256": "f653f987a9edbda4edd87bf89ce02a53eabdbaba6696f44fc158988943edb7a9",
-      "patchedSha256": "37c3060f402fe4e9e1d32917d22a594cbca6fe9942b31e2289bd963d392754af"
+      "patchedSha256": "c6e8196510ff92580db06089055148bf067b660e21b382ebbaebeeb8266b25e3"
     },
     {
       "path": "MES/000058.MES",
@@ -509,9 +509,9 @@
       "path": "MES/000059.MES",
       "patch": "patches/MES/000059.MES.xdelta",
       "originalSize": 6669,
-      "patchedSize": 8066,
+      "patchedSize": 8068,
       "originalSha256": "c8b0c3186bdf9c31dcfcf4e2510612da3ac666cf69d964653d10489e7ace1d4c",
-      "patchedSha256": "a5c3c6522d2a62650d363ae39602a07a4c157896ccdee6f3d115b51a8879e7e6"
+      "patchedSha256": "a35f52059b742e049aea82ad55d2bfe40ed35f164b5c5fcd00592c037fd80948"
     },
     {
       "path": "MES/000060.MES",
@@ -527,7 +527,7 @@
       "originalSize": 3169,
       "patchedSize": 3539,
       "originalSha256": "f81e17fd94633bc213fd7256e7f63668615a4db9b01dc0b0714156951f5c4527",
-      "patchedSha256": "85b0c3590fdfcb0c92aa575deebd6f2a672d7955813e98cda89fcadd21b6f2eb"
+      "patchedSha256": "6056e08eec05fa7c75877a714673c0f85b95ecac058c04a36c0d425663e7c586"
     },
     {
       "path": "MES/000062.MES",
@@ -535,7 +535,7 @@
       "originalSize": 5154,
       "patchedSize": 6044,
       "originalSha256": "c47ce2bfe0bfadb449041d2e46a0b7b6a431e95ca20e87ef7f22b51992c13faa",
-      "patchedSha256": "d65cf19057d9dbf1405c13a9a715da5d36c70075ce09939d71fe33aa4b6c8124"
+      "patchedSha256": "891ea0f8d5316b10fe75dc5b2e24454fcd1bc35e49a74dece3bcbf03c1a7117c"
     },
     {
       "path": "MES/000063.MES",
@@ -543,7 +543,7 @@
       "originalSize": 1781,
       "patchedSize": 1941,
       "originalSha256": "007a9b4dc6bd44a13f6e90819c121707b93fb98c66523da4fb2818d13a1e1381",
-      "patchedSha256": "c438548c5440d67fe25ad424102194ce44e95008766385f8d321449f9753c270"
+      "patchedSha256": "af735176073dd55c8618a1ed05cd6d5dd34923d0cd4ea4772d159c0238404245"
     },
     {
       "path": "MES/000064.MES",
@@ -559,7 +559,7 @@
       "originalSize": 5669,
       "patchedSize": 6510,
       "originalSha256": "ebc302bc7c4713421412f65bd94817247a7f9721118b8380b53cb27786e44afb",
-      "patchedSha256": "f95fbf503649a9a8dd07505a8d39832a4301ecf8360d1321960a4b44393aa538"
+      "patchedSha256": "bd3f60784571aa743986efb4d8c527a524b0940a8d98168f0a5bf4eabed89104"
     },
     {
       "path": "MES/000066.MES",
@@ -583,7 +583,7 @@
       "originalSize": 3047,
       "patchedSize": 3553,
       "originalSha256": "28fa0b7c1e10004717866c8f4e910b16a16ec6fae85b85bd529d232bc491b536",
-      "patchedSha256": "1f72a8bcb7eec709d285d853103c851606bb5163edb3aad437a2b14a95f19c62"
+      "patchedSha256": "2cd473244643de7b7fe1136377600da4b2f3f19f4590358c757d50eb82f88160"
     },
     {
       "path": "MES/11PLUS.MES",
@@ -631,15 +631,15 @@
       "originalSize": 1408,
       "patchedSize": 1493,
       "originalSha256": "3888189fb0c88310e2b21685fdc3a60e9f7ff5a4ee26efe912f83c392e87d30e",
-      "patchedSha256": "937bd8ab7c680b51e2296e84bb1686177bd81c6ca27cb85c8c49523cf904c074"
+      "patchedSha256": "5c12ae266bdaae30f263ea752c526e090a0539f945681fe21eb6095fac195164"
     },
     {
       "path": "MES/26PLUS.MES",
       "patch": "patches/MES/26PLUS.MES.xdelta",
       "originalSize": 4994,
-      "patchedSize": 6160,
+      "patchedSize": 6162,
       "originalSha256": "e3a30398b632bcc93ed84ca7f8636f57e9e147b08a08577bc34ed543c89c7274",
-      "patchedSha256": "d3b6a79db3055bae63a3f57afffac79af857b2f40b703f6bde736b6e8ff370bd"
+      "patchedSha256": "f6c0981a545c5a1f2dc39fdad27478e39ad60345adaeee88b2e1699c5eae9ea0"
     },
     {
       "path": "MES/56PLUS.MES",

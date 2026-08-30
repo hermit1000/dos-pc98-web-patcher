@@ -1,7 +1,7 @@
 {
   "id": "dead-of-the-brain-1-pc98",
-  "title": "데드 오브 더 브레인 - 망령의 절규",
-  "koreanTitle": "데드 오브 더 브레인 - 망령의 절규",
+  "title": "데드 오브 더 브레인 - 사령의 비명",
+  "koreanTitle": "데드 오브 더 브레인 - 사령의 비명",
   "originalTitle": "デッド オブ ザ ブレイン ～死霊の叫び～",
   "englishTitle": "Dead of the Brain - Shirei no Sakebi",
   "developer": "Fairytale",
@@ -9,12 +9,12 @@
   "genre": "어드벤처",
   "year": "1992",
   "release": "1992-05-15",
-  "version": "2026.08.29",
-  "date": "2026.08.29",
+  "version": "2026.08.30",
+  "date": "2026.08.30",
   "original": "일본어 FD",
   "status": "배포 중",
   "files": 82,
-  "description": "PC-98용 데드 오브 더 브레인 - 망령의 절규 한글 패치입니다.",
+  "description": "PC-98용 데드 오브 더 브레인 - 사령의 비명 한글 패치입니다.",
   "story": "검증된 PC-98 플로피 디스크판 원본을 기준으로 대사와 게임 그래픽을 한글화했습니다. 게임 실행에 필요한 변경 파일 82개를 적용하며, 정상적인 한글 표시를 위해 공용 ThinDungGeunMo 폰트를 사용할 수 있습니다.",
   "verifiedOriginals": [
     { "label": "Fairytale/Dead of the Brain/Dead of the Brain [FD]", "hashVerified": true }
