@@ -65,11 +65,11 @@
   "references": [
     {
       "type": "legacy-post",
-      "url": "https://hyunxx.tistory.com/52"
+      "url": "https://cafe.naver.com/koeimod/855"
     },
     {
-      "type": "patch-source",
-      "url": "https://cafe.naver.com/koeimod/855"
+      "type": "screenshot-source",
+      "url": "https://hyunxx.tistory.com/52"
     }
   ],
   "palette": "rust",
