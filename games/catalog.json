@@ -1,5 +1,23 @@
 [
   {
+    "id": "dead-of-the-brain-2-pc98",
+    "title": "데드 오브 더 브레인 2",
+    "originalTitle": "デッド オブ ザ ブレイン2",
+    "englishTitle": "Dead of the Brain 2",
+    "developer": "Fairytale",
+    "platform": "PC-98",
+    "genre": "어드벤처",
+    "year": "1993",
+    "release": "1993-11-26",
+    "version": "2026.09.04",
+    "date": "2026.09.04",
+    "status": "배포 중",
+    "palette": "rust",
+    "mark": "D2",
+    "cover": "games/dead-of-the-brain-2-pc98/images/screen-1.png",
+    "data": "games/dead-of-the-brain-2-pc98/game.json"
+  },
+  {
     "id": "dead-of-the-brain-1-pc98",
     "title": "데드 오브 더 브레인 - 사령의 비명",
     "originalTitle": "デッド オブ ザ ブレイン ～死霊の叫び～",
