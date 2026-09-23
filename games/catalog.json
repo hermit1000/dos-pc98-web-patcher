@@ -1,5 +1,23 @@
 [
   {
+    "id": "marine-philt-pc98",
+    "title": "마린필트",
+    "originalTitle": "マリンフィルト",
+    "englishTitle": "Marine Philt",
+    "developer": "Fairytale",
+    "platform": "PC-98",
+    "genre": "어드벤처",
+    "year": "1993",
+    "release": "1993-03-12",
+    "version": "2026.09.23",
+    "date": "2026.09.23",
+    "status": "배포 중",
+    "palette": "violet",
+    "mark": "MP",
+    "cover": "games/marine-philt-pc98/images/screen-1.png",
+    "data": "games/marine-philt-pc98/game.json"
+  },
+  {
     "id": "dead-of-the-brain-2-pc98",
     "title": "데드 오브 더 브레인 2",
     "originalTitle": "デッド オブ ザ ブレイン2",
