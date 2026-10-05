@@ -1,5 +1,23 @@
 [
   {
+    "id": "necronomicon-pc98",
+    "title": "네크로노미콘",
+    "originalTitle": "ネクロノミコン",
+    "englishTitle": "Necronomicon",
+    "developer": "Fairytale",
+    "platform": "PC-98",
+    "genre": "어드벤처",
+    "year": "1994",
+    "release": "1994",
+    "version": "2026.10.06",
+    "date": "2026.10.06",
+    "status": "배포 중",
+    "palette": "navy",
+    "mark": "N",
+    "cover": "games/necronomicon-pc98/images/screen-1.png",
+    "data": "games/necronomicon-pc98/game.json"
+  },
+  {
     "id": "marine-philt-pc98",
     "title": "마린필트",
     "originalTitle": "マリンフィルト",
