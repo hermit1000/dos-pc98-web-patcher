@@ -89,6 +89,7 @@ function validateManifest(manifest) {
   for (const target of manifest.targets) {
     target.path = normalizeRelativePath(target.path);
     target.patch = normalizeRelativePath(target.patch);
+    if (target.sourcePath) target.sourcePath = normalizeRelativePath(target.sourcePath);
     const key = target.path.toLocaleUpperCase('en-US');
     if (paths.has(key)) throw new Error(`중복 패치 대상입니다: ${target.path}`);
     paths.add(key);
@@ -187,6 +188,7 @@ async function initializeDetail() {
 
   if (game.verifiedOriginals?.length) {
     const verified = document.querySelector('#verified-originals');
+    if (game.verifiedOriginalsIntro) verified.querySelector('#verified-originals-intro').textContent = game.verifiedOriginalsIntro;
     verified.querySelector('ul').innerHTML = game.verifiedOriginals.map((original) => `<li><span aria-hidden="true">✓</span><code>${escapeHtml(original.label)}</code></li>`).join('');
     verified.hidden = false;
   }
@@ -217,6 +219,14 @@ async function initializeDetail() {
   }
   const input = document.querySelector('#folder-input');
   const dropZone = document.querySelector('#drop-zone');
+  if (game.folderGuide) {
+    document.querySelector('#requirement-note').textContent = game.folderGuide;
+    document.querySelector('#folder-help').textContent = game.folderGuide;
+  }
+  game.installSteps?.forEach((step, index) => {
+    const element = document.querySelector(`#install-step-${index + 1}`);
+    if (element) element.textContent = step;
+  });
   const result = document.querySelector('#dummy-result');
   const patchButton = document.querySelector('#patch-button');
   const fileResults = document.querySelector('#file-results');
@@ -306,7 +316,7 @@ async function initializeDetail() {
     }
 
     selectedTargets = manifest.targets.map((target) => {
-      const targetKey = target.path.toLocaleUpperCase('en-US');
+      const targetKey = (target.sourcePath || target.path).toLocaleUpperCase('en-US');
       let file = fileMap.get(targetKey);
       if (!file) {
         const suffix = `/${targetKey}`;
@@ -424,7 +434,8 @@ async function initializeDetail() {
         assets.some((asset) => asset.type === 'emulator-font') ? '_emulator-font 폴더의 BMP는 에뮬레이터용 공용 한글 폰트입니다. 게임 폴더에 덮어쓰지 마세요.' : '',
         assets.some((asset) => asset.type === 'game-font') ? '_font-options 폴더의 FNT는 게임용 선택 글꼴입니다. 사용할 파일을 JIS.FNT로 이름을 바꾸어 게임 폴더에 덮어쓰세요.' : ''
       ].filter(Boolean).join('\r\n');
-      const guide = new TextEncoder().encode(`${game.title} 한국어 패치 ${manifest.patchVersion}\r\n\r\n[상업적 이용 금지]\r\n본 한글 패치와 이를 적용한 결과물을 판매, 유료 배포하거나 영리 목적으로 이용하지 마십시오.\r\n이를 위반하여 발생하는 법적·금전적 책임은 이용자 본인에게 있습니다.\r\n\r\nZIP 안의 게임 파일을 원본 게임 폴더에 덮어쓰기 전에 반드시 백업해 주세요.${fontGuide ? `\r\n${fontGuide}` : ''}\r\n`);
+      const placementGuide = game.outputGuide || 'ZIP 안의 게임 파일을 원본 게임 폴더에 덮어쓰기 전에 반드시 백업해 주세요.';
+      const guide = new TextEncoder().encode(`${game.title} 한국어 패치 ${manifest.patchVersion}\r\n\r\n[상업적 이용 금지]\r\n본 한글 패치와 이를 적용한 결과물을 판매, 유료 배포하거나 영리 목적으로 이용하지 마십시오.\r\n이를 위반하여 발생하는 법적·금전적 책임은 이용자 본인에게 있습니다.\r\n\r\n${placementGuide}${fontGuide ? `\r\n${fontGuide}` : ''}\r\n`);
       zipEntries.push({ name: 'PATCH-README.txt', data: guide });
       updateProgress(total, total, 'ZIP 생성 완료');
       const zip = window.SimpleZip.createZip(zipEntries);

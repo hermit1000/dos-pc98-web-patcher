@@ -1,0 +1,1294 @@
+{
+  "format": "folder-patch-v1",
+  "game": "네크로노미콘 (CD판)",
+  "patchVersion": "2026.10.09",
+  "createdAt": "2026-10-08T23:36:36.173Z",
+  "sharedAssets": [
+    {
+      "id": "necronomicon-thin-dung-geun-mo-font",
+      "type": "emulator-font",
+      "name": "necro-ThinDungGeunMo",
+      "source": "assets/fonts/source/necro-ThinDungGeunMo.bmp",
+      "fileName": "necro-ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/necro-ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "eb154814399e9e55cfa36dbfaed6a63f98639de7087c76ff37182b54d80efe3d",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "FD/SHELL21.CNF",
+      "patch": "patches/FD/SHELL21.CNF.xdelta",
+      "originalSize": 241,
+      "patchedSize": 270,
+      "originalSha256": "27a853b6c15161b13b72665dd0965ff43f909551299be73629ce799900856fe3",
+      "patchedSha256": "21574804fd75444e8d16ce6eefe033f57751578f277210688cc5c715ac73ed31"
+    },
+    {
+      "path": "HD/MENU/MENU.000",
+      "patch": "patches/HD/MENU/MENU.000.xdelta",
+      "originalSize": 34253,
+      "patchedSize": 28531,
+      "originalSha256": "095debc9cc163ab95640c4c755be50d6374c52954f788249a94de0a7d0d83c35",
+      "patchedSha256": "9abfab4d3b64b5df5bd15a7c29cc518cf4fc24a1792cc2bb0bfb6c1974f9b9c7"
+    },
+    {
+      "path": "HD/MENU.INI",
+      "sourcePath": "HD/MENU/MENU.INI",
+      "patch": "patches/HD/MENU.INI.xdelta",
+      "originalSize": 166,
+      "patchedSize": 166,
+      "originalSha256": "d4c18ae0fe8f0e08324301a888f95d13c6909096b1bd7b96a9e4f11c82df2f59",
+      "patchedSha256": "d4c18ae0fe8f0e08324301a888f95d13c6909096b1bd7b96a9e4f11c82df2f59"
+    },
+    {
+      "path": "HD/NECRO/NECRO.001",
+      "patch": "patches/HD/NECRO/NECRO.001.xdelta",
+      "originalSize": 452150,
+      "patchedSize": 451686,
+      "originalSha256": "f3529cb4176dc1dceefee29077d4579031c9e14120ab98990142d9563e47c5a3",
+      "patchedSha256": "91f14080d9e51a371942bc20356b4a6f14abf57ddb4251080ffd9cf2c8fe6f46"
+    },
+    {
+      "path": "HD/NECRO/NECRO.002",
+      "patch": "patches/HD/NECRO/NECRO.002.xdelta",
+      "originalSize": 491515,
+      "patchedSize": 490965,
+      "originalSha256": "6eb463ea2554787a807a952d469db3d7eb9a4595e36bab830a338c8b6a760323",
+      "patchedSha256": "086e6de0a9ef11f8223c17f05897ba21d1ea7f3b1278a1cb3d3d9006d2dd05f8"
+    },
+    {
+      "path": "HD/NECRO/NECRO.003",
+      "patch": "patches/HD/NECRO/NECRO.003.xdelta",
+      "originalSize": 479964,
+      "patchedSize": 479494,
+      "originalSha256": "5ee7a4413610f1f61e1fc73e528974a19a5a76401b5be79ee9695a2fed10e041",
+      "patchedSha256": "1ccfffff5101fdcfd9f0ace854baca28a652acbdcfce53e0f6487996346a12b3"
+    },
+    {
+      "path": "HD/NECRO/NECRO.004",
+      "patch": "patches/HD/NECRO/NECRO.004.xdelta",
+      "originalSize": 305489,
+      "patchedSize": 305367,
+      "originalSha256": "2d5483e3b1c3fbc8485aaa44a3c5c4356012440677ecb036bc7811501936ac07",
+      "patchedSha256": "9e5c979747c3dfbca0fe3e73b83cecf2638439b50a6b31f3597e7d35fe8408ae"
+    },
+    {
+      "path": "HD/NECRO/NECRO.005",
+      "patch": "patches/HD/NECRO/NECRO.005.xdelta",
+      "originalSize": 579118,
+      "patchedSize": 578527,
+      "originalSha256": "57d0842b58492d3b783701891a611f07b941bd75a1a159775f87671b3a62f6ed",
+      "patchedSha256": "b5369d7ac2a23323a64b3594ac83357745631e3b9721d6587fde6564544be83f"
+    },
+    {
+      "path": "HD/NECRO/NECRO.006",
+      "patch": "patches/HD/NECRO/NECRO.006.xdelta",
+      "originalSize": 599880,
+      "patchedSize": 599775,
+      "originalSha256": "151bcc0fba4f37ee82019a95e5d32865c067aa337147ec9c2108fb153604033b",
+      "patchedSha256": "7a888837125c6b75e34ba9c329af2952e4b8df76fe696a10d05fd673a7b01242"
+    },
+    {
+      "path": "HD/NECRO/NECRO.007",
+      "patch": "patches/HD/NECRO/NECRO.007.xdelta",
+      "originalSize": 126432,
+      "patchedSize": 126422,
+      "originalSha256": "69114cf22591472f01d92fd91a5fffd62ebc804ddda4a78b6a3db2e5aae06a65",
+      "patchedSha256": "4fff321b015b969214a0bb2e801fb607a843359dc0a693c335460c5a0d4f8ba3"
+    },
+    {
+      "path": "HD/NECRO/NECRO.008",
+      "patch": "patches/HD/NECRO/NECRO.008.xdelta",
+      "originalSize": 172163,
+      "patchedSize": 172067,
+      "originalSha256": "e7306b5c377301fc1407cf27abb183731ba4cfd3f0ede9c1bc16b0603d4969ef",
+      "patchedSha256": "2132415c3e0a267068d2bf288777d7b4c58e59811e9500a395986cede87ed77b"
+    },
+    {
+      "path": "HD/NECRO/NECRO.009",
+      "patch": "patches/HD/NECRO/NECRO.009.xdelta",
+      "originalSize": 147426,
+      "patchedSize": 147429,
+      "originalSha256": "2d4512a9b8f367c0ba28931817683156c2c41eaf748e2a757a94a2438a8fad97",
+      "patchedSha256": "30e2f74b5cf553363c5f9fee60db38d316ba3c36eaa09dba40001fdc1fb387aa"
+    },
+    {
+      "path": "HD/NECRO/NECRO.00A",
+      "patch": "patches/HD/NECRO/NECRO.00A.xdelta",
+      "originalSize": 193691,
+      "patchedSize": 193281,
+      "originalSha256": "36b853511c088d281aefd90708521442064112252e2968216bfd0ed089b074a2",
+      "patchedSha256": "3bcc8634fe140356a676851bcae9ef977624962c6d50b8bfd4e378011f8afe3a"
+    },
+    {
+      "path": "HD/NECRO/NECRO.00B",
+      "patch": "patches/HD/NECRO/NECRO.00B.xdelta",
+      "originalSize": 182880,
+      "patchedSize": 182470,
+      "originalSha256": "d6acb3cdc94a77e1a720e145f1073459b73bf90140654bcf7aaa358a91a964b2",
+      "patchedSha256": "3ffbaa591c5bcea3bd0fbc8a7cd0d6ada996f214e79e8bb5d461b4a62b7a6ceb"
+    },
+    {
+      "path": "HD/NECRO/NECRO.00C",
+      "patch": "patches/HD/NECRO/NECRO.00C.xdelta",
+      "originalSize": 169851,
+      "patchedSize": 169386,
+      "originalSha256": "c7956ab03a49f38acb25efaacc8e74751286eddccac26e3b85ca680a3f8acbfc",
+      "patchedSha256": "56a9f8ce48d8866a58da50817ad77455749b76c6e44ed055c005616d5d62c32d"
+    },
+    {
+      "path": "HD/NECRO/NECRO.00D",
+      "patch": "patches/HD/NECRO/NECRO.00D.xdelta",
+      "originalSize": 198957,
+      "patchedSize": 198216,
+      "originalSha256": "39dc66bbd064bdb98be0dcd1444fe772f1bd74bd8b32b50bd0b98d3418d60fba",
+      "patchedSha256": "2e7c6da7f44bdf35a9318922b8979236720409d791a5ea28b30d4767e2d11f06"
+    },
+    {
+      "path": "HD/NECRO/NECRO.00E",
+      "patch": "patches/HD/NECRO/NECRO.00E.xdelta",
+      "originalSize": 156848,
+      "patchedSize": 156774,
+      "originalSha256": "cd818286e45316deedf0b1dbd10b0e9f98d0fa5e94de949e03ae63f5813a394e",
+      "patchedSha256": "e8af6fe66429d71f1ca8335f2712073519739e2905ef851ef4ef1fd0da7048c0"
+    },
+    {
+      "path": "HD/NECRO/NECRO.00F",
+      "patch": "patches/HD/NECRO/NECRO.00F.xdelta",
+      "originalSize": 147295,
+      "patchedSize": 147392,
+      "originalSha256": "8fd707b6238b45ca8b63d3b9dfdb605bf0002e467a5ee1cacac1f78d15e1b2bb",
+      "patchedSha256": "1aff3b7d77d26b1b0a64c3133edbda60302d4ae8ae81422de0ccda9f8d79a70d"
+    },
+    {
+      "path": "HD/NECRO/NECRO.010",
+      "patch": "patches/HD/NECRO/NECRO.010.xdelta",
+      "originalSize": 157428,
+      "patchedSize": 157124,
+      "originalSha256": "3d8494eb14ad2d3e7eca13022c62401b438d820b89f74ab2a350c890fcecb529",
+      "patchedSha256": "092bc932269859264215a0f079d05c53373a8731b31774f1b2e4265debe3bed1"
+    },
+    {
+      "path": "HD/NECRO/NECRO.011",
+      "patch": "patches/HD/NECRO/NECRO.011.xdelta",
+      "originalSize": 143993,
+      "patchedSize": 144062,
+      "originalSha256": "d40f896132dff0d7d90dc90a94417737aca412eae7027021f9bfe3abf0bdea34",
+      "patchedSha256": "cdac27481b2e4d294880a5d43af5c52131da0499aad45f738a93103fab07cf0b"
+    },
+    {
+      "path": "HD/NECRO/NECRO.012",
+      "patch": "patches/HD/NECRO/NECRO.012.xdelta",
+      "originalSize": 172823,
+      "patchedSize": 172442,
+      "originalSha256": "857a19a9aacd9933fcebf6cd65d16a1d9c08d6734746d0e21c32c36c563f09b0",
+      "patchedSha256": "153c600c0c243f3fddc4c7e398a55629b4dcecc163703e48f64ca5cf52dc8fe7"
+    },
+    {
+      "path": "HD/NECRO/NECRO.013",
+      "patch": "patches/HD/NECRO/NECRO.013.xdelta",
+      "originalSize": 142936,
+      "patchedSize": 142949,
+      "originalSha256": "fc89e8db4503526d942240d0f6707683bb0e26f3d7768d95da3eb994d96b7910",
+      "patchedSha256": "dada301bd7f0536f020c525a992622ce9478d41a923f6b0fad8b72ac4002bc63"
+    },
+    {
+      "path": "HD/NECRO/NECRO.014",
+      "patch": "patches/HD/NECRO/NECRO.014.xdelta",
+      "originalSize": 156119,
+      "patchedSize": 155847,
+      "originalSha256": "c6d96262b4781665e55956529f54b04ea93c4c708fb95420e144dc28afa047b2",
+      "patchedSha256": "361250b380ac2f40f3d9452a1295a63105620815a9dd1f2a821417171d4f4a6c"
+    },
+    {
+      "path": "HD/NECRO/NECRO.015",
+      "patch": "patches/HD/NECRO/NECRO.015.xdelta",
+      "originalSize": 156720,
+      "patchedSize": 156633,
+      "originalSha256": "a8f0b5e770f96ab468f385858f0dace6ee7d8ced4410771822f05ce6dc943019",
+      "patchedSha256": "e16b7b6a1fa56419b126fa176a8463477d289c83e369f9e7c73dba1223c1ae5d"
+    },
+    {
+      "path": "HD/NECRO/NECRO.016",
+      "patch": "patches/HD/NECRO/NECRO.016.xdelta",
+      "originalSize": 176632,
+      "patchedSize": 175856,
+      "originalSha256": "0e15edb8089a5d52b89b9b0dda5e938782689168b7f77434be1a3294a0498ef9",
+      "patchedSha256": "fe5894e4481ebf4f1cb05f39b78d0deff26ed9eb37c8efba99fb7c6c8697bc54"
+    },
+    {
+      "path": "HD/NECRO/NECRO.017",
+      "patch": "patches/HD/NECRO/NECRO.017.xdelta",
+      "originalSize": 156289,
+      "patchedSize": 155759,
+      "originalSha256": "3eb445d19ae96ca790253068e7c3ceaf34365c2293f097221f0e6feb2163048c",
+      "patchedSha256": "49a7bdc51df678192015d25e10dc4e41094c8758d1449760ada922c0ade886e9"
+    },
+    {
+      "path": "HD/NECRO/NECRO.018",
+      "patch": "patches/HD/NECRO/NECRO.018.xdelta",
+      "originalSize": 173724,
+      "patchedSize": 173493,
+      "originalSha256": "bdb08cbc026b5f8a18d99a4eaf0072a52453b3c7e69c473b750221862b4740ee",
+      "patchedSha256": "460c83f6c8ee1bbca91b3a962fc13136656af2f76dc6c23700ffcaf257cb0aed"
+    },
+    {
+      "path": "HD/NECRO/NECRO.019",
+      "patch": "patches/HD/NECRO/NECRO.019.xdelta",
+      "originalSize": 171161,
+      "patchedSize": 170649,
+      "originalSha256": "16de84e296104ea2c4e3af2fbae1347570746f15d5690d3fa354799d2fc6637b",
+      "patchedSha256": "f8fb5bd4da37693ac99aec930235d076d935a5016bbd465265028e2b90f4cae5"
+    },
+    {
+      "path": "HD/NECRO/NECRO.01A",
+      "patch": "patches/HD/NECRO/NECRO.01A.xdelta",
+      "originalSize": 155026,
+      "patchedSize": 154605,
+      "originalSha256": "f124ac984bbf52005a292e99896fb48f7cb61b181f90e34e6930f9db19658943",
+      "patchedSha256": "b7cd272e36cb42a521af461441805e814c33b382b2d2f84fbe724553b1797a1e"
+    },
+    {
+      "path": "HD/NECRO/NECRO.01B",
+      "patch": "patches/HD/NECRO/NECRO.01B.xdelta",
+      "originalSize": 171443,
+      "patchedSize": 171572,
+      "originalSha256": "9dc6082b03e6eb38e792c2ee4d93466289e4458287bb42204b7bf596c183013c",
+      "patchedSha256": "6be04384fece9d681af1dc6270718d4200a75f6d0d61a1dcdfe3686db68cf01d"
+    },
+    {
+      "path": "HD/NECRO/NECRO.01C",
+      "patch": "patches/HD/NECRO/NECRO.01C.xdelta",
+      "originalSize": 148194,
+      "patchedSize": 148298,
+      "originalSha256": "6751a0a2ed1b038bce4a2803bd88ebd790c4aeabad3999cecde277c03263964f",
+      "patchedSha256": "8307309342618980ae368ed197cb06075a31ab9660a506350798a64b00a9847f"
+    },
+    {
+      "path": "HD/NECRO/NECRO.01D",
+      "patch": "patches/HD/NECRO/NECRO.01D.xdelta",
+      "originalSize": 146772,
+      "patchedSize": 146871,
+      "originalSha256": "598c398794fb2992f9202923a22f330532e0176b4d5be99d7b9664b8c6ed76a3",
+      "patchedSha256": "d37736f8fa25693a5926075953069966134db5966760e56f9928ed75994339a0"
+    },
+    {
+      "path": "HD/NECRO/NECRO.01E",
+      "patch": "patches/HD/NECRO/NECRO.01E.xdelta",
+      "originalSize": 166531,
+      "patchedSize": 165938,
+      "originalSha256": "aa58adfa2eca82ba3d3ce4d120661c174040580faa8779bd0de24de8a39bd850",
+      "patchedSha256": "ccd25d5d93e4c21e2cbe80521921231479a85866462ea609450ceac45e535982"
+    },
+    {
+      "path": "HD/NECRO/NECRO.01F",
+      "patch": "patches/HD/NECRO/NECRO.01F.xdelta",
+      "originalSize": 209286,
+      "patchedSize": 208535,
+      "originalSha256": "1658bacf8bc6d368e553e1ed4958a5d8fcda4cb5b81854f725ebe57395cfee63",
+      "patchedSha256": "dd5fae5e5884d2bd5eca875d86a41c8caa39c6ac1661633e7e163f8f53d2e06e"
+    },
+    {
+      "path": "HD/NECRO/NECRO.020",
+      "patch": "patches/HD/NECRO/NECRO.020.xdelta",
+      "originalSize": 160130,
+      "patchedSize": 159834,
+      "originalSha256": "72f47910e251c5999520aef10fa222cd9c74785b6fb8ad906181beec62d7fdc1",
+      "patchedSha256": "cdd5b0fdb536845a3cf0f024b78087f4a5b84fb66f53304186c9c9494599c475"
+    },
+    {
+      "path": "HD/NECRO/NECRO.021",
+      "patch": "patches/HD/NECRO/NECRO.021.xdelta",
+      "originalSize": 187060,
+      "patchedSize": 186521,
+      "originalSha256": "b592e44647e0b3ea3697782d0542d748c3d968b3945ff7fc7b9877fecf4b0388",
+      "patchedSha256": "158a985d64f2151bbda5ed4f107d8c184b6b9a138e3543e7fa014be3bc5b8d90"
+    },
+    {
+      "path": "HD/NECRO/NECRO.022",
+      "patch": "patches/HD/NECRO/NECRO.022.xdelta",
+      "originalSize": 235756,
+      "patchedSize": 235497,
+      "originalSha256": "1b52f95e5bf72e6626280252589cd092485a4b1b8011f262f8a434251f9c468b",
+      "patchedSha256": "3a4cd1645b5e2bfd6a51c1a2406d6ac4c3006e4a6f6300275848668675f31d51"
+    },
+    {
+      "path": "HD/NECRO/NECRO.023",
+      "patch": "patches/HD/NECRO/NECRO.023.xdelta",
+      "originalSize": 144238,
+      "patchedSize": 144182,
+      "originalSha256": "42e896e004b9b4038f02d2fb836a7d268e5d462084d81ac6a55986b87777b7eb",
+      "patchedSha256": "2e4f539e5a7f8a8b86b60fc36a1c5c736a5059c863ed037f729a89d55b6e6f1f"
+    },
+    {
+      "path": "HD/NECRO/NECRO.024",
+      "patch": "patches/HD/NECRO/NECRO.024.xdelta",
+      "originalSize": 161915,
+      "patchedSize": 161391,
+      "originalSha256": "172621166d5f87fa6c24272b454d23672d97fe41cb4bdce05266a66fd03ecfe8",
+      "patchedSha256": "a5cb0e58f1307b7323dcc3b42967e3958507802400b22d7895434f665b9a34c0"
+    },
+    {
+      "path": "HD/NECRO/NECRO.025",
+      "patch": "patches/HD/NECRO/NECRO.025.xdelta",
+      "originalSize": 154060,
+      "patchedSize": 153869,
+      "originalSha256": "f34a61a6270c796c5866c83b1d9d979d6756a74c5e152d818c70ae219289fbf2",
+      "patchedSha256": "f0b2f796de91bdc11c5a9875169350562a0903d794fd7fab8d8c50a73f98a635"
+    },
+    {
+      "path": "HD/NECRO/NECRO.026",
+      "patch": "patches/HD/NECRO/NECRO.026.xdelta",
+      "originalSize": 299488,
+      "patchedSize": 298370,
+      "originalSha256": "ad86319237b9474d8745b6ce52d14a81407fd63ded10c565c04184debeebc046",
+      "patchedSha256": "346671bf7d1cfb45b0db6bcb471e762533b8d3a921dac155331f2ffc02df0ddc"
+    },
+    {
+      "path": "HD/NECRO/NECRO.027",
+      "patch": "patches/HD/NECRO/NECRO.027.xdelta",
+      "originalSize": 160585,
+      "patchedSize": 160330,
+      "originalSha256": "3a42d9b4bee264ab65bfb077b4027e9603b97ca18aafb4912bd9db71df661198",
+      "patchedSha256": "0f9ac97bf53a8d8d2a45eb1fafa4ea8c439eb98972922f7c02d68b5e8e0c089f"
+    },
+    {
+      "path": "HD/NECRO/NECRO.028",
+      "patch": "patches/HD/NECRO/NECRO.028.xdelta",
+      "originalSize": 156421,
+      "patchedSize": 156029,
+      "originalSha256": "10984f31d17d6474934a52ab6644304dfae4a63b130cdf99f5873f0f5cd48075",
+      "patchedSha256": "b1e10b1a526f72f74408914c430b9f7676758228d1d083ad43faa0c1554a6c8b"
+    },
+    {
+      "path": "HD/NECRO/NECRO.029",
+      "patch": "patches/HD/NECRO/NECRO.029.xdelta",
+      "originalSize": 528122,
+      "patchedSize": 527487,
+      "originalSha256": "d8d5e3773592b25639004f931e53fced2ce0a7fafffc549113e509ecbcfaf4cd",
+      "patchedSha256": "824a6152b267d6dc8eb285a7bb60099fd1afa9a9ab0f76416beb1078f5f00a74"
+    },
+    {
+      "path": "HD/NECRO/NECRO.02A",
+      "patch": "patches/HD/NECRO/NECRO.02A.xdelta",
+      "originalSize": 187522,
+      "patchedSize": 186715,
+      "originalSha256": "8dd10885083d9f053f7b69b2ebf74d0755525b933e4f9da33e1b30556ba2e591",
+      "patchedSha256": "5bbc1b346b3790806423d9d1b07f7e6b21861b46c6bc16d2e96e46fad5086043"
+    },
+    {
+      "path": "HD/NECRO/NECRO.02B",
+      "patch": "patches/HD/NECRO/NECRO.02B.xdelta",
+      "originalSize": 185506,
+      "patchedSize": 185781,
+      "originalSha256": "da1cf667d213ca0a7af0c21c53df1cb738730b66149c4017ea40ce21687271c5",
+      "patchedSha256": "4936fea0322a9b161784469e91080d747692e228927abf986e8ff0a3c9ea753b"
+    },
+    {
+      "path": "HD/NECRO/NECRO.02C",
+      "patch": "patches/HD/NECRO/NECRO.02C.xdelta",
+      "originalSize": 147480,
+      "patchedSize": 147573,
+      "originalSha256": "a862b355b919055200d06c8d7828822e904ff935c7b3fd31f61d902db23d16b0",
+      "patchedSha256": "c094b0ea980c590a68ad5959ec519850a66c5f5802393ad0786e6c7820f2215e"
+    },
+    {
+      "path": "HD/NECRO/NECRO.02D",
+      "patch": "patches/HD/NECRO/NECRO.02D.xdelta",
+      "originalSize": 212707,
+      "patchedSize": 211874,
+      "originalSha256": "16acb8ff60ad7a70011be15b2bc5154b30fd75292d89205df1819c4ff46ab102",
+      "patchedSha256": "5470138a68b9cc8d3fa7d37f2c127a110e107bf1816c0a6cbe196275053eb87b"
+    },
+    {
+      "path": "HD/NECRO/NECRO.02E",
+      "patch": "patches/HD/NECRO/NECRO.02E.xdelta",
+      "originalSize": 200768,
+      "patchedSize": 199966,
+      "originalSha256": "b8428e0f5fbb0e4e59ac9baaaf05866fbcc5b43345a9e367af13c65270c64cee",
+      "patchedSha256": "6466b2b13738076041e5089be791b9487e76de153797307843ca9f13c3566dba"
+    },
+    {
+      "path": "HD/NECRO/NECRO.02F",
+      "patch": "patches/HD/NECRO/NECRO.02F.xdelta",
+      "originalSize": 207412,
+      "patchedSize": 206780,
+      "originalSha256": "c441b006528c17169dc2dba4755a4e8f494d913fb2fffa7280ae0f1edd7c2b23",
+      "patchedSha256": "1227c0e0f836e01316335b86f3151ef89bdba03a89904c27ac5330d2820bab79"
+    },
+    {
+      "path": "HD/NECRO/NECRO.030",
+      "patch": "patches/HD/NECRO/NECRO.030.xdelta",
+      "originalSize": 171508,
+      "patchedSize": 171524,
+      "originalSha256": "f28819445c83915cb6d8aa5cb94b90ee59fdb6a8061186a3f0488542495fcc86",
+      "patchedSha256": "77460e3b6902318832fe797d0fddc879285e21d1cc51bf987818c2e65c44fbbb"
+    },
+    {
+      "path": "HD/NECRO/NECRO.031",
+      "patch": "patches/HD/NECRO/NECRO.031.xdelta",
+      "originalSize": 276601,
+      "patchedSize": 276208,
+      "originalSha256": "c482ca769bd9cd22e06f7c52b09769c0601bd62814387690ab7e946a78a5cdc6",
+      "patchedSha256": "43d977d6d0bae22cafe0c4a21cc363c70c82d5b09da2e7f1396c171272d92009"
+    },
+    {
+      "path": "HD/NECRO/NECRO.032",
+      "patch": "patches/HD/NECRO/NECRO.032.xdelta",
+      "originalSize": 197207,
+      "patchedSize": 197376,
+      "originalSha256": "54f7482e36b343bfdcaabc078b4b6759f3556ee78d5330f436122bae3ac7778a",
+      "patchedSha256": "75e33b6a5b4104ee6ba4d6eabac607ac70cb5de01efc796a73d8b83505ab5982"
+    },
+    {
+      "path": "HD/NECRO/NECRO.033",
+      "patch": "patches/HD/NECRO/NECRO.033.xdelta",
+      "originalSize": 180564,
+      "patchedSize": 180097,
+      "originalSha256": "dab4a3002046b3a42aff230584f5b64c589a09665031199cd57af843ddadf6cb",
+      "patchedSha256": "adfd9eaadc317ee565bdc6577e0929805b33e63c975edb9fcde32b688676d546"
+    },
+    {
+      "path": "HD/NECRO/NECRO.034",
+      "patch": "patches/HD/NECRO/NECRO.034.xdelta",
+      "originalSize": 197731,
+      "patchedSize": 197921,
+      "originalSha256": "a7b029ae06b6fde61de65419f41e17ad9cfaf63474120bcb1a24c9eb2170da2b",
+      "patchedSha256": "c28bb7761f542dc6d356dc769343d0c9921fce41a4620123b02ceabd8c8f54a6"
+    },
+    {
+      "path": "HD/NECRO/NECRO.035",
+      "patch": "patches/HD/NECRO/NECRO.035.xdelta",
+      "originalSize": 184637,
+      "patchedSize": 183891,
+      "originalSha256": "a46d994ee0064f815bfa53d47a4c699d2e52f6bf05bf7afed48ff4ab545baa63",
+      "patchedSha256": "9bd22d31671a35c4d3d0fd7ea328e4770759c5614028f25aae66b3bc59f877b3"
+    },
+    {
+      "path": "HD/NECRO/NECRO.036",
+      "patch": "patches/HD/NECRO/NECRO.036.xdelta",
+      "originalSize": 188346,
+      "patchedSize": 187247,
+      "originalSha256": "17e04ffa9b2fd7e6fa77c80a5a39ad455d2918c3878281872211650e6a590477",
+      "patchedSha256": "4da4cccf063e56ec9e736b6302f3495209ef1b2e34a7d256b9ffcbb6cb3fbe1b"
+    },
+    {
+      "path": "HD/NECRO/NECRO.037",
+      "patch": "patches/HD/NECRO/NECRO.037.xdelta",
+      "originalSize": 180426,
+      "patchedSize": 180188,
+      "originalSha256": "7085948213c3d69d867da1feb2027017e22f6f20e10c275e1ec01be74948ad64",
+      "patchedSha256": "8c2b7a00a6670591cd1acd92905aaa87d1850a7163b16bf737c3891a00cea242"
+    },
+    {
+      "path": "HD/NECRO/NECRO.038",
+      "patch": "patches/HD/NECRO/NECRO.038.xdelta",
+      "originalSize": 339201,
+      "patchedSize": 338881,
+      "originalSha256": "745ef640dee573769a30b6fe9d99a3854aa975e1c08bbc6cff894962ff38e161",
+      "patchedSha256": "edfc945b84ad52b36395b52fc3b6cc7ec4550fb4c4e6e6001f42d61b49c579c5"
+    },
+    {
+      "path": "HD/NECRO/NECRO.039",
+      "patch": "patches/HD/NECRO/NECRO.039.xdelta",
+      "originalSize": 152934,
+      "patchedSize": 153027,
+      "originalSha256": "6e5ec3aae588eb7b72abd3164ca62f55f550563af23f43060a04c1627e78c378",
+      "patchedSha256": "a11ca6abd7980fcc79e975c58c2fd520a76edef32b9b81ec7d8d642086a51b31"
+    },
+    {
+      "path": "HD/NECRO/NECRO.03A",
+      "patch": "patches/HD/NECRO/NECRO.03A.xdelta",
+      "originalSize": 173909,
+      "patchedSize": 173128,
+      "originalSha256": "cde3b8b6de694eb03d58832c2a4055ef8be7bdff1eaff94fe216b97220c5c7e7",
+      "patchedSha256": "cb6462fa69e9bfd098b2b893a49788f7018ba236ab2b02766db7f9928197566a"
+    },
+    {
+      "path": "HD/NECRO/NECRO.03B",
+      "patch": "patches/HD/NECRO/NECRO.03B.xdelta",
+      "originalSize": 358960,
+      "patchedSize": 357426,
+      "originalSha256": "2e18a4334dee6f8d6ab82ff002db7ddecc75c60918a70783c4f797a8763f2568",
+      "patchedSha256": "6a02fdf03cbe31faf31e10ede1c44eec0bf9e58e1a4dde49c573b05f58c7f4b1"
+    },
+    {
+      "path": "HD/NECRO/NECRO.03C",
+      "patch": "patches/HD/NECRO/NECRO.03C.xdelta",
+      "originalSize": 282510,
+      "patchedSize": 280990,
+      "originalSha256": "a4b03cfa55ad1c705b032f8c0148344586d52ac224df7e8c85f87be55447bf4f",
+      "patchedSha256": "36e3c4b3da1681b968446fe6ea3d92b1a3e3da2a78532a40e2dbb5ecfe7b44c7"
+    },
+    {
+      "path": "HD/NECRO/NECRO.03D",
+      "patch": "patches/HD/NECRO/NECRO.03D.xdelta",
+      "originalSize": 152658,
+      "patchedSize": 152610,
+      "originalSha256": "4d793f7fb97134f398bd7812c4070c653352658b41b074681a38c4ea0e37b3f7",
+      "patchedSha256": "721d5ab3480a88523ecb8977372e5dc120a82022026e66c3eb2b0c560b914130"
+    },
+    {
+      "path": "HD/NECRO/NECRO.03E",
+      "patch": "patches/HD/NECRO/NECRO.03E.xdelta",
+      "originalSize": 154301,
+      "patchedSize": 154392,
+      "originalSha256": "d52b4e57f806fb6d89175c08fa3558415e5a6dca34ffed963560ef68eedc089d",
+      "patchedSha256": "0c08f027b1ceca208537dd18d3eb77216ac15024da1701864440cce4bae77561"
+    },
+    {
+      "path": "HD/NECRO/NECRO.03F",
+      "patch": "patches/HD/NECRO/NECRO.03F.xdelta",
+      "originalSize": 240590,
+      "patchedSize": 239048,
+      "originalSha256": "0b0c9697cd1a0195174dda55a5a04c0fc1f32a0a12a23cd10cc123d4513ce12c",
+      "patchedSha256": "d7c45107857d32785e2e337118c4e7378a1ca73b86b02d72af3707c3cb053410"
+    },
+    {
+      "path": "HD/NECRO/NECRO.040",
+      "patch": "patches/HD/NECRO/NECRO.040.xdelta",
+      "originalSize": 260767,
+      "patchedSize": 259684,
+      "originalSha256": "603358f2460fbeb812e6482347cb719050d0848331dee2eb492190e509625ad0",
+      "patchedSha256": "ca18cf56cd72211f433508f52f7203fe302d28cd8a383171637cdfa735c0285c"
+    },
+    {
+      "path": "HD/NECRO/NECRO.041",
+      "patch": "patches/HD/NECRO/NECRO.041.xdelta",
+      "originalSize": 283742,
+      "patchedSize": 282535,
+      "originalSha256": "2bc43e21dd4ca9e0a2ca08e3a838d0888b8d3f726c9d3080725390690e633dd1",
+      "patchedSha256": "d7e6e5b2fbbbd95e3970ee30b02d2413988168f8e0e5d31cadad844286e59f3f"
+    },
+    {
+      "path": "HD/NECRO/NECRO.042",
+      "patch": "patches/HD/NECRO/NECRO.042.xdelta",
+      "originalSize": 210719,
+      "patchedSize": 210580,
+      "originalSha256": "8726a2495654626b945e79da217694fe241aa549b8365f5749d769a274262f22",
+      "patchedSha256": "6f674054b23c04e14ac18b51b4acc065bf3caee87f650c108881b1c050d3098d"
+    },
+    {
+      "path": "HD/NECRO/NECRO.043",
+      "patch": "patches/HD/NECRO/NECRO.043.xdelta",
+      "originalSize": 170187,
+      "patchedSize": 169666,
+      "originalSha256": "49d083b2688f2eba577a1c6e7ca96e0a43c1dda9acefc2bc4fb8743803aaa25f",
+      "patchedSha256": "12a1beab99e55bd900b102077614a0f6b8c500ad00d2b8b01517abf257a250c6"
+    },
+    {
+      "path": "HD/NECRO/NECRO.044",
+      "patch": "patches/HD/NECRO/NECRO.044.xdelta",
+      "originalSize": 175355,
+      "patchedSize": 175275,
+      "originalSha256": "cc8a54c9c3d353854fbc6aaf9bee1e16ac8f6725be543dd4e50b5ea3bb03aae8",
+      "patchedSha256": "f3fb2c36b1928b6d526e0f6f0c2be12c2c02e325ba19ee4124c320f31f12291c"
+    },
+    {
+      "path": "HD/NECRO/NECRO.045",
+      "patch": "patches/HD/NECRO/NECRO.045.xdelta",
+      "originalSize": 153905,
+      "patchedSize": 154009,
+      "originalSha256": "745fe104526d2d0c6499bf290001f38e1a25062bbb0530b49a73df5ed217b2a6",
+      "patchedSha256": "2480618de89fa2297508abe72c81c840d5c33cfab71d6c206674c44140545758"
+    },
+    {
+      "path": "HD/NECRO/NECRO.046",
+      "patch": "patches/HD/NECRO/NECRO.046.xdelta",
+      "originalSize": 255428,
+      "patchedSize": 254146,
+      "originalSha256": "2c21a1e328d17ed6b121f3acc18fdb732281149b6b9960a2468ded1eb563c62e",
+      "patchedSha256": "10d35babb91ac6fdda572492cbf13c13234b49269367ba058d0fded0942269bf"
+    },
+    {
+      "path": "HD/NECRO/NECRO.047",
+      "patch": "patches/HD/NECRO/NECRO.047.xdelta",
+      "originalSize": 145667,
+      "patchedSize": 145360,
+      "originalSha256": "695f92f255715fb70efcac509d308312ac982fffc4bd9010ae47948051bf5099",
+      "patchedSha256": "9d3e26961346bb8655c52e870e8859691335cbc01887e8819cac63269322773b"
+    },
+    {
+      "path": "HD/NECRO/NECRO.048",
+      "patch": "patches/HD/NECRO/NECRO.048.xdelta",
+      "originalSize": 147427,
+      "patchedSize": 146974,
+      "originalSha256": "b81eeee6bb70a69a660c3535f1998e223d1c4f145aa9c4baa4c889a85bc070fb",
+      "patchedSha256": "c66981e5f7b85dc8cc5188bb9c8310f4ce26710ed4c3ac053aa676033a015539"
+    },
+    {
+      "path": "HD/NECRO/NECRO.049",
+      "patch": "patches/HD/NECRO/NECRO.049.xdelta",
+      "originalSize": 134771,
+      "patchedSize": 134774,
+      "originalSha256": "7e4af8271206f9b283a199606877c9fc12f1d1cfb51059952a4bc75743f58fec",
+      "patchedSha256": "9dbe68cfc44ff908898bc427288bccd88533c706017625a14ef35fe6b59fb3ff"
+    },
+    {
+      "path": "HD/NECRO/NECRO.04A",
+      "patch": "patches/HD/NECRO/NECRO.04A.xdelta",
+      "originalSize": 193026,
+      "patchedSize": 192318,
+      "originalSha256": "d024a9f762b27cf1961dfcab810d54b60a5994200c1fc23cba88fe598464404f",
+      "patchedSha256": "ab7f4ad96598b99b14001dae23e509b0b8cf256026621d357d99a99253320e87"
+    },
+    {
+      "path": "HD/NECRO/NECRO.04B",
+      "patch": "patches/HD/NECRO/NECRO.04B.xdelta",
+      "originalSize": 156143,
+      "patchedSize": 156143,
+      "originalSha256": "00eda80363d644b037e598e8ebc28b7558ca825c8ceb276c7add3902ef54a77c",
+      "patchedSha256": "ce31e99d2ae5980d137d30ee75cb37d0cc229eed0f5726ecaf5cc833d99a4208"
+    },
+    {
+      "path": "HD/NECRO/NECRO.04C",
+      "patch": "patches/HD/NECRO/NECRO.04C.xdelta",
+      "originalSize": 211862,
+      "patchedSize": 211435,
+      "originalSha256": "b9870327b9f16a49f618869e6a2e2552470e18132d3817126b6ed91d622e2abe",
+      "patchedSha256": "34da57d986e6795de739470817f6d0ebcf0cf9125e15df1e7499db4cdaf08395"
+    },
+    {
+      "path": "HD/NECRO/NECRO.04D",
+      "patch": "patches/HD/NECRO/NECRO.04D.xdelta",
+      "originalSize": 186608,
+      "patchedSize": 186560,
+      "originalSha256": "0d412c34d7630d88f020e66c965f7c4229593cbd609d3a9c5fa5e3d0441b24a3",
+      "patchedSha256": "1c5dbc81e3b41cd2822d56cf999cbff31ae13330c6cdfd80e31e8b1568257d81"
+    },
+    {
+      "path": "HD/NECRO/NECRO.04E",
+      "patch": "patches/HD/NECRO/NECRO.04E.xdelta",
+      "originalSize": 280897,
+      "patchedSize": 280775,
+      "originalSha256": "fd35e295c25d9c07e31675d6e047d7daf64949bfd6536aba8e86e1fab3adda04",
+      "patchedSha256": "1ad3472c1184cd68d0495ae51a84cdc0d5129835bea0ca6e4fbbb0fcee638b7e"
+    },
+    {
+      "path": "HD/NECRO/NECRO.04F",
+      "patch": "patches/HD/NECRO/NECRO.04F.xdelta",
+      "originalSize": 477600,
+      "patchedSize": 476719,
+      "originalSha256": "f4879db684ed39f84c61b0b86b7101602a8da6fe52a761228e63bfe2bdffdcdd",
+      "patchedSha256": "97bfe9adbebb3bb60917bc52ded5972565a642dad7206ba49fbde1f7c93f0ab4"
+    },
+    {
+      "path": "HD/NECRO/NECRO.050",
+      "patch": "patches/HD/NECRO/NECRO.050.xdelta",
+      "originalSize": 224143,
+      "patchedSize": 222430,
+      "originalSha256": "fbaae40b746e1f2db4961f069fc361ab0eefcc84fe43a3f6f6c1796704c7fd64",
+      "patchedSha256": "570285bc057afdb6e759dd610728e5658cbb5f6d4c7a2b9331250cc8ff596d48"
+    },
+    {
+      "path": "HD/NECRO/NECRO.051",
+      "patch": "patches/HD/NECRO/NECRO.051.xdelta",
+      "originalSize": 210282,
+      "patchedSize": 209626,
+      "originalSha256": "f6b577cf7c88683a6ad3ee63f28284af61d8b76dc44b385d1a539314d14640bb",
+      "patchedSha256": "3af447424db06b717287da771b244dec3b3d07bb0cfa8b7c744fc5c221ffc3b0"
+    },
+    {
+      "path": "HD/NECRO/NECRO.052",
+      "patch": "patches/HD/NECRO/NECRO.052.xdelta",
+      "originalSize": 246933,
+      "patchedSize": 246861,
+      "originalSha256": "832300f73c1faf85be7430ac43cd569592241dd1d79befd9fdc142fb8eaf4fa7",
+      "patchedSha256": "9419f49d2663c56fe9fec15caf43d181fc63c8e35d5472d02ac58ac373a9ab85"
+    },
+    {
+      "path": "HD/NECRO/NECRO.053",
+      "patch": "patches/HD/NECRO/NECRO.053.xdelta",
+      "originalSize": 181039,
+      "patchedSize": 180914,
+      "originalSha256": "7e7bbed891911c2b4951d4694a33c88b9ddd38bd6cf620d6cbfc9d3e96d926d9",
+      "patchedSha256": "0cd82144634775f7de66a8b8a3c071ece48fc58cea35708b5ba8640d6efff91e"
+    },
+    {
+      "path": "HD/NECRO/NECRO.054",
+      "patch": "patches/HD/NECRO/NECRO.054.xdelta",
+      "originalSize": 156281,
+      "patchedSize": 156316,
+      "originalSha256": "0583883e30b9c3c2258dc86273ab36a38ddf5d07a6275b03ea770b406f6c6626",
+      "patchedSha256": "5cb277d225c9cc0ad1b9044f1b88b9566f470e05ab31487f618fab0118ac1661"
+    },
+    {
+      "path": "HD/NECRO/NECRO.055",
+      "patch": "patches/HD/NECRO/NECRO.055.xdelta",
+      "originalSize": 185504,
+      "patchedSize": 184839,
+      "originalSha256": "a92c55b1560c2d9901fb36b3dfc21562b5cc6c8b4b261dd136f81a6077a00efe",
+      "patchedSha256": "79c33fe9b89a9333f203c1807dd3096782d9dca83ba10658c0512398660af7fa"
+    },
+    {
+      "path": "HD/NECRO/NECRO.056",
+      "patch": "patches/HD/NECRO/NECRO.056.xdelta",
+      "originalSize": 171230,
+      "patchedSize": 171271,
+      "originalSha256": "50e388b12bb7d8fbef0b79d4f0496e9255e5677bc4ca898b4b6daf0c8d29c269",
+      "patchedSha256": "192a5018780d32540c5727550f5f5391b69e883bfde6d77efc23176d422e7db7"
+    },
+    {
+      "path": "HD/NECRO/NECRO.057",
+      "patch": "patches/HD/NECRO/NECRO.057.xdelta",
+      "originalSize": 207237,
+      "patchedSize": 207230,
+      "originalSha256": "bf4eb7ecdfac5eb3ee9921218773290e130b4ce0510315eef4e7a289cfe223f7",
+      "patchedSha256": "c7f9a8ca29fafa74f3429c5e8ae8e149f4efc166de122d25f8f380b19d6baf31"
+    },
+    {
+      "path": "HD/NECRO/NECRO.058",
+      "patch": "patches/HD/NECRO/NECRO.058.xdelta",
+      "originalSize": 414224,
+      "patchedSize": 414848,
+      "originalSha256": "56b741e0e333c18a807a789d811db1afbbb32a23a40db8351a0516764cac82f1",
+      "patchedSha256": "9b761347d905402586bb4e057f69d38262c4ebebf4346334000e1de333a636c2"
+    },
+    {
+      "path": "HD/NECRO/NECRO.059",
+      "patch": "patches/HD/NECRO/NECRO.059.xdelta",
+      "originalSize": 454944,
+      "patchedSize": 454588,
+      "originalSha256": "ce570904ea9072e4311c8b7873c44dad7a15ff212178e3cdc9065d2d3bff1c71",
+      "patchedSha256": "a49cda13b194efdc591ddcfa13709dd686a3df5937e12b8e14d049a020dcf4d8"
+    },
+    {
+      "path": "HD/NECRO/NECRO.05A",
+      "patch": "patches/HD/NECRO/NECRO.05A.xdelta",
+      "originalSize": 199541,
+      "patchedSize": 199416,
+      "originalSha256": "2324ae8703d7e767829266860de4d42978677ec27803454b5ed3c6164172a677",
+      "patchedSha256": "58c42f81b15b8905334f0132f5e3c8c942c19f1a245e708218f7de6b96af2805"
+    },
+    {
+      "path": "HD/NECRO/NECRO.05B",
+      "patch": "patches/HD/NECRO/NECRO.05B.xdelta",
+      "originalSize": 178555,
+      "patchedSize": 178943,
+      "originalSha256": "4d69abff5dc6944f3dbf6e3d9c642cd25c6a3fe8f9f3a66037b5f757e09cc118",
+      "patchedSha256": "0c8f0346bde2185277d2f9e75debb20f9f1e37cdbf0a4e293d2fc2ba7e41ab82"
+    },
+    {
+      "path": "HD/NECRO/NECRO.05C",
+      "patch": "patches/HD/NECRO/NECRO.05C.xdelta",
+      "originalSize": 179591,
+      "patchedSize": 179501,
+      "originalSha256": "a76b8ce5681911e52b9792a298e34cc710197f84677faf5824ffe709e89285c0",
+      "patchedSha256": "40a8461c960dd6016d90d247c8ef77f2db38b8f3d97c50bb1f2176a03b58e21e"
+    },
+    {
+      "path": "HD/NECRO/NECRO.05D",
+      "patch": "patches/HD/NECRO/NECRO.05D.xdelta",
+      "originalSize": 177479,
+      "patchedSize": 177379,
+      "originalSha256": "c6454622b44378fe72da875d29642e3b3189e53468f10e96dce34b1ceadd0ddd",
+      "patchedSha256": "a12c4f8d867bdbf4676b92d9f739af2d8dfcc381babba1b833b6f97e5b4081f3"
+    },
+    {
+      "path": "HD/NECRO/NECRO.05E",
+      "patch": "patches/HD/NECRO/NECRO.05E.xdelta",
+      "originalSize": 441019,
+      "patchedSize": 440992,
+      "originalSha256": "0a4439c599a242616c1e565636f7e3fa39ef3c22326cf0e8c43a3a7fd85aaabf",
+      "patchedSha256": "5ade5a7f011a56af848fd1ce44f3d85a7652549b74dff54fcfc37f86308cba2a"
+    },
+    {
+      "path": "HD/NECRO/NECRO.05F",
+      "patch": "patches/HD/NECRO/NECRO.05F.xdelta",
+      "originalSize": 426605,
+      "patchedSize": 427923,
+      "originalSha256": "6d9cdd0909ed559733f85365628cb36b7ccab8732d9178a8038a59bc2f05e5bc",
+      "patchedSha256": "a5154af471866e4169318713c0067f168a62ed9626250eb92f9f84901518fdb7"
+    },
+    {
+      "path": "HD/NECRO/NECRO.060",
+      "patch": "patches/HD/NECRO/NECRO.060.xdelta",
+      "originalSize": 218376,
+      "patchedSize": 218327,
+      "originalSha256": "1863cd6760aa4f5a9c43f31571f90ed9e75c483ab09ed89bcae2005facdcd7ef",
+      "patchedSha256": "b3603a6a467f4416f30535e2fba911506044e9d555e806776bae2cb45e254a2b"
+    },
+    {
+      "path": "HD/NECRO/NECRO.061",
+      "patch": "patches/HD/NECRO/NECRO.061.xdelta",
+      "originalSize": 279206,
+      "patchedSize": 279756,
+      "originalSha256": "b9b63d0c55e1773225f4034bb3dd88e85a377cba175a6d92362428470c45f5e3",
+      "patchedSha256": "49b6ca4935219d6efe433b6febd5da219fc73283fcbf1e1134eae1a7adf98ab6"
+    },
+    {
+      "path": "HD/NECRO/NECRO.062",
+      "patch": "patches/HD/NECRO/NECRO.062.xdelta",
+      "originalSize": 154673,
+      "patchedSize": 154534,
+      "originalSha256": "6393197263b4816ba2130a9d84c531cbf6e78f1adf6481fde3c16b5fbbf897e1",
+      "patchedSha256": "9445b968d07820060e6dd7ae6ff77317de2893ed642ab6d3953cd0d007c2c385"
+    },
+    {
+      "path": "HD/NECRO/NECRO.063",
+      "patch": "patches/HD/NECRO/NECRO.063.xdelta",
+      "originalSize": 158626,
+      "patchedSize": 158712,
+      "originalSha256": "02d9dbe2dac7018acb694ae4f641f86f3ddaeb1b62bbbedb84b3e6bc6dec09ec",
+      "patchedSha256": "7204a5f8bdc9765590bba45f2b561b53d798c541b3c692a10ad7373141188bfe"
+    },
+    {
+      "path": "HD/NECRO/NECRO.064",
+      "patch": "patches/HD/NECRO/NECRO.064.xdelta",
+      "originalSize": 160679,
+      "patchedSize": 160875,
+      "originalSha256": "4e12a92f17f24b4b02fddfa1415a52b6a31a65175d399232636cef9709d1f104",
+      "patchedSha256": "0739a168d1d483f316e3b4168f4e1d2ba337716dd9b4936f090b1e8ebfea55f8"
+    },
+    {
+      "path": "HD/NECRO/NECRO.065",
+      "patch": "patches/HD/NECRO/NECRO.065.xdelta",
+      "originalSize": 205874,
+      "patchedSize": 205407,
+      "originalSha256": "a5ced74afd735fd6764908dc36c5347a1b270e66073a4e7f6c52d7330494cd8d",
+      "patchedSha256": "9257b0de5fe7279744666516aeefc903214654700acbd4babdc249a9d7555547"
+    },
+    {
+      "path": "HD/NECRO/NECRO.066",
+      "patch": "patches/HD/NECRO/NECRO.066.xdelta",
+      "originalSize": 167511,
+      "patchedSize": 167683,
+      "originalSha256": "e6917ab915ee7f91df6ca3afb70fa166be44b92e7e6ec509b58d6a6f9423febc",
+      "patchedSha256": "3c6f1475c4fe52dc9e8c9bd48f5c84b38163dfe9755fc2c9cc78c1a2dd908589"
+    },
+    {
+      "path": "HD/NECRO/NECRO.067",
+      "patch": "patches/HD/NECRO/NECRO.067.xdelta",
+      "originalSize": 161801,
+      "patchedSize": 162005,
+      "originalSha256": "10089f565931fc573734ef4b910cd8a919a215d4da98af7e304228b852576003",
+      "patchedSha256": "0146c56f939f300fce15120d59dddcd07781d749cdb3b2abf22d7c7eac26af02"
+    },
+    {
+      "path": "HD/NECRO/NECRO.068",
+      "patch": "patches/HD/NECRO/NECRO.068.xdelta",
+      "originalSize": 181750,
+      "patchedSize": 181902,
+      "originalSha256": "0b449162751e1c58457b4ff2c2efd149d7c268653696d765993591f2a7f2e95b",
+      "patchedSha256": "ad047932fc001e5956b3606c7c77526f6aaa65bb9f6c22ae5ab6cf9f60f8cda0"
+    },
+    {
+      "path": "HD/NECRO/NECRO.069",
+      "patch": "patches/HD/NECRO/NECRO.069.xdelta",
+      "originalSize": 167252,
+      "patchedSize": 167441,
+      "originalSha256": "07fb4f3fa138d1e8ac3ed430004af99f0e2abb7770a8f42880e52669180fc90a",
+      "patchedSha256": "3e6ecbc0e0fb41faba78ee69a92fd30217db0b20a2948834fdc97580094d8d2f"
+    },
+    {
+      "path": "HD/NECRO/NECRO.06A",
+      "patch": "patches/HD/NECRO/NECRO.06A.xdelta",
+      "originalSize": 129151,
+      "patchedSize": 129160,
+      "originalSha256": "3336462be1a19b9004089374e9ff234a0804e82044218c8936c3a91ff6182b41",
+      "patchedSha256": "0576abc102057fbd180e5d45452079e26419b46c634e78411da283e474d56da9"
+    },
+    {
+      "path": "HD/NECRO/NECRO.06B",
+      "patch": "patches/HD/NECRO/NECRO.06B.xdelta",
+      "originalSize": 179058,
+      "patchedSize": 179015,
+      "originalSha256": "d4f6698dc6f9e0c033eac54388669dde76401bf50fd9726201ef520a7810d784",
+      "patchedSha256": "29fe31ada7a4c56532fd571e6536da3e38c2dce157cc268c12b5a6730d09c5f9"
+    },
+    {
+      "path": "HD/NECRO/NECRO.06C",
+      "patch": "patches/HD/NECRO/NECRO.06C.xdelta",
+      "originalSize": 172688,
+      "patchedSize": 172585,
+      "originalSha256": "0424bcab1026d0a8dd2e41d543ba8a02c5e55d3ff6cff843cb893f2a5a693ca7",
+      "patchedSha256": "6ee493517b9a9d6202d5063db45a14dd1d7ad59a6ebf571ead007bb07f25d700"
+    },
+    {
+      "path": "HD/NECRO/NECRO.06D",
+      "patch": "patches/HD/NECRO/NECRO.06D.xdelta",
+      "originalSize": 219657,
+      "patchedSize": 219415,
+      "originalSha256": "f4de90b289f37c5a6f80f591a2a404fac414722d7eaffa245d9d7941d2f102c1",
+      "patchedSha256": "7327d7485cf140f2d6df1fe20766b311c552cbbb20e603217fd209376d56b92b"
+    },
+    {
+      "path": "HD/NECRO/NECRO.06E",
+      "patch": "patches/HD/NECRO/NECRO.06E.xdelta",
+      "originalSize": 174073,
+      "patchedSize": 174224,
+      "originalSha256": "c6acf17b04802681b8be2902688eda41b61aa5f7c6d3034b0a8c3f6ee4b1ba7c",
+      "patchedSha256": "141c010a463de0708499c4e34e2d11f31eb2e88098b74c8c4b042a7f9e05fdb1"
+    },
+    {
+      "path": "HD/NECRO/NECRO.06F",
+      "patch": "patches/HD/NECRO/NECRO.06F.xdelta",
+      "originalSize": 148703,
+      "patchedSize": 148761,
+      "originalSha256": "629cbb0850741e61036eb93b2164d7d0f66573ded68f8777afd0620cfed9355c",
+      "patchedSha256": "82917ceba2a0898609e64ee99937cbac97f5f2b7651473953f3e0fa03dece5ed"
+    },
+    {
+      "path": "HD/NECRO/NECRO.070",
+      "patch": "patches/HD/NECRO/NECRO.070.xdelta",
+      "originalSize": 260961,
+      "patchedSize": 260926,
+      "originalSha256": "2f1625249441b2105dbe31ab3ef960f57cd60bdcb5aba38943952f5839c7bfaa",
+      "patchedSha256": "73d09121fd82fefb2c7c4efffd9b055a4abb8edf8416b5240c2a77a8540c8d20"
+    },
+    {
+      "path": "HD/NECRO/NECRO.071",
+      "patch": "patches/HD/NECRO/NECRO.071.xdelta",
+      "originalSize": 177899,
+      "patchedSize": 177943,
+      "originalSha256": "53465cf703846d2d91071ff3226eb20b74209d421323fc77e4353e4d18bd2d72",
+      "patchedSha256": "2f3bbf6f19b7650f1f292ce0d2f16c5fa6fbff3c60e8fb61a04948fcdc0d4303"
+    },
+    {
+      "path": "HD/NECRO/NECRO.072",
+      "patch": "patches/HD/NECRO/NECRO.072.xdelta",
+      "originalSize": 162830,
+      "patchedSize": 162895,
+      "originalSha256": "3aafe7d2fba688fec9d087c32b0c0afcc37096c01eb9c1d7014ff90d0520d958",
+      "patchedSha256": "af459e8559b02c94448d1482c35c9f1428fdc546d05a9cf8d283ec7083babd8e"
+    },
+    {
+      "path": "HD/NECRO/NECRO.073",
+      "patch": "patches/HD/NECRO/NECRO.073.xdelta",
+      "originalSize": 154180,
+      "patchedSize": 154094,
+      "originalSha256": "74018ed3f7a23cf8f47d8a43d0a938187cdbbe9832b4409499de12f6f18bc3d7",
+      "patchedSha256": "1a0ef40bcea3a5c6b050aa8a8f18f9dc1920a1c82274011eb4dd16b229c47b1c"
+    },
+    {
+      "path": "HD/NECRO/NECRO.074",
+      "patch": "patches/HD/NECRO/NECRO.074.xdelta",
+      "originalSize": 178932,
+      "patchedSize": 178961,
+      "originalSha256": "27cc904729a168c2d371b72fd08a3815b09776271040cd7362971cff98bd4f4e",
+      "patchedSha256": "ea8849c032c5d2e6013955a84ab5f67a074be2c75d674a32bc2b6248ec04e8d1"
+    },
+    {
+      "path": "HD/NECRO/NECRO.075",
+      "patch": "patches/HD/NECRO/NECRO.075.xdelta",
+      "originalSize": 172079,
+      "patchedSize": 172155,
+      "originalSha256": "9489652e13c466561627284be4854c836687a62c624c73025d87dc285b934d89",
+      "patchedSha256": "94f990e4ca5de1a64d9d70e04b533af0621fa9750c0e9cb8ce73fc57943390ea"
+    },
+    {
+      "path": "HD/NECRO/NECRO.076",
+      "patch": "patches/HD/NECRO/NECRO.076.xdelta",
+      "originalSize": 148924,
+      "patchedSize": 148947,
+      "originalSha256": "4aeebb08813815d6f883ef388d85ff0739b2c66e789422eb21f74a1c2a35645b",
+      "patchedSha256": "04ad879d10ce6f7ffeea1531439d789b54e1a8998f9fc7f14beead5a2eb0b15d"
+    },
+    {
+      "path": "HD/NECRO/NECRO.077",
+      "patch": "patches/HD/NECRO/NECRO.077.xdelta",
+      "originalSize": 149381,
+      "patchedSize": 149075,
+      "originalSha256": "f5d89ab76c16560d5930c5bff5651dae3317c3be5ef04b97365e86051275ff89",
+      "patchedSha256": "5908a4b3d6fa6ce706d6b89e571037b47a17dff8599ee12b4c48adb684e1d6fd"
+    },
+    {
+      "path": "HD/NECRO/NECRO.078",
+      "patch": "patches/HD/NECRO/NECRO.078.xdelta",
+      "originalSize": 151331,
+      "patchedSize": 151064,
+      "originalSha256": "46b0d5bf277b9cf6498034f495c1580dcbada61fe17f4fa8eb83c1eaab2f5b2c",
+      "patchedSha256": "9a35dc316239b7eb46f1706ce815624f43023895d4f98565d34a3d80421a9242"
+    },
+    {
+      "path": "HD/NECRO/NECRO.079",
+      "patch": "patches/HD/NECRO/NECRO.079.xdelta",
+      "originalSize": 160582,
+      "patchedSize": 160445,
+      "originalSha256": "83b13d32856b6c8f8ab5f5dd73d1d35eacc108b8bdcbc5aaec1abb85cdbf1dd8",
+      "patchedSha256": "978febca84629d01437d0017de99e96499c393db7272043102174134292a060b"
+    },
+    {
+      "path": "HD/NECRO/NECRO.07A",
+      "patch": "patches/HD/NECRO/NECRO.07A.xdelta",
+      "originalSize": 162609,
+      "patchedSize": 162298,
+      "originalSha256": "64d3cf8f371f7eeb4303907459ecbade7a3ab3de06525fb2cbd8ada80e749416",
+      "patchedSha256": "157a99d2ad0a18fe034559c7f2fb0d961e219d3ec2e28f2cf90c3f09ad3dcea9"
+    },
+    {
+      "path": "HD/NECRO/NECRO.07B",
+      "patch": "patches/HD/NECRO/NECRO.07B.xdelta",
+      "originalSize": 154404,
+      "patchedSize": 154107,
+      "originalSha256": "92a49836759646cb7eb4cc1f553af326373822a4cb32776f9326daff6803b338",
+      "patchedSha256": "28f31a9b0417d269a5518bbacdf776c00dd96c5e71fd083b29a0da413836b790"
+    },
+    {
+      "path": "HD/NECRO/NECRO.07C",
+      "patch": "patches/HD/NECRO/NECRO.07C.xdelta",
+      "originalSize": 182416,
+      "patchedSize": 181929,
+      "originalSha256": "604bfa50f48082ce147a5b09afdf1cd57b8e51b7fd681ac7d38e02cc981602f8",
+      "patchedSha256": "65f622281a37b41a46220aae195f1603a3cd14d4e710ed2a04049ac6d5070fd8"
+    },
+    {
+      "path": "HD/NECRO/NECRO.07D",
+      "patch": "patches/HD/NECRO/NECRO.07D.xdelta",
+      "originalSize": 277997,
+      "patchedSize": 277631,
+      "originalSha256": "7adeaaad57a56cbef6defac62772a9130e64d92833ed8bc303b4b1b9d4d0c056",
+      "patchedSha256": "f111f616f72e65fb36375ae0528290d352c74ec59b303f7b000db5432f88c3c5"
+    },
+    {
+      "path": "HD/NECRO/NECRO.07E",
+      "patch": "patches/HD/NECRO/NECRO.07E.xdelta",
+      "originalSize": 148917,
+      "patchedSize": 148921,
+      "originalSha256": "7b19548d20b1374c3ced0ed759345c351a34e05fc9db174402cf5b73e04b3e48",
+      "patchedSha256": "341a50e8903f660e1bbf4358488cb2943b10281f716b9dcd82bbf035f68a6f03"
+    },
+    {
+      "path": "HD/NECRO/NECRO.07F",
+      "patch": "patches/HD/NECRO/NECRO.07F.xdelta",
+      "originalSize": 148692,
+      "patchedSize": 148756,
+      "originalSha256": "56cc5a625049e992c4c9f2006c6cf9c82e5e56f9abc81e770cc648ac68c284c3",
+      "patchedSha256": "ef209aa2e9acf62706c1bf9f52661a45c124e18c9dbb9134e607e0ca86ff19fa"
+    },
+    {
+      "path": "HD/NECRO/NECRO.080",
+      "patch": "patches/HD/NECRO/NECRO.080.xdelta",
+      "originalSize": 149118,
+      "patchedSize": 149241,
+      "originalSha256": "512c092b6eeb3ef07dfd73ea8171ff70a38c4925674af4c0581fb921cb73a32b",
+      "patchedSha256": "5928d7117c69c2f2a75bf310528269a6e23d952e2e646564673cec7f00e085e3"
+    },
+    {
+      "path": "HD/NECRO/NECRO.081",
+      "patch": "patches/HD/NECRO/NECRO.081.xdelta",
+      "originalSize": 164744,
+      "patchedSize": 164691,
+      "originalSha256": "3e8114b5cfbd8eea77a97d816c9286693a8b444673be9da86b20e539bc44a18f",
+      "patchedSha256": "dde71b55a1ed15bd00119b58e1bcbafa43b7fc0a5bd6b2b9e38dc0dd4e0083c3"
+    },
+    {
+      "path": "HD/NECRO/NECRO.082",
+      "patch": "patches/HD/NECRO/NECRO.082.xdelta",
+      "originalSize": 149397,
+      "patchedSize": 149494,
+      "originalSha256": "4da2dd79c5263dca7bd179e8046e619afd9e9b6c6a3fc528bfc5fe6353d3f8b9",
+      "patchedSha256": "f6e3103b598bac082e56017cfc43fd5ec7c896893fd36ec605ad6a5af26b0bb8"
+    },
+    {
+      "path": "HD/NECRO/NECRO.083",
+      "patch": "patches/HD/NECRO/NECRO.083.xdelta",
+      "originalSize": 163728,
+      "patchedSize": 163617,
+      "originalSha256": "0a18094f001e88f5a0c291b718bb126fbbc909feb2c76de70df37810ff4ae369",
+      "patchedSha256": "3f44533b4ea9776b98a18f36c243ec0c6989c4c2d6828c8b3322e26675ad077f"
+    },
+    {
+      "path": "HD/NECRO/NECRO.084",
+      "patch": "patches/HD/NECRO/NECRO.084.xdelta",
+      "originalSize": 149389,
+      "patchedSize": 149521,
+      "originalSha256": "f01d9c8fe4496fd59d739132fe23752c5196ae7377a6bd385e1d267e1e67469e",
+      "patchedSha256": "f84171f6ca2b40ec0c4b84404a18f91e320522ea456714e5171794522c1d0556"
+    },
+    {
+      "path": "HD/NECRO/NECRO.085",
+      "patch": "patches/HD/NECRO/NECRO.085.xdelta",
+      "originalSize": 159537,
+      "patchedSize": 159431,
+      "originalSha256": "745a9253b87bfe6cd144ff36b3251a858ea9d06f66d587d794daa09d24884f24",
+      "patchedSha256": "59ba9f4adc9f257f18433577cb9b926992e04d64b23b80c2d9a9e1ef929abe13"
+    },
+    {
+      "path": "HD/NECRO/NECRO.086",
+      "patch": "patches/HD/NECRO/NECRO.086.xdelta",
+      "originalSize": 157191,
+      "patchedSize": 157072,
+      "originalSha256": "175728b9fc65e6b1c0e4c7eb642f4d45d4468a7ac655f5c5219e21e01597aca9",
+      "patchedSha256": "94ad7f0c1deef6439383e298fe88af73f212dcdab3a0b3a82e4668c6435d228d"
+    },
+    {
+      "path": "HD/NECRO/NECRO.087",
+      "patch": "patches/HD/NECRO/NECRO.087.xdelta",
+      "originalSize": 179170,
+      "patchedSize": 178432,
+      "originalSha256": "809c45dd75b05e5863b05fdbb5ac4ad62d282aef80ac4643f469c5f10a00fd7f",
+      "patchedSha256": "402316a5c213d83e6feff15f5402d17cf0f454f9d7889e2f00fb332dc345107e"
+    },
+    {
+      "path": "HD/NECRO/NECRO.088",
+      "patch": "patches/HD/NECRO/NECRO.088.xdelta",
+      "originalSize": 315797,
+      "patchedSize": 315233,
+      "originalSha256": "738d5bb51d4f492cbf05e18d539590f7c711c47471be946c122341b13f6fb33c",
+      "patchedSha256": "8e6fb927b1fac64d95d2a2740ca22232ea0918adac1cc8e5a9274d1b5798e17f"
+    },
+    {
+      "path": "HD/NECRO/NECRO.089",
+      "patch": "patches/HD/NECRO/NECRO.089.xdelta",
+      "originalSize": 261436,
+      "patchedSize": 260530,
+      "originalSha256": "fb3142d292a3c3fc49a7af9269f638a9a33a20cf6670681065e44b42f80bc54c",
+      "patchedSha256": "8d1a1a7b38fd73d79572f86d08fb83c1c49a607611dc6d021ec677f4fad06852"
+    },
+    {
+      "path": "HD/NECRO/NECRO.08A",
+      "patch": "patches/HD/NECRO/NECRO.08A.xdelta",
+      "originalSize": 302906,
+      "patchedSize": 302085,
+      "originalSha256": "6b7d5d02346f2eca0bec5bd001be36776e12065c05536e328832868eee45257f",
+      "patchedSha256": "ab8e5f8c548de6310ed18d7d15aa982a12c66776a700e8bf22d0f9efd9dc2891"
+    },
+    {
+      "path": "HD/NECRO/NECRO.08B",
+      "patch": "patches/HD/NECRO/NECRO.08B.xdelta",
+      "originalSize": 254292,
+      "patchedSize": 253153,
+      "originalSha256": "21e78eeff70b26186a765b9c01c70883f5ef5d393ac6eccd69628916e86125bc",
+      "patchedSha256": "22f92f4b4da219beaf23216f5e3db2b9794eabef34a43de3dc655c4fe1034cc0"
+    },
+    {
+      "path": "HD/NECRO/NECRO.08C",
+      "patch": "patches/HD/NECRO/NECRO.08C.xdelta",
+      "originalSize": 224716,
+      "patchedSize": 223866,
+      "originalSha256": "df9ca97fae5e9359a9c72d68738ac11985287c56e8f397b75ef352edd60077d1",
+      "patchedSha256": "f51fc50864c5f20862f290ebb4424524343febddda093a516847b48fb9cdd9d3"
+    },
+    {
+      "path": "HD/NECRO/NECRO.08D",
+      "patch": "patches/HD/NECRO/NECRO.08D.xdelta",
+      "originalSize": 253578,
+      "patchedSize": 253052,
+      "originalSha256": "af1d8d93170f0acad6dcadc4d3b85f8c6cae436c5f102679830d78c16030b107",
+      "patchedSha256": "bc9074b324ae18e9889b6a1aa3a8b870dcd45379cd3443a6d6ab60a4b99494d0"
+    },
+    {
+      "path": "HD/NECRO/NECRO.08E",
+      "patch": "patches/HD/NECRO/NECRO.08E.xdelta",
+      "originalSize": 165358,
+      "patchedSize": 164890,
+      "originalSha256": "7384a0d0e280760e4595f8fdd0b8ecd76acb0bed0ad16429b150fbbb9c2b6efd",
+      "patchedSha256": "3a3de8db6f95f074e321c4ae32f8d243da420d462d418eace39914e9a7d2f088"
+    },
+    {
+      "path": "HD/NECRO/NECRO.08F",
+      "patch": "patches/HD/NECRO/NECRO.08F.xdelta",
+      "originalSize": 178377,
+      "patchedSize": 177704,
+      "originalSha256": "a04838e7b4c71275a96dcd11f4c2e85c515fba228ee69729f94a8dae905a22dc",
+      "patchedSha256": "c915bb727e6dd38877fc142ee65803827338b884cb86c33f83b69252bb3a4c3a"
+    },
+    {
+      "path": "HD/NECRO/NECRO.090",
+      "patch": "patches/HD/NECRO/NECRO.090.xdelta",
+      "originalSize": 162141,
+      "patchedSize": 162162,
+      "originalSha256": "1a989d51f210a44cf62e0b18b98871812612f491ff21f1ccff4f8d16c9b7ea31",
+      "patchedSha256": "3cf034547a7d99f1e8f69db6bda5acccded4c3ed992ac3686498ff5267e3484b"
+    },
+    {
+      "path": "HD/NECRO/NECRO.091",
+      "patch": "patches/HD/NECRO/NECRO.091.xdelta",
+      "originalSize": 162601,
+      "patchedSize": 162028,
+      "originalSha256": "ad6af703e4f30a7aa607bcb3222a53935f931e7be74df2981809d33cfc624e48",
+      "patchedSha256": "d88909b697df462086219b197ce5e814547d38e658facf482aa72a11460b3c35"
+    },
+    {
+      "path": "HD/NECRO/NECRO.092",
+      "patch": "patches/HD/NECRO/NECRO.092.xdelta",
+      "originalSize": 512420,
+      "patchedSize": 511045,
+      "originalSha256": "149418a88941dc258962a13646bd742519ad298300ea14760af58a4fde34bda1",
+      "patchedSha256": "e9ff7873f705bd797367e73e17b5194123a2bb487010aeda73eb808fa37141e3"
+    },
+    {
+      "path": "HD/NECRO/NECRO.093",
+      "patch": "patches/HD/NECRO/NECRO.093.xdelta",
+      "originalSize": 262817,
+      "patchedSize": 262455,
+      "originalSha256": "ae2cddb1f003b3eed1925aab6ad3fe939749f2fcfe2d39306f695ece39c34552",
+      "patchedSha256": "3c65149d0fe11fc6e89091506a9ce5f28a657b0ad9f992378fd340b604b50016"
+    },
+    {
+      "path": "HD/NECRO/NECRO.094",
+      "patch": "patches/HD/NECRO/NECRO.094.xdelta",
+      "originalSize": 431186,
+      "patchedSize": 429744,
+      "originalSha256": "14ef2500bd1fca19f9c924a64651233349f48cac783c72df0f7261b13647e23c",
+      "patchedSha256": "0f9cb74dab05d8b06f2646f8685acdb2b328157fcf44c22e220d11075af7bb1d"
+    },
+    {
+      "path": "HD/NECRO/NECRO.095",
+      "patch": "patches/HD/NECRO/NECRO.095.xdelta",
+      "originalSize": 238515,
+      "patchedSize": 238478,
+      "originalSha256": "20a8678b0447f522174451d14fb18062dc29b0992d8adeb7caae9880405bc422",
+      "patchedSha256": "16be42373b5f6605f8f17d26b78c1e47acdc16f1003d122563c7bbe6cc08bfb7"
+    },
+    {
+      "path": "HD/NECRO/NECRO.096",
+      "patch": "patches/HD/NECRO/NECRO.096.xdelta",
+      "originalSize": 273572,
+      "patchedSize": 272847,
+      "originalSha256": "c74cc0ebf4e7ee513a570056742f52ec1d070500132e333adfe2416bc554aee8",
+      "patchedSha256": "52a2fdeb255892e7f3b5539da1f8ead714367cf81b0a741dbe14482252a35dcb"
+    },
+    {
+      "path": "HD/NECRO/NECRO.097",
+      "patch": "patches/HD/NECRO/NECRO.097.xdelta",
+      "originalSize": 398625,
+      "patchedSize": 397493,
+      "originalSha256": "0bb30068ed0a4ce01e4d6849cdc114e9abc937dd26ecbabd87a3052cd9bb4c43",
+      "patchedSha256": "3264a0894cd111e42fe09a030558abe4a04d6fb614b4a65fed511ae8924e71dd"
+    },
+    {
+      "path": "HD/NECRO/NECRO.098",
+      "patch": "patches/HD/NECRO/NECRO.098.xdelta",
+      "originalSize": 533424,
+      "patchedSize": 532546,
+      "originalSha256": "0bb32b4a053234d1710186aa29639a973b2f14ddd9eb39d725b64f903fed6438",
+      "patchedSha256": "3d9c279dd4671e630f313e2ac081ae1ea852df17d321cec70cd0cf602a7033d4"
+    },
+    {
+      "path": "HD/NECRO/NECRO.099",
+      "patch": "patches/HD/NECRO/NECRO.099.xdelta",
+      "originalSize": 521054,
+      "patchedSize": 519285,
+      "originalSha256": "5763ba55963a4d9fad56ae9a7180041766fc8f903e65360d7be4636aa132e63d",
+      "patchedSha256": "66908e5f8b03c60fbd0862f8c9ac7fa33ee6f64761fe4bf157b0948a9b173399"
+    },
+    {
+      "path": "HD/NECRO/NECRO.09A",
+      "patch": "patches/HD/NECRO/NECRO.09A.xdelta",
+      "originalSize": 295656,
+      "patchedSize": 295754,
+      "originalSha256": "06c37182f0f9b07c3132004c8d5424615b551182595c0a8383b80b132abf80b8",
+      "patchedSha256": "d6cf1510ff23f3ad3bf1cbaba1baa75f1038e9667cf17db7f1c4a6a01ef87465"
+    },
+    {
+      "path": "HD/NECRO/NECRO.09B",
+      "patch": "patches/HD/NECRO/NECRO.09B.xdelta",
+      "originalSize": 574241,
+      "patchedSize": 571854,
+      "originalSha256": "63c49024bba6f615da74ad0bc0db425948512924d137df39c7aaff7bd5ecf649",
+      "patchedSha256": "a4dc5ec54bc49ccffc6dc535b341b4daa361a02478b4b3c0dd1e95f32f24d8e7"
+    },
+    {
+      "path": "HD/NECRO/NECRO.09C",
+      "patch": "patches/HD/NECRO/NECRO.09C.xdelta",
+      "originalSize": 385544,
+      "patchedSize": 385541,
+      "originalSha256": "117b4b89c2314250328a3d2e21c68627ef813a9d88401d9faac299cd62abc146",
+      "patchedSha256": "4df14fe1a488a272807178273efe421412e44e4750bfa4bfffd4420cabce8c62"
+    }
+  ]
+}

@@ -1,5 +1,23 @@
 [
   {
+    "id": "necronomicon-cd-pc98",
+    "title": "네크로노미콘 (CD판)",
+    "originalTitle": "ネクロノミコン",
+    "englishTitle": "Necronomicon",
+    "developer": "Fairytale",
+    "platform": "PC-98",
+    "genre": "어드벤처",
+    "year": "1994",
+    "release": "1994",
+    "version": "2026.10.09",
+    "date": "2026.10.09",
+    "status": "배포 중",
+    "palette": "navy",
+    "mark": "N CD",
+    "cover": "games/necronomicon-pc98/images/screen-1.png",
+    "data": "games/necronomicon-cd-pc98/game.json"
+  },
+  {
     "id": "necronomicon-pc98",
     "title": "네크로노미콘",
     "originalTitle": "ネクロノミコン",

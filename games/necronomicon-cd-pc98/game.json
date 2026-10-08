@@ -1,0 +1,48 @@
+{
+  "id": "necronomicon-cd-pc98",
+  "title": "네크로노미콘 (CD판)",
+  "koreanTitle": "네크로노미콘 (CD판)",
+  "originalTitle": "ネクロノミコン",
+  "englishTitle": "Necronomicon",
+  "developer": "Fairytale",
+  "platform": "PC-98",
+  "genre": "어드벤처",
+  "year": "1994",
+  "release": "1994",
+  "version": "2026.10.09",
+  "date": "2026.10.09",
+  "original": "일본어 CD판",
+  "status": "배포 중",
+  "files": 159,
+  "description": "PC-98용 네크로노미콘 CD판 한글 패치입니다.",
+  "story": "Fairytale의 PC-98 어드벤처 게임 네크로노미콘 CD판을 한글화했습니다. 플로피 파일은 FD 폴더에, CD 파일은 HD 폴더에 넣고 두 폴더를 담은 상위 폴더를 한 번 선택하면 두 매체의 파일을 함께 검사해 한 번에 패치합니다. 정상적인 한글 표시를 위해 전용 necro-ThinDungGeunMo 폰트를 함께 제공합니다.",
+  "folderGuide": "플로피 파일을 FD, CD 파일을 HD 폴더에 넣으세요. 두 폴더를 담은 상위 폴더를 한 번 선택하면 FD와 HD를 함께 검사하고 한 번에 패치합니다.",
+  "installSteps": [
+    "원본 플로피의 파일은 FD, 원본 CD의 파일은 HD 폴더에 넣고 두 폴더를 한 작업 폴더 아래에 둡니다.",
+    "FD와 HD를 함께 포함한 상위 작업 폴더를 한 번 선택하면 두 폴더를 함께 검사하고 한 번에 패치합니다.",
+    "결과 ZIP의 FD 파일은 플로피 쪽, HD 파일은 CD 쪽에 각각 적용합니다. 적용 전 원본을 백업하세요."
+  ],
+  "outputGuide": "원본을 백업한 뒤 ZIP의 FD 파일은 플로피 원본에서 추출한 파일에, HD 파일은 CD 원본에서 추출한 파일에 각각 적용하세요. FD와 HD의 내용물을 한 폴더에 섞지 마세요.",
+  "verifiedOriginalsIntro": "플로피와 CD에서 추출한 아래 원본 파일들의 SHA-256 일치를 확인했습니다.",
+  "verifiedOriginals": [
+    {"label": "Fairytale Hardcover/Necronomicon/Necronomicon [CD floppy] - installed", "hashVerified": true},
+    {"label": "Fairytale Hardcover/Necronomicon/Necronomicon [CD]", "hashVerified": true}
+  ],
+  "screenshots": [
+    {"src": "games/necronomicon-pc98/images/screen-1.png", "alt": "PC-98 네크로노미콘 한글 화면 1", "caption": "한글화된 네크로노미콘 화면"},
+    {"src": "games/necronomicon-pc98/images/screen-2.png", "alt": "PC-98 네크로노미콘 한글 화면 2", "caption": "한글화된 게임 화면"},
+    {"src": "games/necronomicon-pc98/images/screen-3.png", "alt": "PC-98 네크로노미콘 한글 화면 3", "caption": "한글화된 게임 화면"},
+    {"src": "games/necronomicon-pc98/images/screen-4.png", "alt": "PC-98 네크로노미콘 한글 화면 4", "caption": "한글화된 게임 화면"},
+    {"src": "games/necronomicon-pc98/images/screen-5.png", "alt": "PC-98 네크로노미콘 한글 화면 5", "caption": "한글화된 게임 화면"}
+  ],
+  "history": [{"date": "2026.10.09", "version": "CD판 초기판", "note": "네크로노미콘 PC-98 CD판 한글 패치 공개"}],
+  "credits": [{"role": "한글화", "name": "천수도인"}],
+  "references": [
+    {"type": "patch-source", "url": "https://cafe.naver.com/koeimod/891"},
+    {"type": "source-readme", "url": "https://github.com/hermit1000/pc98-ko-patch/tree/main/patches/Necronomicon"}
+  ],
+  "palette": "navy",
+  "mark": "N CD",
+  "cover": "games/necronomicon-pc98/images/screen-1.png",
+  "package": "packages/necronomicon-cd-pc98/manifest.json"
+}
