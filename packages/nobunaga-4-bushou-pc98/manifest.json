@@ -1,8 +1,8 @@
 {
   "format": "folder-patch-v1",
   "game": "노부나가의 야망 4 - 무장풍운록",
-  "patchVersion": "2026.10.14",
-  "createdAt": "2026-10-14T00:00:00+09:00",
+  "patchVersion": "2026.10.15",
+  "createdAt": "2026-10-15T00:00:00+09:00",
   "sharedAssets": [
     {
       "id": "nobu4-bisco-font",
@@ -42,7 +42,7 @@
       "originalSize": 172336,
       "patchedSize": 172336,
       "originalSha256": "2a9a2fb2e3b5c03b6501b909abb2498b8ebb1e0df56a7616ed97f69a86f3a491",
-      "patchedSha256": "a1cf93ef81decbdbedf36a13fd331a4628b4b1f11f47dab077fb21bdd63a198e"
+      "patchedSha256": "7881f173f91ee4fda4ded95a05f1c6f9401ab7f2c1b1ced32fbaaa917a8c3184"
     },
     {
       "path": "GAIJI.DAT",
@@ -80,9 +80,9 @@
       "path": "OPEN.DAT",
       "patch": "patches/OPEN.DAT.xdelta",
       "originalSize": 398497,
-      "patchedSize": 382730,
+      "patchedSize": 398497,
       "originalSha256": "9cfa1e13883433a1c062da840d6e3c41ba69fe8a338addaed0e4661cd38ea948",
-      "patchedSha256": "89ea5d575860dbf50ec6d95b122f3cd7aeaf8d034ba023d7ff56a85f244ef459"
+      "patchedSha256": "a52e663ab3134b8a270aeeda0e15b73d01c624c1d1de909d09bcd29d011ee212"
     },
     {
       "path": "OPEN.EXE",

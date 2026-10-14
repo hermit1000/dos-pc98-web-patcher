@@ -9,8 +9,8 @@
   "genre": "전략",
   "year": "1991",
   "release": "1991-06-18",
-  "version": "2026.10.14",
-  "date": "2026.10.14",
+  "version": "2026.10.15",
+  "date": "2026.10.15",
   "original": "일본어 FD Set 1",
   "status": "배포 중",
   "files": 14,
@@ -59,6 +59,11 @@
       "date": "2026.10.14",
       "version": "업데이트",
       "note": "MAIN.EXE 갱신"
+    },
+    {
+      "date": "2026.10.15",
+      "version": "업데이트",
+      "note": "DOS 버전 추가 및 ENDING.DAT·OPEN.DAT 갱신"
     }
   ],
   "credits": [
@@ -69,7 +74,7 @@
   ],
   "references": [
     {
-      "type": "legacy-post",
+      "type": "creator-blog",
       "url": "https://cafe.naver.com/koeimod/803"
     }
   ],

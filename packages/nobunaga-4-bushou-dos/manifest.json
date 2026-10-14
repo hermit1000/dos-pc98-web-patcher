@@ -1,0 +1,128 @@
+{
+  "format": "folder-patch-v1",
+  "game": "노부나가의 야망 4 - 무장풍운록 (IBM PC DOS)",
+  "patchVersion": "2026.10.15",
+  "createdAt": "2026-10-15T00:00:00+09:00",
+  "targets": [
+    {
+      "path": "END.EXE",
+      "patch": "patches/END.EXE.xdelta",
+      "originalSize": 25931,
+      "patchedSize": 25931,
+      "originalSha256": "568ae5722b26d40afa064e2d696f3847849114828369753f9feab5252bf6434f",
+      "patchedSha256": "ce6d48204a574c3db6732adf302eedb8a945e178e0d697a29c471abdc1a72bab"
+    },
+    {
+      "path": "ENDING.DAT",
+      "patch": "patches/ENDING.DAT.xdelta",
+      "originalSize": 172336,
+      "patchedSize": 172336,
+      "originalSha256": "2a9a2fb2e3b5c03b6501b909abb2498b8ebb1e0df56a7616ed97f69a86f3a491",
+      "patchedSha256": "ca962ffdcd363b313919530492c724b3c31cb9b35d892bd35a032c41f693b211"
+    },
+    {
+      "path": "GAIJI.DAT",
+      "patch": "patches/GAIJI.DAT.xdelta",
+      "originalSize": 6944,
+      "patchedSize": 6944,
+      "originalSha256": "a1d4e9f88b68a7d58189158ed70a22b18afa74655d242575e05f275f31a10ed4",
+      "patchedSha256": "45b0ae4a378fd66909957f253e38953a423458f8f3f20f91b5f535b3f2f8ec82"
+    },
+    {
+      "path": "JIS.FNT",
+      "patch": "patches/JIS.FNT.xdelta",
+      "originalSize": 286336,
+      "patchedSize": 286336,
+      "originalSha256": "207103cb50d7cf93632b7e53752400dbff3676b11940682bf451f3846bc38c2e",
+      "patchedSha256": "19751908c9a5ffe59acd8bdfda400c6954a8f8a40a326798be1689f6a0046faa"
+    },
+    {
+      "path": "KOEI.COM",
+      "patch": "patches/KOEI.COM.xdelta",
+      "originalSize": 643,
+      "patchedSize": 643,
+      "originalSha256": "2cdb95cfe30b0147022f5ab4195cc0b0745ae270aafdf9da1758025e349d088b",
+      "patchedSha256": "2cdb95cfe30b0147022f5ab4195cc0b0745ae270aafdf9da1758025e349d088b"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 287221,
+      "patchedSize": 287221,
+      "originalSha256": "43fc7fef7d1b50879e59ffe6a1d00fe4190b6f3cb961b53d3e0e3a4eaa4d391a",
+      "patchedSha256": "581be16d5f261a2a18778a1cc16602db8c4915d2accfc0897190c8bb82222173"
+    },
+    {
+      "path": "MAPDATA.DAT",
+      "patch": "patches/MAPDATA.DAT.xdelta",
+      "originalSize": 116982,
+      "patchedSize": 116982,
+      "originalSha256": "8d01563a3393c02262237208ebd646148874ad52d95e0bfe55ede2e6ace8b242",
+      "patchedSha256": "88ce8d73df3e9e7460db460e13c233de25c3ace8fa4131cc4f3cc3e6e868477c"
+    },
+    {
+      "path": "OPEN.DAT",
+      "patch": "patches/OPEN.DAT.xdelta",
+      "originalSize": 398497,
+      "patchedSize": 398497,
+      "originalSha256": "9cfa1e13883433a1c062da840d6e3c41ba69fe8a338addaed0e4661cd38ea948",
+      "patchedSha256": "50cb62d9a9c30f524c7c52a2da201c2e44e83db7dcfd96e2210ab97b6507797f"
+    },
+    {
+      "path": "OPEN.EXE",
+      "patch": "patches/OPEN.EXE.xdelta",
+      "originalSize": 58161,
+      "patchedSize": 58161,
+      "originalSha256": "722b982ec22329e1d3af153c9463810a1b7b7cd799c92d0c416f0c50bd0b1f9c",
+      "patchedSha256": "5ce3713476afd397a9d9bb7fe71aba7d62da187911f95665250f008ef4b71e1c"
+    },
+    {
+      "path": "SNDATA1.CIM",
+      "patch": "patches/SNDATA1.CIM.xdelta",
+      "originalSize": 13508,
+      "patchedSize": 13508,
+      "originalSha256": "6f8484478051db383b7bf587ecc581f64d8d129ee40f6120d5670d37a56169f0",
+      "patchedSha256": "4dea7a1208200112cea7fff8a31e4d7cab2bfcb297d626342c54e2bcce5ef03d"
+    },
+    {
+      "path": "SNDATA1T.CIM",
+      "patch": "patches/SNDATA1T.CIM.xdelta",
+      "originalSize": 3360,
+      "patchedSize": 3360,
+      "originalSha256": "eb7b4edcefffadcbebaa0edf48a086749d6dde1e9fbbfb7d45dc3655310207b9",
+      "patchedSha256": "22e10936d58ce057e4cd10c737d3d6fe8699750dba89f9480ae2804d18c5a80b"
+    },
+    {
+      "path": "SNDATA2.CIM",
+      "patch": "patches/SNDATA2.CIM.xdelta",
+      "originalSize": 13508,
+      "patchedSize": 13508,
+      "originalSha256": "e9eeeebbe5bdf2aebccb6eca0e546a9bcb19aebfa175d28aebe274ed8263c077",
+      "patchedSha256": "38d2cc37769fdf44da245afde4214da0f65ba50a29dedddc39c17e74f8886559"
+    },
+    {
+      "path": "SNDATA2T.CIM",
+      "patch": "patches/SNDATA2T.CIM.xdelta",
+      "originalSize": 2548,
+      "patchedSize": 2548,
+      "originalSha256": "5938752d55bc30b336de3c4dad2bce3ef1f65cf3b0069b42c303cbbd454a981c",
+      "patchedSha256": "d5b7007956021cd5537981b8f26bdf627e70f199454c31f53a88b3576d0a911e"
+    },
+    {
+      "path": "SNDATA3.CIM",
+      "patch": "patches/SNDATA3.CIM.xdelta",
+      "originalSize": 13508,
+      "patchedSize": 13508,
+      "originalSha256": "a78f7eb3cea78ca47a39b6b561bbe2bfe0c8028499bd82d9f704b362ec8e7541",
+      "patchedSha256": "7942ee2ab5ce1b59e6b9342f652721164780947cb84427e12f7a8caf30aa0878"
+    },
+    {
+      "path": "SNDATA3T.CIM",
+      "patch": "patches/SNDATA3T.CIM.xdelta",
+      "originalSize": 1484,
+      "patchedSize": 1484,
+      "originalSha256": "b399a371de79b51a728f1ebbdc165c3162fa36f6c5f38adb3873730823f8db9c",
+      "patchedSha256": "d7c55e1fa58b72379be99f477cef4e6489a6c72ce304817c122a031a6ce5534e"
+    }
+  ]
+}
