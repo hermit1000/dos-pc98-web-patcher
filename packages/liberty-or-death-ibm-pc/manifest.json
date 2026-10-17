@@ -1,0 +1,88 @@
+{
+  "format": "folder-patch-v1",
+  "game": "독립전쟁 - 자유 또는 죽음 (IBM PC DOS)",
+  "patchVersion": "2026.10.18",
+  "createdAt": "2026-10-18T00:00:00+09:00",
+  "targets": [
+    {
+      "path": "CREDIT.DAT",
+      "patch": "patches/CREDIT.DAT.xdelta",
+      "originalSize": 10272,
+      "patchedSize": 10272,
+      "originalSha256": "b1527dde80e149b3f79add639cf5e6f790092ed9e441095edc68c6f2b26b8a82",
+      "patchedSha256": "c1f6bd1715c2c1a5c3fe62239c512153ac45d8228c2727e931b33995c03a4953"
+    },
+    {
+      "path": "END.EXE",
+      "patch": "patches/END.EXE.xdelta",
+      "originalSize": 74560,
+      "patchedSize": 74560,
+      "originalSha256": "0d1ca8f4915db94d476b98363c7b1ee7059d91afd0f915dc4f52e756184ffac8",
+      "patchedSha256": "ce3f1b93ab2353b1a73ef31417b16b97febcb8502dbd1ee87b19aabd374afde9"
+    },
+    {
+      "path": "ENDMES.DAT",
+      "patch": "patches/ENDMES.DAT.xdelta",
+      "originalSize": 36864,
+      "patchedSize": 36864,
+      "originalSha256": "f959725d94273b7482373c7220a9bd1198b7febd925c70fd0de038ff4f5b7b1b",
+      "patchedSha256": "2994bae51e04aa79c49091d4621af3fc056d2f624006d55368a0fbc37711827d"
+    },
+    {
+      "path": "JIS.FNT",
+      "patch": "patches/JIS.FNT.xdelta",
+      "originalSize": 286336,
+      "patchedSize": 286336,
+      "originalSha256": "207103cb50d7cf93632b7e53752400dbff3676b11940682bf451f3846bc38c2e",
+      "patchedSha256": "5a12c48d462075ff69e2458761bca8af67d9492b2bd81ae07635fadb6b3c3888"
+    },
+    {
+      "path": "MAIN.EXE",
+      "patch": "patches/MAIN.EXE.xdelta",
+      "originalSize": 260559,
+      "patchedSize": 260559,
+      "originalSha256": "ce5d395c93858f68320e19329d77bc2944900efb7fd62014338bf3a4a1fc416d",
+      "patchedSha256": "ab5232fb229d1ca693516a6f708b06e13bc0df6a7204e8e6a1172ce28c925e92"
+    },
+    {
+      "path": "MAP.IDX",
+      "patch": "patches/MAP.IDX.xdelta",
+      "originalSize": 160387,
+      "patchedSize": 159834,
+      "originalSha256": "a9d8970af944575613d571497e81a99e7563593b46f2bc26d3c950d47d0067d5",
+      "patchedSha256": "8f838954756a5df7773de01703a2acf7e2f337ddfdb8f2212262a55176d9fdb8"
+    },
+    {
+      "path": "MESSAGE.MSG",
+      "patch": "patches/MESSAGE.MSG.xdelta",
+      "originalSize": 30817,
+      "patchedSize": 30352,
+      "originalSha256": "9f0060b0b800fa53048286c5078befeead2300613ad1392ae3ed2770e90fd96f",
+      "patchedSha256": "9663ea66520176a02eabbe6879b0bf91dc86a4f23f3a468b8c3984b046252a8e"
+    },
+    {
+      "path": "OPEN.EXE",
+      "patch": "patches/OPEN.EXE.xdelta",
+      "originalSize": 67710,
+      "patchedSize": 67710,
+      "originalSha256": "38c47124bc8534d5143a4ea27cbde298493317d6b0a21a7b9085c0d474c6e3ff",
+      "patchedSha256": "a9ab4c87548e1521de319213d09f72ff70a683c13d4fe90f0dadc11d9b3a1f94"
+    },
+    {
+      "path": "OPENMES.DAT",
+      "patch": "patches/OPENMES.DAT.xdelta",
+      "originalSize": 22752,
+      "patchedSize": 22752,
+      "originalSha256": "96b46dbe401aa6d64eb25215ec1dd1116ced95cf8834539e2b2b1f0ba244ddb4",
+      "patchedSha256": "cef79cdeb98d4a92b4ee59b1ae9a0687d36b66932f74b2febf0b662639f1f152"
+    },
+    {
+      "path": "OPENNPK.NPK",
+      "patch": "patches/OPENNPK.NPK.xdelta",
+      "originalSize": 291800,
+      "patchedSize": 296007,
+      "originalSha256": "8fc6c60e587851a86742433e481df05a2ca54cd0337e230ba2d6bb16d18a4c64",
+      "patchedSha256": "92018de6b64741069ebd8b7f7a95a5285ad0b6ae752033124d434cfb021f5d76"
+    }
+  ]
+}

@@ -592,5 +592,23 @@
     "mark": "IV",
     "cover": "games/first-queen-4-pc98/images/cover.jpg",
     "data": "games/first-queen-4-pc98/game.json"
+  },
+  {
+    "id": "liberty-or-death-ibm-pc",
+    "title": "독립전쟁 - 자유 또는 죽음",
+    "originalTitle": "独立戦争 ～リバティ オア デス～",
+    "englishTitle": "Liberty or Death",
+    "developer": "Koei",
+    "platform": "IBM PC",
+    "genre": "전략",
+    "year": "1993",
+    "release": "1993-09-27",
+    "version": "2026.10.18",
+    "date": "2026.10.18",
+    "status": "배포 중",
+    "palette": "navy",
+    "mark": "DOS",
+    "cover": "games/liberty-or-death-ibm-pc/images/cover.png",
+    "data": "games/liberty-or-death-ibm-pc/game.json"
   }
 ]

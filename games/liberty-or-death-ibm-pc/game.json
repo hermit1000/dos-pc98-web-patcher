@@ -1,0 +1,62 @@
+{
+  "id": "liberty-or-death-ibm-pc",
+  "title": "독립전쟁 - 자유 또는 죽음",
+  "koreanTitle": "독립전쟁 - 자유 또는 죽음",
+  "originalTitle": "独立戦争 ～リバティ オア デス～",
+  "englishTitle": "Liberty or Death",
+  "developer": "Koei",
+  "platform": "IBM PC",
+  "genre": "전략",
+  "year": "1993",
+  "release": "1993-09-27",
+  "version": "2026.10.18",
+  "date": "2026.10.18",
+  "original": "일본어 DOS판",
+  "status": "배포 중",
+  "files": 10,
+  "description": "IBM PC DOS용 독립전쟁 - 자유 또는 죽음 한글 패치입니다.",
+  "story": "PC-98 한글화 패치를 DOS판에 이식했습니다. PC-98판에는 없던 DOS판 OPEN/END 화면의 전각 문자 출력 제한 문제도 수정했습니다.",
+  "screenshots": [
+    {
+      "src": "games/liberty-or-death-ibm-pc/images/cover.png",
+      "alt": "독립전쟁 한글판 타이틀 화면",
+      "caption": "한글판 타이틀 화면"
+    },
+    {
+      "src": "games/liberty-or-death-ibm-pc/images/screen-2.png",
+      "alt": "독립전쟁 한글판 게임 화면",
+      "caption": "한글판 게임 화면"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026.10.18",
+      "version": "초기 업데이트",
+      "note": "독립전쟁 IBM PC DOS 한글 패치 공개"
+    }
+  ],
+  "credits": [
+    {
+      "role": "PC-98 한글화",
+      "name": "낭만엘리, 닥터존스, 천사"
+    },
+    {
+      "role": "DOS 컨버전",
+      "name": "천수도인, 낭만엘리"
+    }
+  ],
+  "references": [
+    {
+      "type": "creator-blog",
+      "url": "https://cafe.naver.com/koeimod/916"
+    },
+    {
+      "type": "related-post",
+      "url": "https://hyunxx.tistory.com/55"
+    }
+  ],
+  "palette": "navy",
+  "mark": "DOS",
+  "cover": "games/liberty-or-death-ibm-pc/images/cover.png",
+  "package": "packages/liberty-or-death-ibm-pc/manifest.json"
+}
