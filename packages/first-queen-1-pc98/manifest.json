@@ -1,0 +1,38 @@
+{
+  "format": "folder-patch-v1",
+  "game": "퍼스트 퀸 1",
+  "patchVersion": "2026.10.20",
+  "createdAt": "2026-10-20T11:36:19.865Z",
+  "matchByHash": true,
+  "sharedAssets": [
+    {
+      "id": "thin-dunggeunmo-font",
+      "type": "emulator-font",
+      "name": "ThinDungGeunMo",
+      "source": "assets/fonts/source/ThinDungGeunMo.bmp",
+      "fileName": "ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "b0fc30bcabe4c2385b364fbb8d71356127a9e8c3224d9ff0adc0496687ffb0ad",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "First Queen (Disk A).d88",
+      "patch": "patches/First Queen (Disk A).d88.xdelta",
+      "originalSize": 1103920,
+      "patchedSize": 1103920,
+      "originalSha256": "3f92c99e9325b833c129f806236ba48f4c13abfdc5ed55366281a1bf1d4182d3",
+      "patchedSha256": "6ac3fb129d470b90e18095e4f73151484c20a4eb38a8664be60d696bc425d770"
+    },
+    {
+      "path": "First Queen (Disk B).d88",
+      "patch": "patches/First Queen (Disk B).d88.xdelta",
+      "originalSize": 1103920,
+      "patchedSize": 1103920,
+      "originalSha256": "60e7360982c38bba434fba162cc04a0080bf165703f28825220cc86dbc9b2023",
+      "patchedSha256": "d462324f05a42993e046eb923267b7fd75d9344d08b02b3a889a3b714a63a64e"
+    }
+  ]
+}

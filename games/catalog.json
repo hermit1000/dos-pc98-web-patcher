@@ -558,6 +558,24 @@
     "data": "games/macross-4-cd-pc98/game.json"
   },
   {
+    "id": "first-queen-1-pc98",
+    "title": "퍼스트 퀸 1",
+    "originalTitle": "ファーストクィーン",
+    "englishTitle": "First Queen 1",
+    "developer": "K.S.K",
+    "platform": "PC-98",
+    "genre": "전략 RPG",
+    "year": "1988",
+    "release": "1988-12-01",
+    "version": "2026.10.20",
+    "date": "2026.10.20",
+    "status": "배포 중",
+    "palette": "violet",
+    "mark": "I",
+    "cover": "games/first-queen-1-pc98/images/cover.png",
+    "data": "games/first-queen-1-pc98/game.json"
+  },
+  {
     "id": "first-queen-3-pc98",
     "title": "퍼스트 퀸 3",
     "originalTitle": "ファーストクィーン3",

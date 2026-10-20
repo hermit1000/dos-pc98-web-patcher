@@ -1,0 +1,44 @@
+{
+  "id": "first-queen-1-pc98",
+  "title": "퍼스트 퀸 1",
+  "koreanTitle": "퍼스트 퀸 1",
+  "originalTitle": "ファーストクィーン",
+  "englishTitle": "First Queen 1",
+  "developer": "K.S.K",
+  "platform": "PC-98",
+  "genre": "전략 RPG",
+  "year": "1988",
+  "release": "1988-12-01",
+  "version": "2026.10.20",
+  "date": "2026.10.20",
+  "original": "일본어 D88 디스크 A·B",
+  "status": "배포 중",
+  "files": 2,
+  "description": "PC-98용 퍼스트 퀸 1의 D88 디스크 두 장을 한글화하는 패치입니다.",
+  "story": "일본어판 디스크 A·B를 검증한 뒤 대사와 화면 문구에 한글화를 적용합니다. 정상적인 한글 표시를 위해 ThinDungGeunMo 에뮬레이터 폰트를 함께 제공합니다.",
+  "inputFiles": ["First Queen (Disk A).d88", "First Queen (Disk B).d88"],
+  "verifiedOriginalsIntro": "일본어판 D88 디스크 A·B의 SHA-256 일치를 확인했습니다.",
+  "verifiedOriginals": [
+    {"label": "First Queen (Disk A).d88", "hashVerified": true},
+    {"label": "First Queen (Disk B).d88", "hashVerified": true}
+  ],
+  "screenshots": [
+    {"src": "games/first-queen-1-pc98/images/cover.png", "alt": "PC-98 퍼스트 퀸 1 타이틀 화면", "caption": "퍼스트 퀸 1 타이틀"},
+    {"src": "games/first-queen-1-pc98/images/screen-2.png", "alt": "PC-98 퍼스트 퀸 1 한글 오프닝", "caption": "한글화된 오프닝"},
+    {"src": "games/first-queen-1-pc98/images/screen-3.png", "alt": "PC-98 퍼스트 퀸 1 한글 화면", "caption": "한글화된 게임 화면"}
+  ],
+  "history": [
+    {"date": "2026.10.20", "version": "초기판", "note": "퍼스트 퀸 1 PC-98 한글 패치 공개"}
+  ],
+  "credits": [
+    {"role": "한글화", "name": "닥터존스, 쉔류, 천수도인"}
+  ],
+  "references": [
+    {"type": "legacy-post", "url": "https://cafe.naver.com/koeimod/928"},
+    {"type": "original-release", "url": "https://www.kuresoft.net/posts/product1.html"}
+  ],
+  "palette": "violet",
+  "mark": "I",
+  "cover": "games/first-queen-1-pc98/images/cover.png",
+  "package": "packages/first-queen-1-pc98/manifest.json"
+}

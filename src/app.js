@@ -85,6 +85,7 @@ async function sha256(input) {
 
 function validateManifest(manifest) {
   if (!manifest || manifest.format !== 'folder-patch-v1' || !Array.isArray(manifest.targets)) throw new Error('지원하지 않는 패치 manifest입니다.');
+  if (manifest.matchByHash !== undefined && typeof manifest.matchByHash !== 'boolean') throw new Error('파일 해시 검색 설정이 잘못되었습니다.');
   const paths = new Set();
   for (const target of manifest.targets) {
     target.path = normalizeRelativePath(target.path);
@@ -223,6 +224,11 @@ async function initializeDetail() {
     document.querySelector('#requirement-note').textContent = game.folderGuide;
     document.querySelector('#folder-help').textContent = game.folderGuide;
   }
+  if (game.inputFiles?.length) {
+    const fileGuide = document.querySelector('#target-file-guide');
+    fileGuide.querySelector('ul').innerHTML = game.inputFiles.map((name) => `<li>${escapeHtml(name)}</li>`).join('');
+    fileGuide.hidden = false;
+  }
   game.installSteps?.forEach((step, index) => {
     const element = document.querySelector(`#install-step-${index + 1}`);
     if (element) element.textContent = step;
@@ -246,11 +252,12 @@ async function initializeDetail() {
   }
 
   function renderTargetResults() {
-    fileResults.innerHTML = selectedTargets.map(({ target, status }) => {
-      const labels = { ready: ['✓', '패치 가능'], patched: ['✓', '이미 패치됨'], missing: ['×', '파일 없음'], mismatch: ['×', '다른 원본'], checking: ['…', '검사 중'], applied: ['✓', '완료'] };
+    fileResults.innerHTML = selectedTargets.map(({ target, file, matchedByHash, status }) => {
+      const labels = { ready: ['✓', '패치 가능'], patched: ['✓', '이미 패치됨'], missing: ['×', '파일 없음'], ambiguous: ['×', '같은 원본 후보 여러 개'], mismatch: ['×', '다른 원본'], checking: ['…', '검사 중'], applied: ['✓', '완료'] };
       const [symbol, label] = labels[status] || ['!', '오류'];
       const className = ['ready', 'patched', 'applied'].includes(status) ? (status === 'patched' ? 'patched' : 'ready') : status === 'checking' ? '' : 'error';
-      return `<div class="file-result ${className}" data-target="${escapeHtml(target.path)}"><span>${symbol}</span><b>${escapeHtml(target.path)}</b><small>${label}</small></div>`;
+      const sourceLabel = matchedByHash && file ? ` · 입력: ${escapeHtml(file.name)}` : '';
+      return `<div class="file-result ${className}" data-target="${escapeHtml(target.path)}"><span>${symbol}</span><b>${escapeHtml(target.path)}</b><small>${label}${sourceLabel}</small></div>`;
     }).join('');
     fileResults.hidden = false;
   }
@@ -325,22 +332,28 @@ async function initializeDetail() {
       }
       return { target, file, status: 'checking' };
     });
+    const hashes = new WeakMap();
+    const hashFile = (file) => {
+      if (!hashes.has(file)) hashes.set(file, file.arrayBuffer().then(sha256));
+      return hashes.get(file);
+    };
+    if (manifest.matchByHash) await window.FileMatcher.matchMissingTargetsByHash(selectedTargets, fileEntries, hashFile);
     renderTargetResults();
     let checked = 0;
     for (const item of selectedTargets) {
       if (!item.file) {
-        item.status = 'missing';
+        item.status = item.ambiguous ? 'ambiguous' : 'missing';
       } else if (item.file.size !== item.target.originalSize && item.file.size !== item.target.patchedSize) {
         item.status = 'mismatch';
       } else {
-        const hash = await sha256(await item.file.arrayBuffer());
+        const hash = await hashFile(item.file);
         item.status = hash === item.target.originalSha256 ? 'ready' : hash === item.target.patchedSha256 ? 'patched' : 'mismatch';
       }
       checked += 1;
       renderTargetResults();
       setResult('SHA-256 검사', `${folderName} · ${checked}/${selectedTargets.length}`, '선택한 게임 파일은 브라우저 밖으로 전송되지 않습니다.');
     }
-    const errors = selectedTargets.filter((item) => ['missing', 'mismatch'].includes(item.status));
+    const errors = selectedTargets.filter((item) => ['missing', 'ambiguous', 'mismatch'].includes(item.status));
     const ready = selectedTargets.filter((item) => item.status === 'ready');
     if (errors.length) {
       setResult('패치 불가', `${errors.length}개 파일 확인 필요`, '지원되는 일본어판 원본 폴더인지 확인해 주세요. 어떤 파일도 변경되지 않았습니다.');
