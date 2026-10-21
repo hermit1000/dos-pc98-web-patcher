@@ -576,6 +576,24 @@
     "data": "games/first-queen-1-pc98/game.json"
   },
   {
+    "id": "first-queen-2-pc98",
+    "title": "퍼스트 퀸 2 - 사막의 여왕",
+    "originalTitle": "ファーストクィーン2 ~ 砂漠の女王",
+    "englishTitle": "First Queen 2",
+    "developer": "K.S.K",
+    "platform": "PC-98",
+    "genre": "전략 RPG",
+    "year": "1990",
+    "release": "1990-12-17",
+    "version": "2026.10.22",
+    "date": "2026.10.22",
+    "status": "배포 중",
+    "palette": "violet",
+    "mark": "II",
+    "cover": "games/first-queen-2-pc98/images/cover.png",
+    "data": "games/first-queen-2-pc98/game.json"
+  },
+  {
     "id": "first-queen-3-pc98",
     "title": "퍼스트 퀸 3",
     "originalTitle": "ファーストクィーン3",

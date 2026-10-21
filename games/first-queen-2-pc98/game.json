@@ -1,0 +1,49 @@
+{
+  "id": "first-queen-2-pc98",
+  "title": "퍼스트 퀸 2 - 사막의 여왕",
+  "koreanTitle": "퍼스트 퀸 2 - 사막의 여왕",
+  "originalTitle": "ファーストクィーン2 ~ 砂漠の女王",
+  "englishTitle": "First Queen 2",
+  "developer": "K.S.K",
+  "platform": "PC-98",
+  "genre": "전략 RPG",
+  "year": "1990",
+  "release": "1990-12-17",
+  "version": "2026.10.22",
+  "date": "2026.10.22",
+  "original": "일본어 D88 디스크 Opening·A·B",
+  "status": "배포 중",
+  "files": 3,
+  "description": "PC-98용 퍼스트 퀸 2의 D88 디스크 세 장을 한글화하는 패치입니다.",
+  "story": "Windows판 퍼스트 퀸 2의 한글 번역을 바탕으로 PC-98 원문과 대조해 수정했습니다. 오프닝·A·B 디스크를 모두 패치하며, 정상적인 한글 표시를 위해 함께 제공되는 PC-98 전용 fq2-ThinDungGeunMo 폰트를 사용해야 합니다.",
+  "inputFiles": [
+    "First Queen II - Sabaku no Joou (Opening disk).d88",
+    "First Queen II - Sabaku no Joou (Disk A).d88",
+    "First Queen II - Sabaku no Joou (Disk B).d88"
+  ],
+  "verifiedOriginalsIntro": "아래 플로피판에서 추출한 D88 디스크 세 장의 SHA-256 일치를 확인했습니다.",
+  "verifiedOriginals": [
+    {"label": "KSK/First Queen II - Sabaku no Joou/First Queen II - Sabaku no Joou [FD h01]", "hashVerified": true}
+  ],
+  "screenshots": [
+    {"src": "games/first-queen-2-pc98/images/cover.png", "alt": "PC-98 퍼스트 퀸 2 타이틀 화면", "caption": "퍼스트 퀸 2 타이틀"},
+    {"src": "games/first-queen-2-pc98/images/screen-2.png", "alt": "PC-98 퍼스트 퀸 2 한글 오프닝", "caption": "한글화된 오프닝"},
+    {"src": "games/first-queen-2-pc98/images/screen-3.png", "alt": "PC-98 퍼스트 퀸 2 한글 메뉴", "caption": "한글화된 메뉴"},
+    {"src": "games/first-queen-2-pc98/images/screen-4.png", "alt": "PC-98 퍼스트 퀸 2 한글 대사", "caption": "한글화된 대사"},
+    {"src": "games/first-queen-2-pc98/images/screen-5.png", "alt": "PC-98 퍼스트 퀸 2 엔딩 화면", "caption": "엔딩 화면"}
+  ],
+  "history": [
+    {"date": "2026.10.22", "version": "초기판", "note": "퍼스트 퀸 2 PC-98 한글 패치 공개"}
+  ],
+  "credits": [
+    {"role": "Windows판 한글화", "name": "닥터존스, 쉔류"},
+    {"role": "PC-98 컨버전", "name": "천수도인"}
+  ],
+  "references": [
+    {"type": "legacy-post", "url": "https://cafe.naver.com/koeimod/930"}
+  ],
+  "palette": "violet",
+  "mark": "II",
+  "cover": "games/first-queen-2-pc98/images/cover.png",
+  "package": "packages/first-queen-2-pc98/manifest.json"
+}

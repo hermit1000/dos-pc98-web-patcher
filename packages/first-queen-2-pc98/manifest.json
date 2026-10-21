@@ -1,0 +1,46 @@
+{
+  "format": "folder-patch-v1",
+  "game": "퍼스트 퀸 2 - 사막의 여왕",
+  "patchVersion": "2026.10.22",
+  "createdAt": "2026-10-21T18:44:48.614Z",
+  "matchByHash": true,
+  "sharedAssets": [
+    {
+      "id": "first-queen-2-thin-dunggeunmo-font",
+      "type": "emulator-font",
+      "name": "fq2-ThinDungGeunMo",
+      "source": "assets/fonts/source/fq2-ThinDungGeunMo.bmp",
+      "fileName": "fq2-ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/fq2-ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "2898658029c6d5a5b8c8802d8550cce14f85d2d08c3306f6e70d4054693d3081",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "First Queen II - Sabaku no Joou (Disk A).d88",
+      "patch": "patches/First Queen II - Sabaku no Joou (Disk A).d88.xdelta",
+      "originalSize": 1089776,
+      "patchedSize": 1089776,
+      "originalSha256": "2213f432e17998a8a33ebd22ffc7913ba47714b7e9e71f2e51fac4d6363fbf3a",
+      "patchedSha256": "379e365b754047ea5516faff6768aea9811a878dc6af8dd38c3b505708d7b017"
+    },
+    {
+      "path": "First Queen II - Sabaku no Joou (Disk B).d88",
+      "patch": "patches/First Queen II - Sabaku no Joou (Disk B).d88.xdelta",
+      "originalSize": 1089776,
+      "patchedSize": 1089776,
+      "originalSha256": "86b733394091dd06b41fde843df41380f70a7cb69e55004d8b2f2a58dd251497",
+      "patchedSha256": "e797f012934c5fd79bf969fc2777c66acedb2a18987a228d32fb73c8fc940119"
+    },
+    {
+      "path": "First Queen II - Sabaku no Joou (Opening disk).d88",
+      "patch": "patches/First Queen II - Sabaku no Joou (Opening disk).d88.xdelta",
+      "originalSize": 1089776,
+      "patchedSize": 1089776,
+      "originalSha256": "f32f2da729f7953a6ecd8de04c049ba8578fbf5d3c5af76bf7d724d9ec87d404",
+      "patchedSha256": "b4c9b6d887998df1fa2958cbb8df464ac6dc0f5f4cb724dbd81dbbb6210bcdd0"
+    }
+  ]
+}
