@@ -104,13 +104,15 @@ node .\bin\build.js `
 - `date`: 한글 패치 최신 배포일 (`YYYY.MM.DD`), 기본 배포순 정렬 기준
 - `version`: 사용자에게 표시할 패치 버전
 
-이전 게시물은 별도 배포처가 아니라 참고 기록으로 저장한다.
+제작자의 원본 패치 소개 글을 패치 페이지에 표시하려면 `game.json`의 `references`에 `legacy-post` 항목을 추가한다.
 
 ```json
 "references": [
-  { "type": "legacy-post", "url": "https://example.com/post" }
+  { "type": "legacy-post", "url": "https://cafe.naver.com/koeimod/944" }
 ]
 ```
+
+이 주소는 패치 페이지의 **원본 패치 소개 보기** 링크로 표시된다. `creator-blog`나 `patch-source` 같은 다른 유형은 출처 정보로만 저장되며 해당 링크를 표시하지 않는다. HD판과 CD판이 별도 `game.json`을 사용하면 양쪽에 각각 등록한다. 링크는 제작자의 설명과 수정 이력을 안내하는 참고 자료이며, 패치 파일은 이 저장소에서 제공한다.
 
 ### 3. 공용 폰트 연결
 

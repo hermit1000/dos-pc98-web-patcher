@@ -32,6 +32,7 @@
   "history": [{"date": "2026.10.06", "version": "초기판", "note": "네크로노미콘 PC-98 한글 패치 공개"}],
   "credits": [{"role": "한글화", "name": "천수도인"}],
   "references": [
+    {"type": "legacy-post", "url": "https://cafe.naver.com/koeimod/891"},
     {"type": "patch-source", "url": "https://cafe.naver.com/koeimod/891"},
     {"type": "source-readme", "url": "https://github.com/hermit1000/pc98-ko-patch/tree/main/patches/Necronomicon"}
   ],

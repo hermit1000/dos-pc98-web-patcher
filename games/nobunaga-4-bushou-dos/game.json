@@ -57,6 +57,7 @@
     }
   ],
   "references": [
+    {"type": "legacy-post", "url": "https://cafe.naver.com/koeimod/803"},
     {
       "type": "creator-blog",
       "url": "https://cafe.naver.com/koeimod/803"
