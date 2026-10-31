@@ -646,5 +646,41 @@
     "mark": "DOS",
     "cover": "games/liberty-or-death-ibm-pc/images/cover.png",
     "data": "games/liberty-or-death-ibm-pc/game.json"
+  },
+  {
+    "id": "ballade-for-maria-pc98",
+    "title": "마리아에게 바치는 발라드",
+    "originalTitle": "マリアに捧げるバラード",
+    "englishTitle": "Ballade for Maria",
+    "developer": "Fairytale",
+    "platform": "PC-98",
+    "genre": "어드벤처",
+    "year": "1995",
+    "release": "1995-05-26",
+    "version": "2026.10.31",
+    "date": "2026.10.31",
+    "status": "배포 중",
+    "palette": "navy",
+    "mark": "M",
+    "cover": "games/ballade-for-maria-pc98/images/screen-1.png",
+    "data": "games/ballade-for-maria-pc98/game.json"
+  },
+  {
+    "id": "ballade-for-maria-cd-pc98",
+    "title": "마리아에게 바치는 발라드 (CD판)",
+    "originalTitle": "マリアに捧げるバラード",
+    "englishTitle": "Ballade for Maria",
+    "developer": "Fairytale",
+    "platform": "PC-98",
+    "genre": "어드벤처",
+    "year": "1995",
+    "release": "1995-05-26",
+    "version": "2026.10.31",
+    "date": "2026.10.31",
+    "status": "배포 중",
+    "palette": "navy",
+    "mark": "M CD",
+    "cover": "games/ballade-for-maria-pc98/images/screen-1.png",
+    "data": "games/ballade-for-maria-cd-pc98/game.json"
   }
 ]

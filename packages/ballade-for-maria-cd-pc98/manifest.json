@@ -1,0 +1,389 @@
+{
+  "format": "folder-patch-v1",
+  "game": "마리아에게 바치는 발라드 (CD판)",
+  "patchVersion": "2026.10.31",
+  "createdAt": "2026-10-31T00:00:00+09:00",
+  "sharedAssets": [
+    {
+      "id": "ballade-thin-dung-geun-mo-font",
+      "type": "emulator-font",
+      "name": "ballade-ThinDungGeunMo",
+      "source": "assets/fonts/source/ballade-ThinDungGeunMo.bmp",
+      "fileName": "ballade-ThinDungGeunMo.bmp",
+      "outputPath": "_emulator-font/ballade-ThinDungGeunMo.bmp",
+      "size": 524350,
+      "sha256": "4c241daa8ba46d95e155c68b4ad6f3c5c59f9b29b946aea772cc0f37c2a057f2",
+      "required": true
+    }
+  ],
+  "targets": [
+    {
+      "path": "FD/SHELL21.CNF",
+      "patch": "patches/FD/SHELL21.CNF.xdelta",
+      "originalSize": 149,
+      "patchedSize": 171,
+      "originalSha256": "155ca72c2e4100ba685f0c8360e28a335aec3e1097b752d3e8b9e4cef24e8b12",
+      "patchedSha256": "ca9a3033ad8c3bd97ca6120331b5da28c32ab2253d16f5211aca8f200881cb0a"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.001",
+      "patch": "patches/HD/MARIA21/MARIA.001.xdelta",
+      "originalSize": 273743,
+      "patchedSize": 272330,
+      "originalSha256": "2b5d4ee9d373417f60c4cf2bd9a65681ad44ea32e3469821478ff751e84114b4",
+      "patchedSha256": "f81eab25c4a49f8c0742dc615ac07f4493ba76ab4ec49e54afef3808d72757c6"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.002",
+      "patch": "patches/HD/MARIA21/MARIA.002.xdelta",
+      "originalSize": 438969,
+      "patchedSize": 434577,
+      "originalSha256": "190a39a57f5434a18a56fca53e3447b711f1ede6a0001e0b6dda4e49818f4916",
+      "patchedSha256": "f14e819d37f7185f355bb91e11addaa07dfb7cb8bdb06c256488f6fa8d92e294"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.003",
+      "patch": "patches/HD/MARIA21/MARIA.003.xdelta",
+      "originalSize": 365395,
+      "patchedSize": 358084,
+      "originalSha256": "29df027b2e878cf87c766b8485f5504e779a69276e6cb6e41a0dcef36d94ab3f",
+      "patchedSha256": "6251a4f1d05a9a32ffbd3ecd7a46a189ee24989bf7cc7ab99685d0502f14f03c"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.004",
+      "patch": "patches/HD/MARIA21/MARIA.004.xdelta",
+      "originalSize": 477189,
+      "patchedSize": 471668,
+      "originalSha256": "c3aa5492454985361d912d170727baa5739822d5614fe7b05551abfa3fdc0182",
+      "patchedSha256": "c8d01632ea5602cf7b0c6f577872572f22af45cd6fe1a4cb681d789b89786497"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.005",
+      "patch": "patches/HD/MARIA21/MARIA.005.xdelta",
+      "originalSize": 361694,
+      "patchedSize": 358535,
+      "originalSha256": "6636bda3b7c7f4f3e23541b487ca932fac0c6f4490c1c86ac5fce62f7f01f758",
+      "patchedSha256": "51e13812e1fd1e48b04e23359cebcc754c35e0dcff1fe3a5bb0ac85e2d3ca4ee"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.006",
+      "patch": "patches/HD/MARIA21/MARIA.006.xdelta",
+      "originalSize": 640975,
+      "patchedSize": 635558,
+      "originalSha256": "99ee2756e7db7c4868df750eca81f0008301a026223458c8d2be60140245c1db",
+      "patchedSha256": "dca3a7bacae74fb2daef07ff521707be77a173be4a9fef54cde9c47065062c32"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.007",
+      "patch": "patches/HD/MARIA21/MARIA.007.xdelta",
+      "originalSize": 122735,
+      "patchedSize": 122147,
+      "originalSha256": "dc0a8f28cf7b0ea5640ef8d70002d993dab3dc36eb014a813f8eea4fa5f20f58",
+      "patchedSha256": "eb33e5befc54dcf34e0b68f0504d907b1404e324d27f5b4fb55fdfc632b796b2"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.008",
+      "patch": "patches/HD/MARIA21/MARIA.008.xdelta",
+      "originalSize": 587352,
+      "patchedSize": 581652,
+      "originalSha256": "216c7d2933b59529216b39e599eb53e57db26492a99b35a22d99b5b14dbb28d7",
+      "patchedSha256": "b85d8a71e34ec834391f9e87adf7bf1fb32f75250104dbbc8f8f4980d0717c57"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.009",
+      "patch": "patches/HD/MARIA21/MARIA.009.xdelta",
+      "originalSize": 183715,
+      "patchedSize": 183042,
+      "originalSha256": "050ef1290e142374762488fe79f4cf149d995cd52c26ce56fd4b6a6784f2db39",
+      "patchedSha256": "fe2cf0a2476e979769b6e5fbc57e2ed0f290e9f948ce99bda9830257f86cb005"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.010",
+      "patch": "patches/HD/MARIA21/MARIA.010.xdelta",
+      "originalSize": 427559,
+      "patchedSize": 427367,
+      "originalSha256": "8afde30ed7b49d8aad736a805a686c0d4fc4cf5771723075b053f49893f62c85",
+      "patchedSha256": "2e0c2cfbb07bd5ec1c550681ccf8302ff6d4a10bbdec3669bb28bb43a0f883e1"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.011",
+      "patch": "patches/HD/MARIA21/MARIA.011.xdelta",
+      "originalSize": 568457,
+      "patchedSize": 563484,
+      "originalSha256": "577c34aecefd4506d794e6008a93f4ac91c306d1bd8865f4b2c5f44be93d0f94",
+      "patchedSha256": "d94d5d717bccdff272d1f2a135e7e9e67cd42e724e0bfe062af78beb63f102ec"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.012",
+      "patch": "patches/HD/MARIA21/MARIA.012.xdelta",
+      "originalSize": 596048,
+      "patchedSize": 590264,
+      "originalSha256": "3cb3a64cbf1f5bdf52e88f2983d352f9853e14105bfbaf84cafdeb90470a1495",
+      "patchedSha256": "ae12ca39ece9bfeefe08b30baaf5282a9ae3d35166cdfbe98a2f572b64cac951"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.013",
+      "patch": "patches/HD/MARIA21/MARIA.013.xdelta",
+      "originalSize": 316641,
+      "patchedSize": 312689,
+      "originalSha256": "c9d6b374c7e63106309dc857817ef060fa09ab500ac21d3881f76b9f9a90877a",
+      "patchedSha256": "d5d2444d2ac9528683cad7f65d9b9fef39184ba1597113e1cd964bd4390fce91"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.014",
+      "patch": "patches/HD/MARIA21/MARIA.014.xdelta",
+      "originalSize": 636222,
+      "patchedSize": 626292,
+      "originalSha256": "9b7d3f0284995ceeef819d74a531ba9451aa7bf18195d73dd8a960f64401dc79",
+      "patchedSha256": "b2a6bea231e5482ac879b1b58a20fada726942f8d5f462e91a74d7b4c6014acf"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.015",
+      "patch": "patches/HD/MARIA21/MARIA.015.xdelta",
+      "originalSize": 385946,
+      "patchedSize": 381922,
+      "originalSha256": "0d4883f77ea75c6650b838f84b858d985653ee0bc53aa69beb94c51eb45268d3",
+      "patchedSha256": "195651fa1972d0408a1ff6188ecafb72e7f76323c3eae3b222a74ca323f5ebf5"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.016",
+      "patch": "patches/HD/MARIA21/MARIA.016.xdelta",
+      "originalSize": 391545,
+      "patchedSize": 388416,
+      "originalSha256": "69629f4ea2e0a025eeac46f618b37be08206da09f33af8264a425bb871af2868",
+      "patchedSha256": "51911f41ec6acb68699ecb1797526b25ef892c779c15ebb34fc0889dc6282602"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.017",
+      "patch": "patches/HD/MARIA21/MARIA.017.xdelta",
+      "originalSize": 504706,
+      "patchedSize": 502156,
+      "originalSha256": "4250138232d34610caa30964e4966afe5913516bb7605beb5eab596464214f28",
+      "patchedSha256": "d4341a23bdb1310ad4199146ecbb421362da75ee943c704bbe75d750f13e394e"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.018",
+      "patch": "patches/HD/MARIA21/MARIA.018.xdelta",
+      "originalSize": 150586,
+      "patchedSize": 150410,
+      "originalSha256": "806231812d9e066c1e5787cc329c4042810ea11d39d5e63220ef19cdd2270811",
+      "patchedSha256": "292dfb749b14e7c5fa093340659f49e88668ce0ee47b58b36f1f8690d3dcfd91"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.019",
+      "patch": "patches/HD/MARIA21/MARIA.019.xdelta",
+      "originalSize": 462363,
+      "patchedSize": 458602,
+      "originalSha256": "22a15aec6103148fe67f38d7cda5d802a904ad44eca2d1518b2a0162c426ea78",
+      "patchedSha256": "68d0cd3d8f5ab8c6d4c4a39f0def28f79b47dd89b8adfa7d8c40f8c690047b5a"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.020",
+      "patch": "patches/HD/MARIA21/MARIA.020.xdelta",
+      "originalSize": 640652,
+      "patchedSize": 634357,
+      "originalSha256": "1622968039fc05642d9032572d386c33390f3b14473f4c54b1ac6f7fafa1a9f0",
+      "patchedSha256": "973ed19ed716aa79af5ccbd7278694bacccca7e383acc85d5a9a159b17f25133"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.021",
+      "patch": "patches/HD/MARIA21/MARIA.021.xdelta",
+      "originalSize": 335054,
+      "patchedSize": 331302,
+      "originalSha256": "e315946d617f6ec0892a0b98688b3082ca30da99cbf7d3814764c70d69a5e4b9",
+      "patchedSha256": "ea3f710a42dea9abba70f6a307c74a166b3fa97d3d1707cae94a57375c1aaeba"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.022",
+      "patch": "patches/HD/MARIA21/MARIA.022.xdelta",
+      "originalSize": 639310,
+      "patchedSize": 632285,
+      "originalSha256": "db9e57fe330d6889c08b070e2aca6797a3f35dcea2cfe0455f91fefa10bd34ef",
+      "patchedSha256": "b7e75fd109582dccc606d633e419b1b44138f3ca12118658da683a83a9f543a6"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.023",
+      "patch": "patches/HD/MARIA21/MARIA.023.xdelta",
+      "originalSize": 354321,
+      "patchedSize": 350761,
+      "originalSha256": "e48a1aa6a382de25e2f6abb6f29494fe11dfc9da89586cf42dbfc546895126b7",
+      "patchedSha256": "58f6980f4f0aba2b574879a6fac1e94c152e8c799bcecfd762b06cad0475d6c3"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.024",
+      "patch": "patches/HD/MARIA21/MARIA.024.xdelta",
+      "originalSize": 309822,
+      "patchedSize": 306082,
+      "originalSha256": "d7c8d7754618858d04535c2c83673fd28d3916a81ad2e894c13dc63196001f92",
+      "patchedSha256": "b37accf339bfc572c6ebc9a3c9056fcfe35cddbbfa64d2a84404dd56f818147b"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.025",
+      "patch": "patches/HD/MARIA21/MARIA.025.xdelta",
+      "originalSize": 201719,
+      "patchedSize": 201476,
+      "originalSha256": "e88204978d928ec0f7ea510e811b92a566f42fb36d4aae879825c9d3204631e2",
+      "patchedSha256": "5550b75bf07d4d4ac33dd095a50a0921d23b296959bfd85f7db266d05cf0b1c7"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.026",
+      "patch": "patches/HD/MARIA21/MARIA.026.xdelta",
+      "originalSize": 284551,
+      "patchedSize": 283434,
+      "originalSha256": "79f28e8334dc6f9e9ba4bb0ce7d1d1803215b206fe5de7d4b0439cef8275945c",
+      "patchedSha256": "cc4bf95c12612f149e4b712c73458e6c260a21d1910c9c56de607549ef8a48f1"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.027",
+      "patch": "patches/HD/MARIA21/MARIA.027.xdelta",
+      "originalSize": 143006,
+      "patchedSize": 142922,
+      "originalSha256": "360827e1e69a085e65f20c28c9da61f31eb0f6aa4d27e66c18e2d54ebe6d201d",
+      "patchedSha256": "244bbb978df70d9d9653d3089ea43503e727b738a7d8ba2442a9710405444e35"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.028",
+      "patch": "patches/HD/MARIA21/MARIA.028.xdelta",
+      "originalSize": 221993,
+      "patchedSize": 221999,
+      "originalSha256": "7283b31d210ed3c000aad089f87755df40fea8f0c865306ca7208c8d4804b95f",
+      "patchedSha256": "582b390253293861a44dd71d5ab65b02589524949d2c92598538c4f54051b6a5"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.029",
+      "patch": "patches/HD/MARIA21/MARIA.029.xdelta",
+      "originalSize": 589882,
+      "patchedSize": 584550,
+      "originalSha256": "7d56c7d153c3d3a3a317b6a8bf88f6514f33d05179110f839d84e710b826f3b7",
+      "patchedSha256": "2d3fe44c907a04f44ffeb05b424e85b8ab7d7eea7097215592f73daa3fd8ee85"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.030",
+      "patch": "patches/HD/MARIA21/MARIA.030.xdelta",
+      "originalSize": 629328,
+      "patchedSize": 623482,
+      "originalSha256": "04e0117f450a3c1ec7942fd524f53f6c9665cb2cf3efbeaa37d1bc2d7988d050",
+      "patchedSha256": "933f436884eb46d9d5ac1247ffb636c5faa45fe13bee187e388b4cb73923ee3e"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.031",
+      "patch": "patches/HD/MARIA21/MARIA.031.xdelta",
+      "originalSize": 425460,
+      "patchedSize": 421539,
+      "originalSha256": "8437e7147499ac55e26f7fa21993ad9459c663e242f12568b39d2e77de122d46",
+      "patchedSha256": "6c07c79c5dc6299561f991bd1bf9070476cb56d1cdd04f3dff5db2b2419d0985"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.032",
+      "patch": "patches/HD/MARIA21/MARIA.032.xdelta",
+      "originalSize": 315192,
+      "patchedSize": 311280,
+      "originalSha256": "68fa22fa65ab863eaac210ad8d96e2982ab73588a9c7773f40fdd3c65d97a782",
+      "patchedSha256": "48a118426f68479433ae6f35d138141d835aa1792ad4cf23e0a84d790457958c"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.033",
+      "patch": "patches/HD/MARIA21/MARIA.033.xdelta",
+      "originalSize": 298833,
+      "patchedSize": 295198,
+      "originalSha256": "2efad334360e01f28785565aa7a2f4cc7636a61f8f9992c3967d114ddfae89e3",
+      "patchedSha256": "7c99c74759d222279d8b24a15e6a52f502ef7be3fd92794b9f972ecc16639bda"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.034",
+      "patch": "patches/HD/MARIA21/MARIA.034.xdelta",
+      "originalSize": 595573,
+      "patchedSize": 588690,
+      "originalSha256": "04be07b34beb530a52938e2986e2d63eb4fdaf22d86b96cc68fe0a4bb467969c",
+      "patchedSha256": "439adee6d53f40cf329e77268abd6f5ac07458824b927d2d182efcb1454aae84"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.035",
+      "patch": "patches/HD/MARIA21/MARIA.035.xdelta",
+      "originalSize": 388586,
+      "patchedSize": 384866,
+      "originalSha256": "b471211e69706841b0d19fa5017c1203a1d35ea7766347b1f601a2568cd7b530",
+      "patchedSha256": "1ffc8de30c23060d816aac08bf8a1b7500a09b62f3013da07a3b86d7ca72396c"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.036",
+      "patch": "patches/HD/MARIA21/MARIA.036.xdelta",
+      "originalSize": 610500,
+      "patchedSize": 607656,
+      "originalSha256": "042590fea58d558c69607058aaf154839200647b1b449962b0c57b9d4db02e42",
+      "patchedSha256": "84996a2bf0694c98944489fd5059ea7cf46165771cbeb4101deb09bd338f59c6"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.037",
+      "patch": "patches/HD/MARIA21/MARIA.037.xdelta",
+      "originalSize": 340749,
+      "patchedSize": 340493,
+      "originalSha256": "45d42f043cf9ef8ec23d7796bdc96b4d11f9612f3ed49a8c44d24b3de40a3fdb",
+      "patchedSha256": "f80364ebd51201eeb113ad0e7854a206ad4de7d0cb253c941092491d92d58ee8"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.038",
+      "patch": "patches/HD/MARIA21/MARIA.038.xdelta",
+      "originalSize": 384900,
+      "patchedSize": 383737,
+      "originalSha256": "14de565214c0bb2548bbc4c569f5a7ae93cbcd1f18b26342e7bc5a4c97bde7c0",
+      "patchedSha256": "729602de3e097b11ff46e8bed9d470ffeedc72ea4dc2504f2bf3d7336e673c81"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.039",
+      "patch": "patches/HD/MARIA21/MARIA.039.xdelta",
+      "originalSize": 551999,
+      "patchedSize": 545885,
+      "originalSha256": "8ac3e0c72ab3b646fff4280f27bf16c6fed70f67f1629bedae43079347e84974",
+      "patchedSha256": "10e0ba7f6efa7a9aa9d7dabdd1aa378bf98d22671dc8232718f4b08a5908c24c"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.040",
+      "patch": "patches/HD/MARIA21/MARIA.040.xdelta",
+      "originalSize": 642652,
+      "patchedSize": 635936,
+      "originalSha256": "db95b21d233bf3c49a0eb3d82bd14752fa05f2e5d809989b4e490aee4b8179d0",
+      "patchedSha256": "2ffb6970aeb5de3b5824354d0e5c3b1e3d6aded584194c795dbc9220e12d0d73"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.041",
+      "patch": "patches/HD/MARIA21/MARIA.041.xdelta",
+      "originalSize": 371274,
+      "patchedSize": 367607,
+      "originalSha256": "5e0c178d48ecf050031fb3537389da1b681ce94a1681b9dc7fa20eb7a2f3951f",
+      "patchedSha256": "a9550407b77d5d8d4a1f074897d981aa58ad0ef1bc6242fe16f1673b2c3d8a5c"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.042",
+      "patch": "patches/HD/MARIA21/MARIA.042.xdelta",
+      "originalSize": 291729,
+      "patchedSize": 288208,
+      "originalSha256": "7745d8442f41930765477a2bf8476446d3217ef1505627f4ca458b4897fce0bb",
+      "patchedSha256": "b174f28542a98a8f184e9f0488b3088aa71ee2482be92d47c71d5790783f77f5"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.043",
+      "patch": "patches/HD/MARIA21/MARIA.043.xdelta",
+      "originalSize": 546527,
+      "patchedSize": 545531,
+      "originalSha256": "8d1076518c61cc64858f2bb07fe2c905abe6e9f08282f56c53f296e84202541b",
+      "patchedSha256": "aff49c77ebaaddb62f9eace1cd3ab5f54425f8ca1550e03d3dc02d2bad2a0b12"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.044",
+      "patch": "patches/HD/MARIA21/MARIA.044.xdelta",
+      "originalSize": 480845,
+      "patchedSize": 480618,
+      "originalSha256": "c843924a19861f7215f3e00c63deacab309d0106fb50f6376682ecad26db5aad",
+      "patchedSha256": "f2e4cef123cdeb8dbe632ef0a540c314edad7260bb3e711b9ddcab796811c784"
+    },
+    {
+      "path": "HD/MARIA21/MARIA.045",
+      "patch": "patches/HD/MARIA21/MARIA.045.xdelta",
+      "originalSize": 632954,
+      "patchedSize": 631974,
+      "originalSha256": "5f63e8bfd9ce3dae991f81fb3b961c3d07371ed1fa036deb904c6b82441dfd31",
+      "patchedSha256": "22865328bc4b86daae998a50fe16f1589ecd841e43dbfeb47058e046fb50bab5"
+    }
+  ]
+}
