@@ -9,36 +9,90 @@
   "genre": "전략 RPG",
   "year": "1993",
   "release": "1993-07-02",
-  "version": "2025.06.06",
-  "date": "2025.06.06",
-  "original": "일본어판",
+  "version": "2026.11.02",
+  "date": "2026.11.02",
+  "original": "일본어 HD",
   "status": "배포 중",
-  "files": 3,
-  "description": "PC-98용 퍼스트 퀸 3 한글 패치입니다. 오프닝과 기본 대사는 한글화되었으며 메뉴와 아이템도 대부분 한국어로 표시됩니다.",
-  "story": "현재 오프닝 100%, 기본 대사 100%, 메뉴 및 아이템 99%가 한글화된 상태입니다. 작은 글꼴로 표시되는 이름과 클래스, 엔딩은 아직 한글화되지 않았습니다.",
-  "translationNote": "엔딩 직전 저장 파일이나 엔딩 영상 자료가 확보되면 남은 엔딩 한글화를 진행할 예정입니다.",
-  "translationDetail": "작은 글꼴로 표시되는 이름과 클래스는 현재 원문으로 표시됩니다.",
+  "files": 6,
+  "description": "PC-98용 퍼스트 퀸 3 한글 패치입니다.",
+  "story": "대사와 화면 문구, 엔딩 및 반각 명칭을 한글화했습니다. 정상적인 한글 표시를 위해 PC-98 전용 fq3-BISCO 폰트를 함께 제공합니다.",
   "verifiedOriginals": [
-    { "label": "KSK / First Queen III / First Queen III [HD]", "hashVerified": true }
+    {
+      "label": "KSK/First Queen III/First Queen III[HD]",
+      "hashVerified": true
+    }
   ],
   "screenshots": [
-    { "src": "games/first-queen-3-pc98/images/cover.jpg", "alt": "PC-98 퍼스트 퀸 3 표지", "caption": "퍼스트 퀸 3 표지" }
+    {
+      "src": "games/first-queen-3-pc98/images/screen-1.png",
+      "alt": "PC-98 퍼스트 퀸 3 한글 화면 1",
+      "caption": "한글판 타이틀 화면"
+    },
+    {
+      "src": "games/first-queen-3-pc98/images/screen-2.png",
+      "alt": "PC-98 퍼스트 퀸 3 한글 화면 2",
+      "caption": "한글화된 게임 화면"
+    },
+    {
+      "src": "games/first-queen-3-pc98/images/screen-3.png",
+      "alt": "PC-98 퍼스트 퀸 3 한글 화면 3",
+      "caption": "한글화된 게임 화면"
+    },
+    {
+      "src": "games/first-queen-3-pc98/images/screen-4.png",
+      "alt": "PC-98 퍼스트 퀸 3 한글 화면 4",
+      "caption": "한글화된 게임 화면"
+    },
+    {
+      "src": "games/first-queen-3-pc98/images/screen-5.png",
+      "alt": "PC-98 퍼스트 퀸 3 한글 화면 5",
+      "caption": "한글화된 게임 화면"
+    }
   ],
   "history": [
-    { "date": "2025.06.06", "version": "자료 정리", "note": "대사와 readme.txt를 UTF-8로 변경" },
-    { "date": "2021.07.04", "version": "대사 보완", "note": "일본어·한국어 대사 자료 추가 및 일부 대사 수정" },
-    { "date": "최초 버전", "version": "초기판", "note": "오프닝과 기본 대사, 메뉴 및 아이템 한글화" }
+    {
+      "date": "2026.11.02",
+      "version": "업데이트",
+      "note": "엔딩 및 반각 명칭 갱신"
+    },
+    {
+      "date": "2025.06.06",
+      "version": "자료 정리",
+      "note": "대사 및 readme.txt를 UTF-8로 변경 (게임에는 영향 없음)"
+    },
+    {
+      "date": "2021.07.04",
+      "version": "대사 보완",
+      "note": "일본어·한국어 대사 자료 추가 및 일부 대사 수정"
+    },
+    {
+      "date": "초기버전",
+      "version": "초기판",
+      "note": "퍼스트 퀸 3 한글 패치 공개"
+    }
   ],
   "credits": [
-    { "role": "한글화", "name": "천수도인" },
-    { "role": "번역", "name": "noname" },
-    { "role": "도움", "name": "크리스토퍼" }
+    {
+      "role": "한글화",
+      "name": "천수도인, 닥터존스, 쉔류, 낭만엘리"
+    },
+    {
+      "role": "번역",
+      "name": "noname"
+    },
+    {
+      "role": "도움",
+      "name": "크리스토퍼"
+    }
   ],
   "references": [
-    { "type": "legacy-post", "url": "https://hyunxx.tistory.com/12" }
+    {
+      "type": "legacy-post",
+      "url": "https://cafe.naver.com/koeimod/950"
+    }
   ],
   "palette": "violet",
   "mark": "III",
-  "cover": "games/first-queen-3-pc98/images/cover.jpg",
+  "cover": "games/first-queen-3-pc98/images/screen-1.png",
   "package": "packages/first-queen-3-pc98/manifest.json"
 }

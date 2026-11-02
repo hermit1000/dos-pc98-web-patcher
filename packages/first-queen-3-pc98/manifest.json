@@ -1,29 +1,53 @@
 {
   "format": "folder-patch-v1",
   "game": "퍼스트 퀸 3",
-  "patchVersion": "2025.06.06",
-  "createdAt": "2026-08-14T12:22:17.724Z",
+  "patchVersion": "2026.11.02",
+  "createdAt": "2026-11-02T00:00:00+09:00",
   "sharedAssets": [
     {
-      "id": "thin-dunggeunmo-font",
+      "id": "first-queen-3-bisco-font",
       "type": "emulator-font",
-      "name": "ThinDungGeunMo",
-      "source": "assets/fonts/source/ThinDungGeunMo.bmp",
-      "fileName": "ThinDungGeunMo.bmp",
-      "outputPath": "_emulator-font/ThinDungGeunMo.bmp",
+      "name": "fq3-BISCO",
+      "source": "assets/fonts/source/fq3-BISCO.bmp",
+      "fileName": "fq3-BISCO.bmp",
+      "outputPath": "_emulator-font/fq3-BISCO.bmp",
       "size": 524350,
-      "sha256": "b0fc30bcabe4c2385b364fbb8d71356127a9e8c3224d9ff0adc0496687ffb0ad",
+      "sha256": "d574fa31009444a513825a508c49f9f6418cd1026367e4f8d4dc45b976376c87",
       "required": true
     }
   ],
   "targets": [
+    {
+      "path": "END.BIN",
+      "patch": "patches/END.BIN.xdelta",
+      "originalSize": 12616,
+      "patchedSize": 12556,
+      "originalSha256": "27be82fdc0b16efb161a8b8f442402b8ee073b580c0e0bfe5fa4384b27332284",
+      "patchedSha256": "12e6bacbd42bec685c4abea60434d41373aa61222349451b185952b89cd363da"
+    },
     {
       "path": "FQ3MES.DAT",
       "patch": "patches/FQ3MES.DAT.xdelta",
       "originalSize": 64375,
       "patchedSize": 64375,
       "originalSha256": "53473c3324ad1b0e50b610d7f8c97d80450d1580bda3df7eab9ab1d0fd7548c1",
-      "patchedSha256": "24b190f9f8db42345a1e90dc8f347271b2f96fecb5303ba37114b7c2c635d1ae"
+      "patchedSha256": "c29e0fb09ba17f0a44496aa81ec3a8eb13c59f8c8b939c73b1e5f8097ca91582"
+    },
+    {
+      "path": "GDATA.CHR",
+      "patch": "patches/GDATA.CHR.xdelta",
+      "originalSize": 15461,
+      "patchedSize": 17294,
+      "originalSha256": "cfa8068c6358fbe0d25b2414c5d29440e42a6dd7e8aa50342df67a60b02f8e1b",
+      "patchedSha256": "72b96f6daa23a45c1f982247205fe21891b0f584a5da678f8f1565131ffcef1a"
+    },
+    {
+      "path": "HITOBUF.DAT",
+      "patch": "patches/HITOBUF.DAT.xdelta",
+      "originalSize": 20481,
+      "patchedSize": 20481,
+      "originalSha256": "c8b13c7e528862bcc6106f935b76bc31f92fade80f0360eebc96f1c6b3a2a4b5",
+      "patchedSha256": "5572ff0b21e56ac9709257aab64e7aa0d41d025d55b5d4f1dc311b2b9e779944"
     },
     {
       "path": "MAIN.EXE",
@@ -31,7 +55,7 @@
       "originalSize": 70294,
       "patchedSize": 70294,
       "originalSha256": "e7f6f7f842f2fd0cfcfbb193c320b8cd235330cd0e30229f6c264337369faeba",
-      "patchedSha256": "02d6104c92be180866e36fe69d8cdd2874e53c6180442dd868c984ed747685cd"
+      "patchedSha256": "8c624f51356b4bd0df5d0c21398f2dcc07ade034976c937ed68a0a1522d9f828"
     },
     {
       "path": "OPEN.EXE",
@@ -39,7 +63,7 @@
       "originalSize": 36618,
       "patchedSize": 36618,
       "originalSha256": "a30043df9760b67c4f30699849f9df3b87d32db05e77797b9366e95cde8544e2",
-      "patchedSha256": "07890b8e3a8adac34f96499cda7e276295761c5e5679cb42ebd1ec1a64de624b"
+      "patchedSha256": "6e833b9f06062aa2b99d57205615a8ed9f3eb2a5f9da058beb95c79e17638f60"
     }
   ]
 }

@@ -603,12 +603,12 @@
     "genre": "전략 RPG",
     "year": "1993",
     "release": "1993-07-02",
-    "version": "2025.06.06",
-    "date": "2025.06.06",
+    "version": "2026.11.02",
+    "date": "2026.11.02",
     "status": "배포 중",
     "palette": "violet",
     "mark": "III",
-    "cover": "games/first-queen-3-pc98/images/cover.jpg",
+    "cover": "games/first-queen-3-pc98/images/screen-1.png",
     "data": "games/first-queen-3-pc98/game.json"
   },
   {
