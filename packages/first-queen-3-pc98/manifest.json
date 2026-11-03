@@ -1,8 +1,8 @@
 {
   "format": "folder-patch-v1",
   "game": "퍼스트 퀸 3",
-  "patchVersion": "2026.11.02",
-  "createdAt": "2026-11-02T00:00:00+09:00",
+  "patchVersion": "2026.11.03",
+  "createdAt": "2026-11-03T00:00:00+09:00",
   "sharedAssets": [
     {
       "id": "first-queen-3-bisco-font",
@@ -12,7 +12,7 @@
       "fileName": "fq3-BISCO.bmp",
       "outputPath": "_emulator-font/fq3-BISCO.bmp",
       "size": 524350,
-      "sha256": "d574fa31009444a513825a508c49f9f6418cd1026367e4f8d4dc45b976376c87",
+      "sha256": "f5af56618e47bfeae8081b4d4c415d1e7b8fc57575d43d1ea38ff71b5bbc0b44",
       "required": true
     }
   ],
@@ -21,9 +21,9 @@
       "path": "END.BIN",
       "patch": "patches/END.BIN.xdelta",
       "originalSize": 12616,
-      "patchedSize": 12556,
+      "patchedSize": 12557,
       "originalSha256": "27be82fdc0b16efb161a8b8f442402b8ee073b580c0e0bfe5fa4384b27332284",
-      "patchedSha256": "12e6bacbd42bec685c4abea60434d41373aa61222349451b185952b89cd363da"
+      "patchedSha256": "c1bf5d50a777a341a641efd5e1e4fb6707d53fc3609a7a5c35ec1f1404997a34"
     },
     {
       "path": "FQ3MES.DAT",
@@ -55,7 +55,7 @@
       "originalSize": 70294,
       "patchedSize": 70294,
       "originalSha256": "e7f6f7f842f2fd0cfcfbb193c320b8cd235330cd0e30229f6c264337369faeba",
-      "patchedSha256": "8c624f51356b4bd0df5d0c21398f2dcc07ade034976c937ed68a0a1522d9f828"
+      "patchedSha256": "dd2f1af7eaaecd1524f5b9434ca70a74318316a1c910426dc6a7c71294ad48e7"
     },
     {
       "path": "OPEN.EXE",
