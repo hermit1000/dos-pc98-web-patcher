@@ -1,8 +1,8 @@
 {
   "format": "folder-patch-v1",
   "game": "퍼스트 퀸 3",
-  "patchVersion": "2026.11.03",
-  "createdAt": "2026-11-03T00:00:00+09:00",
+  "patchVersion": "2026.11.05",
+  "createdAt": "2026-11-05T00:00:00+09:00",
   "sharedAssets": [
     {
       "id": "first-queen-3-bisco-font",
@@ -55,7 +55,7 @@
       "originalSize": 70294,
       "patchedSize": 70294,
       "originalSha256": "e7f6f7f842f2fd0cfcfbb193c320b8cd235330cd0e30229f6c264337369faeba",
-      "patchedSha256": "dd2f1af7eaaecd1524f5b9434ca70a74318316a1c910426dc6a7c71294ad48e7"
+      "patchedSha256": "4d56d582700f1c9e6dca2e26151b518d15b5491cf320dd6227455c62e4607272"
     },
     {
       "path": "OPEN.EXE",
