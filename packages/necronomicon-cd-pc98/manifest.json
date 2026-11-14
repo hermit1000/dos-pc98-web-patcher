@@ -1,8 +1,8 @@
 {
   "format": "folder-patch-v1",
   "game": "네크로노미콘 (CD판)",
-  "patchVersion": "2026.10.09",
-  "createdAt": "2026-10-08T23:36:36.173Z",
+  "patchVersion": "2026.11.15",
+  "createdAt": "2026-11-14T18:08:17.159Z",
   "sharedAssets": [
     {
       "id": "necronomicon-thin-dung-geun-mo-font",
@@ -102,9 +102,9 @@
       "path": "HD/NECRO/NECRO.008",
       "patch": "patches/HD/NECRO/NECRO.008.xdelta",
       "originalSize": 172163,
-      "patchedSize": 172067,
+      "patchedSize": 172103,
       "originalSha256": "e7306b5c377301fc1407cf27abb183731ba4cfd3f0ede9c1bc16b0603d4969ef",
-      "patchedSha256": "2132415c3e0a267068d2bf288777d7b4c58e59811e9500a395986cede87ed77b"
+      "patchedSha256": "bdb8633096f932a076ef75e3f1a2e71531322d9731536b93c35a9c619c7c0f2e"
     },
     {
       "path": "HD/NECRO/NECRO.009",
@@ -766,9 +766,9 @@
       "path": "HD/NECRO/NECRO.05B",
       "patch": "patches/HD/NECRO/NECRO.05B.xdelta",
       "originalSize": 178555,
-      "patchedSize": 178943,
+      "patchedSize": 178941,
       "originalSha256": "4d69abff5dc6944f3dbf6e3d9c642cd25c6a3fe8f9f3a66037b5f757e09cc118",
-      "patchedSha256": "0c8f0346bde2185277d2f9e75debb20f9f1e37cdbf0a4e293d2fc2ba7e41ab82"
+      "patchedSha256": "840e2fbbcbb669c06f4b8098046bb4487f732dd2c9abbeb6c5c75929e748b521"
     },
     {
       "path": "HD/NECRO/NECRO.05C",
@@ -798,9 +798,9 @@
       "path": "HD/NECRO/NECRO.05F",
       "patch": "patches/HD/NECRO/NECRO.05F.xdelta",
       "originalSize": 426605,
-      "patchedSize": 427923,
+      "patchedSize": 427921,
       "originalSha256": "6d9cdd0909ed559733f85365628cb36b7ccab8732d9178a8038a59bc2f05e5bc",
-      "patchedSha256": "a5154af471866e4169318713c0067f168a62ed9626250eb92f9f84901518fdb7"
+      "patchedSha256": "851a1472ad30a1d33bc42dbfcfabcf579912bd0d743e395480bfde56bcbba841"
     },
     {
       "path": "HD/NECRO/NECRO.060",
@@ -894,9 +894,9 @@
       "path": "HD/NECRO/NECRO.06B",
       "patch": "patches/HD/NECRO/NECRO.06B.xdelta",
       "originalSize": 179058,
-      "patchedSize": 179015,
+      "patchedSize": 179013,
       "originalSha256": "d4f6698dc6f9e0c033eac54388669dde76401bf50fd9726201ef520a7810d784",
-      "patchedSha256": "29fe31ada7a4c56532fd571e6536da3e38c2dce157cc268c12b5a6730d09c5f9"
+      "patchedSha256": "4f6fe19d5fefbdd6f9dd1cc8e0ca637a1120ee33989a2eceaa6df976f7042ecb"
     },
     {
       "path": "HD/NECRO/NECRO.06C",
@@ -982,9 +982,9 @@
       "path": "HD/NECRO/NECRO.076",
       "patch": "patches/HD/NECRO/NECRO.076.xdelta",
       "originalSize": 148924,
-      "patchedSize": 148947,
+      "patchedSize": 148945,
       "originalSha256": "4aeebb08813815d6f883ef388d85ff0739b2c66e789422eb21f74a1c2a35645b",
-      "patchedSha256": "04ad879d10ce6f7ffeea1531439d789b54e1a8998f9fc7f14beead5a2eb0b15d"
+      "patchedSha256": "69a83616f2f9d6c531a021b4fe406d436ff4e3ceda66d846649fafa54049f34e"
     },
     {
       "path": "HD/NECRO/NECRO.077",

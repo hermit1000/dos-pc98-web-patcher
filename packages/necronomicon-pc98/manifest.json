@@ -1,8 +1,8 @@
 {
   "format": "folder-patch-v1",
   "game": "네크로노미콘",
-  "patchVersion": "2026.10.06",
-  "createdAt": "2026-10-06T00:00:00+09:00",
+  "patchVersion": "2026.11.15",
+  "createdAt": "2026-11-14T18:06:51.498Z",
   "sharedAssets": [
     {
       "id": "necronomicon-thin-dung-geun-mo-font",
@@ -29,9 +29,9 @@
       "path": "MES/END_A.MES",
       "patch": "patches/MES/END_A.MES.xdelta",
       "originalSize": 8721,
-      "patchedSize": 7707,
+      "patchedSize": 7710,
       "originalSha256": "67d3c34ada199d51d6f1117b704b325328b0c94e12d00e2cf3cf5753bc62ac97",
-      "patchedSha256": "882f47ecd803d9f7a011c5a6c6b064149caa83cd6776210289200cf70227a06e"
+      "patchedSha256": "e7f7010523c97308391b19487f70f2bc7542152365dcf47c52747aec91ed6704"
     },
     {
       "path": "MES/END_B.MES",
@@ -1029,9 +1029,9 @@
       "path": "MES/NH_02A.MES",
       "patch": "patches/MES/NH_02A.MES.xdelta",
       "originalSize": 3576,
-      "patchedSize": 3766,
+      "patchedSize": 3764,
       "originalSha256": "7ede21137f33276ac7784fbc9c5a310fbde446a4c38a154e1a1ea530b8ec03a8",
-      "patchedSha256": "83e43903dcb36c8384600b026f74e83f85c6f20780892eb0431cd7c27ddf8090"
+      "patchedSha256": "525c6bbfbece2266aecfb9e2caf39a488e9be7a36fc5a86c258f2cb348b7f014"
     },
     {
       "path": "MES/NH_02B.MES",
@@ -1117,9 +1117,9 @@
       "path": "MES/NI_03A.MES",
       "patch": "patches/MES/NI_03A.MES.xdelta",
       "originalSize": 4224,
-      "patchedSize": 4395,
+      "patchedSize": 4393,
       "originalSha256": "265ea88128788be5da331724d53d3a17db9014bac017ae87d9a5265553807de7",
-      "patchedSha256": "bee689243c402fdc1409bd191e61a11b4c68647ee523b761d5760e02c68d6e2e"
+      "patchedSha256": "1a4e1c41ab805626cfbd4a11f569acff700c82ab431b045d3fc78f81c5bf3679"
     },
     {
       "path": "MES/NI_03B.MES",
@@ -1285,9 +1285,9 @@
       "path": "MES/NJ_04A.MES",
       "patch": "patches/MES/NJ_04A.MES.xdelta",
       "originalSize": 11740,
-      "patchedSize": 11706,
+      "patchedSize": 11704,
       "originalSha256": "c3c9670c4ee65c0703f3f8901fcbf39cbad52eeb63895788b8de8bdd1332c019",
-      "patchedSha256": "c0bff78f6faa50baa17f487b48a6d8ad8977e7f6c4e71dcac684b962fc88c8cb"
+      "patchedSha256": "c21383bb9ff30dab825991b40e61cf1dad68d36d746dc1f53319fa0022b47f38"
     },
     {
       "path": "MES/NK_01A.MES",
@@ -1373,9 +1373,9 @@
       "path": "MES/NK_03A.MES",
       "patch": "patches/MES/NK_03A.MES.xdelta",
       "originalSize": 3930,
-      "patchedSize": 3953,
+      "patchedSize": 3951,
       "originalSha256": "91da56b5bbd1f8046fd50ca5710952766ebf66136d17e8e3e40ccb5d44292554",
-      "patchedSha256": "80648f887729d2bd89b3839b668f95b2990003ede9095f497e8a6f464c3bf047"
+      "patchedSha256": "081863b0d53c8f182c3ff0916a2aba373cc2d76d783c956151e9c1038b44cd6b"
     },
     {
       "path": "MES/NK_04A.MES",

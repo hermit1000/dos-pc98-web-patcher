@@ -9,8 +9,8 @@
   "genre": "어드벤처",
   "year": "1994",
   "release": "1994",
-  "version": "2026.10.09",
-  "date": "2026.10.09",
+  "version": "2026.11.15",
+  "date": "2026.11.15",
   "original": "일본어 CD판",
   "status": "배포 중",
   "files": 159,
@@ -35,7 +35,7 @@
     {"src": "games/necronomicon-pc98/images/screen-4.png", "alt": "PC-98 네크로노미콘 한글 화면 4", "caption": "한글화된 게임 화면"},
     {"src": "games/necronomicon-pc98/images/screen-5.png", "alt": "PC-98 네크로노미콘 한글 화면 5", "caption": "한글화된 게임 화면"}
   ],
-  "history": [{"date": "2026.10.09", "version": "CD판 초기판", "note": "네크로노미콘 PC-98 CD판 한글 패치 공개"}],
+  "history": [{"date": "2026.10.09", "version": "CD판 초기판", "note": "네크로노미콘 PC-98 CD판 한글 패치 공개"}, {"date":"2026.11.15","version":"업데이트","note":"네크로노미콘 PC-98 한글 패치 업데이트"}],
   "credits": [{"role": "한글화", "name": "천수도인"}],
   "references": [
     {"type": "legacy-post", "url": "https://cafe.naver.com/koeimod/891"},
